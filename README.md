@@ -17,6 +17,7 @@ Datos de Pokémon GO en JSON (eventos, mejores atacantes, raids actuales con sus
 | `scripts/raids.py` | Descarga las rotaciones de raids de Leek Duck y los counters de cada jefe de Pokémon GO Hub y genera `datos/raids.json`. Los textos de Leek Duck (en inglés) se traducen una vez con `raids.py traducir` y se reutilizan. |
 | `scripts/actualizar_atacantes.py` | Descarga las dos clasificaciones de Pokémon GO Hub y vuelve a generar los dos JSON de atacantes. |
 | `scripts/rocket.py` | Descarga los equipos del Team GO Rocket de Leek Duck y genera `datos/rocket.json` con las frases oficiales en español. |
+| `scripts/subir.py` | Lo usan las tareas programadas: copia a `datos/` los JSON que han cambiado, vuelve a generar `eventos.json` y lo sube a GitHub. |
 | `scripts/sprites.py` | Monta la imagen con los iconos de los Pokémon (`pokemon-go-agenda/sprites2.webp`) a partir de los iconos del juego. |
 | `pokemon-go-agenda/` | Copia de seguridad de la agenda visual: su código, la imagen de iconos y cómo restaurarla. |
 
@@ -32,7 +33,7 @@ python3 scripts/agenda.py ver              # eventos guardados; «poner», «qui
 python3 scripts/eventos_json.py datos/agenda.json
 ```
 
-Solo hace falta Python 3 y `curl`; `sprites.py` usa además Pillow. En la agenda lo hacen solas dos tareas programadas de Claude:
+Solo hace falta Python 3 y `curl`; `sprites.py` usa además Pillow. En la agenda lo hacen solas dos tareas programadas de Claude, que al terminar suben aquí los JSON que hayan cambiado (con `scripts/subir.py`):
 
 - **Cada día a las 9:41**: las raids.
 - **Cada lunes a las 0:00**: los eventos nuevos (y su copia en Google Calendar si está disponible) y los equipos del Team GO Rocket; el primer lunes de cada mes, también los mejores atacantes.

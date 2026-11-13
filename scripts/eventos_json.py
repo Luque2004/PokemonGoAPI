@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Convierte la copia de la agenda (eventos "Pokémon GO:" de Google Calendar) en datos/eventos.json.
+"""Convierte los eventos "Pokémon GO:" de la agenda (su documento agenda/snapshot) en datos/eventos.json.
 
 Uso:
     python3 scripts/eventos_json.py <copia.json>
@@ -100,7 +100,7 @@ def main():
     copia = copia.get("data", copia)
     eventos = [evento(e) for e in copia.get("events", []) if re.match(r"^pok[eé]mon go\s*:", e.get("summary", ""), re.I)]
     eventos.sort(key=lambda x: x["inicio"] or "")
-    datos = {"fuente": "Google Calendar (eventos «Pokémon GO:» de la agenda)", "zonaHoraria": "Europe/Madrid",
+    datos = {"fuente": "Agenda visual (eventos «Pokémon GO:» de su base de datos)", "zonaHoraria": "Europe/Madrid",
              "copiaDeLaAgenda": copia.get("updatedAt"), "eventos": eventos}
     antes = None
     if os.path.exists(SALIDA):
