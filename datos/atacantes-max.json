@@ -10,6 +10,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Snorlax Gigamax",
+     "icono": "pm143.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Lengüetazo",
@@ -23,6 +24,7 @@
      "puesto": 2,
      "tier": "S",
      "nombre": "Darmanitan Dinamax",
+     "icono": "pm555",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Placaje",
@@ -36,6 +38,7 @@
      "puesto": 3,
      "tier": "S",
      "nombre": "Inteleon Dinamax",
+     "icono": "pm818",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Destructor",
@@ -49,6 +52,7 @@
      "puesto": 4,
      "tier": "A",
      "nombre": "Rillaboom Dinamax",
+     "icono": "pm812",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Arañazo",
@@ -62,6 +66,7 @@
      "puesto": 5,
      "tier": "A",
      "nombre": "Ho-Oh Dinamax",
+     "icono": "pm250",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Poder Oculto",
@@ -75,6 +80,7 @@
      "puesto": 6,
      "tier": "A",
      "nombre": "Cinderace Dinamax",
+     "icono": "pm815",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Placaje",
@@ -88,6 +94,7 @@
      "puesto": 7,
      "tier": "A",
      "nombre": "Gigalith Dinamax",
+     "icono": "pm526",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Fijar Blanco",
@@ -101,6 +108,7 @@
      "puesto": 8,
      "tier": "A",
      "nombre": "Passimian Dinamax",
+     "icono": "pm766",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Derribo",
@@ -114,6 +122,7 @@
      "puesto": 9,
      "tier": "A",
      "nombre": "Leafeon Dinamax",
+     "icono": "pm470",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Ataque Rápido",
@@ -127,6 +136,7 @@
      "puesto": 10,
      "tier": "B",
      "nombre": "Sylveon Dinamax",
+     "icono": "pm700",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Ataque Rápido",
@@ -141,6 +151,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Darmanitan Dinamax",
+     "icono": "pm555",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Placaje",
@@ -153,6 +164,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Snorlax Gigamax",
+     "icono": "pm143.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Lengüetazo",
@@ -173,6 +185,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Machamp Gigamax",
+     "icono": "pm68.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Puño Bala",
@@ -186,6 +199,7 @@
      "puesto": 2,
      "tier": "S",
      "nombre": "Urshifu Estilo Fluido Dinamax",
+     "icono": "pm892.fRAPID_STRIKE",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Contraataque",
@@ -199,6 +213,7 @@
      "puesto": 3,
      "tier": "S",
      "nombre": "Urshifu Estilo Brusco Dinamax",
+     "icono": "pm892.fSINGLE_STRIKE",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Contraataque",
@@ -212,6 +227,7 @@
      "puesto": 4,
      "tier": "A",
      "nombre": "Gallade Dinamax",
+     "icono": "pm475",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Patada Baja",
@@ -225,6 +241,7 @@
      "puesto": 5,
      "tier": "A",
      "nombre": "Machamp Dinamax",
+     "icono": "pm68",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Contraataque",
@@ -238,6 +255,7 @@
      "puesto": 6,
      "tier": "A",
      "nombre": "Hitmonlee Dinamax",
+     "icono": "pm106",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Patada Baja",
@@ -251,6 +269,7 @@
      "puesto": 7,
      "tier": "A",
      "nombre": "Alakazam Dinamax",
+     "icono": "pm65",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Contraataque",
@@ -264,6 +283,7 @@
      "puesto": 8,
      "tier": "A",
      "nombre": "Passimian Dinamax",
+     "icono": "pm766",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Contraataque",
@@ -277,6 +297,7 @@
      "puesto": 9,
      "tier": "B",
      "nombre": "Electivire Dinamax",
+     "icono": "pm466",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Patada Baja",
@@ -290,6 +311,7 @@
      "puesto": 10,
      "tier": "B",
      "nombre": "Hitmonchan Dinamax",
+     "icono": "pm107",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Contraataque",
@@ -304,6 +326,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Urshifu Estilo Fluido Dinamax",
+     "icono": "pm892.fRAPID_STRIKE",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Contraataque",
@@ -316,6 +339,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Machamp Gigamax",
+     "icono": "pm68.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Puño Bala",
@@ -336,6 +360,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Moltres Dinamax",
+     "icono": "pm146",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Ataque Ala",
@@ -349,6 +374,7 @@
      "puesto": 2,
      "tier": "S",
      "nombre": "Unfezant Dinamax",
+     "icono": "pm521",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Tajo Aéreo",
@@ -362,6 +388,7 @@
      "puesto": 3,
      "tier": "S",
      "nombre": "Charizard Dinamax",
+     "icono": "pm6",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Tajo Aéreo",
@@ -375,6 +402,7 @@
      "puesto": 4,
      "tier": "A",
      "nombre": "Corviknight Dinamax",
+     "icono": "pm823",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Tajo Aéreo",
@@ -388,6 +416,7 @@
      "puesto": 5,
      "tier": "A",
      "nombre": "Swoobat Dinamax",
+     "icono": "pm528",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Tajo Aéreo",
@@ -401,6 +430,7 @@
      "puesto": 6,
      "tier": "B",
      "nombre": "Noctowl Dinamax",
+     "icono": "pm164",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Ataque Ala",
@@ -414,6 +444,7 @@
      "puesto": 7,
      "tier": "B",
      "nombre": "Malamar Dinamax",
+     "icono": "pm687",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Picotazo",
@@ -427,6 +458,7 @@
      "puesto": 8,
      "tier": "B",
      "nombre": "Tranquill Dinamax",
+     "icono": "pm520",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Tajo Aéreo",
@@ -440,6 +472,7 @@
      "puesto": 9,
      "tier": "C",
      "nombre": "Corvisquire Dinamax",
+     "icono": "pm822",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Tajo Aéreo",
@@ -453,6 +486,7 @@
      "puesto": 10,
      "tier": "D",
      "nombre": "Woobat Dinamax",
+     "icono": "pm527",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Tajo Aéreo",
@@ -467,6 +501,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Moltres Dinamax",
+     "icono": "pm146",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Ataque Ala",
@@ -479,6 +514,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Moltres Dinamax",
+     "icono": "pm146",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Ataque Ala",
@@ -499,6 +535,7 @@
      "puesto": 1,
      "tier": "S",
      "nombre": "Garbodor Gigamax",
+     "icono": "pm569.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Acoso",
@@ -512,6 +549,7 @@
      "puesto": 2,
      "tier": "A",
      "nombre": "Toxtricity (Forma Aguda) Dinamax",
+     "icono": "pm849.fAMPED",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Ácido",
@@ -525,6 +563,7 @@
      "puesto": 3,
      "tier": "A",
      "nombre": "Toxtricity (Forma Grave) Dinamax",
+     "icono": "pm849.fLOW_KEY",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Ácido",
@@ -539,6 +578,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Toxtricity (Forma Aguda) Dinamax",
+     "icono": "pm849.fAMPED",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Ácido",
@@ -551,6 +591,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Garbodor Gigamax",
+     "icono": "pm569.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Acoso",
@@ -571,6 +612,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Excadrill Dinamax",
+     "icono": "pm530",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Disparo Lodo",
@@ -584,6 +626,7 @@
      "puesto": 2,
      "tier": "SS",
      "nombre": "Rhyperior Dinamax",
+     "icono": "pm464",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Bofetón Lodo",
@@ -597,6 +640,7 @@
      "puesto": 3,
      "tier": "S",
      "nombre": "Rhydon Dinamax",
+     "icono": "pm112",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Bofetón Lodo",
@@ -610,6 +654,7 @@
      "puesto": 4,
      "tier": "A",
      "nombre": "Flygon Dinamax",
+     "icono": "pm330",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Disparo Lodo",
@@ -623,6 +668,7 @@
      "puesto": 5,
      "tier": "A",
      "nombre": "Kingler Dinamax",
+     "icono": "pm99",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Disparo Lodo",
@@ -636,6 +682,7 @@
      "puesto": 6,
      "tier": "B",
      "nombre": "Gigalith Dinamax",
+     "icono": "pm526",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Bofetón Lodo",
@@ -649,6 +696,7 @@
      "puesto": 7,
      "tier": "B",
      "nombre": "Kabutops Dinamax",
+     "icono": "pm141",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Disparo Lodo",
@@ -662,6 +710,7 @@
      "puesto": 8,
      "tier": "C",
      "nombre": "Omastar Dinamax",
+     "icono": "pm139",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Disparo Lodo",
@@ -675,6 +724,7 @@
      "puesto": 9,
      "tier": "C",
      "nombre": "Trapinch Dinamax",
+     "icono": "pm328",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Disparo Lodo",
@@ -688,6 +738,7 @@
      "puesto": 10,
      "tier": "D",
      "nombre": "Drilbur Dinamax",
+     "icono": "pm529",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Bofetón Lodo",
@@ -702,6 +753,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Excadrill Dinamax",
+     "icono": "pm530",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Disparo Lodo",
@@ -714,6 +766,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Excadrill Dinamax",
+     "icono": "pm530",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Disparo Lodo",
@@ -734,6 +787,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Rhyperior Dinamax",
+     "icono": "pm464",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Antiaéreo",
@@ -747,6 +801,7 @@
      "puesto": 2,
      "tier": "S",
      "nombre": "Gigalith Dinamax",
+     "icono": "pm526",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Antiaéreo",
@@ -760,6 +815,7 @@
      "puesto": 3,
      "tier": "A",
      "nombre": "Omastar Dinamax",
+     "icono": "pm139",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Lanzarrocas",
@@ -773,6 +829,7 @@
      "puesto": 4,
      "tier": "B",
      "nombre": "Regirock Dinamax",
+     "icono": "pm377",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Lanzarrocas",
@@ -786,6 +843,7 @@
      "puesto": 5,
      "tier": "B",
      "nombre": "Boldore Dinamax",
+     "icono": "pm525",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Antiaéreo",
@@ -799,6 +857,7 @@
      "puesto": 6,
      "tier": "C",
      "nombre": "Wailord Dinamax",
+     "icono": "pm321",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Desenrollar",
@@ -812,6 +871,7 @@
      "puesto": 7,
      "tier": "C",
      "nombre": "Blastoise Dinamax",
+     "icono": "pm9",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Desenrollar",
@@ -825,6 +885,7 @@
      "puesto": 8,
      "tier": "D",
      "nombre": "Roggenrola Dinamax",
+     "icono": "pm524",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Antiaéreo",
@@ -838,6 +899,7 @@
      "puesto": 9,
      "tier": "E",
      "nombre": "Wailmer Dinamax",
+     "icono": "pm320",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Desenrollar",
@@ -851,6 +913,7 @@
      "puesto": 10,
      "tier": "F",
      "nombre": "Shuckle Dinamax",
+     "icono": "pm213",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Lanzarrocas",
@@ -865,6 +928,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Rhyperior Dinamax",
+     "icono": "pm464",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Antiaéreo",
@@ -877,6 +941,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Rhyperior Dinamax",
+     "icono": "pm464",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Antiaéreo",
@@ -897,6 +962,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Centiskorch Dinamax",
+     "icono": "pm851",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Picadura",
@@ -910,6 +976,7 @@
      "puesto": 2,
      "tier": "SS",
      "nombre": "Butterfree Gigamax",
+     "icono": "pm12.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Picadura",
@@ -923,6 +990,7 @@
      "puesto": 3,
      "tier": "S",
      "nombre": "Metagross Dinamax",
+     "icono": "pm376",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Corte Furia",
@@ -936,6 +1004,7 @@
      "puesto": 4,
      "tier": "A",
      "nombre": "Kabutops Dinamax",
+     "icono": "pm141",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Corte Furia",
@@ -949,6 +1018,7 @@
      "puesto": 5,
      "tier": "B",
      "nombre": "Butterfree Dinamax",
+     "icono": "pm12",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Picadura",
@@ -962,6 +1032,7 @@
      "puesto": 6,
      "tier": "C",
      "nombre": "Garbodor Dinamax",
+     "icono": "pm569",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Acoso",
@@ -975,6 +1046,7 @@
      "puesto": 7,
      "tier": "D",
      "nombre": "Trapinch Dinamax",
+     "icono": "pm328",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Estoicismo",
@@ -988,6 +1060,7 @@
      "puesto": 8,
      "tier": "E",
      "nombre": "Sizzlipede Dinamax",
+     "icono": "pm850",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Picadura",
@@ -1001,6 +1074,7 @@
      "puesto": 9,
      "tier": "E",
      "nombre": "Metang Dinamax",
+     "icono": "pm375",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Corte Furia",
@@ -1014,6 +1088,7 @@
      "puesto": 10,
      "tier": "F",
      "nombre": "Caterpie Dinamax",
+     "icono": "pm10",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Picadura",
@@ -1028,6 +1103,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Centiskorch Dinamax",
+     "icono": "pm851",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Picadura",
@@ -1040,6 +1116,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Centiskorch Dinamax",
+     "icono": "pm851",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Picadura",
@@ -1060,6 +1137,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Gengar Gigamax",
+     "icono": "pm94.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Lengüetazo",
@@ -1073,6 +1151,7 @@
      "puesto": 2,
      "tier": "S",
      "nombre": "Gengar Dinamax",
+     "icono": "pm94",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Lengüetazo",
@@ -1086,6 +1165,7 @@
      "puesto": 3,
      "tier": "A",
      "nombre": "Haunter Dinamax",
+     "icono": "pm93",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Lengüetazo",
@@ -1099,6 +1179,7 @@
      "puesto": 4,
      "tier": "B",
      "nombre": "Metagross Dinamax",
+     "icono": "pm376",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Garra Umbría",
@@ -1112,6 +1193,7 @@
      "puesto": 5,
      "tier": "C",
      "nombre": "Gastly Dinamax",
+     "icono": "pm92",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Lengüetazo",
@@ -1125,6 +1207,7 @@
      "puesto": 6,
      "tier": "D",
      "nombre": "Sableye Dinamax",
+     "icono": "pm302",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Garra Umbría",
@@ -1139,6 +1222,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Gengar Dinamax",
+     "icono": "pm94",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Lengüetazo",
@@ -1151,6 +1235,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Gengar Gigamax",
+     "icono": "pm94.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Garra Umbría",
@@ -1171,6 +1256,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Zacian Espada Suprema",
+     "icono": "pm888.fCROWNED_SWORD",
      "forma": "Especial",
      "rapido": {
       "nombre": "Garra Metal",
@@ -1184,6 +1270,7 @@
      "puesto": 2,
      "tier": "S",
      "nombre": "Melmetal Gigamax",
+     "icono": "pm809.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Impactrueno",
@@ -1197,6 +1284,7 @@
      "puesto": 3,
      "tier": "A",
      "nombre": "Dialga Dinamax",
+     "icono": "pm483",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Garra Metal",
@@ -1210,6 +1298,7 @@
      "puesto": 4,
      "tier": "B",
      "nombre": "Metagross Dinamax",
+     "icono": "pm376",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Puño Bala",
@@ -1223,6 +1312,7 @@
      "puesto": 5,
      "tier": "B",
      "nombre": "Excadrill Dinamax",
+     "icono": "pm530",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Garra Metal",
@@ -1236,6 +1326,7 @@
      "puesto": 6,
      "tier": "B",
      "nombre": "Zamazenta Escudo Supremo",
+     "icono": "pm889.fCROWNED_SHIELD",
      "forma": "Especial",
      "rapido": {
       "nombre": "Garra Metal",
@@ -1249,6 +1340,7 @@
      "puesto": 7,
      "tier": "C",
      "nombre": "Duraludon Dinamax",
+     "icono": "pm884",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Garra Metal",
@@ -1262,6 +1354,7 @@
      "puesto": 8,
      "tier": "D",
      "nombre": "Kingler Dinamax",
+     "icono": "pm99",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Garra Metal",
@@ -1275,6 +1368,7 @@
      "puesto": 9,
      "tier": "D",
      "nombre": "Ho-Oh Dinamax",
+     "icono": "pm250",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Ala de Acero",
@@ -1288,6 +1382,7 @@
      "puesto": 10,
      "tier": "D",
      "nombre": "Machamp Dinamax",
+     "icono": "pm68",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Puño Bala",
@@ -1302,6 +1397,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Zacian Espada Suprema",
+     "icono": "pm888.fCROWNED_SWORD",
      "forma": "Especial",
      "rapido": {
       "nombre": "Garra Metal",
@@ -1314,6 +1410,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Zacian Espada Suprema",
+     "icono": "pm888.fCROWNED_SWORD",
      "forma": "Especial",
      "rapido": {
       "nombre": "Garra Metal",
@@ -1334,6 +1431,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Cinderace Gigamax",
+     "icono": "pm815.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Placaje",
@@ -1347,6 +1445,7 @@
      "puesto": 2,
      "tier": "S",
      "nombre": "Charizard Gigamax",
+     "icono": "pm6.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Dragoaliento",
@@ -1360,6 +1459,7 @@
      "puesto": 3,
      "tier": "A",
      "nombre": "Darmanitan Dinamax",
+     "icono": "pm555",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Colmillo Ígneo",
@@ -1373,6 +1473,7 @@
      "puesto": 4,
      "tier": "B",
      "nombre": "Moltres Dinamax",
+     "icono": "pm146",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Giro Fuego",
@@ -1386,6 +1487,7 @@
      "puesto": 5,
      "tier": "B",
      "nombre": "Flareon Dinamax",
+     "icono": "pm136",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Ascuas",
@@ -1399,6 +1501,7 @@
      "puesto": 6,
      "tier": "C",
      "nombre": "Ho-Oh Dinamax",
+     "icono": "pm250",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Calcinación",
@@ -1412,6 +1515,7 @@
      "puesto": 7,
      "tier": "C",
      "nombre": "Cinderace Dinamax",
+     "icono": "pm815",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Giro Fuego",
@@ -1425,6 +1529,7 @@
      "puesto": 8,
      "tier": "C",
      "nombre": "Entei Dinamax",
+     "icono": "pm244",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Colmillo Ígneo",
@@ -1438,6 +1543,7 @@
      "puesto": 9,
      "tier": "D",
      "nombre": "Arcanine Dinamax",
+     "icono": "pm59",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Colmillo Ígneo",
@@ -1451,6 +1557,7 @@
      "puesto": 10,
      "tier": "D",
      "nombre": "Charizard Dinamax",
+     "icono": "pm6",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Ascuas",
@@ -1465,6 +1572,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Darmanitan Dinamax",
+     "icono": "pm555",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Colmillo Ígneo",
@@ -1477,6 +1585,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Cinderace Gigamax",
+     "icono": "pm815.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Placaje",
@@ -1497,6 +1606,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Inteleon Gigamax",
+     "icono": "pm818.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Destructor",
@@ -1510,6 +1620,7 @@
      "puesto": 2,
      "tier": "S",
      "nombre": "Kingler Gigamax",
+     "icono": "pm99.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Garra Metal",
@@ -1523,6 +1634,7 @@
      "puesto": 3,
      "tier": "A",
      "nombre": "Inteleon Dinamax",
+     "icono": "pm818",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Pistola Agua",
@@ -1536,6 +1648,7 @@
      "puesto": 4,
      "tier": "A",
      "nombre": "Urshifu Estilo Fluido Dinamax",
+     "icono": "pm892.fRAPID_STRIKE",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Cascada",
@@ -1549,6 +1662,7 @@
      "puesto": 5,
      "tier": "B",
      "nombre": "Kingler Dinamax",
+     "icono": "pm99",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Burbuja",
@@ -1562,6 +1676,7 @@
      "puesto": 6,
      "tier": "B",
      "nombre": "Gyarados Dinamax",
+     "icono": "pm130",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Cascada",
@@ -1575,6 +1690,7 @@
      "puesto": 7,
      "tier": "C",
      "nombre": "Blastoise Gigamax",
+     "icono": "pm9.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Mordisco",
@@ -1588,6 +1704,7 @@
      "puesto": 8,
      "tier": "C",
      "nombre": "Kabutops Dinamax",
+     "icono": "pm141",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Cascada",
@@ -1601,6 +1718,7 @@
      "puesto": 9,
      "tier": "C",
      "nombre": "Omastar Dinamax",
+     "icono": "pm139",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Pistola Agua",
@@ -1614,6 +1732,7 @@
      "puesto": 10,
      "tier": "C",
      "nombre": "Vaporeon Dinamax",
+     "icono": "pm134",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Pistola Agua",
@@ -1628,6 +1747,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Inteleon Dinamax",
+     "icono": "pm818",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Pistola Agua",
@@ -1640,6 +1760,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Inteleon Gigamax",
+     "icono": "pm818.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Destructor",
@@ -1660,6 +1781,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Rillaboom Gigamax",
+     "icono": "pm812.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Arañazo",
@@ -1673,6 +1795,7 @@
      "puesto": 2,
      "tier": "S",
      "nombre": "Venusaur Gigamax",
+     "icono": "pm3.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Látigo Cepa",
@@ -1686,6 +1809,7 @@
      "puesto": 3,
      "tier": "A",
      "nombre": "Rillaboom Dinamax",
+     "icono": "pm812",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Hoja Afilada",
@@ -1699,6 +1823,7 @@
      "puesto": 4,
      "tier": "B",
      "nombre": "Tsareena Dinamax",
+     "icono": "pm763",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Hoja Afilada",
@@ -1712,6 +1837,7 @@
      "puesto": 5,
      "tier": "B",
      "nombre": "Leafeon Dinamax",
+     "icono": "pm470",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Semilladora",
@@ -1725,6 +1851,7 @@
      "puesto": 6,
      "tier": "C",
      "nombre": "Venusaur Dinamax",
+     "icono": "pm3",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Látigo Cepa",
@@ -1738,6 +1865,7 @@
      "puesto": 7,
      "tier": "C",
      "nombre": "Gardevoir Dinamax",
+     "icono": "pm282",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Hoja Mágica",
@@ -1751,6 +1879,7 @@
      "puesto": 8,
      "tier": "D",
      "nombre": "Thwackey Dinamax",
+     "icono": "pm811",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Hoja Afilada",
@@ -1764,6 +1893,7 @@
      "puesto": 9,
      "tier": "D",
      "nombre": "Ivysaur Dinamax",
+     "icono": "pm2",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Látigo Cepa",
@@ -1777,6 +1907,7 @@
      "puesto": 10,
      "tier": "E",
      "nombre": "Greedent Dinamax",
+     "icono": "pm820",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Semilladora",
@@ -1791,6 +1922,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Rillaboom Dinamax",
+     "icono": "pm812",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Hoja Afilada",
@@ -1803,6 +1935,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Rillaboom Gigamax",
+     "icono": "pm812.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Arañazo",
@@ -1823,6 +1956,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Toxtricity Gigamax",
+     "icono": "pm849.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Chispa",
@@ -1836,6 +1970,7 @@
      "puesto": 2,
      "tier": "S",
      "nombre": "Zapdos Dinamax",
+     "icono": "pm145",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Impactrueno",
@@ -1849,6 +1984,7 @@
      "puesto": 3,
      "tier": "S",
      "nombre": "Electivire Dinamax",
+     "icono": "pm466",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Impactrueno",
@@ -1862,6 +1998,7 @@
      "puesto": 4,
      "tier": "S",
      "nombre": "Raikou Dinamax",
+     "icono": "pm243",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Impactrueno",
@@ -1875,6 +2012,7 @@
      "puesto": 5,
      "tier": "A",
      "nombre": "Jolteon Dinamax",
+     "icono": "pm135",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Impactrueno",
@@ -1888,6 +2026,7 @@
      "puesto": 6,
      "tier": "A",
      "nombre": "Toxtricity (Forma Aguda) Dinamax",
+     "icono": "pm849.fAMPED",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Chispa",
@@ -1901,6 +2040,7 @@
      "puesto": 7,
      "tier": "A",
      "nombre": "Toxtricity (Forma Grave) Dinamax",
+     "icono": "pm849.fLOW_KEY",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Chispa",
@@ -1914,6 +2054,7 @@
      "puesto": 8,
      "tier": "B",
      "nombre": "Electabuzz Dinamax",
+     "icono": "pm125",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Impactrueno",
@@ -1927,6 +2068,7 @@
      "puesto": 9,
      "tier": "B",
      "nombre": "Gardevoir Dinamax",
+     "icono": "pm282",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Rayo Carga",
@@ -1940,6 +2082,7 @@
      "puesto": 10,
      "tier": "C",
      "nombre": "Melmetal Dinamax",
+     "icono": "pm809",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Impactrueno",
@@ -1954,6 +2097,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Zapdos Dinamax",
+     "icono": "pm145",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Impactrueno",
@@ -1966,6 +2110,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Toxtricity Gigamax",
+     "icono": "pm849.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Chispa",
@@ -1986,6 +2131,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Alakazam Dinamax",
+     "icono": "pm65",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Psicocorte",
@@ -1999,6 +2145,7 @@
      "puesto": 2,
      "tier": "SS",
      "nombre": "Azelf Dinamax",
+     "icono": "pm482",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Paranormal",
@@ -2012,6 +2159,7 @@
      "puesto": 3,
      "tier": "SS",
      "nombre": "Latios Dinamax",
+     "icono": "pm381",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Cabezazo Zen",
@@ -2025,6 +2173,7 @@
      "puesto": 4,
      "tier": "SS",
      "nombre": "Espeon Dinamax",
+     "icono": "pm196",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Cabezazo Zen",
@@ -2038,6 +2187,7 @@
      "puesto": 5,
      "tier": "SS",
      "nombre": "Metagross Dinamax",
+     "icono": "pm376",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Cabezazo Zen",
@@ -2051,6 +2201,7 @@
      "puesto": 6,
      "tier": "S",
      "nombre": "Gallade Dinamax",
+     "icono": "pm475",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Psicocorte",
@@ -2064,6 +2215,7 @@
      "puesto": 7,
      "tier": "S",
      "nombre": "Hatterene Dinamax",
+     "icono": "pm858",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Psicocorte",
@@ -2077,6 +2229,7 @@
      "puesto": 8,
      "tier": "S",
      "nombre": "Gardevoir Dinamax",
+     "icono": "pm282",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Confusión",
@@ -2090,6 +2243,7 @@
      "puesto": 9,
      "tier": "S",
      "nombre": "Kadabra Dinamax",
+     "icono": "pm64",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Psicocorte",
@@ -2103,6 +2257,7 @@
      "puesto": 10,
      "tier": "S",
      "nombre": "Latias Dinamax",
+     "icono": "pm380",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Cabezazo Zen",
@@ -2117,6 +2272,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Alakazam Dinamax",
+     "icono": "pm65",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Psicocorte",
@@ -2129,6 +2285,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Alakazam Dinamax",
+     "icono": "pm65",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Psicocorte",
@@ -2149,6 +2306,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Weavile Dinamax",
+     "icono": "pm461",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Canto Helado",
@@ -2162,6 +2320,7 @@
      "puesto": 2,
      "tier": "S",
      "nombre": "Glaceon Dinamax",
+     "icono": "pm471",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Vaho Gélido",
@@ -2175,6 +2334,7 @@
      "puesto": 3,
      "tier": "A",
      "nombre": "Lapras Gigamax",
+     "icono": "pm131.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Psicoonda",
@@ -2188,6 +2348,7 @@
      "puesto": 4,
      "tier": "B",
      "nombre": "Articuno Dinamax",
+     "icono": "pm144",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Vaho Gélido",
@@ -2201,6 +2362,7 @@
      "puesto": 5,
      "tier": "B",
      "nombre": "Cryogonal Dinamax",
+     "icono": "pm615",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Vaho Gélido",
@@ -2214,6 +2376,7 @@
      "puesto": 6,
      "tier": "B",
      "nombre": "Sneasel Dinamax",
+     "icono": "pm215",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Canto Helado",
@@ -2227,6 +2390,7 @@
      "puesto": 7,
      "tier": "C",
      "nombre": "Walrein Dinamax",
+     "icono": "pm365",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Vaho Gélido",
@@ -2240,6 +2404,7 @@
      "puesto": 8,
      "tier": "C",
      "nombre": "Regice Dinamax",
+     "icono": "pm378",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Vaho Gélido",
@@ -2253,6 +2418,7 @@
      "puesto": 9,
      "tier": "D",
      "nombre": "Lapras Dinamax",
+     "icono": "pm131",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Vaho Gélido",
@@ -2266,6 +2432,7 @@
      "puesto": 10,
      "tier": "E",
      "nombre": "Suicune Dinamax",
+     "icono": "pm245",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Colmillo Hielo",
@@ -2280,6 +2447,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Weavile Dinamax",
+     "icono": "pm461",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Canto Helado",
@@ -2292,6 +2460,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Weavile Dinamax",
+     "icono": "pm461",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Canto Helado",
@@ -2312,6 +2481,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Eternatus",
+     "icono": "pm890",
      "forma": "Especial",
      "rapido": {
       "nombre": "Cola Dragón",
@@ -2325,6 +2495,7 @@
      "puesto": 2,
      "tier": "S",
      "nombre": "Duraludon Gigamax",
+     "icono": "pm884.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Garra Metal",
@@ -2338,6 +2509,7 @@
      "puesto": 3,
      "tier": "A",
      "nombre": "Palkia Dinamax",
+     "icono": "pm484",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Dragoaliento",
@@ -2351,6 +2523,7 @@
      "puesto": 4,
      "tier": "A",
      "nombre": "Dialga Dinamax",
+     "icono": "pm483",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Dragoaliento",
@@ -2364,6 +2537,7 @@
      "puesto": 5,
      "tier": "A",
      "nombre": "Latios Dinamax",
+     "icono": "pm381",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Dragoaliento",
@@ -2377,6 +2551,7 @@
      "puesto": 6,
      "tier": "B",
      "nombre": "Hydreigon Dinamax",
+     "icono": "pm635",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Dragoaliento",
@@ -2390,6 +2565,7 @@
      "puesto": 7,
      "tier": "C",
      "nombre": "Duraludon Dinamax",
+     "icono": "pm884",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Cola Dragón",
@@ -2403,6 +2579,7 @@
      "puesto": 8,
      "tier": "C",
      "nombre": "Drampa Dinamax",
+     "icono": "pm780",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Dragoaliento",
@@ -2416,6 +2593,7 @@
      "puesto": 9,
      "tier": "C",
      "nombre": "Latias Dinamax",
+     "icono": "pm380",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Dragoaliento",
@@ -2429,6 +2607,7 @@
      "puesto": 10,
      "tier": "D",
      "nombre": "Flygon Dinamax",
+     "icono": "pm330",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Cola Dragón",
@@ -2443,6 +2622,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Eternatus",
+     "icono": "pm890",
      "forma": "Especial",
      "rapido": {
       "nombre": "Cola Dragón",
@@ -2455,6 +2635,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Duraludon Gigamax",
+     "icono": "pm884.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Garra Metal",
@@ -2475,6 +2656,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Grimmsnarl Gigamax",
+     "icono": "pm861.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Mordisco",
@@ -2488,6 +2670,7 @@
      "puesto": 2,
      "tier": "S",
      "nombre": "Hydreigon Dinamax",
+     "icono": "pm635",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Mordisco",
@@ -2501,6 +2684,7 @@
      "puesto": 3,
      "tier": "S",
      "nombre": "Urshifu Estilo Brusco Dinamax",
+     "icono": "pm892.fSINGLE_STRIKE",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Golpe Bajo",
@@ -2514,6 +2698,7 @@
      "puesto": 4,
      "tier": "S",
      "nombre": "Weavile Dinamax",
+     "icono": "pm461",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Finta",
@@ -2527,6 +2712,7 @@
      "puesto": 5,
      "tier": "A",
      "nombre": "Gengar Dinamax",
+     "icono": "pm94",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Golpe Bajo",
@@ -2540,6 +2726,7 @@
      "puesto": 6,
      "tier": "B",
      "nombre": "Gyarados Dinamax",
+     "icono": "pm130",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Mordisco",
@@ -2553,6 +2740,7 @@
      "puesto": 7,
      "tier": "B",
      "nombre": "Sneasel Dinamax",
+     "icono": "pm215",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Finta",
@@ -2566,6 +2754,7 @@
      "puesto": 8,
      "tier": "B",
      "nombre": "Arcanine Dinamax",
+     "icono": "pm59",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Mordisco",
@@ -2579,6 +2768,7 @@
      "puesto": 9,
      "tier": "C",
      "nombre": "Regidrago Dinamax",
+     "icono": "pm895",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Mordisco",
@@ -2592,6 +2782,7 @@
      "puesto": 10,
      "tier": "C",
      "nombre": "Zweilous Dinamax",
+     "icono": "pm634",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Mordisco",
@@ -2606,6 +2797,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Hydreigon Dinamax",
+     "icono": "pm635",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Mordisco",
@@ -2618,6 +2810,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Grimmsnarl Gigamax",
+     "icono": "pm861.fGIGANTAMAX",
      "forma": "Gigamax",
      "rapido": {
       "nombre": "Mordisco",
@@ -2638,6 +2831,7 @@
      "puesto": 1,
      "tier": "SS",
      "nombre": "Gardevoir Dinamax",
+     "icono": "pm282",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Encanto",
@@ -2651,6 +2845,7 @@
      "puesto": 2,
      "tier": "SS",
      "nombre": "Hatterene Dinamax",
+     "icono": "pm858",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Encanto",
@@ -2664,6 +2859,7 @@
      "puesto": 3,
      "tier": "S",
      "nombre": "Sylveon Dinamax",
+     "icono": "pm700",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Viento Feérico",
@@ -2677,6 +2873,7 @@
      "puesto": 4,
      "tier": "A",
      "nombre": "Gallade Dinamax",
+     "icono": "pm475",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Encanto",
@@ -2690,6 +2887,7 @@
      "puesto": 5,
      "tier": "B",
      "nombre": "Latias Dinamax",
+     "icono": "pm380",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Encanto",
@@ -2703,6 +2901,7 @@
      "puesto": 6,
      "tier": "B",
      "nombre": "Tsareena Dinamax",
+     "icono": "pm763",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Encanto",
@@ -2716,6 +2915,7 @@
      "puesto": 7,
      "tier": "C",
      "nombre": "Hattrem Dinamax",
+     "icono": "pm857",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Encanto",
@@ -2729,6 +2929,7 @@
      "puesto": 8,
      "tier": "D",
      "nombre": "Hatenna Dinamax",
+     "icono": "pm856",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Encanto",
@@ -2742,6 +2943,7 @@
      "puesto": 9,
      "tier": "E",
      "nombre": "Steenee Dinamax",
+     "icono": "pm762",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Encanto",
@@ -2755,6 +2957,7 @@
      "puesto": 10,
      "tier": "F",
      "nombre": "Bounsweet Dinamax",
+     "icono": "pm761",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Encanto",
@@ -2769,6 +2972,7 @@
     {
      "etiqueta": "Sin Gigamax",
      "nombre": "Gardevoir Dinamax",
+     "icono": "pm282",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Encanto",
@@ -2781,6 +2985,7 @@
     {
      "etiqueta": "Sin MT élite",
      "nombre": "Gardevoir Dinamax",
+     "icono": "pm282",
      "forma": "Dinamax",
      "rapido": {
       "nombre": "Encanto",

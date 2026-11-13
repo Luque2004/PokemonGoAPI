@@ -1,7 +1,7 @@
 {
  "fuente": "Google Calendar (eventos «Pokémon GO:» de la agenda)",
  "zonaHoraria": "Europe/Madrid",
- "copiaDeLaAgenda": "2026-11-13T09:52:01.685Z",
+ "copiaDeLaAgenda": "2026-11-13T14:51:45.000Z",
  "eventos": [
   {
    "titulo": "Into the Wild",
@@ -22,7 +22,7 @@
    "dePago": [
     {
      "nombre": "GO Pass Deluxe: Into the Wild",
-     "precio": "14,99 $; 19,99 $ con +10 rangos",
+     "precio": "16,49 € en la tienda web; 21,99 € con +10 rangos",
      "da": [
       "Gorra Plateada (Hyper Training; caduca dom 22 a las 23:59)",
       "extras de rango como huevos a ½ distancia (rango 25)",
@@ -72,7 +72,7 @@
    "dePago": [
     {
      "nombre": "Entrada GO Wild Area Global",
-     "precio": "11,99 $, sirve para los dos días",
+     "precio": "≈ 13,19 €, sirve para los dos días",
      "da": [
       "Globos cada hora con Safari Balls",
       "Investigación especial: Duraludon Gigamax con fondo especial",
@@ -137,7 +137,7 @@
    "dePago": [
     {
      "nombre": "Entrada GO Wild Area Global",
-     "precio": "11,99 $, sirve para los dos días",
+     "precio": "≈ 13,19 €, sirve para los dos días",
      "da": [
       "Globos cada hora con Safari Balls",
       "Investigación especial: Duraludon Gigamax con fondo especial",
@@ -162,6 +162,22 @@
    ],
    "texto": "Segundo día del evento global, de 10:00 a 18:00 (hora local). Hoy debuta Palkia Dinamax en Combates Max. Las Safari Balls solo se pueden usar en el horario del evento y desaparecen al terminar. Último día para ganar GO Points del GO Pass Into the Wild (hasta las 18:00); recompensas a reclamar hasta el mar 17 a las 23:59.",
    "noticia": "https://pokemongo.com/gowildarea/global"
+  },
+  {
+   "titulo": "Lunes Max – Pokémon por anunciar",
+   "tipo": "Combates Max",
+   "inicio": "2026-11-16T06:00:00+01:00",
+   "fin": "2026-11-16T21:00:00+01:00",
+   "bonificaciones": [
+    "Power Spots se renuevan más rápido",
+    "Más Power Spots activos que el resto de la semana"
+   ],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [],
+   "dePago": [],
+   "texto": "🎯 ¿Vale la pena?: Por valorar: el Pokémon Dinamax destacado aún no se ha anunciado. Lunes Max de 6:00 a 21:00 (hora local). El Pokémon destacado del 16 al 23 de noviembre se anunciará más adelante. Coincide con el primer día de Dynamax Trails.",
+   "noticia": "https://leekduck.com/events/max-mondays-2026-11-16/"
   },
   {
    "titulo": "Dynamax Trails",
@@ -197,7 +213,7 @@
    "dePago": [
     {
      "nombre": "GO Pass Deluxe: Dynamax Trails",
-     "precio": "4,99 $; gratis si reclamaste el rango 1 del GO Pass de Into the Wild",
+     "precio": "≈ 5,49 €; gratis si reclamaste el rango 1 del GO Pass de Into the Wild",
      "da": [
       "más encuentros con Pokémon Dinamax con Fondo especial",
       "más Caramelos y Caramelos XL de Eternatus",
@@ -278,7 +294,7 @@
    "dePago": [
     {
      "nombre": "Investigación especial",
-     "precio": "1,99 $; también como Ultra Ticket Box web con 5 Ultra Balls de regalo",
+     "precio": "≈ 2,19 €; también como Ultra Ticket Box web con 5 Ultra Balls de regalo",
      "da": [
       "3 encuentros con Pawniard con Fondo especial",
       "más encuentros con Pawniard",
@@ -308,7 +324,7 @@
     "Espurr Dinamax (Combate Max, del 23 al 29 de nov.)"
    ],
    "dePago": [],
-   "texto": "Lunes Max de 6:00 a 21:00 (hora local). Coincide con la última jornada de Dynamax Trails.",
+   "texto": "🎯 ¿Vale la pena?: ★★☆☆☆ — Poco. Ni Espurr ni su evolución, Meowstic, están entre los mejores atacantes o tanques de Combates Max, ni entre los de incursiones. Solo compensa para la colección o para aprovechar los Power Spots extra y juntar Partículas Max. Lunes Max de 6:00 a 21:00 (hora local). Coincide con la última jornada de Dynamax Trails.",
    "noticia": "https://leekduck.com/events/max-mondays-2026-11-23/"
   },
   {
@@ -337,7 +353,7 @@
    "dePago": [
     {
      "nombre": "GO Pass Deluxe: Twilight Wishes",
-     "precio": "4,99 $; 6,99 $ con +6 rangos, que da hasta el rango 7",
+     "precio": "≈ 5,49 €; ≈ 7,69 € con +6 rangos, que da hasta el rango 7",
      "da": [
       "×3 Polvos estelares al capturar en el rango 10 (en vez de ×2)",
       "más encuentros con Pokémon del evento",
@@ -400,7 +416,7 @@
    "dePago": [
     {
      "nombre": "Entrada Super Mega Raid Day",
-     "precio": "4,99 $, solo en la tienda del juego hasta las 17:00; también como Ultra Ticket Box web con 1 Pase de Combate Prémium extra",
+     "precio": "≈ 5,49 €, solo en la tienda del juego hasta las 17:00; también como Ultra Ticket Box web con 1 Pase de Combate Prémium extra",
      "da": [
       "hasta 14 Pases de incursión al girar discos en vez de 6",
       "más prob. de Caramelo Raro XL en incursiones",
@@ -429,7 +445,7 @@
     "Cryogonal Dinamax (Combate Max, del 30 de nov. al 6 de dic.)"
    ],
    "dePago": [],
-   "texto": "Lunes Max de 6:00 a 21:00 (hora local).",
+   "texto": "🎯 ¿Vale la pena?: ★★★★☆ — Sí. Cryogonal Dinamax es el n.º 5 de los atacantes de Hielo en Combates Max (80 % del n.º 1, Weavile Dinamax) y sirve contra jefes de tipo Dragón, Volador, Tierra y Planta. Como tanque no destaca. Captura varios para juntar caramelos y sube uno. Lunes Max de 6:00 a 21:00 (hora local).",
    "noticia": "https://leekduck.com/events/max-mondays-2026-11-30/"
   },
   {

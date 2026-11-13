@@ -24,6 +24,8 @@
   --bonus-fg: #8a5a00;
   --bonus-bg: #fff4d6;
   --bonus-line: #f0d48a;
+  --spr-halo: rgba(124, 77, 255, .14);
+  --spr-bg: rgba(15, 23, 42, .045);
   --font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --radius: 14px;
@@ -36,7 +38,7 @@
     --bg: #0d141c; --surface: #16202b; --surface-2: #1b2734; --ink: #e7eef6; --muted: #93a3b5; --line: #263443;
     --accent: #43b7d6; --bar: #2f9fbf;
     --t-raid: #ff7a62; --t-spot: #f2c14a; --t-comm: #4fd39a; --t-max: #f06cb6; --t-event: #79a7ff; --t-meteor: #a497ff; --t-other: #93a3b5;
-    --bonus-fg: #ffd77a; --bonus-bg: rgba(255, 215, 122, .1); --bonus-line: rgba(255, 215, 122, .3);
+    --bonus-fg: #ffd77a; --bonus-bg: rgba(255, 215, 122, .1); --bonus-line: rgba(255, 215, 122, .3); --spr-halo: rgba(176, 148, 255, .3); --spr-bg: rgba(255, 255, 255, .085);
     color-scheme: dark;
   }
 }
@@ -44,7 +46,7 @@
   --bg: #0d141c; --surface: #16202b; --surface-2: #1b2734; --ink: #e7eef6; --muted: #93a3b5; --line: #263443;
   --accent: #43b7d6; --bar: #2f9fbf;
   --t-raid: #ff7a62; --t-spot: #f2c14a; --t-comm: #4fd39a; --t-max: #f06cb6; --t-event: #79a7ff; --t-meteor: #a497ff; --t-other: #93a3b5;
-  --bonus-fg: #ffd77a; --bonus-bg: rgba(255, 215, 122, .1); --bonus-line: rgba(255, 215, 122, .3);
+  --bonus-fg: #ffd77a; --bonus-bg: rgba(255, 215, 122, .1); --bonus-line: rgba(255, 215, 122, .3); --spr-halo: rgba(176, 148, 255, .3); --spr-bg: rgba(255, 255, 255, .085);
   color-scheme: dark;
 }
 
@@ -78,6 +80,7 @@
 .reco { background: var(--surface); border: 1px solid var(--accent); border-radius: var(--radius); padding: 14px; display: grid; gap: 8px; }
 .reco h3 { font-size: 15px; }
 .reco:empty { display: none; }
+.worth .stars { font-size: 13px; }
 .pass {
   font-size: 13px; font-weight: 500; color: var(--ink); background: var(--surface-2);
   border: 1px solid var(--line); border-radius: 8px; padding: 5px 9px; line-height: 1.4;
@@ -245,26 +248,26 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .atk { display: flex; flex-direction: column; gap: 8px; margin: 0; padding: 0; list-style: none; }
 .arow {
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
-  padding: 12px 14px; display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; column-gap: 10px; row-gap: 4px; align-items: center;
+  padding: 12px 14px; display: grid; grid-template-columns: 24px 40px minmax(0, 1fr) auto; column-gap: 10px; row-gap: 4px; align-items: center;
 }
-.arow .rank { grid-row: 1 / span 3; align-self: start; font-family: var(--font-display); font-stretch: 100%; font-weight: 700; font-size: 18px; line-height: 1.25; color: var(--muted); font-variant-numeric: tabular-nums; }
-.aname { grid-column: 2 / 4; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; min-width: 0; }
+.arow .rank { grid-column: 1; grid-row: 1 / span 3; align-self: start; font-family: var(--font-display); font-stretch: 100%; font-weight: 700; font-size: 18px; line-height: 1.25; color: var(--muted); font-variant-numeric: tabular-nums; }
+.aname { grid-column: 3 / 5; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; min-width: 0; }
 .aname b { font-size: 15.5px; line-height: 1.3; }
 .tier { font-size: 11px; font-weight: 700; letter-spacing: .04em; color: var(--muted); border: 1px solid var(--line); border-radius: 6px; padding: 0 5px; line-height: 1.5; }
 .small { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .moves { font-size: 13px; color: var(--muted); line-height: 1.5; }
-.arow .moves { grid-column: 2 / 4; }
+.arow .moves { grid-column: 3 / 5; }
 .tag {
   display: inline-block; font-size: 10.5px; font-weight: 700; letter-spacing: .03em; color: var(--ink);
   background: var(--surface-2); border: 1px solid var(--line); border-radius: 5px; padding: 0 5px; margin-left: 4px;
   line-height: 1.5; vertical-align: 1px; white-space: nowrap;
 }
-.meter { grid-column: 2; height: 8px; background: var(--bar-track); border-radius: 0 4px 4px 0; position: relative; }
+.meter { grid-column: 3; height: 8px; background: var(--bar-track); border-radius: 0 4px 4px 0; position: relative; }
 .meter::before { content: ""; position: absolute; inset: -8px 0; } /* zona táctil más grande que la barra */
 .meter i { display: block; height: 100%; background: var(--bar); border-radius: 0 4px 4px 0; }
 .meter:hover i, .meter:focus-visible i { filter: brightness(1.15); }
 .meter:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-.pct { grid-column: 3; font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; min-width: 4.5ch; }
+.pct { grid-column: 4; font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; min-width: 4.5ch; }
 .ttag { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; color: var(--muted); }
 .ttag i, .mchip i { width: 8px; height: 8px; border-radius: 50%; background: var(--tc, var(--muted)); flex: none; }
 .picks { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); gap: 8px; }
@@ -288,7 +291,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .tag.dina { background: color-mix(in srgb, var(--t-event) 14%, var(--surface)); border-color: color-mix(in srgb, var(--t-event) 45%, var(--line)); }
 .tag.esp { background: color-mix(in srgb, var(--t-spot) 18%, var(--surface)); border-color: color-mix(in srgb, var(--t-spot) 50%, var(--line)); }
 .aname .tag, .ov-name .tag { margin-left: 0; }
-.ov-name { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; }
+.ov-name { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 8px; }
 .legend .tag { margin: 0 6px 0 0; }
 .meta-row { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
 .meta-h { font-size: 12.5px; font-weight: 700; color: var(--muted); margin-right: 1px; }
@@ -307,8 +310,91 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 }
 .tip b { display: block; font-size: 14px; font-variant-numeric: tabular-nums; }
 
+.tabs { overflow-x: auto; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+.tl-s { display: none; }
+.rkc { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.rkc > summary { list-style: none; cursor: pointer; padding: 12px 14px; display: grid; gap: 5px; }
+.rkc > summary::-webkit-details-marker { display: none; }
+.rkc > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: var(--radius); }
+.rk-head { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; font-size: 13px; color: var(--muted); }
+.rk-head b { color: var(--ink); font-size: 14.5px; }
+.rk-quote { font-size: 15.5px; font-weight: 600; line-height: 1.35; }
+.rk-get { font-size: 13.5px; }
+.rk-toggle { font-size: 12.5px; font-weight: 600; color: var(--accent); }
+.rk-toggle::after { content: "Ver equipo ▾"; }
+.rkc[open] .rk-toggle::after { content: "Ocultar equipo ▴"; }
+.rk-body { padding: 10px 14px 14px; border-top: 1px solid var(--line); display: grid; gap: 8px; }
+.rk-slot { display: grid; grid-template-columns: 18px minmax(0, 1fr); gap: 8px; align-items: center; font-size: 14px; padding: 6px 8px; border-radius: 8px; border: 1px solid transparent; }
+.rk-slot .n { font-family: var(--font-display); font-stretch: 100%; font-weight: 700; color: var(--muted); }
+.rk-slot.catch { background: var(--bonus-bg); border-color: var(--bonus-line); }
+/* Pokémon con su icono del juego (hoja sprites.webp: 32 columnas) */
+.rk-mons { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 6px 2px; }
+.rk-get .rk-mons { margin-top: 6px; }
+.rk-mon { display: inline-flex; flex-direction: column; align-items: center; gap: 2px; width: 76px; font-size: 12.5px; font-weight: 500; line-height: 1.2; text-align: center; overflow-wrap: anywhere; color: var(--ink); }
+.spr {
+  --s: 44px; --halo: var(--spr-bg); width: var(--s); height: var(--s); flex: none;
+  background-image: url("sprites2.webp"), radial-gradient(circle closest-side, var(--halo) 60%, transparent);
+  background-repeat: no-repeat;
+  background-size: calc(var(--s) * 32) auto, 100% 100%;
+  background-position: calc(var(--x, 0) * var(--s) * -1) calc(var(--y, 0) * var(--s) * -1), center;
+}
+.spr.osc { --halo: var(--spr-halo); filter: drop-shadow(0 0 2px rgba(124, 77, 255, .45)); } /* brillo morado: Pokémon oscuro */
+.arow .spr { --s: 40px; grid-column: 2; grid-row: 1 / span 3; align-self: start; }
+.ov-name .spr { --s: 40px; }
+.arow .spr.none, .ov-name .spr.none { --s: 28px; margin: 6px; }
+.spr.none { --s: 30px; margin: 7px; background: color-mix(in srgb, var(--tc, var(--muted)) 22%, var(--surface)); border: 2px solid var(--tc, var(--muted)); border-radius: 50%; filter: none; }
+.rk-mons .tag { align-self: center; margin-left: 4px; }
+.rk-weak { font-size: 13.5px; }
+
+/* Raids */
+.rd-group { margin: 8px 0 0; font-size: 12.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.rd-rot h3 { margin: 0; font-family: var(--font-display); font-stretch: 112%; font-size: 17px; line-height: 1.25; }
+.rd-when { margin: 3px 0 0; font-size: 13px; color: var(--muted); }
+.rd-tier { margin: 4px 0 0; font-size: 14px; font-weight: 700; }
+.rd-tier + .sec-note { margin-top: -2px; }
+.rdc { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.rdc > summary { list-style: none; cursor: pointer; padding: 12px 14px; display: grid; gap: 8px; }
+.rdc > summary::-webkit-details-marker { display: none; }
+.rdc > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: var(--radius); }
+.rd-head { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 10px; align-items: center; }
+.rd-head .spr { --s: 56px; }
+.rd-head .spr.none { --s: 40px; margin: 8px; }
+.rd-name { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+.rd-name b { font-size: 16px; line-height: 1.25; }
+.rd-meta { margin-top: 2px; font-size: 13px; color: var(--muted); line-height: 1.45; }
+.rd-weak { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.rd-lab { font-size: 11.5px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+.rd-x { display: inline-flex; align-items: center; gap: 5px; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface-2); font-size: 12.5px; font-weight: 600; white-space: nowrap; }
+.rd-x i { width: 8px; height: 8px; border-radius: 50%; background: var(--tc); }
+.rd-x.dbl { border-color: var(--ink); }
+.rd-toggle { font-size: 12.5px; font-weight: 600; color: var(--accent); }
+.rd-toggle::after { content: "Ver ataques y más counters ▾"; }
+.rdc[open] .rd-toggle::after { content: "Ocultar ▴"; }
+.rd-body { padding: 10px 14px 14px; border-top: 1px solid var(--line); display: grid; gap: 8px; }
+.rd-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.rd-list li { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 10px; align-items: center; }
+.rd-list .spr { --s: 36px; }
+.rd-list .spr.none { --s: 24px; margin: 6px; }
+.rd-cn { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 8px; }
+.rd-cn b { font-size: 14px; }
+@media (max-width: 420px) {
+  .tab { padding: 8px 7px; font-size: 13px; gap: 4px; }
+  .tl-l { display: none; }
+  .tl-s { display: inline; }
+  .te { display: none; } /* 5 pestañas: en móvil, solo el texto */
+}
 @media (max-width: 360px) {
-  .tab { padding: 8px 6px; font-size: 13px; gap: 4px; }
+  .tab { padding: 8px 5px; font-size: 12.5px; gap: 3px; }
+}
+@media (max-width: 360px) {
+  .rk-mon { width: 66px; font-size: 12px; }
+}
+@media (max-width: 340px) {
+  .rk-slot { grid-template-columns: 14px minmax(0, 1fr); gap: 6px; padding: 6px; }
+  .rk-mon { width: 62px; font-size: 11.5px; }
+  .tabs { gap: 2px; }
+  .tab { padding: 8px 3px; }
 }
 @media (max-width: 420px) {
   .item { grid-template-columns: 56px minmax(0, 1fr); }
@@ -324,14 +410,16 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
       <h1>Agenda Pokémon GO</h1>
     </div>
     <div class="top-meta">
-      <span id="updated" class="num">Conectando con Google Calendar…</span>
+      <span id="updated" class="num">Cargando…</span>
     </div>
   </header>
 
   <nav class="tabs" role="tablist" aria-label="Secciones">
-    <button class="tab" id="tab-agenda" role="tab" type="button" data-view="agenda" aria-selected="true">📅 Agenda</button>
-    <button class="tab" id="tab-pases" role="tab" type="button" data-view="pases" aria-selected="false">💳 Pases</button>
-    <button class="tab" id="tab-atacantes" role="tab" type="button" data-view="atacantes" aria-selected="false">🏆 Atacantes</button>
+    <button class="tab" id="tab-agenda" role="tab" type="button" data-view="agenda" aria-selected="true"><span class="te" aria-hidden="true">📅</span>Agenda</button>
+    <button class="tab" id="tab-pases" role="tab" type="button" data-view="pases" aria-selected="false"><span class="te" aria-hidden="true">💳</span>Pases</button>
+    <button class="tab" id="tab-atacantes" role="tab" type="button" data-view="atacantes" aria-selected="false" aria-label="Atacantes"><span class="te" aria-hidden="true">🏆</span><span class="tl-l">Atacantes</span><span class="tl-s">Top</span></button>
+    <button class="tab" id="tab-raids" role="tab" type="button" data-view="raids" aria-selected="false"><span class="te" aria-hidden="true">⚔️</span>Raids</button>
+    <button class="tab" id="tab-rocket" role="tab" type="button" data-view="rocket" aria-selected="false"><span class="te" aria-hidden="true">🚀</span>Rocket</button>
   </nav>
 
   <div id="state"></div>
@@ -364,6 +452,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   <section class="sec" id="pay-sec" hidden>
     <div class="sec-h"><h2>Pases de pago</h2><span id="pay-count"></span></div>
     <p class="sec-note">Qué te da cada opción de pago frente a lo que tiene todo el mundo gratis.</p>
+    <p class="sec-note">Precios en euros de la tienda web de Pokémon GO en España. Los que llevan «≈» son estimados: el precio en dólares + 10 %, que es lo que suele subir en España. El exacto se ve en la tienda.</p>
     <p class="sec-note" id="pay-empty" hidden>No hay opciones de pago en los eventos de las próximas semanas.</p>
     <div class="pay" id="pay"></div>
     <div class="reco" id="reco"></div>
@@ -387,6 +476,24 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   </section>
   </div>
 
+  <div class="view" id="view-raids" hidden>
+  <section class="sec" id="rd-sec">
+    <div class="sec-h"><h2>Raids actuales</h2><span id="rd-upd"></span></div>
+    <p class="sec-note">Los jefes de incursión de ahora y de los próximos días: a qué tipos son débiles y sus mejores counters. Toca un jefe para ver los ataques de cada counter.</p>
+    <div class="stack" id="rd-body"></div>
+    <p class="sec-note" id="rd-src"></p>
+  </section>
+  </div>
+  <div class="view" id="view-rocket" hidden>
+  <section class="sec" id="rk-sec">
+    <div class="sec-h"><h2>Team GO Rocket</h2><span id="rk-upd"></span></div>
+    <p class="sec-note">Escribe lo que te dice el recluta o el líder, o el nombre de un Pokémon, y verás qué equipo lleva y qué Pokémon oscuro puedes capturar si le ganas.</p>
+    <input class="search" id="rk-q" type="search" placeholder="Ej.: aliento de fuego, aguas traicioneras…" autocomplete="off" spellcheck="false" aria-label="Buscar por frase o Pokémon">
+    <div class="stack" id="rk-body"></div>
+    <p class="sec-note" id="rk-src"></p>
+  </section>
+  </div>
+
   <footer class="foot">
     <span>Eventos de Pokémon GO del Google Calendar del dueño de esta agenda (solo los que empiezan por «Pokémon GO:»). Se actualizan cada lunes.</span>
   </footer>
@@ -394,8 +501,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 
 <script>
 (() => {
-  const SERVER = "Google Calendar";
-  const TOOL = "list_events";
   const TZ = "Europe/Madrid";
   const DAY = 86400000;
 
@@ -519,6 +624,13 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     const m = String(html || "").match(RAIDS_RE);
     return m ? inert(m[1]).textContent.split(/\s*·\s*/).map((x) => x.trim()).filter(Boolean) : [];
   }
+  // Valoración del evento: "🎯 ¿Vale la pena?: ★★★★☆ — Sí. motivo" (por ahora, en los Lunes Max)
+  const WORTH_RE = /(?:<b>\s*)?🎯\s*¿?Vale la pena\??:\s*(?:<\/b>)?\s*([^<]*)(?:<br\s*\/?>\s*)*/i;
+  function worthFromHtml(html) {
+    const m = String(html || "").match(WORTH_RE);
+    const v = m ? inert(m[1]).textContent.trim() : "";
+    return v ? { stars: (v.match(/★/g) || []).length, text: v.replace(/^[★☆\s]+[—–-]?\s*/, "") } : null;
+  }
   // Opciones de pago: "💳 De pago: Nombre (precio): qué da · qué da" + "💡 ¿Merece la pena?: ★★★★☆ — motivo"
   const PAID_RE = /(?:<b>\s*)?💳\s*De pago:\s*(?:<\/b>)?\s*([^<]*)(?:<br\s*\/?>\s*)*(?:(?:<b>\s*)?(?:💡\s*)?¿?Merece la pena\??:\s*(?:<\/b>)?\s*([^<]*))?(?:<br\s*\/?>\s*)*/gi;
   function paidFromHtml(html) {
@@ -539,6 +651,17 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     });
     return out;
   }
+  function worthRow(w) {
+    const r = el("div", "pass worth");
+    r.append(document.createTextNode("🎯 "));
+    if (w.stars) {
+      const st = el("span", "stars", "★★★★★".slice(0, Math.min(5, w.stars)) + "☆☆☆☆☆".slice(0, 5 - Math.min(5, w.stars)));
+      st.setAttribute("aria-label", "Vale la pena: " + w.stars + " de 5");
+      r.append(st, document.createTextNode(" "));
+    }
+    r.append(document.createTextNode(w.text));
+    return r;
+  }
   function passRow(text) { return el("div", "pass", "🎟️ " + text); }
   function bonusRow(list) {
     const r = el("div", "bonus");
@@ -546,7 +669,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     return r;
   }
   function textFromHtml(html) {
-    const tmp = inert(String(html || "").replace(BONUS_RE, "").replace(PASS_RE, "").replace(GOPASS_RE, "").replace(RAIDS_RE, "").replace(PAID_RE, "").replace(/<br\s*\/?>/gi, " "));
+    const tmp = inert(String(html || "").replace(BONUS_RE, "").replace(PASS_RE, "").replace(GOPASS_RE, "").replace(RAIDS_RE, "").replace(WORTH_RE, "").replace(PAID_RE, "").replace(/<br\s*\/?>/gi, " "));
     tmp.querySelectorAll("a, script, style").forEach((a) => a.remove());
     return tmp.textContent.replace(/🔗/g, "").replace(/\s+/g, " ").trim();
   }
@@ -568,7 +691,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
         let kind = LABEL[type], name = title;
         const m = title.match(/^(Hora de Incursiones|Hora Destacada|Hora de Combates Max|D[ií]a de la Comunidad(?: Cl[aá]sico)?|Super Mega Raid Day|Mega Raid Day|Raid Day|Max Battle Day|Lunes Max)\s+[–—-]\s+(.+)$/i);
         if (m) { kind = m[1]; name = m[2]; }
-        return { id: e.id, title, name, kind, type, start, end, multi, bonus: (function (b) { return b.length ? b : titleBonus; })(bonusFromHtml(e.description)), pass: passFromHtml(e.description), paid: paidFromHtml(e.description), goPass: goPassFromHtml(e.description), raids: raidsFromHtml(e.description), desc: textFromHtml(e.description), news: linkFromHtml(e.description) };
+        return { id: e.id, title, name, kind, type, start, end, multi, bonus: (function (b) { return b.length ? b : titleBonus; })(bonusFromHtml(e.description)), pass: passFromHtml(e.description), paid: paidFromHtml(e.description), goPass: goPassFromHtml(e.description), raids: raidsFromHtml(e.description), worth: worthFromHtml(e.description), desc: textFromHtml(e.description), news: linkFromHtml(e.description) };
       })
       .filter((e) => e.start && e.end)
       .sort((a, b) => a.start - b.start);
@@ -578,8 +701,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   let events = [];
   let filter = "all";
   try { filter = localStorage.getItem("pogo-filter") || "all"; } catch (_) {}
-  let lastStamp = null;
-  let mcp = null;
   let tick = null;
 
   function showState(kind, title, text, action) {
@@ -760,6 +881,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     if (e.pass) box.append(passRow(e.pass));
     const meta = metaRow(metaRefs(e));
     if (meta) box.append(meta);
+    if (e.worth) box.append(worthRow(e.worth));
     if (e.desc) box.append(el("p", "next-when", e.desc));
     box.append(linksFor(e));
     $("next-rel").textContent = e.start <= now ? "Ahora" : (relDays(e.start, now) || cap(fDayMed.format(e.start)));
@@ -778,7 +900,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     document.querySelectorAll("#next .cd b").forEach((b) => { const k = b.dataset.k; b.textContent = k === "d" ? String(v[k]) : String(v[k]).padStart(2, "0"); });
   }
 
-  const VIEWS = ["agenda", "pases", "atacantes"];
+  const VIEWS = ["agenda", "pases", "atacantes", "raids", "rocket"];
   function showView(v) {
     v = VIEWS.includes(v) ? v : "agenda";
     VIEWS.forEach((x) => {
@@ -855,16 +977,11 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     if (e.raids.length) b.append(el("div", "pass", "⚔️ " + e.raids.join(" · ")));
     const meta = metaRow(metaRefs(e));
     if (meta) b.append(meta);
+    if (e.worth) b.append(worthRow(e.worth));
     if (e.desc) b.append(el("p", null, e.desc));
     b.append(linksFor(e));
     c.append(t, b);
     return c;
-  }
-
-  function setUpdated(result) {
-    const stamp = result && result.cache && result.cache.storedAt ? new Date(result.cache.storedAt) : new Date();
-    lastStamp = stamp;
-    $("updated").textContent = "Actualizado " + fUpd.format(stamp);
   }
 
   // ---------- Mejores atacantes: incursiones (meta/atacantes) y Combates Max (meta/atacantes-max) ----------
@@ -946,6 +1063,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
       cargado: mode === "max" ? { nombre: str(r.max, 40), legado: false, plus: false } : cleanMove(r.cargado),
       edps: mode === "max" ? null : numOr(r.edps), dano: mode === "max" ? numOr(r.dano) : null,
       pct: pct == null ? null : Math.max(0, Math.min(100, Math.round(pct))),
+      icono: typeof r.icono === "string" && /^pm\d{1,4}(\.f[A-Z0-9_]{1,40})?$/.test(r.icono) ? r.icono : "",
     };
   }
   function hubUrl(u) { const s = safeUrl(u); try { return s && new URL(s).hostname === "db.pokemongohub.net" ? s : null; } catch (_) { return null; } }
@@ -1165,7 +1283,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   }
   function atkRow(t, r, o) {
     const li = el("li", "arow");
-    li.append(el("span", "rank", o.rank ? String(o.rank) : "–"));
+    li.append(el("span", "rank", o.rank ? String(o.rank) : "–"), atkSpr(r, t.id));
     const nm = el("div", "aname");
     if (o.showType) nm.append(typeTag(t.id));
     nm.append(el("b", null, shortName(r)));
@@ -1259,7 +1377,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
       b.append(typeTag(t.id));
       const r = t.top[0];
       const head = el("span", "ov-name");
-      head.append(el("b", null, shortName(r)));
+      head.append(atkSpr(r, t.id), el("b", null, shortName(r)));
       const ft = formaTag(r);
       if (ft) head.append(ft);
       b.append(head, moveLine(r));
@@ -1285,7 +1403,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     picks.forEach((p) => {
       const c = el("div", "pick");
       const head = el("span", "ov-name");
-      head.append(el("b", null, shortName(p)));
+      head.append(atkSpr(p, t.id), el("b", null, shortName(p)));
       const ft = formaTag(p);
       if (ft) head.append(ft);
       c.append(el("div", "col-h", PICK_TITLE[p.etiqueta]), head, moveLine(p));
@@ -1338,164 +1456,402 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
             buildIndex();
             renderAtk();
             if (events.length) render();
+            if (rk) renderRocket();
           } else if (!atkData[mode] && !(snap.metadata && snap.metadata.fromCache)) { atkStatus[mode] = "empty"; renderAtk(); }
         }, () => { if (!atkData[mode]) { atkStatus[mode] = "error"; renderAtk(); } });
       } catch (_) { atkStatus[mode] = "error"; renderAtk(); }
     });
   }
 
-  // ---------- Copia compartida (para quien vea la agenda sin ser el dueño) ----------
+  // ---------- Team GO Rocket (meta/rocket): frase → equipo y Pokémon oscuro que se puede capturar ----------
+  const RK_PATH = "meta/rocket";
+  const ROL = { jefe: "Jefe del Team GO Rocket", lider: "Líder del Team GO Rocket", recluta: "Recluta", senuelo: "Recluta señuelo" };
+  let rk = null, rkStatus = "loading", rkQuery = "";
+  const fFecha = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+  const fechaCorta = (iso) => { const d = /^\d{4}-\d{2}-\d{2}$/.test(iso) ? new Date(iso + "T00:00:00Z") : null; return d && !isNaN(d) ? fFecha.format(d) : ""; };
+  const typeList = (a) => (Array.isArray(a) ? uniq(a.filter((t) => TYPE_COLOR[t])) : []);
+  // Para buscar frases: sin tildes ni signos ("Ja, ja, ja..." = "ja ja ja")
+  const qn = (s) => norm(s).replace(/[^a-z0-9]+/g, " ").trim();
+  const listO = (a) => (a.length > 1 ? a.slice(0, -1).join(", ") + " o " + a[a.length - 1] : a[0] || "");
+  // Iconos del juego (PokeMiners/pogo_assets) en sprites.webp, en este orden y en 32 columnas.
+  // Un Pokémon sin icono (uno nuevo) sale con un círculo del color de su tipo.
+  const SPR_COLS = 32;
+  const SPR_IDS = "pm1,pm2,pm3,pm4,pm5,pm6,pm7,pm8,pm9,pm10,pm11,pm12,pm13,pm14,pm15,pm16,pm17,pm18,pm19,pm20,pm21,pm22,pm23,pm24,pm25,pm26,pm27,pm28,pm29,pm30,pm31,pm32,pm33,pm34,pm35,pm36,pm37,pm38,pm39,pm40,pm41,pm42,pm43,pm44,pm45,pm46,pm47,pm48,pm49,pm50,pm51,pm52,pm53,pm54,pm55,pm56,pm57,pm58,pm59,pm60,pm61,pm62,pm63,pm64,pm65,pm66,pm67,pm68,pm69,pm70,pm71,pm72,pm73,pm74,pm75,pm76,pm77,pm78,pm79,pm80,pm81,pm82,pm83,pm84,pm85,pm86,pm87,pm88,pm89,pm90,pm91,pm92,pm93,pm94,pm95,pm96,pm97,pm98,pm99,pm100,pm101,pm102,pm103,pm104,pm105,pm106,pm107,pm108,pm109,pm110,pm111,pm112,pm113,pm114,pm115,pm116,pm117,pm118,pm119,pm120,pm121,pm122,pm123,pm124,pm125,pm126,pm127,pm128,pm129,pm130,pm131,pm132,pm133,pm134,pm135,pm136,pm137,pm138,pm139,pm140,pm141,pm142,pm143,pm144,pm145,pm146,pm147,pm148,pm149,pm150,pm151,pm152,pm153,pm154,pm155,pm156,pm157,pm158,pm159,pm160,pm161,pm162,pm163,pm164,pm165,pm166,pm167,pm168,pm169,pm170,pm171,pm172,pm173,pm174,pm175,pm176,pm177,pm178,pm179,pm180,pm181,pm182,pm183,pm184,pm185,pm186,pm187,pm188,pm189,pm190,pm191,pm192,pm193,pm194,pm195,pm196,pm197,pm198,pm199,pm200,pm202,pm203,pm204,pm205,pm206,pm207,pm208,pm209,pm210,pm211,pm212,pm213,pm214,pm215,pm216,pm217,pm218,pm219,pm220,pm221,pm222,pm223,pm224,pm225,pm226,pm227,pm228,pm229,pm230,pm231,pm232,pm233,pm234,pm235,pm236,pm237,pm238,pm239,pm240,pm241,pm242,pm243,pm244,pm245,pm246,pm247,pm248,pm249,pm250,pm251,pm252,pm253,pm254,pm255,pm256,pm257,pm258,pm259,pm260,pm261,pm262,pm263,pm264,pm265,pm266,pm267,pm268,pm269,pm270,pm271,pm272,pm273,pm274,pm275,pm276,pm277,pm278,pm279,pm280,pm281,pm282,pm283,pm284,pm285,pm286,pm287,pm288,pm289,pm290,pm291,pm292,pm293,pm294,pm295,pm296,pm297,pm298,pm299,pm300,pm301,pm302,pm303,pm304,pm305,pm306,pm307,pm308,pm309,pm310,pm311,pm312,pm313,pm314,pm315,pm316,pm317,pm318,pm319,pm320,pm321,pm322,pm323,pm324,pm325,pm326,pm328,pm329,pm330,pm331,pm332,pm333,pm334,pm335,pm336,pm337,pm338,pm339,pm340,pm341,pm342,pm343,pm344,pm345,pm346,pm347,pm348,pm349,pm350,pm351,pm352,pm353,pm354,pm355,pm356,pm357,pm358,pm359,pm360,pm361,pm362,pm363,pm364,pm365,pm366,pm367,pm368,pm369,pm370,pm371,pm372,pm373,pm374,pm375,pm376,pm377,pm378,pm379,pm380,pm381,pm382,pm383,pm384,pm385,pm386,pm387,pm388,pm389,pm390,pm391,pm392,pm393,pm394,pm395,pm396,pm397,pm398,pm399,pm400,pm401,pm402,pm403,pm404,pm405,pm406,pm407,pm408,pm409,pm410,pm411,pm414,pm415,pm416,pm417,pm418,pm419,pm420,pm424,pm425,pm426,pm427,pm428,pm429,pm430,pm431,pm432,pm433,pm434,pm435,pm436,pm437,pm438,pm439,pm440,pm441,pm442,pm443,pm444,pm445,pm446,pm447,pm448,pm449,pm450,pm451,pm452,pm453,pm454,pm455,pm456,pm457,pm458,pm459,pm460,pm461,pm462,pm463,pm464,pm465,pm466,pm467,pm468,pm469,pm470,pm471,pm472,pm473,pm474,pm475,pm476,pm477,pm478,pm479,pm480,pm481,pm482,pm483,pm484,pm485,pm486,pm487,pm488,pm489,pm490,pm491,pm492,pm493,pm494,pm495,pm496,pm497,pm498,pm499,pm500,pm501,pm502,pm503,pm504,pm505,pm506,pm507,pm508,pm509,pm510,pm511,pm512,pm513,pm514,pm515,pm516,pm517,pm518,pm519,pm520,pm521,pm522,pm523,pm524,pm525,pm526,pm527,pm528,pm529,pm530,pm531,pm532,pm533,pm534,pm535,pm536,pm537,pm538,pm539,pm540,pm541,pm542,pm543,pm544,pm545,pm546,pm547,pm548,pm549,pm551,pm552,pm553,pm554,pm556,pm557,pm558,pm559,pm560,pm561,pm562,pm563,pm564,pm565,pm566,pm567,pm568,pm569,pm570,pm571,pm572,pm573,pm574,pm575,pm576,pm577,pm578,pm579,pm580,pm581,pm582,pm583,pm584,pm587,pm588,pm589,pm590,pm591,pm592,pm593,pm594,pm595,pm596,pm597,pm598,pm599,pm600,pm601,pm602,pm603,pm604,pm605,pm606,pm607,pm608,pm609,pm610,pm611,pm612,pm613,pm614,pm615,pm616,pm617,pm618,pm619,pm620,pm621,pm622,pm623,pm624,pm625,pm626,pm627,pm628,pm629,pm630,pm631,pm632,pm633,pm634,pm635,pm636,pm637,pm638,pm639,pm640,pm643,pm644,pm648,pm650,pm651,pm652,pm653,pm654,pm655,pm656,pm657,pm658,pm659,pm660,pm661,pm662,pm663,pm664,pm665,pm667,pm668,pm669,pm672,pm673,pm674,pm675,pm677,pm678,pm679,pm680,pm682,pm683,pm684,pm685,pm686,pm687,pm688,pm689,pm690,pm691,pm692,pm693,pm694,pm695,pm696,pm697,pm698,pm699,pm700,pm701,pm702,pm703,pm704,pm705,pm706,pm707,pm708,pm709,pm710,pm711,pm712,pm713,pm714,pm715,pm716,pm717,pm719,pm720,pm721,pm722,pm723,pm724,pm725,pm726,pm727,pm728,pm729,pm730,pm731,pm732,pm733,pm734,pm735,pm736,pm737,pm738,pm739,pm740,pm742,pm743,pm744,pm747,pm748,pm749,pm750,pm751,pm752,pm753,pm754,pm755,pm756,pm757,pm758,pm759,pm760,pm761,pm762,pm763,pm764,pm765,pm766,pm767,pm768,pm769,pm770,pm771,pm775,pm776,pm777,pm779,pm780,pm781,pm782,pm783,pm784,pm785,pm786,pm787,pm788,pm789,pm790,pm791,pm792,pm793,pm794,pm795,pm796,pm797,pm798,pm799,pm800,pm802,pm803,pm804,pm805,pm806,pm807,pm808,pm809,pm810,pm811,pm812,pm813,pm814,pm815,pm816,pm817,pm818,pm819,pm820,pm821,pm822,pm823,pm824,pm825,pm826,pm827,pm828,pm829,pm830,pm831,pm832,pm835,pm836,pm837,pm838,pm839,pm840,pm841,pm842,pm843,pm844,pm845,pm846,pm847,pm848,pm850,pm851,pm852,pm853,pm854,pm855,pm856,pm857,pm858,pm859,pm860,pm861,pm862,pm863,pm864,pm865,pm866,pm867,pm870,pm872,pm873,pm874,pm877,pm884,pm885,pm886,pm887,pm888,pm889,pm890,pm891,pm893,pm894,pm895,pm899,pm900,pm901,pm903,pm904,pm906,pm907,pm908,pm909,pm910,pm911,pm912,pm913,pm914,pm915,pm916,pm917,pm918,pm919,pm920,pm921,pm922,pm923,pm924,pm926,pm927,pm928,pm929,pm930,pm932,pm933,pm934,pm935,pm936,pm937,pm938,pm939,pm940,pm941,pm942,pm943,pm944,pm945,pm946,pm947,pm948,pm949,pm950,pm955,pm956,pm957,pm958,pm959,pm960,pm961,pm962,pm965,pm966,pm968,pm969,pm970,pm971,pm972,pm973,pm974,pm975,pm977,pm979,pm980,pm982,pm983,pm996,pm997,pm998,pm999,pm1000,pm1011,pm1012,pm1013,pm1019,pm3.fGIGANTAMAX,pm3.fMEGA,pm6.fGIGANTAMAX,pm6.fMEGA_X,pm6.fMEGA_Y,pm9.fGIGANTAMAX,pm9.fMEGA,pm12.fGIGANTAMAX,pm15.fMEGA,pm18.fMEGA,pm19.fALOLA,pm20.fALOLA,pm25.fDOCTOR,pm25.fFLYING_OKINAWA,pm25.fGIGANTAMAX,pm25.fHORIZONS,pm25.fJEJU,pm25.fKARIYUSHI,pm25.fKURTA,pm25.fPOP_STAR,pm25.fROCK_STAR,pm26.fALOLA,pm26.fMEGA_X,pm26.fMEGA_Y,pm27.fALOLA,pm28.fALOLA,pm37.fALOLA,pm38.fALOLA,pm50.fALOLA,pm51.fALOLA,pm52.fALOLA,pm52.fGALARIAN,pm52.fGIGANTAMAX,pm53.fALOLA,pm58.fHISUIAN,pm59.fHISUIAN,pm65.fMEGA,pm68.fGIGANTAMAX,pm71.fMEGA,pm74.fALOLA,pm75.fALOLA,pm76.fALOLA,pm77.fGALARIAN,pm78.fGALARIAN,pm79.fGALARIAN,pm80.fGALARIAN,pm80.fMEGA,pm83.fGALARIAN,pm88.fALOLA,pm89.fALOLA,pm94.fGIGANTAMAX,pm94.fMEGA,pm99.fGIGANTAMAX,pm100.fHISUIAN,pm101.fHISUIAN,pm103.fALOLA,pm105.fALOLA,pm110.fGALARIAN,pm115.fMEGA,pm121.fMEGA,pm122.fGALARIAN,pm127.fMEGA,pm128.fPALDEA_AQUA,pm128.fPALDEA_BLAZE,pm128.fPALDEA_COMBAT,pm130.fMEGA,pm131.fGIGANTAMAX,pm142.fMEGA,pm143.fGIGANTAMAX,pm144.fGALARIAN,pm145.fGALARIAN,pm146.fGALARIAN,pm149.fMEGA,pm150.fA,pm150.fMEGA_X,pm150.fMEGA_Y,pm157.fHISUIAN,pm181.fMEGA,pm194.fPALDEA,pm199.fGALARIAN,pm201.fUNOWN_A,pm201.fUNOWN_B,pm201.fUNOWN_C,pm201.fUNOWN_D,pm201.fUNOWN_E,pm201.fUNOWN_EXCLAMATION_POINT,pm201.fUNOWN_F,pm201.fUNOWN_G,pm201.fUNOWN_H,pm201.fUNOWN_I,pm201.fUNOWN_J,pm201.fUNOWN_K,pm201.fUNOWN_L,pm201.fUNOWN_M,pm201.fUNOWN_N,pm201.fUNOWN_O,pm201.fUNOWN_P,pm201.fUNOWN_Q,pm201.fUNOWN_QUESTION_MARK,pm201.fUNOWN_R,pm201.fUNOWN_S,pm201.fUNOWN_T,pm201.fUNOWN_U,pm201.fUNOWN_V,pm201.fUNOWN_W,pm201.fUNOWN_X,pm201.fUNOWN_Y,pm201.fUNOWN_Z,pm208.fMEGA,pm211.fHISUIAN,pm212.fMEGA,pm214.fMEGA,pm215.fHISUIAN,pm222.fGALARIAN,pm227.fMEGA,pm229.fMEGA,pm248.fMEGA,pm254.fMEGA,pm257.fMEGA,pm260.fMEGA,pm263.fGALARIAN,pm264.fGALARIAN,pm282.fMEGA,pm302.fMEGA,pm303.fMEGA,pm306.fMEGA,pm308.fMEGA,pm310.fMEGA,pm319.fMEGA,pm323.fMEGA,pm334.fMEGA,pm351.fRAINY,pm351.fSNOWY,pm351.fSUNNY,pm354.fMEGA,pm359.fMEGA,pm362.fMEGA,pm373.fMEGA,pm376.fMEGA,pm380.fMEGA,pm381.fMEGA,pm382.fPRIMAL,pm383.fPRIMAL,pm384.fMEGA,pm386.fATTACK,pm386.fDEFENSE,pm386.fSPEED,pm398.fMEGA,pm412.fBURMY_PLANT,pm412.fBURMY_SANDY,pm412.fBURMY_TRASH,pm413.fWORMADAM_PLANT,pm413.fWORMADAM_SANDY,pm413.fWORMADAM_TRASH,pm421.fOVERCAST,pm421.fSUNNY,pm422.fEAST_SEA,pm422.fWEST_SEA,pm423.fEAST_SEA,pm423.fWEST_SEA,pm428.fMEGA,pm445.fMEGA,pm448.fMEGA,pm460.fMEGA,pm475.fMEGA,pm479.fFAN,pm479.fFROST,pm479.fHEAT,pm479.fMOW,pm479.fWASH,pm483.fORIGIN,pm484.fORIGIN,pm487.fALTERED,pm487.fORIGIN,pm492.fLAND,pm492.fSKY,pm493.fBUG,pm493.fDARK,pm493.fDRAGON,pm493.fELECTRIC,pm493.fFAIRY,pm493.fFIGHTING,pm493.fFIRE,pm493.fFLYING,pm493.fGHOST,pm493.fGRASS,pm493.fGROUND,pm493.fICE,pm493.fPOISON,pm493.fPSYCHIC,pm493.fROCK,pm493.fSTEEL,pm493.fWATER,pm503.fHISUIAN,pm531.fMEGA,pm549.fHISUIAN,pm550.fBLUE_STRIPED,pm550.fRED_STRIPED,pm550.fWHITE_STRIPED,pm554.fGALARIAN,pm555.fGALARIAN_STANDARD,pm555.fGALARIAN_ZEN,pm555.fSTANDARD,pm555.fZEN,pm562.fGALARIAN,pm569.fGIGANTAMAX,pm570.fHISUIAN,pm571.fHISUIAN,pm585.fAUTUMN,pm585.fSPRING,pm585.fSUMMER,pm585.fWINTER,pm586.fAUTUMN,pm586.fSPRING,pm586.fSUMMER,pm586.fWINTER,pm592.fFEMALE,pm593.fFEMALE,pm609.fMEGA,pm618.fGALARIAN,pm628.fHISUIAN,pm641.fINCARNATE,pm641.fTHERIAN,pm642.fINCARNATE,pm642.fTHERIAN,pm645.fINCARNATE,pm645.fTHERIAN,pm646.fBLACK,pm646.fNORMAL,pm646.fWHITE,pm647.fORDINARY,pm647.fRESOLUTE,pm648.fARIA,pm648.fPIROUETTE,pm649.fBURN,pm649.fCHILL,pm649.fDOUSE,pm649.fNORMAL,pm649.fSHOCK,pm652.fMEGA,pm655.fMEGA,pm658.fMEGA,pm666.fARCHIPELAGO,pm666.fCONTINENTAL,pm666.fELEGANT,pm666.fFANCY,pm666.fGARDEN,pm666.fHIGH_PLAINS,pm666.fICY_SNOW,pm666.fJUNGLE,pm666.fMARINE,pm666.fMEADOW,pm666.fMODERN,pm666.fMONSOON,pm666.fOCEAN,pm666.fPOKEBALL,pm666.fPOLAR,pm666.fRIVER,pm666.fSANDSTORM,pm666.fSAVANNA,pm666.fSUN,pm666.fTUNDRA,pm668.fFEMALE,pm669.fBLUE,pm669.fORANGE,pm669.fRED,pm669.fWHITE,pm669.fYELLOW,pm670.fBLUE,pm670.fORANGE,pm670.fRED,pm670.fWHITE,pm670.fYELLOW,pm671.fBLUE,pm671.fORANGE,pm671.fRED,pm671.fWHITE,pm671.fYELLOW,pm676.fDANDY,pm676.fDEBUTANTE,pm676.fDIAMOND,pm676.fHEART,pm676.fKABUKI,pm676.fLA_REINE,pm676.fMATRON,pm676.fNATURAL,pm676.fPHARAOH,pm676.fSTAR,pm678.fFEMALE,pm681.fBLADE,pm681.fSHIELD,pm687.fMEGA,pm705.fHISUIAN,pm706.fHISUIAN,pm710.fAVERAGE,pm710.fLARGE,pm710.fSMALL,pm710.fSUPER,pm711.fAVERAGE,pm711.fLARGE,pm711.fSMALL,pm711.fSUPER,pm713.fHISUIAN,pm716.fNEUTRAL,pm718.fCOMPLETE,pm718.fCOMPLETE_FIFTY_PERCENT,pm718.fCOMPLETE_TEN_PERCENT,pm718.fFIFTY_PERCENT,pm718.fTEN_PERCENT,pm719.fMEGA,pm720.fCONFINED,pm720.fUNBOUND,pm724.fHISUIAN,pm741.fBAILE,pm741.fPAU,pm741.fPOMPOM,pm741.fSENSU,pm744.fDUSK,pm745.fDUSK,pm745.fMIDDAY,pm745.fMIDNIGHT,pm746.fSCHOOL,pm746.fSOLO,pm774.fBLUE,pm774.fGREEN,pm774.fINDIGO,pm774.fMETEOR,pm774.fMETEOR_BLUE,pm774.fMETEOR_GREEN,pm774.fMETEOR_INDIGO,pm774.fMETEOR_ORANGE,pm774.fMETEOR_RED,pm774.fMETEOR_VIOLET,pm774.fMETEOR_YELLOW,pm774.fORANGE,pm774.fRED,pm774.fVIOLET,pm774.fYELLOW,pm778.fBUSTED,pm778.fDISGUISED,pm800.fDAWN_WINGS,pm800.fDUSK_MANE,pm812.fGIGANTAMAX,pm815.fGIGANTAMAX,pm818.fGIGANTAMAX,pm845.fGORGING,pm845.fGULPING,pm849.fAMPED,pm849.fGIGANTAMAX,pm849.fLOW_KEY,pm854.fANTIQUE,pm854.fPHONY,pm855.fANTIQUE,pm855.fPHONY,pm861.fGIGANTAMAX,pm870.fMEGA,pm876.fFEMALE,pm876.fMALE,pm877.fFULL_BELLY,pm877.fHANGRY,pm884.fGIGANTAMAX,pm888.fCROWNED_SWORD,pm888.fHERO,pm889.fCROWNED_SHIELD,pm889.fHERO,pm890.fETERNAMAX,pm892.fBREAD_DOUGH_MODE,pm892.fRAPID_STRIKE,pm892.fSINGLE_STRIKE,pm905.fINCARNATE,pm905.fTHERIAN,pm916.fFEMALE,pm925.fFAMILY_OF_FOUR,pm925.fFAMILY_OF_THREE,pm931.fBLUE,pm931.fGREEN,pm931.fWHITE,pm931.fYELLOW,pm978.fCURLY,pm978.fDROOPY,pm978.fSTRETCHY,pm982.fTHREE,pm982.fTWO,pm1012.fARTISAN,pm1012.fCOUNTERFEIT,pm1013.fMASTERPIECE,pm1013.fUNREMARKABLE";
+  let sprIdx = null, sprDex = null;
+  // Icono exacto; si no está (p. ej. una Mega nueva), el normal de esa especie o su forma por defecto
+  function sprPos(id) {
+    if (!id) return -1;
+    if (!sprIdx) {
+      sprIdx = new Map(); sprDex = new Map();
+      SPR_IDS.split(",").forEach((k, i) => { sprIdx.set(k, i); const d = k.split(".")[0]; if (!sprDex.has(d)) sprDex.set(d, []); sprDex.get(d).push(k); });
+    }
+    if (sprIdx.has(id)) return sprIdx.get(id);
+    const d = id.split(".")[0];
+    if (sprIdx.has(d)) return sprIdx.get(d);
+    const forms = (sprDex.get(d) || []).filter((k) => !/MEGA|GIGANTAMAX|PRIMAL/.test(k));
+    const def = forms.find((k) => /\.f(NORMAL|STANDARD|ORDINARY|INCARNATE|ALTERED|LAND|AVERAGE)$/.test(k)) || forms[0];
+    return def ? sprIdx.get(def) : -1;
+  }
+  function sprEl(id, osc) {
+    const i = sprPos(id);
+    const s = el("span", "spr" + (osc ? " osc" : "") + (i < 0 ? " none" : ""));
+    s.setAttribute("aria-hidden", "true");
+    if (i >= 0) { s.style.setProperty("--x", String(i % SPR_COLS)); s.style.setProperty("--y", String(Math.floor(i / SPR_COLS))); }
+    return s;
+  }
+  function atkSpr(r, typeId) {
+    const s = sprEl(r.icono, parseName(r.nombre).shadow);
+    if (s.classList.contains("none")) s.style.setProperty("--tc", TYPE_COLOR[typeId] || "");
+    return s;
+  }
+  function monTile(p) {
+    const t = el("span", "rk-mon");
+    t.title = p.nombre + (p.tipos.length ? " · " + p.tipos.map((x) => TYPE_NAME[x]).join(" / ") : "");
+    const s = sprEl(p.icono, true); // todos los del Team GO Rocket son oscuros
+    if (s.classList.contains("none") && p.tipos[0]) s.style.setProperty("--tc", TYPE_COLOR[p.tipos[0]]);
+    t.append(s, el("span", null, p.nombre));
+    return t;
+  }
+  function cleanRocket(d) {
+    if (!d || !Array.isArray(d.entrenadores)) return null;
+    const list = d.entrenadores.slice(0, 60).map((x) => {
+      x = x && typeof x === "object" ? x : {};
+      const slots = (Array.isArray(x.slots) ? x.slots : []).slice(0, 3).map((s, i) => ({
+        n: s && Number.isInteger(s.n) && s.n > 0 && s.n < 4 ? s.n : i + 1,
+        captura: !!(s && s.captura === true),
+        pokemon: (s && Array.isArray(s.pokemon) ? s.pokemon : []).slice(0, 8).map((p) => ({
+          nombre: str(p && p.nombre, 40), tipos: typeList(p && p.tipos).slice(0, 2), x2: typeList(p && p.x2), x4: typeList(p && p.x4),
+          icono: p && typeof p.icono === "string" && /^pm\d{1,4}(\.f[A-Z0-9_]{1,40})?$/.test(p.icono) ? p.icono : "",
+        })).filter((p) => p.nombre),
+      })).filter((s) => s.pokemon.length);
+      const r = {
+        rol: ROL[x.rol] ? x.rol : "recluta", nombre: str(x.nombre, 30),
+        tipo: TYPE_COLOR[x.tipo] ? x.tipo : null, genero: x.genero === "chica" || x.genero === "chico" ? x.genero : null,
+        frase: str(x.frase, 200), fraseEn: str(x.frase_en, 200), slots,
+      };
+      // cada palabra buscada tiene que ser el principio de una palabra ("ja" no encuentra "pájaro")
+      r.hay = " " + qn([r.frase, r.fraseEn, rkTitle(r)].concat(...slots.map((s) => s.pokemon.map((p) => p.nombre))).join(" "));
+      return r;
+    }).filter((x) => x.frase && x.slots.length);
+    let url = safeUrl(d.url);
+    try { if (url && new URL(url).hostname !== "leekduck.com") url = null; } catch (_) { url = null; }
+    return list.length ? { list, actualizado: str(d.actualizado, 10), url } : null;
+  }
+  const isBoss = (x) => x.rol === "jefe" || x.rol === "lider";
+  function rkTitle(x) {
+    if (isBoss(x)) return x.nombre || ROL[x.rol];
+    return (x.rol === "senuelo" ? "Recluta señuelo" : "Recluta") + (x.tipo ? " de tipo " + TYPE_NAME[x.tipo] : " sin tipo fijo");
+  }
+  // Tipos de ataque eficaces contra más Pokémon de su equipo (débiles x1,6 o x2,56)
+  function rkWeak(x) {
+    const seen = new Map();
+    x.slots.forEach((s) => s.pokemon.forEach((p) => { if (!seen.has(p.nombre)) seen.set(p.nombre, p); }));
+    const count = new Map();
+    seen.forEach((p) => uniq(p.x2.concat(p.x4)).forEach((t) => count.set(t, (count.get(t) || 0) + 1)));
+    return { total: seen.size, top: [...count.entries()].sort((a, b) => b[1] - a[1] || typeIdx(a[0]) - typeIdx(b[0])).slice(0, 3) };
+  }
+  // Si lo que se captura (o su evolución) en versión oscura está entre los mejores atacantes de incursiones
+  function rocketMeta(nombre, out) {
+    const p = parseName(nombre);
+    [p.species].concat(PRE[p.species] || []).forEach((s) => (atkIdx.raid.get(s) || []).forEach((r) => {
+      if (r.p.shadow && r.p.form === p.form && !out.includes(r)) out.push(r);
+    }));
+  }
+  function rkCard(x, open) {
+    const d = el("details", "rkc");
+    d.open = !!open;
+    const sm = el("summary");
+    const head = el("div", "rk-head");
+    if (x.tipo) head.append(typeTag(x.tipo));
+    head.append(el("b", null, rkTitle(x)));
+    if (isBoss(x)) head.append(el("span", null, ROL[x.rol]));
+    if (x.genero) head.append(el("span", null, x.genero === "chica" ? "♀ Chica" : "♂ Chico"));
+    sm.append(head, el("div", "rk-quote", "«" + x.frase + "»"));
+    const catchable = [];
+    x.slots.filter((s) => s.captura).forEach((s) => s.pokemon.forEach((p) => { if (!catchable.some((c) => c.nombre === p.nombre)) catchable.push(p); }));
+    const names = catchable.map((p) => p.nombre);
+    if (names.length) {
+      const g = el("div", "rk-get", "🎁 Si le ganas, puedes capturar " + (names.length > 1 ? "uno de estos Pokémon oscuros:" : "este Pokémon oscuro:"));
+      const row = el("div", "rk-mons");
+      catchable.forEach((p) => row.append(monTile(p)));
+      g.append(row);
+      sm.append(g);
+    }
+    sm.append(el("span", "rk-toggle"));
+    d.append(sm);
+    const body = el("div", "rk-body");
+    x.slots.forEach((s) => {
+      const r = el("div", "rk-slot" + (s.captura ? " catch" : ""));
+      const ps = el("div", "rk-mons");
+      s.pokemon.forEach((p) => ps.append(monTile(p)));
+      if (s.captura) ps.append(el("span", "tag", "Se puede capturar"));
+      r.setAttribute("aria-label", "Pokémon " + s.n + ": " + listO(s.pokemon.map((p) => p.nombre)) + (s.captura ? ". Se puede capturar" : ""));
+      r.append(el("span", "n", String(s.n)), ps);
+      body.append(r);
+    });
+    const w = rkWeak(x);
+    if (w.top.length) {
+      const parts = w.top.map(([t, c], i) => TYPE_NAME[t] + (i ? " (" + c + " de " + w.total + ")" : " (eficaz contra " + c + " de sus " + w.total + " Pokémon)"));
+      body.append(el("div", "rk-weak", "⚔️ Mejores tipos para atacarle: " + (parts.length > 1 ? parts.slice(0, -1).join(", ") + " y " + parts[parts.length - 1] : parts[0]) + "."));
+    }
+    const refs = [];
+    names.forEach((n) => rocketMeta(n, refs));
+    const meta = metaRow(refs);
+    if (meta) body.append(meta);
+    d.append(body);
+    return d;
+  }
+  function renderRocket() {
+    const box = $("rk-body"), src = $("rk-src");
+    box.textContent = "";
+    src.textContent = "";
+    if (!rk) {
+      const msg = { loading: "Cargando los equipos del Team GO Rocket…", empty: "Todavía no hay datos del Team GO Rocket.", error: "No se pueden cargar los datos del Team GO Rocket ahora mismo. Prueba en un rato.", nodb: "Abre la agenda en claude.ai con tu sesión iniciada para ver el Team GO Rocket." };
+      box.append(el("p", "sec-note", msg[rkStatus] || msg.loading));
+      $("rk-upd").textContent = "";
+      return;
+    }
+    const fecha = fechaCorta(rk.actualizado);
+    $("rk-upd").textContent = fecha ? "Actualizado el " + fecha : "";
+    const words = qn(rkQuery).split(" ").filter(Boolean);
+    if (words.join("").length >= 2) {
+      const hits = rk.list.filter((x) => words.every((w) => x.hay.includes(" " + w)));
+      if (!hits.length) box.append(el("p", "sec-note", "No encuentro esa frase ni ese Pokémon. Prueba con menos palabras, por ejemplo «aliento» o «aguas»."));
+      else {
+        box.append(el("h3", "sub-h", hits.length === 1 ? "1 coincidencia" : hits.length + " coincidencias"));
+        hits.forEach((x) => box.append(rkCard(x, hits.length <= 3)));
+      }
+    } else {
+      const lead = rk.list.filter(isBoss), grunts = rk.list.filter((x) => !isBoss(x));
+      if (lead.length) { box.append(el("h3", "sub-h", "Giovanni y los líderes")); lead.forEach((x) => box.append(rkCard(x, false))); }
+      if (grunts.length) { box.append(el("h3", "sub-h", "Reclutas")); grunts.forEach((x) => box.append(rkCard(x, false))); }
+    }
+    src.append(document.createTextNode("Equipos: Leek Duck" + (fecha ? " (" + fecha + ")" : "") + ". Frases: las del juego en español. "));
+    if (rk.url) { const a = el("a", null, "Ver en Leek Duck ↗"); a.href = rk.url; a.target = "_blank"; a.rel = "noopener noreferrer"; src.append(a); }
+  }
+  $("rk-q").addEventListener("input", () => { rkQuery = $("rk-q").value; renderRocket(); });
+  function watchRocket() {
+    if (!db) { rkStatus = "nodb"; renderRocket(); return; }
+    try {
+      db.doc(RK_PATH).onSnapshot((snap) => {
+        const data = snap.exists ? cleanRocket(snap.data()) : null;
+        if (data) { rk = data; rkStatus = "ok"; renderRocket(); }
+        else if (!rk && !(snap.metadata && snap.metadata.fromCache)) { rkStatus = "empty"; renderRocket(); }
+      }, () => { if (!rk) { rkStatus = "error"; renderRocket(); } });
+    } catch (_) { rkStatus = "error"; renderRocket(); }
+  }
+
+  // ---------- Raids (meta/raids): jefes de ahora y próximos, con debilidades y counters ----------
+  const RD_PATH = "meta/raids";
+  let rd = null, rdStatus = "loading", rdKey = "", rdVer = 0;
+  const fRd = new Intl.DateTimeFormat("es-ES", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: TZ });
+  const fRdH = new Intl.DateTimeFormat("es-ES", { hour: "2-digit", minute: "2-digit", timeZone: TZ });
+  const fX = (x) => "×" + String(x).replace(".", ",");
+  const icoOk = (x) => (typeof x === "string" && /^pm\d{1,4}(\.f[A-Z0-9_]{1,40})?$/.test(x) ? x : "");
+  const pcPair = (a) => (Array.isArray(a) && a.length === 2 && a.every((n) => Number.isInteger(n) && n > 0 && n < 10000) ? a : null);
+  function cleanRaids(d) {
+    if (!d || !Array.isArray(d.rotaciones)) return null;
+    const rots = d.rotaciones.slice(0, 20).map((r) => {
+      r = r && typeof r === "object" ? r : {};
+      const ini = new Date(r.inicio), fin = new Date(r.fin);
+      if (isNaN(ini) || isNaN(fin)) return null;
+      const niveles = (Array.isArray(r.niveles) ? r.niveles : []).slice(0, 12).map((n) => ({
+        nivel: str(n && n.nivel, 40), nota: str(n && (n.nota || n.nota_en), 600),
+        jefes: (n && Array.isArray(n.jefes) ? n.jefes : []).slice(0, 30).map((j) => ({
+          nombre: str(j && j.nombre, 60), icono: icoOk(j && j.icono), oscuro: !!(j && j.oscuro === true),
+          tipos: typeList(j && j.tipos).slice(0, 2), pc: pcPair(j && j.pc), pcClima: pcPair(j && j.pc_clima),
+          clima: (j && Array.isArray(j.clima) ? j.clima : []).map((c) => str(c, 30)).filter(Boolean).slice(0, 4),
+          vario: !!(j && j.variocolor === true),
+          debil: (j && Array.isArray(j.debil) ? j.debil : []).filter((x) => x && TYPE_COLOR[x.tipo] && Number.isFinite(x.x) && x.x > 1).slice(0, 10),
+          counters: (j && Array.isArray(j.counters) ? j.counters : []).slice(0, 20).map((c) => ({
+            nombre: str(c && c.nombre, 60), icono: icoOk(c && c.icono), rapido: str(c && c.rapido, 40), cargado: str(c && c.cargado, 40),
+            tipo: c && TYPE_COLOR[c.tipo] ? c.tipo : "", legado: !!(c && c.legado === true), rl: !!(c && c.rapido_legado === true), cl: !!(c && c.cargado_legado === true),
+            edps: numOr(c && c.edps), tier: str(c && c.tier, 3),
+          })).filter((c) => c.nombre),
+          hub: hubUrl(j && j.hub),
+        })).filter((j) => j.nombre && j.tipos.length),
+      })).filter((n) => n.jefes.length);
+      return niveles.length ? { oscura: r.tipo === "oscura", titulo: str(r.titulo || r.titulo_en, 200), ini, fin, niveles } : null;
+    }).filter(Boolean);
+    let url = safeUrl(d.url);
+    try { if (url && new URL(url).hostname !== "leekduck.com") url = null; } catch (_) { url = null; }
+    return { rots, url };
+  }
+  function rdWhen(r, now) {
+    const at = (d) => (dayKey(d) === dayKey(now) ? "hoy a las " + fRdH.format(d) : "el " + fRd.format(d));
+    if (r.ini > now) return "Empieza " + at(r.ini) + " · termina " + at(r.fin);
+    return "Hasta " + at(r.fin);
+  }
+  function rdMon(c, big) {
+    const s = sprEl(c.icono, c.oscuro != null ? c.oscuro : parseName(c.nombre).shadow);
+    const t0 = c.tipos ? c.tipos[0] : c.tipo;
+    if (s.classList.contains("none") && t0) s.style.setProperty("--tc", TYPE_COLOR[t0]);
+    return s;
+  }
+  function rdBoss(j) {
+    const d = el("details", "rdc");
+    const sm = el("summary");
+    const head = el("div", "rd-head");
+    const info = el("div");
+    const nm = el("div", "rd-name");
+    nm.append(el("b", null, j.nombre));
+    j.tipos.forEach((t) => nm.append(typeTag(t)));
+    info.append(nm);
+    const bits = [];
+    if (j.pc) bits.push("PC " + j.pc[0] + "–" + j.pc[1]);
+    if (j.pcClima) bits.push("con " + (j.clima.length ? j.clima.join(" o ") : "su clima") + ": " + j.pcClima[0] + "–" + j.pcClima[1]);
+    if (j.vario) bits.push("✨ puede salir variocolor");
+    if (bits.length) info.append(el("div", "rd-meta", bits.join(" · ")));
+    head.append(rdMon(j), info);
+    sm.append(head);
+    if (j.debil.length) {
+      const w = el("div", "rd-weak");
+      w.append(el("span", "rd-lab", "Débil a"));
+      j.debil.forEach((x) => {
+        const c = el("span", "rd-x" + (x.x > 2 ? " dbl" : ""));
+        const i = el("i"); i.style.setProperty("--tc", TYPE_COLOR[x.tipo]);
+        c.append(i, document.createTextNode(TYPE_NAME[x.tipo] + " " + fX(x.x)));
+        w.append(c);
+      });
+      sm.append(w);
+    }
+    if (j.counters.length) {
+      sm.append(el("div", "rd-lab", "Mejores counters"));
+      const row = el("div", "rk-mons");
+      j.counters.slice(0, 6).forEach((c) => {
+        const t = el("span", "rk-mon");
+        t.title = c.nombre + (c.rapido ? " · " + c.rapido + " / " + c.cargado : "");
+        t.append(rdMon(c), el("span", null, c.nombre));
+        row.append(t);
+      });
+      sm.append(row, el("span", "rd-toggle"));
+    } else sm.append(el("div", "rd-meta", "Todavía no hay counters para este jefe."));
+    d.append(sm);
+    if (!j.counters.length) return d;
+    const body = el("div", "rd-body");
+    const ol = el("ol", "rd-list");
+    j.counters.forEach((c, i) => {
+      const li = el("li");
+      const txt = el("div");
+      const n = el("div", "rd-cn");
+      n.append(el("b", null, (i + 1) + ". " + c.nombre));
+      if (c.tipo) n.append(typeTag(c.tipo));
+      if (c.tier) n.append(el("span", "tier", c.tier));
+      const leg = c.rl || c.cl ? [c.rl, c.cl] : [false, c.legado]; // por si faltan los datos de cada ataque
+      txt.append(n, el("div", "moves", c.rapido + (leg[0] ? " *" : "") + " · " + c.cargado + (leg[1] ? " *" : "") + (c.edps != null ? " · eDPS " + fNum.format(c.edps) : "")));
+      li.append(rdMon(c), txt);
+      ol.append(li);
+    });
+    body.append(ol);
+    const notes = [];
+    if (j.counters.some((c) => c.legado)) notes.push("* Ataque de legado: hace falta una MT élite o un evento.");
+    notes.push("Simulados contra este jefe por Pokémon GO Hub: nivel 50, IV 15/15/15, sin clima ni amistad. Las Mega y los primigenios suelen ir primero; si no tienes, mira los siguientes.");
+    const p = el("p", "sec-note", notes.join(" ") + " ");
+    if (j.hub) { const a = el("a", null, "Ver los 20 en Pokémon GO Hub ↗"); a.href = j.hub; a.target = "_blank"; a.rel = "noopener noreferrer"; p.append(a); }
+    body.append(p);
+    d.append(body);
+    return d;
+  }
+  function renderRaids() {
+    const box = $("rd-body"), src = $("rd-src");
+    if (!rd) {
+      rdKey = "";
+      box.textContent = ""; src.textContent = ""; $("rd-upd").textContent = "";
+      const msg = { loading: "Cargando las incursiones…", empty: "Todavía no hay datos de incursiones.", error: "No se pueden cargar las incursiones ahora mismo. Prueba en un rato.", nodb: "Abre la agenda en claude.ai con tu sesión iniciada para ver las incursiones." };
+      box.append(el("p", "sec-note", msg[rdStatus] || msg.loading));
+      return;
+    }
+    const now = new Date();
+    const act = rd.rots.filter((r) => r.ini <= now && r.fin > now), prox = rd.rots.filter((r) => r.ini > now);
+    const key = rdVer + "|" + act.concat(prox).map((r) => r.titulo + r.ini.getTime()).join("|") + "|" + dayKey(now);
+    if (key === rdKey) return; // nada ha cambiado: no se cierran las tarjetas abiertas
+    rdKey = key;
+    box.textContent = ""; src.textContent = "";
+    const group = (title, list) => {
+      if (!list.length) return;
+      box.append(el("h2", "rd-group", title));
+      list.forEach((r) => {
+        const h = el("div", "rd-rot");
+        h.append(el("h3", null, (r.oscura ? "Incursiones oscuras · " : "") + r.titulo), el("p", "rd-when", rdWhen(r, now)));
+        box.append(h);
+        r.niveles.forEach((n) => {
+          const m = n.nivel.match(/^(\d) estrellas?$/);
+          box.append(el("p", "rd-tier", (m ? "★".repeat(+m[1]) + " " : "") + (r.oscura ? "Oscuras de " : "") + n.nivel));
+          if (n.nota) box.append(el("p", "sec-note", n.nota));
+          n.jefes.forEach((j) => box.append(rdBoss(j)));
+        });
+      });
+    };
+    group("Ahora", act);
+    group("Próximamente", prox);
+    if (!act.length && !prox.length) box.append(el("p", "sec-note", "Ahora mismo no hay jefes anunciados. Se actualiza cada día."));
+    src.append(document.createTextNode("Jefes y PC: Leek Duck. Counters: Pokémon GO Hub. Debilidades: tabla de tipos del juego. Se actualiza cada día. "));
+    if (rd.url) { const a = el("a", null, "Ver en Leek Duck ↗"); a.href = rd.url; a.target = "_blank"; a.rel = "noopener noreferrer"; src.append(a); }
+  }
+  setInterval(renderRaids, 60000); // al empezar o acabar una rotación, cambia sola de grupo
+  function watchRaids() {
+    if (!db) { rdStatus = "nodb"; renderRaids(); return; }
+    try {
+      db.doc(RD_PATH).onSnapshot((snap) => {
+        const data = snap.exists ? cleanRaids(snap.data()) : null;
+        if (data) { rd = data; rdStatus = "ok"; rdVer++; renderRaids(); }
+        else if (!rd && !(snap.metadata && snap.metadata.fromCache)) { rdStatus = "empty"; renderRaids(); }
+      }, () => { if (!rd) { rdStatus = "error"; renderRaids(); } });
+    } catch (_) { rdStatus = "error"; renderRaids(); }
+  }
+
+  // ---------- Eventos (agenda/snapshot) ----------
+  // Los escribe la tarea de los lunes en la base de datos de la agenda: la página no depende de Google Calendar.
   const SHARED_PATH = "agenda/snapshot";
-  let db = null, isOwner = false, viewerMode = false, liveLoaded = false, lastSharedJSON = null, snapTimer = null;
+  let db = null, snapTimer = null;
   function applyShared(data) {
     events = normalize({ events: data.events });
     const when = data.updatedAt ? new Date(data.updatedAt) : null;
     $("updated").textContent = when && !isNaN(when) ? "Actualizado " + fUpd.format(when) : "";
     if (events.length) { showState(null); render(); }
-    else { render(); showState("empty", "Sin eventos de Pokémon GO", "No hay eventos de Pokémon GO para las próximas semanas."); }
-  }
-  async function refreshShared() {
-    if (!db) return;
-    $("updated").textContent = "Actualizando…";
-    try {
-      const snap = await db.doc(SHARED_PATH).get();
-      const data = snap.exists ? snap.data() : null;
-      if (data && Array.isArray(data.events)) applyShared(data);
-      else $("updated").textContent = "Todavía no hay eventos";
-    } catch (_) { $("updated").textContent = "No se pudo actualizar, prueba en un rato"; }
-  }
-  function toShared(payload) {
-    const raw = payload && Array.isArray(payload.events) ? payload.events : [];
-    return raw
-      .filter((e) => e && e.status !== "cancelled" && /^pok[eé]mon go\s*:/i.test(e.summary || ""))
-      .map((e) => ({
-        summary: String(e.summary || ""),
-        start: { dateTime: (e.start && e.start.dateTime) || null, date: (e.start && e.start.date) || null },
-        end: { dateTime: (e.end && e.end.dateTime) || null, date: (e.end && e.end.date) || null },
-        description: String(e.description || ""),
-      }));
-  }
-  function shareSnapshot(payload) {
-    if (!db || !isOwner) return;
-    const shared = toShared(payload);
-    const js = JSON.stringify(shared);
-    if (js === lastSharedJSON) return;
-    lastSharedJSON = js;
-    db.doc(SHARED_PATH).set({ events: shared, updatedAt: new Date().toISOString() }).catch(() => { lastSharedJSON = null; });
+    else { render(); showState("empty", "Sin eventos de Pokémon GO", "No hay eventos de Pokémon GO para las próximas semanas. La tarea de los lunes los añade en cuanto se anuncian."); }
   }
   function watchShared() {
-    if (!db) return;
     snapTimer = setTimeout(() => {
-      if (!events.length && !liveLoaded) showState("error", "No se puede cargar la agenda", "No consigo leer los eventos compartidos ahora mismo. Prueba a abrirla de nuevo en un rato.");
+      snapTimer = null;
+      if (!events.length) showState("error", "No se puede cargar la agenda", "No consigo leer los eventos ahora mismo. Prueba a abrirla de nuevo en un rato.");
     }, 10000);
-    db.doc(SHARED_PATH).onSnapshot((snap) => {
-      if (snap.metadata && !snap.metadata.fromCache && snapTimer) { clearTimeout(snapTimer); snapTimer = null; }
-      const data = snap.exists ? snap.data() : null;
-      if (data && Array.isArray(data.events)) lastSharedJSON = JSON.stringify(data.events);
-      if (liveLoaded) return; // el dueño ya ve sus datos en directo
-      if (!data || !Array.isArray(data.events)) {
-        if (!isOwner && !(snap.metadata && snap.metadata.fromCache)) showState("empty", "Todavía no hay eventos", "La agenda se llena cuando su dueño la abre. Vuelve a mirar más tarde.");
-        return;
-      }
-      applyShared(data);
-    }, () => {
-      if (snapTimer) { clearTimeout(snapTimer); snapTimer = null; }
-      if (!events.length && !liveLoaded && !isOwner) showState("error", "No se puede cargar la agenda", "Abre la agenda en claude.ai con tu sesión iniciada.");
-    });
-  }
-
-  // ---------- Conector ----------
-  function query() {
-    const now = new Date();
-    const from = madridMidnight(now);
-    const to = new Date(from.getTime() + 60 * DAY);
-    return { fullText: "Pokémon GO", startTime: localISO(from), endTime: localISO(to), timeZone: TZ, orderBy: "startTime", pageSize: 100 };
-  }
-
-  function handleError(err) {
-    const code = err && err.code;
-    const keep = events.length > 0;
-    if (code === "needs_reauth") { events = []; render(); showState("error", "Vuelve a conectar Google Calendar", "La conexión con tu calendario ha caducado. Entra en claude.ai → Ajustes → Conectores y reconecta Google Calendar."); return; }
-    if (code === "server_not_connected" || code === "server_not_found" || code === "selection_required") { events = []; render(); showState("error", "Falta Google Calendar", "Esta agenda lee tu Google Calendar. Añádelo en claude.ai → Ajustes → Conectores y vuelve a abrir la página."); return; }
-    if (code === "not_in_manifest" || code === "approval_required" || code === "consent_required") {
-      events = []; render();
-      showState("error", "Permite leer tu calendario", "La agenda necesita tu permiso para leer los eventos de Pokémon GO de tu Google Calendar.", { label: "Dar permiso", run: () => load(true) });
-      return;
-    }
-    if (code === "blocked_by_policy") { events = []; render(); showState("error", "Acceso bloqueado", "La política de tu organización no permite que esta página lea Google Calendar."); return; }
-    if (code === "not_granted" || code === "capability_disabled" || code === "capability_removed") { noMcp(); return; }
-    if (err && err.retryable && !handleError.retried) {
-      handleError.retried = true;
-      setTimeout(() => load(false), (err.retryAfterMs || 1500) + Math.random() * 1000);
-      if (!keep) showState("error", "Google Calendar no responde", "Lo vuelvo a intentar en unos segundos.");
-      return;
-    }
-    if (keep) { $("updated").textContent = "No se pudo actualizar · datos de " + fUpd.format(lastStamp); return; }
-    showState("error", "No he podido leer tu calendario", (err && err.message) ? "Google Calendar respondió con un error. Prueba a actualizar en un rato." : "Prueba a actualizar en un rato.", { label: "Reintentar", run: () => load(true) });
-  }
-
-  function onData(result) {
-    handleError.retried = false;
-    liveLoaded = true;
-    events = normalize(result && result.payload);
-    setUpdated(result);
-    shareSnapshot(result && result.payload);
-    if (!events.length) {
-      render();
-      showState("empty", "Sin eventos de Pokémon GO", "No hay eventos de Pokémon GO en tu calendario para las próximas semanas. La tarea de los lunes los añadirá cuando se anuncien.");
-    } else { showState(null); render(); }
-  }
-
-  let unwatch = null;
-  async function load(fresh) {
-    if (!mcp) return;
-    if (!events.length) showState("loading");
     try {
-      const res = await mcp.callTool(SERVER, TOOL, query(), { cache: fresh ? { staleTime: 0, gcTime: 604800000, refresh: true } : { staleTime: 300000, gcTime: 604800000 } });
-      onData(res);
-      startWatch();
-    } catch (err) { handleError(err); }
+      db.doc(SHARED_PATH).onSnapshot((snap) => {
+        const fromCache = !!(snap.metadata && snap.metadata.fromCache);
+        if (!fromCache && snapTimer) { clearTimeout(snapTimer); snapTimer = null; }
+        const data = snap.exists ? snap.data() : null;
+        if (data && Array.isArray(data.events)) { applyShared(data); return; }
+        if (!fromCache) { events = []; render(); $("updated").textContent = ""; showState("empty", "Todavía no hay eventos", "La tarea de los lunes añade aquí los eventos de Pokémon GO en cuanto se anuncian."); }
+      }, () => {
+        if (snapTimer) { clearTimeout(snapTimer); snapTimer = null; }
+        if (!events.length) showState("error", "No se puede cargar la agenda", "No consigo leer los eventos ahora mismo. Prueba a abrirla de nuevo en un rato.");
+      });
+    } catch (_) { if (!events.length) showState("error", "No se puede cargar la agenda", "Prueba a abrirla de nuevo en un rato."); }
   }
-  function startWatch() {
-    if (unwatch) return;
-    unwatch = mcp.watchTool(SERVER, TOOL, query(), (ev) => {
-      if (ev.type === "data") onData(ev.result);
-      else if (ev.error && ["needs_reauth", "server_not_connected", "blocked_by_policy", "approval_required"].includes(ev.error.code)) { if (unwatch) { unwatch(); unwatch = null; } handleError(ev.error); }
-    }, { cache: { staleTime: 300000, gcTime: 604800000 }, refetchInterval: 900000 });
-  }
-
-  function noMcp() {
-    if (events.length) return; // ya se ve la copia compartida
-    if (db && !isOwner) return; // quien no es el dueño solo usa la copia compartida
+  function noDb() {
+    MODES.forEach((m) => (atkStatus[m] = "nodb"));
+    rkStatus = "nodb"; rdStatus = "nodb";
+    renderAtk(); renderRocket(); renderRaids();
     events = []; render();
-    $("updated").textContent = "Sin conexión con el calendario";
-    showState("error", "Abre la agenda en claude.ai", "Esta página lee tu Google Calendar a través de Claude. Ábrela desde la app de Claude o en claude.ai con tu sesión iniciada.");
+    $("updated").textContent = "";
+    showState("error", "Abre la agenda en claude.ai", "Los eventos están guardados en Claude: abre la agenda desde la app de Claude o en claude.ai con tu sesión iniciada.");
   }
-
 
   showState("loading");
   renderAtk();
+  renderRocket();
+  renderRaids();
   const c = window.claude;
-  if (!c || typeof c.use !== "function") { MODES.forEach((m) => (atkStatus[m] = "nodb")); renderAtk(); noMcp(); return; }
+  if (!c || typeof c.use !== "function") { noDb(); return; }
   (async () => {
-    const [dbNs, userNs] = await Promise.all([
-      c.use("db").catch(() => null),
-      c.use("user").catch(() => null),
-    ]);
-    db = dbNs;
-    watchAtk(); // los atacantes los ve todo el mundo (dueño e invitados)
-    isOwner = userNs ? await userNs.isOwner() : false;
-    if (db) watchShared();
-    // Solo el dueño lee su Google Calendar; el resto ve la copia compartida.
-    if (userNs && !isOwner) {
-      viewerMode = true;
-      if (!db) showState("error", "Inicia sesión para ver la agenda", "Abre la agenda en claude.ai con tu sesión iniciada.");
-      return;
-    }
-    const ns = await c.use("mcp").catch(() => null);
-    if (!ns) { noMcp(); return; }
-    mcp = ns;
-    load(false);
-  })().catch(noMcp);
+    db = await c.use("db").catch(() => null);
+    if (!db) { noDb(); return; }
+    // Eventos, atacantes y Team GO Rocket: todo sale de la base de datos de la agenda
+    watchShared();
+    watchAtk();
+    watchRocket();
+    watchRaids();
+  })().catch(noDb);
 })();
 </script>

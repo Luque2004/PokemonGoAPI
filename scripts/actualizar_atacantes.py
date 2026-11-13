@@ -60,6 +60,27 @@ def nombre_de(a):
     return html.unescape(nm.group(1)).strip() if nm else tx(a)
 
 
+def icono_de(a):
+    """Icono del juego (pm384.fMEGA, pm103.fALOLA…) a partir de la imagen de Pokémon GO Hub (384-mega.webp).
+    Oscuro y Dinamax usan el mismo icono que el normal; la agenda busca el icono en su hoja de iconos."""
+    m = re.search(r"(?:%2F|/)images(?:%2F|/)pokemon(?:%2F|/)([a-z0-9-]+)\.webp", a)
+    if not m or not m.group(1).split("-")[0].isdigit():
+        return ""
+    p = m.group(1).split("-")
+    resto = [x for x in p[1:] if x not in ("shadow", "dynamax", "purified")]
+    return "pm" + p[0] + (".f" + "_".join(resto).upper() if resto else "")
+
+
+def iconos_pagina(h):
+    # nombre → icono de todas las fichas de Pokémon de la página (las preguntas frecuentes no traen imagen)
+    d = {}
+    for a in re.findall(r'<a[^>]*data-pokemon-chip="true".*?</a>', h, re.S):
+        n, i = nombre_de(a), icono_de(a)
+        if n and i:
+            d.setdefault(n, i)
+    return d
+
+
 def incursiones(h):
     F, tier = [], ""
     for tr in filas(h):
@@ -67,7 +88,8 @@ def incursiones(h):
         if t:
             tier = t.group(1)
         o = re.sub(r"\D", "", tx(cell(tr, "order")))
-        F.append({"puesto": int(o) if o else len(F) + 1, "tier": tier, "nombre": nombre_de(cell(tr, "attacker_name")),
+        a = cell(tr, "attacker_name")
+        F.append({"puesto": int(o) if o else len(F) + 1, "tier": tier, "nombre": nombre_de(a), "icono": icono_de(a),
                   "rapido": mv(cell(tr, "qm_name")), "cargado": mv(cell(tr, "cm_name")), "edps": num(tx(cell(tr, "score")))})
         if len(F) >= 10:
             break
@@ -80,7 +102,8 @@ def incursiones(h):
         ed = re.search(r"eDPS.*?<dd[^>]*>([^<]+)</dd>", body, re.S)
         if len(ms) < 2 or 'data-pokemon-chip-name="true"' not in body:
             continue
-        d = {"etiqueta": html.unescape(lab).strip(), "nombre": nombre_de(body), "rapido": mv(ms[0]), "cargado": mv(ms[1]),
+        d = {"etiqueta": html.unescape(lab).strip(), "nombre": nombre_de(body), "icono": icono_de(body.split("</a>", 1)[0]),
+             "rapido": mv(ms[0]), "cargado": mv(ms[1]),
              "edps": num(ed.group(1)) if ed else None}
         if top and d["edps"]:
             d["pct"] = round(100 * d["edps"] / top)
@@ -111,7 +134,7 @@ def combates_max(h, es):
         q = cell(tr, "qm_name")
         o = re.sub(r"\D", "", tx(cell(tr, "order")))
         dmg = re.sub(r"\D", "", tx(cell(tr, "dynamax_maxMoveDamage")))
-        F.append({"puesto": int(o) if o else len(F) + 1, "tier": tier, "nombre": nombre, "forma": forma(nombre, href),
+        F.append({"puesto": int(o) if o else len(F) + 1, "tier": tier, "nombre": nombre, "icono": icono_de(a), "forma": forma(nombre, href),
                   "rapido": {"nombre": tx(re.sub(r"<button.*?</button>", "", q, flags=re.S)).rstrip("+").strip(),
                              "legado": "Movimiento de legado" in q},
                   "max": tx(cell(tr, "cm_name")), "dano": int(dmg) if dmg else None})
@@ -121,18 +144,18 @@ def combates_max(h, es):
     for f in F:
         f["pct"] = round(100 * f["dano"] / top) if top and f["dano"] else None
     texto = tx(re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", h))
-    P = []  # preguntas frecuentes de la fuente: mejor sin Gigamax y mejor sin MT élite
+    P, ico = [], iconos_pagina(h)  # preguntas frecuentes de la fuente: mejor sin Gigamax y mejor sin MT élite
     for etiqueta, clave in (("Sin Gigamax", "sin Gigamax"), ("Sin MT élite", "sin una MT élite")):
         m = re.search(r"¿Cuál es el mejor atacante de tipo " + re.escape(es) + " " + re.escape(clave) +
                       r"\? (.+?) es la mejor opción, con (\d+) de daño por ataque Max.*? Llévalo con (.+?) como ataque rápido y (.+?) como ataque Max", texto)
         if not m:
             continue
-        d = {"etiqueta": etiqueta, "nombre": m.group(1).strip(), "forma": forma(m.group(1)),
+        d = {"etiqueta": etiqueta, "nombre": m.group(1).strip(), "icono": ico.get(m.group(1).strip(), ""), "forma": forma(m.group(1)),
              "rapido": {"nombre": m.group(3).strip(), "legado": False}, "max": m.group(4).strip(), "dano": int(m.group(2)),
              "pct": round(100 * int(m.group(2)) / top) if top else None}
         igual = [r for r in F if r["nombre"] == d["nombre"] and r["rapido"]["nombre"] == d["rapido"]["nombre"] and r["max"] == d["max"]]
         if igual:
-            d["forma"], d["rapido"]["legado"] = igual[0]["forma"], igual[0]["rapido"]["legado"]
+            d["forma"], d["rapido"]["legado"], d["icono"] = igual[0]["forma"], igual[0]["rapido"]["legado"], igual[0]["icono"]
         P.append(d)
     return F, P
 

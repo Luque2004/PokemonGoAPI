@@ -1,0 +1,3800 @@
+{
+ "fuente": "Leek Duck (equipos) · textos del juego en español (frases)",
+ "url": "https://leekduck.com/rocket-lineups/",
+ "actualizado": "2026-10-02",
+ "entrenadores": [
+  {
+   "id": "giovanni",
+   "rol": "jefe",
+   "nombre": "Giovanni",
+   "tipo": null,
+   "genero": null,
+   "frase": "No toleraré tu intromisión.",
+   "frase_en": "I will not tolerate your interference.",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Persian",
+       "icono": "pm53",
+       "tipos": [
+        "normal"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Kangaskhan",
+       "icono": "pm115",
+       "tipos": [
+        "normal"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Rhyperior",
+       "icono": "pm464",
+       "tipos": [
+        "ground",
+        "rock"
+       ],
+       "x2": [
+        "ice",
+        "fighting",
+        "ground",
+        "steel"
+       ],
+       "x4": [
+        "water",
+        "grass"
+       ]
+      },
+      {
+       "nombre": "Machamp",
+       "icono": "pm68",
+       "tipos": [
+        "fighting"
+       ],
+       "x2": [
+        "flying",
+        "psychic",
+        "fairy"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Zekrom",
+       "icono": "pm644",
+       "tipos": [
+        "dragon",
+        "electric"
+       ],
+       "x2": [
+        "ice",
+        "ground",
+        "dragon",
+        "fairy"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cliff",
+   "rol": "lider",
+   "nombre": "Cliff",
+   "tipo": null,
+   "genero": null,
+   "frase": "Mi fuerza proviene de mi lealtad al Team GO Rocket.",
+   "frase_en": "My strength comes from my loyalty to Team GO Rocket.",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Cubone",
+       "icono": "pm104",
+       "tipos": [
+        "ground"
+       ],
+       "x2": [
+        "water",
+        "grass",
+        "ice"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Snorlax",
+       "icono": "pm143",
+       "tipos": [
+        "normal"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Golurk",
+       "icono": "pm623",
+       "tipos": [
+        "ground",
+        "ghost"
+       ],
+       "x2": [
+        "water",
+        "grass",
+        "ice",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Weezing de Galar",
+       "icono": "pm110.fGALARIAN",
+       "tipos": [
+        "poison",
+        "fairy"
+       ],
+       "x2": [
+        "ground",
+        "psychic",
+        "steel"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Tyranitar",
+       "icono": "pm248",
+       "tipos": [
+        "rock",
+        "dark"
+       ],
+       "x2": [
+        "water",
+        "grass",
+        "ground",
+        "bug",
+        "steel",
+        "fairy"
+       ],
+       "x4": [
+        "fighting"
+       ]
+      },
+      {
+       "nombre": "Camerupt",
+       "icono": "pm323",
+       "tipos": [
+        "fire",
+        "ground"
+       ],
+       "x2": [
+        "ground"
+       ],
+       "x4": [
+        "water"
+       ]
+      },
+      {
+       "nombre": "Gallade",
+       "icono": "pm475",
+       "tipos": [
+        "psychic",
+        "fighting"
+       ],
+       "x2": [
+        "flying",
+        "ghost",
+        "fairy"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "arlo",
+   "rol": "lider",
+   "nombre": "Arlo",
+   "tipo": null,
+   "genero": null,
+   "frase": "Es hora de que aprendas cuál es tu lugar en el mundo.",
+   "frase_en": "It's time to learn your place in the world.",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Grimer de Alola",
+       "icono": "pm88.fALOLA",
+       "tipos": [
+        "poison",
+        "dark"
+       ],
+       "x2": [
+        "ground"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Steelix",
+       "icono": "pm208",
+       "tipos": [
+        "steel",
+        "ground"
+       ],
+       "x2": [
+        "fire",
+        "water",
+        "fighting",
+        "ground"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Golurk",
+       "icono": "pm623",
+       "tipos": [
+        "ground",
+        "ghost"
+       ],
+       "x2": [
+        "water",
+        "grass",
+        "ice",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Slowbro",
+       "icono": "pm80",
+       "tipos": [
+        "water",
+        "psychic"
+       ],
+       "x2": [
+        "electric",
+        "grass",
+        "bug",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Alakazam",
+       "icono": "pm65",
+       "tipos": [
+        "psychic"
+       ],
+       "x2": [
+        "bug",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Charizard",
+       "icono": "pm6",
+       "tipos": [
+        "fire",
+        "flying"
+       ],
+       "x2": [
+        "water",
+        "electric"
+       ],
+       "x4": [
+        "rock"
+       ]
+      },
+      {
+       "nombre": "Scizor",
+       "icono": "pm212",
+       "tipos": [
+        "bug",
+        "steel"
+       ],
+       "x2": [],
+       "x4": [
+        "fire"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sierra",
+   "rol": "lider",
+   "nombre": "Sierra",
+   "tipo": null,
+   "genero": null,
+   "frase": "Te envidio, ¡tienes la oportunidad de combatir conmigo!",
+   "frase_en": "I envy you—you get to battle me!",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Pancham",
+       "icono": "pm674",
+       "tipos": [
+        "fighting"
+       ],
+       "x2": [
+        "flying",
+        "psychic",
+        "fairy"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Blastoise",
+       "icono": "pm9",
+       "tipos": [
+        "water"
+       ],
+       "x2": [
+        "grass",
+        "electric"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Flygon",
+       "icono": "pm330",
+       "tipos": [
+        "ground",
+        "dragon"
+       ],
+       "x2": [
+        "dragon",
+        "fairy"
+       ],
+       "x4": [
+        "ice"
+       ]
+      },
+      {
+       "nombre": "Ferrothorn",
+       "icono": "pm598",
+       "tipos": [
+        "grass",
+        "steel"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": [
+        "fire"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Milotic",
+       "icono": "pm350",
+       "tipos": [
+        "water"
+       ],
+       "x2": [
+        "grass",
+        "electric"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Houndoom",
+       "icono": "pm229",
+       "tipos": [
+        "dark",
+        "fire"
+       ],
+       "x2": [
+        "water",
+        "fighting",
+        "ground",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Steelix",
+       "icono": "pm208",
+       "tipos": [
+        "steel",
+        "ground"
+       ],
+       "x2": [
+        "fire",
+        "water",
+        "fighting",
+        "ground"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-normal-chico",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "normal",
+   "genero": "chico",
+   "frase": "Normal no significa débil.",
+   "frase_en": "Normal does not mean weak.",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Teddiursa",
+       "icono": "pm216",
+       "tipos": [
+        "normal"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Hoothoot",
+       "icono": "pm163",
+       "tipos": [
+        "normal",
+        "flying"
+       ],
+       "x2": [
+        "electric",
+        "ice",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Porygon",
+       "icono": "pm137",
+       "tipos": [
+        "normal"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Loudred",
+       "icono": "pm294",
+       "tipos": [
+        "normal"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Stufful",
+       "icono": "pm759",
+       "tipos": [
+        "normal",
+        "fighting"
+       ],
+       "x2": [
+        "fighting",
+        "flying",
+        "psychic",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Starly",
+       "icono": "pm396",
+       "tipos": [
+        "normal",
+        "flying"
+       ],
+       "x2": [
+        "electric",
+        "ice",
+        "rock"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Ursaring",
+       "icono": "pm217",
+       "tipos": [
+        "normal"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Swellow",
+       "icono": "pm277",
+       "tipos": [
+        "normal",
+        "flying"
+       ],
+       "x2": [
+        "electric",
+        "ice",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Kangaskhan",
+       "icono": "pm115",
+       "tipos": [
+        "normal"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-fire-chica",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "fire",
+   "genero": "chica",
+   "frase": "¿Sabes lo caliente que puede llegar a ser el aliento de fuego de los Pokémon?",
+   "frase_en": "Do you know how hot Pokémon fire breath can get?",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Litwick",
+       "icono": "pm607",
+       "tipos": [
+        "ghost",
+        "fire"
+       ],
+       "x2": [
+        "water",
+        "ground",
+        "rock",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Ponyta",
+       "icono": "pm77",
+       "tipos": [
+        "fire"
+       ],
+       "x2": [
+        "water",
+        "ground",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Torchic",
+       "icono": "pm255",
+       "tipos": [
+        "fire"
+       ],
+       "x2": [
+        "water",
+        "ground",
+        "rock"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Magmar",
+       "icono": "pm126",
+       "tipos": [
+        "fire"
+       ],
+       "x2": [
+        "water",
+        "ground",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Blaziken",
+       "icono": "pm257",
+       "tipos": [
+        "fire",
+        "fighting"
+       ],
+       "x2": [
+        "water",
+        "ground",
+        "flying",
+        "psychic"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Camerupt",
+       "icono": "pm323",
+       "tipos": [
+        "fire",
+        "ground"
+       ],
+       "x2": [
+        "ground"
+       ],
+       "x4": [
+        "water"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Darmanitan",
+       "icono": "pm555.fSTANDARD",
+       "tipos": [
+        "fire"
+       ],
+       "x2": [
+        "water",
+        "ground",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Delphox",
+       "icono": "pm655",
+       "tipos": [
+        "fire",
+        "psychic"
+       ],
+       "x2": [
+        "water",
+        "ground",
+        "rock",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Magmortar",
+       "icono": "pm467",
+       "tipos": [
+        "fire"
+       ],
+       "x2": [
+        "water",
+        "ground",
+        "rock"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-water-chica",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "water",
+   "genero": "chica",
+   "frase": "¡Estas aguas son traicioneras!",
+   "frase_en": "These waters are treacherous!",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Mudkip",
+       "icono": "pm258",
+       "tipos": [
+        "water"
+       ],
+       "x2": [
+        "grass",
+        "electric"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Tentacool",
+       "icono": "pm72",
+       "tipos": [
+        "water",
+        "poison"
+       ],
+       "x2": [
+        "electric",
+        "ground",
+        "psychic"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Krabby",
+       "icono": "pm98",
+       "tipos": [
+        "water"
+       ],
+       "x2": [
+        "grass",
+        "electric"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Dewpider",
+       "icono": "pm751",
+       "tipos": [
+        "water",
+        "bug"
+       ],
+       "x2": [
+        "electric",
+        "flying",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Swampert",
+       "icono": "pm260",
+       "tipos": [
+        "water",
+        "ground"
+       ],
+       "x2": [],
+       "x4": [
+        "grass"
+       ]
+      },
+      {
+       "nombre": "Sharpedo",
+       "icono": "pm319",
+       "tipos": [
+        "water",
+        "dark"
+       ],
+       "x2": [
+        "electric",
+        "grass",
+        "fighting",
+        "bug",
+        "fairy"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Walrein",
+       "icono": "pm365",
+       "tipos": [
+        "ice",
+        "water"
+       ],
+       "x2": [
+        "electric",
+        "grass",
+        "fighting",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Greninja",
+       "icono": "pm658",
+       "tipos": [
+        "water",
+        "dark"
+       ],
+       "x2": [
+        "electric",
+        "grass",
+        "fighting",
+        "bug",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Tentacruel",
+       "icono": "pm73",
+       "tipos": [
+        "water",
+        "poison"
+       ],
+       "x2": [
+        "electric",
+        "ground",
+        "psychic"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-water-chico",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "water",
+   "genero": "chico",
+   "frase": "¡Estas aguas son traicioneras!",
+   "frase_en": "These waters are treacherous!",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Magikarp",
+       "icono": "pm129",
+       "tipos": [
+        "water"
+       ],
+       "x2": [
+        "grass",
+        "electric"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Feebas",
+       "icono": "pm349",
+       "tipos": [
+        "water"
+       ],
+       "x2": [
+        "grass",
+        "electric"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Magikarp",
+       "icono": "pm129",
+       "tipos": [
+        "water"
+       ],
+       "x2": [
+        "grass",
+        "electric"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Magikarp",
+       "icono": "pm129",
+       "tipos": [
+        "water"
+       ],
+       "x2": [
+        "grass",
+        "electric"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Gyarados",
+       "icono": "pm130",
+       "tipos": [
+        "water",
+        "flying"
+       ],
+       "x2": [
+        "rock"
+       ],
+       "x4": [
+        "electric"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-electric-chica",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "electric",
+   "genero": "chica",
+   "frase": "¡Prepárate para alucinar!",
+   "frase_en": "Get ready to be shocked!",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Voltorb",
+       "icono": "pm100",
+       "tipos": [
+        "electric"
+       ],
+       "x2": [
+        "ground"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Shinx",
+       "icono": "pm403",
+       "tipos": [
+        "electric"
+       ],
+       "x2": [
+        "ground"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Helioptile",
+       "icono": "pm694",
+       "tipos": [
+        "electric",
+        "normal"
+       ],
+       "x2": [
+        "fighting",
+        "ground"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Electabuzz",
+       "icono": "pm125",
+       "tipos": [
+        "electric"
+       ],
+       "x2": [
+        "ground"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Magnemite",
+       "icono": "pm81",
+       "tipos": [
+        "electric",
+        "steel"
+       ],
+       "x2": [
+        "fire",
+        "fighting"
+       ],
+       "x4": [
+        "ground"
+       ]
+      },
+      {
+       "nombre": "Geodude de Alola",
+       "icono": "pm74.fALOLA",
+       "tipos": [
+        "rock",
+        "electric"
+       ],
+       "x2": [
+        "water",
+        "grass",
+        "fighting"
+       ],
+       "x4": [
+        "ground"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Luxray",
+       "icono": "pm405",
+       "tipos": [
+        "electric"
+       ],
+       "x2": [
+        "ground"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Ampharos",
+       "icono": "pm181",
+       "tipos": [
+        "electric"
+       ],
+       "x2": [
+        "ground"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Galvantula",
+       "icono": "pm596",
+       "tipos": [
+        "bug",
+        "electric"
+       ],
+       "x2": [
+        "fire",
+        "rock"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-grass-chico",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "grass",
+   "genero": "chico",
+   "frase": "¡No nos vaciles!",
+   "frase_en": "Don't tangle with us!",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Phantump",
+       "icono": "pm708",
+       "tipos": [
+        "ghost",
+        "grass"
+       ],
+       "x2": [
+        "fire",
+        "ice",
+        "flying",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Fomantis",
+       "icono": "pm753",
+       "tipos": [
+        "grass"
+       ],
+       "x2": [
+        "fire",
+        "ice",
+        "poison",
+        "flying",
+        "bug"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Tangela",
+       "icono": "pm114",
+       "tipos": [
+        "grass"
+       ],
+       "x2": [
+        "fire",
+        "ice",
+        "poison",
+        "flying",
+        "bug"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Lileep",
+       "icono": "pm345",
+       "tipos": [
+        "rock",
+        "grass"
+       ],
+       "x2": [
+        "ice",
+        "fighting",
+        "bug",
+        "steel"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Sceptile",
+       "icono": "pm254",
+       "tipos": [
+        "grass"
+       ],
+       "x2": [
+        "fire",
+        "ice",
+        "poison",
+        "flying",
+        "bug"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Morelull",
+       "icono": "pm755",
+       "tipos": [
+        "grass",
+        "fairy"
+       ],
+       "x2": [
+        "fire",
+        "ice",
+        "flying",
+        "steel"
+       ],
+       "x4": [
+        "poison"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Chesnaught",
+       "icono": "pm652",
+       "tipos": [
+        "grass",
+        "fighting"
+       ],
+       "x2": [
+        "fire",
+        "ice",
+        "poison",
+        "psychic",
+        "fairy"
+       ],
+       "x4": [
+        "flying"
+       ]
+      },
+      {
+       "nombre": "Trevenant",
+       "icono": "pm709",
+       "tipos": [
+        "ghost",
+        "grass"
+       ],
+       "x2": [
+        "fire",
+        "ice",
+        "flying",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Cradily",
+       "icono": "pm346",
+       "tipos": [
+        "rock",
+        "grass"
+       ],
+       "x2": [
+        "ice",
+        "fighting",
+        "bug",
+        "steel"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-ice-chica",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "ice",
+   "genero": "chica",
+   "frase": "El frío puede paralizarte, ¿no lo sabes?",
+   "frase_en": "You're gonna be frozen in your tracks.",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Seel",
+       "icono": "pm86",
+       "tipos": [
+        "water"
+       ],
+       "x2": [
+        "grass",
+        "electric"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Delibird",
+       "icono": "pm225",
+       "tipos": [
+        "ice",
+        "flying"
+       ],
+       "x2": [
+        "fire",
+        "electric",
+        "steel"
+       ],
+       "x4": [
+        "rock"
+       ]
+      },
+      {
+       "nombre": "Spheal",
+       "icono": "pm363",
+       "tipos": [
+        "ice",
+        "water"
+       ],
+       "x2": [
+        "electric",
+        "grass",
+        "fighting",
+        "rock"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Sealeo",
+       "icono": "pm364",
+       "tipos": [
+        "ice",
+        "water"
+       ],
+       "x2": [
+        "electric",
+        "grass",
+        "fighting",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Froslass",
+       "icono": "pm478",
+       "tipos": [
+        "ice",
+        "ghost"
+       ],
+       "x2": [
+        "fire",
+        "rock",
+        "ghost",
+        "dark",
+        "steel"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Ninetales de Alola",
+       "icono": "pm38.fALOLA",
+       "tipos": [
+        "ice",
+        "fairy"
+       ],
+       "x2": [
+        "fire",
+        "poison",
+        "rock"
+       ],
+       "x4": [
+        "steel"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Aurorus",
+       "icono": "pm699",
+       "tipos": [
+        "rock",
+        "ice"
+       ],
+       "x2": [
+        "water",
+        "grass",
+        "ground",
+        "rock"
+       ],
+       "x4": [
+        "fighting",
+        "steel"
+       ]
+      },
+      {
+       "nombre": "Froslass",
+       "icono": "pm478",
+       "tipos": [
+        "ice",
+        "ghost"
+       ],
+       "x2": [
+        "fire",
+        "rock",
+        "ghost",
+        "dark",
+        "steel"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Glalie",
+       "icono": "pm362",
+       "tipos": [
+        "ice"
+       ],
+       "x2": [
+        "fire",
+        "fighting",
+        "rock",
+        "steel"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-fighting-chica",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "fighting",
+   "genero": "chica",
+   "frase": "Estos músculos no son solo para impresionar.",
+   "frase_en": "This buff physique isn't just for show!",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Timburr",
+       "icono": "pm532",
+       "tipos": [
+        "fighting"
+       ],
+       "x2": [
+        "flying",
+        "psychic",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Mankey",
+       "icono": "pm56",
+       "tipos": [
+        "fighting"
+       ],
+       "x2": [
+        "flying",
+        "psychic",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Makuhita",
+       "icono": "pm296",
+       "tipos": [
+        "fighting"
+       ],
+       "x2": [
+        "flying",
+        "psychic",
+        "fairy"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Hitmontop",
+       "icono": "pm237",
+       "tipos": [
+        "fighting"
+       ],
+       "x2": [
+        "flying",
+        "psychic",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Hitmonlee",
+       "icono": "pm106",
+       "tipos": [
+        "fighting"
+       ],
+       "x2": [
+        "flying",
+        "psychic",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Hitmonchan",
+       "icono": "pm107",
+       "tipos": [
+        "fighting"
+       ],
+       "x2": [
+        "flying",
+        "psychic",
+        "fairy"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Conkeldurr",
+       "icono": "pm534",
+       "tipos": [
+        "fighting"
+       ],
+       "x2": [
+        "flying",
+        "psychic",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Annihilape",
+       "icono": "pm979",
+       "tipos": [
+        "fighting",
+        "ghost"
+       ],
+       "x2": [
+        "flying",
+        "psychic",
+        "ghost",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Infernape",
+       "icono": "pm392",
+       "tipos": [
+        "fire",
+        "fighting"
+       ],
+       "x2": [
+        "water",
+        "ground",
+        "flying",
+        "psychic"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-poison-chica",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "poison",
+   "genero": "chica",
+   "frase": "¡En posición y listo para atacar!",
+   "frase_en": "Coiled and ready to strike!",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Oddish",
+       "icono": "pm43",
+       "tipos": [
+        "grass",
+        "poison"
+       ],
+       "x2": [
+        "fire",
+        "ice",
+        "flying",
+        "psychic"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Zubat",
+       "icono": "pm41",
+       "tipos": [
+        "poison",
+        "flying"
+       ],
+       "x2": [
+        "electric",
+        "ice",
+        "psychic",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Qwilfish",
+       "icono": "pm211",
+       "tipos": [
+        "water",
+        "poison"
+       ],
+       "x2": [
+        "electric",
+        "ground",
+        "psychic"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Weezing de Galar",
+       "icono": "pm110.fGALARIAN",
+       "tipos": [
+        "poison",
+        "fairy"
+       ],
+       "x2": [
+        "ground",
+        "psychic",
+        "steel"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Nidorino",
+       "icono": "pm33",
+       "tipos": [
+        "poison"
+       ],
+       "x2": [
+        "ground",
+        "psychic"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Nidorina",
+       "icono": "pm30",
+       "tipos": [
+        "poison"
+       ],
+       "x2": [
+        "ground",
+        "psychic"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Weezing",
+       "icono": "pm110",
+       "tipos": [
+        "poison"
+       ],
+       "x2": [
+        "ground",
+        "psychic"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Toxicroak",
+       "icono": "pm454",
+       "tipos": [
+        "poison",
+        "fighting"
+       ],
+       "x2": [
+        "ground",
+        "flying"
+       ],
+       "x4": [
+        "psychic"
+       ]
+      },
+      {
+       "nombre": "Amoonguss",
+       "icono": "pm591",
+       "tipos": [
+        "grass",
+        "poison"
+       ],
+       "x2": [
+        "fire",
+        "ice",
+        "flying",
+        "psychic"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-ground-chico",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "ground",
+   "genero": "chico",
+   "frase": "¡Haré que te comas el polvo!",
+   "frase_en": "You'll be defeated into the ground!",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Rhyhorn",
+       "icono": "pm111",
+       "tipos": [
+        "ground",
+        "rock"
+       ],
+       "x2": [
+        "ice",
+        "fighting",
+        "ground",
+        "steel"
+       ],
+       "x4": [
+        "water",
+        "grass"
+       ]
+      },
+      {
+       "nombre": "Gligar",
+       "icono": "pm207",
+       "tipos": [
+        "ground",
+        "flying"
+       ],
+       "x2": [
+        "water"
+       ],
+       "x4": [
+        "ice"
+       ]
+      },
+      {
+       "nombre": "Trapinch",
+       "icono": "pm328",
+       "tipos": [
+        "ground"
+       ],
+       "x2": [
+        "water",
+        "grass",
+        "ice"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Gligar",
+       "icono": "pm207",
+       "tipos": [
+        "ground",
+        "flying"
+       ],
+       "x2": [
+        "water"
+       ],
+       "x4": [
+        "ice"
+       ]
+      },
+      {
+       "nombre": "Claydol",
+       "icono": "pm344",
+       "tipos": [
+        "ground",
+        "psychic"
+       ],
+       "x2": [
+        "water",
+        "grass",
+        "ice",
+        "bug",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Vibrava",
+       "icono": "pm329",
+       "tipos": [
+        "ground",
+        "dragon"
+       ],
+       "x2": [
+        "dragon",
+        "fairy"
+       ],
+       "x4": [
+        "ice"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Golurk",
+       "icono": "pm623",
+       "tipos": [
+        "ground",
+        "ghost"
+       ],
+       "x2": [
+        "water",
+        "grass",
+        "ice",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Hippowdon",
+       "icono": "pm450",
+       "tipos": [
+        "ground"
+       ],
+       "x2": [
+        "water",
+        "grass",
+        "ice"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Flygon",
+       "icono": "pm330",
+       "tipos": [
+        "ground",
+        "dragon"
+       ],
+       "x2": [
+        "dragon",
+        "fairy"
+       ],
+       "x4": [
+        "ice"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-flying-chica",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "flying",
+   "genero": "chica",
+   "frase": "¡Mis Pokémon pájaro quieren combatir contigo!",
+   "frase_en": "Battle against my Flying-type Pokémon!",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Taillow",
+       "icono": "pm276",
+       "tipos": [
+        "normal",
+        "flying"
+       ],
+       "x2": [
+        "electric",
+        "ice",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Rookidee",
+       "icono": "pm821",
+       "tipos": [
+        "flying"
+       ],
+       "x2": [
+        "electric",
+        "ice",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Swablu",
+       "icono": "pm333",
+       "tipos": [
+        "normal",
+        "flying"
+       ],
+       "x2": [
+        "electric",
+        "ice",
+        "rock"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Scyther",
+       "icono": "pm123",
+       "tipos": [
+        "bug",
+        "flying"
+       ],
+       "x2": [
+        "fire",
+        "electric",
+        "ice",
+        "flying"
+       ],
+       "x4": [
+        "rock"
+       ]
+      },
+      {
+       "nombre": "Zubat",
+       "icono": "pm41",
+       "tipos": [
+        "poison",
+        "flying"
+       ],
+       "x2": [
+        "electric",
+        "ice",
+        "psychic",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Gligar",
+       "icono": "pm207",
+       "tipos": [
+        "ground",
+        "flying"
+       ],
+       "x2": [
+        "water"
+       ],
+       "x4": [
+        "ice"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Dragonite",
+       "icono": "pm149",
+       "tipos": [
+        "dragon",
+        "flying"
+       ],
+       "x2": [
+        "rock",
+        "dragon",
+        "fairy"
+       ],
+       "x4": [
+        "ice"
+       ]
+      },
+      {
+       "nombre": "Toucannon",
+       "icono": "pm733",
+       "tipos": [
+        "normal",
+        "flying"
+       ],
+       "x2": [
+        "electric",
+        "ice",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Swanna",
+       "icono": "pm581",
+       "tipos": [
+        "water",
+        "flying"
+       ],
+       "x2": [
+        "rock"
+       ],
+       "x4": [
+        "electric"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-psychic-chico",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "psychic",
+   "genero": "chico",
+   "frase": "¿Te asustan los psíquicos que usan un poder invisible?",
+   "frase_en": "Are you scared of psychics that use unseen power?",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Wobbuffet",
+       "icono": "pm202",
+       "tipos": [
+        "psychic"
+       ],
+       "x2": [
+        "bug",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Ralts",
+       "icono": "pm280",
+       "tipos": [
+        "psychic",
+        "fairy"
+       ],
+       "x2": [
+        "poison",
+        "ghost",
+        "steel"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Drowzee",
+       "icono": "pm96",
+       "tipos": [
+        "psychic"
+       ],
+       "x2": [
+        "bug",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Drowzee",
+       "icono": "pm96",
+       "tipos": [
+        "psychic"
+       ],
+       "x2": [
+        "bug",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Duosion",
+       "icono": "pm578",
+       "tipos": [
+        "psychic"
+       ],
+       "x2": [
+        "bug",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Wobbuffet",
+       "icono": "pm202",
+       "tipos": [
+        "psychic"
+       ],
+       "x2": [
+        "bug",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Gallade",
+       "icono": "pm475",
+       "tipos": [
+        "psychic",
+        "fighting"
+       ],
+       "x2": [
+        "flying",
+        "ghost",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Malamar",
+       "icono": "pm687",
+       "tipos": [
+        "dark",
+        "psychic"
+       ],
+       "x2": [
+        "fairy"
+       ],
+       "x4": [
+        "bug"
+       ]
+      },
+      {
+       "nombre": "Reuniclus",
+       "icono": "pm579",
+       "tipos": [
+        "psychic"
+       ],
+       "x2": [
+        "bug",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-bug-chico",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "bug",
+   "genero": "chico",
+   "frase": "¡Vamos, mi poderoso Pokémon de tipo Bicho!",
+   "frase_en": "Go, my super bug Pokémon!",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Venonat",
+       "icono": "pm48",
+       "tipos": [
+        "bug",
+        "poison"
+       ],
+       "x2": [
+        "fire",
+        "flying",
+        "psychic",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Weedle",
+       "icono": "pm13",
+       "tipos": [
+        "bug",
+        "poison"
+       ],
+       "x2": [
+        "fire",
+        "flying",
+        "psychic",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Wimpod",
+       "icono": "pm767",
+       "tipos": [
+        "bug",
+        "water"
+       ],
+       "x2": [
+        "electric",
+        "flying",
+        "rock"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Pinsir",
+       "icono": "pm127",
+       "tipos": [
+        "bug"
+       ],
+       "x2": [
+        "fire",
+        "flying",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Anorith",
+       "icono": "pm347",
+       "tipos": [
+        "rock",
+        "bug"
+       ],
+       "x2": [
+        "water",
+        "rock",
+        "steel"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Dewpider",
+       "icono": "pm751",
+       "tipos": [
+        "water",
+        "bug"
+       ],
+       "x2": [
+        "electric",
+        "flying",
+        "rock"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Scizor",
+       "icono": "pm212",
+       "tipos": [
+        "bug",
+        "steel"
+       ],
+       "x2": [],
+       "x4": [
+        "fire"
+       ]
+      },
+      {
+       "nombre": "Scolipede",
+       "icono": "pm545",
+       "tipos": [
+        "bug",
+        "poison"
+       ],
+       "x2": [
+        "fire",
+        "flying",
+        "psychic",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Vikavolt",
+       "icono": "pm738",
+       "tipos": [
+        "bug",
+        "electric"
+       ],
+       "x2": [
+        "fire",
+        "rock"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-rock-chico",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "rock",
+   "genero": "chico",
+   "frase": "¡Soy fuerte como una roca!",
+   "frase_en": "Let's rock and roll!",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Onix",
+       "icono": "pm95",
+       "tipos": [
+        "rock",
+        "ground"
+       ],
+       "x2": [
+        "ice",
+        "fighting",
+        "ground",
+        "steel"
+       ],
+       "x4": [
+        "water",
+        "grass"
+       ]
+      },
+      {
+       "nombre": "Kabuto",
+       "icono": "pm140",
+       "tipos": [
+        "rock",
+        "water"
+       ],
+       "x2": [
+        "electric",
+        "fighting",
+        "ground"
+       ],
+       "x4": [
+        "grass"
+       ]
+      },
+      {
+       "nombre": "Cranidos",
+       "icono": "pm408",
+       "tipos": [
+        "rock"
+       ],
+       "x2": [
+        "water",
+        "grass",
+        "fighting",
+        "ground",
+        "steel"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Shieldon",
+       "icono": "pm410",
+       "tipos": [
+        "rock",
+        "steel"
+       ],
+       "x2": [
+        "water"
+       ],
+       "x4": [
+        "fighting",
+        "ground"
+       ]
+      },
+      {
+       "nombre": "Graveler",
+       "icono": "pm75",
+       "tipos": [
+        "rock",
+        "ground"
+       ],
+       "x2": [
+        "ice",
+        "fighting",
+        "ground",
+        "steel"
+       ],
+       "x4": [
+        "water",
+        "grass"
+       ]
+      },
+      {
+       "nombre": "Cranidos",
+       "icono": "pm408",
+       "tipos": [
+        "rock"
+       ],
+       "x2": [
+        "water",
+        "grass",
+        "fighting",
+        "ground",
+        "steel"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Tyrantrum",
+       "icono": "pm697",
+       "tipos": [
+        "rock",
+        "dragon"
+       ],
+       "x2": [
+        "ice",
+        "fighting",
+        "ground",
+        "dragon",
+        "steel",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Golem",
+       "icono": "pm76",
+       "tipos": [
+        "rock",
+        "ground"
+       ],
+       "x2": [
+        "ice",
+        "fighting",
+        "ground",
+        "steel"
+       ],
+       "x4": [
+        "water",
+        "grass"
+       ]
+      },
+      {
+       "nombre": "Aurorus",
+       "icono": "pm699",
+       "tipos": [
+        "rock",
+        "ice"
+       ],
+       "x2": [
+        "water",
+        "grass",
+        "ground",
+        "rock"
+       ],
+       "x4": [
+        "fighting",
+        "steel"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-ghost-chico",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "ghost",
+   "genero": "chico",
+   "frase": "Ja, ja, ja...",
+   "frase_en": "Ke...ke...ke...ke...ke...ke!",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Duskull",
+       "icono": "pm355",
+       "tipos": [
+        "ghost"
+       ],
+       "x2": [
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Sandygast",
+       "icono": "pm769",
+       "tipos": [
+        "ghost",
+        "ground"
+       ],
+       "x2": [
+        "water",
+        "grass",
+        "ice",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Yamask",
+       "icono": "pm562",
+       "tipos": [
+        "ghost"
+       ],
+       "x2": [
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Dusclops",
+       "icono": "pm356",
+       "tipos": [
+        "ghost"
+       ],
+       "x2": [
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Sableye",
+       "icono": "pm302",
+       "tipos": [
+        "dark",
+        "ghost"
+       ],
+       "x2": [
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Cofagrigus",
+       "icono": "pm563",
+       "tipos": [
+        "ghost"
+       ],
+       "x2": [
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Gengar",
+       "icono": "pm94",
+       "tipos": [
+        "ghost",
+        "poison"
+       ],
+       "x2": [
+        "ground",
+        "psychic",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Froslass",
+       "icono": "pm478",
+       "tipos": [
+        "ice",
+        "ghost"
+       ],
+       "x2": [
+        "fire",
+        "rock",
+        "ghost",
+        "dark",
+        "steel"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Cofagrigus",
+       "icono": "pm563",
+       "tipos": [
+        "ghost"
+       ],
+       "x2": [
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-dragon-chica",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "dragon",
+   "genero": "chica",
+   "frase": "¡GRRR! ¿Qué te pareció eso?",
+   "frase_en": "ROAR! ...How'd that sound?",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Noibat",
+       "icono": "pm714",
+       "tipos": [
+        "flying",
+        "dragon"
+       ],
+       "x2": [
+        "rock",
+        "dragon",
+        "fairy"
+       ],
+       "x4": [
+        "ice"
+       ]
+      },
+      {
+       "nombre": "Deino",
+       "icono": "pm633",
+       "tipos": [
+        "dark",
+        "dragon"
+       ],
+       "x2": [
+        "ice",
+        "fighting",
+        "bug",
+        "dragon"
+       ],
+       "x4": [
+        "fairy"
+       ]
+      },
+      {
+       "nombre": "Axew",
+       "icono": "pm610",
+       "tipos": [
+        "dragon"
+       ],
+       "x2": [
+        "ice",
+        "dragon",
+        "fairy"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Exeggutor de Alola",
+       "icono": "pm103.fALOLA",
+       "tipos": [
+        "grass",
+        "dragon"
+       ],
+       "x2": [
+        "poison",
+        "flying",
+        "bug",
+        "dragon",
+        "fairy"
+       ],
+       "x4": [
+        "ice"
+       ]
+      },
+      {
+       "nombre": "Dragonair",
+       "icono": "pm148",
+       "tipos": [
+        "dragon"
+       ],
+       "x2": [
+        "ice",
+        "dragon",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Gabite",
+       "icono": "pm444",
+       "tipos": [
+        "dragon",
+        "ground"
+       ],
+       "x2": [
+        "dragon",
+        "fairy"
+       ],
+       "x4": [
+        "ice"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Dragonite",
+       "icono": "pm149",
+       "tipos": [
+        "dragon",
+        "flying"
+       ],
+       "x2": [
+        "rock",
+        "dragon",
+        "fairy"
+       ],
+       "x4": [
+        "ice"
+       ]
+      },
+      {
+       "nombre": "Garchomp",
+       "icono": "pm445",
+       "tipos": [
+        "dragon",
+        "ground"
+       ],
+       "x2": [
+        "dragon",
+        "fairy"
+       ],
+       "x4": [
+        "ice"
+       ]
+      },
+      {
+       "nombre": "Salamence",
+       "icono": "pm373",
+       "tipos": [
+        "dragon",
+        "flying"
+       ],
+       "x2": [
+        "rock",
+        "dragon",
+        "fairy"
+       ],
+       "x4": [
+        "ice"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-dark-chica",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "dark",
+   "genero": "chica",
+   "frase": "Ya sé que es una frase manida, pero... Donde quiera que hay luz, también hay sombras...",
+   "frase_en": "Wherever there is light, there is also shadow.",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Carvanha",
+       "icono": "pm318",
+       "tipos": [
+        "water",
+        "dark"
+       ],
+       "x2": [
+        "electric",
+        "grass",
+        "fighting",
+        "bug",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Poochyena",
+       "icono": "pm261",
+       "tipos": [
+        "dark"
+       ],
+       "x2": [
+        "fighting",
+        "bug",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Rattata de Alola",
+       "icono": "pm19.fALOLA",
+       "tipos": [
+        "dark",
+        "normal"
+       ],
+       "x2": [
+        "bug",
+        "fairy"
+       ],
+       "x4": [
+        "fighting"
+       ]
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Sneasel",
+       "icono": "pm215",
+       "tipos": [
+        "dark",
+        "ice"
+       ],
+       "x2": [
+        "fire",
+        "bug",
+        "rock",
+        "steel",
+        "fairy"
+       ],
+       "x4": [
+        "fighting"
+       ]
+      },
+      {
+       "nombre": "Houndour",
+       "icono": "pm228",
+       "tipos": [
+        "dark",
+        "fire"
+       ],
+       "x2": [
+        "water",
+        "fighting",
+        "ground",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Absol",
+       "icono": "pm359",
+       "tipos": [
+        "dark"
+       ],
+       "x2": [
+        "fighting",
+        "bug",
+        "fairy"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Liepard",
+       "icono": "pm510",
+       "tipos": [
+        "dark"
+       ],
+       "x2": [
+        "fighting",
+        "bug",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Hydreigon",
+       "icono": "pm635",
+       "tipos": [
+        "dark",
+        "dragon"
+       ],
+       "x2": [
+        "ice",
+        "fighting",
+        "bug",
+        "dragon"
+       ],
+       "x4": [
+        "fairy"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-steel-chico",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "steel",
+   "genero": "chico",
+   "frase": "¡No eres rival para mi voluntad de hierro!",
+   "frase_en": "You're no match for my iron will!",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Sandshrew de Alola",
+       "icono": "pm27.fALOLA",
+       "tipos": [
+        "ice",
+        "steel"
+       ],
+       "x2": [
+        "ground"
+       ],
+       "x4": [
+        "fire",
+        "fighting"
+       ]
+      },
+      {
+       "nombre": "Aron",
+       "icono": "pm304",
+       "tipos": [
+        "steel",
+        "rock"
+       ],
+       "x2": [
+        "water"
+       ],
+       "x4": [
+        "fighting",
+        "ground"
+       ]
+      },
+      {
+       "nombre": "Beldum",
+       "icono": "pm374",
+       "tipos": [
+        "steel",
+        "psychic"
+       ],
+       "x2": [
+        "fire",
+        "ground",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Lairon",
+       "icono": "pm305",
+       "tipos": [
+        "steel",
+        "rock"
+       ],
+       "x2": [
+        "water"
+       ],
+       "x4": [
+        "fighting",
+        "ground"
+       ]
+      },
+      {
+       "nombre": "Skarmory",
+       "icono": "pm227",
+       "tipos": [
+        "steel",
+        "flying"
+       ],
+       "x2": [
+        "fire",
+        "electric"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Metang",
+       "icono": "pm375",
+       "tipos": [
+        "steel",
+        "psychic"
+       ],
+       "x2": [
+        "fire",
+        "ground",
+        "ghost",
+        "dark"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Aggron",
+       "icono": "pm306",
+       "tipos": [
+        "steel",
+        "rock"
+       ],
+       "x2": [
+        "water"
+       ],
+       "x4": [
+        "fighting",
+        "ground"
+       ]
+      },
+      {
+       "nombre": "Sandslash de Alola",
+       "icono": "pm28.fALOLA",
+       "tipos": [
+        "ice",
+        "steel"
+       ],
+       "x2": [
+        "ground"
+       ],
+       "x4": [
+        "fire",
+        "fighting"
+       ]
+      },
+      {
+       "nombre": "Probopass",
+       "icono": "pm476",
+       "tipos": [
+        "rock",
+        "steel"
+       ],
+       "x2": [
+        "water"
+       ],
+       "x4": [
+        "fighting",
+        "ground"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-fairy-chica",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": "fairy",
+   "genero": "chica",
+   "frase": "¡Mira a mi Pokémon tan mono!",
+   "frase_en": "Check out my cute Pokémon!",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Ralts",
+       "icono": "pm280",
+       "tipos": [
+        "psychic",
+        "fairy"
+       ],
+       "x2": [
+        "poison",
+        "ghost",
+        "steel"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Snubbull",
+       "icono": "pm209",
+       "tipos": [
+        "fairy"
+       ],
+       "x2": [
+        "poison",
+        "steel"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Vulpix de Alola",
+       "icono": "pm37.fALOLA",
+       "tipos": [
+        "ice"
+       ],
+       "x2": [
+        "fire",
+        "fighting",
+        "rock",
+        "steel"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Snubbull",
+       "icono": "pm209",
+       "tipos": [
+        "fairy"
+       ],
+       "x2": [
+        "poison",
+        "steel"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Weezing de Galar",
+       "icono": "pm110.fGALARIAN",
+       "tipos": [
+        "poison",
+        "fairy"
+       ],
+       "x2": [
+        "ground",
+        "psychic",
+        "steel"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Kirlia",
+       "icono": "pm281",
+       "tipos": [
+        "psychic",
+        "fairy"
+       ],
+       "x2": [
+        "poison",
+        "ghost",
+        "steel"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Ninetales de Alola",
+       "icono": "pm38.fALOLA",
+       "tipos": [
+        "ice",
+        "fairy"
+       ],
+       "x2": [
+        "fire",
+        "poison",
+        "rock"
+       ],
+       "x4": [
+        "steel"
+       ]
+      },
+      {
+       "nombre": "Weezing de Galar",
+       "icono": "pm110.fGALARIAN",
+       "tipos": [
+        "poison",
+        "fairy"
+       ],
+       "x2": [
+        "ground",
+        "psychic",
+        "steel"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Granbull",
+       "icono": "pm210",
+       "tipos": [
+        "fairy"
+       ],
+       "x2": [
+        "poison",
+        "steel"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-sin-tipo-chico",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": null,
+   "genero": "chico",
+   "frase": "Ganar es para los ganadores.",
+   "frase_en": "Winning is for winners.",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Bulbasaur",
+       "icono": "pm1",
+       "tipos": [
+        "grass",
+        "poison"
+       ],
+       "x2": [
+        "fire",
+        "ice",
+        "flying",
+        "psychic"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Charmander",
+       "icono": "pm4",
+       "tipos": [
+        "fire"
+       ],
+       "x2": [
+        "water",
+        "ground",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Squirtle",
+       "icono": "pm7",
+       "tipos": [
+        "water"
+       ],
+       "x2": [
+        "grass",
+        "electric"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Ivysaur",
+       "icono": "pm2",
+       "tipos": [
+        "grass",
+        "poison"
+       ],
+       "x2": [
+        "fire",
+        "ice",
+        "flying",
+        "psychic"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Charmeleon",
+       "icono": "pm5",
+       "tipos": [
+        "fire"
+       ],
+       "x2": [
+        "water",
+        "ground",
+        "rock"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Wartortle",
+       "icono": "pm8",
+       "tipos": [
+        "water"
+       ],
+       "x2": [
+        "grass",
+        "electric"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Venusaur",
+       "icono": "pm3",
+       "tipos": [
+        "grass",
+        "poison"
+       ],
+       "x2": [
+        "fire",
+        "ice",
+        "flying",
+        "psychic"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Charizard",
+       "icono": "pm6",
+       "tipos": [
+        "fire",
+        "flying"
+       ],
+       "x2": [
+        "water",
+        "electric"
+       ],
+       "x4": [
+        "rock"
+       ]
+      },
+      {
+       "nombre": "Blastoise",
+       "icono": "pm9",
+       "tipos": [
+        "water"
+       ],
+       "x2": [
+        "grass",
+        "electric"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "recluta-sin-tipo-chica",
+   "rol": "recluta",
+   "nombre": "Recluta",
+   "tipo": null,
+   "genero": "chica",
+   "frase": "Ganar es para los ganadores.",
+   "frase_en": "Winning is for winners.",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Snorlax",
+       "icono": "pm143",
+       "tipos": [
+        "normal"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Lapras",
+       "icono": "pm131",
+       "tipos": [
+        "water",
+        "ice"
+       ],
+       "x2": [
+        "electric",
+        "grass",
+        "fighting",
+        "rock"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Poliwrath",
+       "icono": "pm62",
+       "tipos": [
+        "water",
+        "fighting"
+       ],
+       "x2": [
+        "electric",
+        "grass",
+        "flying",
+        "psychic",
+        "fairy"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Gardevoir",
+       "icono": "pm282",
+       "tipos": [
+        "psychic",
+        "fairy"
+       ],
+       "x2": [
+        "poison",
+        "ghost",
+        "steel"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Snorlax",
+       "icono": "pm143",
+       "tipos": [
+        "normal"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Gyarados",
+       "icono": "pm130",
+       "tipos": [
+        "water",
+        "flying"
+       ],
+       "x2": [
+        "rock"
+       ],
+       "x4": [
+        "electric"
+       ]
+      },
+      {
+       "nombre": "Dragonite",
+       "icono": "pm149",
+       "tipos": [
+        "dragon",
+        "flying"
+       ],
+       "x2": [
+        "rock",
+        "dragon",
+        "fairy"
+       ],
+       "x4": [
+        "ice"
+       ]
+      },
+      {
+       "nombre": "Snorlax",
+       "icono": "pm143",
+       "tipos": [
+        "normal"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "senuelo-sin-tipo-chica",
+   "rol": "senuelo",
+   "nombre": "Recluta",
+   "tipo": null,
+   "genero": "chica",
+   "frase": "Te engañé, papanatas.",
+   "frase_en": "Fooled ya, twerp.",
+   "frase_traducida": true,
+   "slots": [
+    {
+     "n": 1,
+     "captura": true,
+     "pokemon": [
+      {
+       "nombre": "Bellsprout",
+       "icono": "pm69",
+       "tipos": [
+        "grass",
+        "poison"
+       ],
+       "x2": [
+        "fire",
+        "ice",
+        "flying",
+        "psychic"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 2,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Raticate",
+       "icono": "pm20",
+       "tipos": [
+        "normal"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Weepinbell",
+       "icono": "pm70",
+       "tipos": [
+        "grass",
+        "poison"
+       ],
+       "x2": [
+        "fire",
+        "ice",
+        "flying",
+        "psychic"
+       ],
+       "x4": []
+      }
+     ]
+    },
+    {
+     "n": 3,
+     "captura": false,
+     "pokemon": [
+      {
+       "nombre": "Raticate",
+       "icono": "pm20",
+       "tipos": [
+        "normal"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": []
+      },
+      {
+       "nombre": "Snorlax",
+       "icono": "pm143",
+       "tipos": [
+        "normal"
+       ],
+       "x2": [
+        "fighting"
+       ],
+       "x4": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
