@@ -19,6 +19,8 @@ Datos de Pokémon GO en JSON (eventos, mejores atacantes, raids actuales con sus
 | `scripts/rocket.py` | Descarga los equipos del Team GO Rocket de Leek Duck y genera `datos/rocket.json` con las frases oficiales en español. |
 | `scripts/subir.py` | Lo usan las tareas programadas: copia a `datos/` los JSON que han cambiado, vuelve a generar `eventos.json` y lo sube a GitHub. |
 | `scripts/sprites.py` | Monta la imagen con los iconos de los Pokémon (`pokemon-go-agenda/sprites2.webp`) a partir de los iconos del juego. |
+| `pruebas/pagina.js` | Prueba la agenda en un navegador con los datos de `datos/`: modo claro y oscuro, anchos de móvil y las cinco pestañas (`node pruebas/pagina.js`). |
+| `CLAUDE.md` | Guía para Claude: cómo está montado todo y cómo cambiarlo sin romper nada. |
 | `pokemon-go-agenda/` | Copia de seguridad de la agenda visual: su código, la imagen de iconos y cómo restaurarla. |
 
 Todos los scripts solo reescriben su JSON si la fuente se ha leído bien y dicen si ha cambiado algo (`IGUAL` / `CAMBIA`); si una web cambia de formato, paran con `ERROR` y no tocan nada.
