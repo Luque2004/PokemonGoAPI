@@ -14,6 +14,7 @@ const DOCS = {
   'agenda/snapshot': leer('agenda.json'),
   'meta/atacantes': leer('atacantes-incursiones.json'),
   'meta/atacantes-max': leer('atacantes-max.json'),
+  'meta/tanques-max': leer('tanques-max.json'),
   'meta/rocket': leer('rocket.json'),
   'meta/raids': leer('raids.json'),
 };
@@ -65,6 +66,23 @@ async function caso(navegador, esquema, ancho) {
     if (!r.n) fallos.push(vista + ': no pinta nada');
     if (r.lateral) fallos.push(vista + ': hay scroll lateral');
     await p.screenshot({ path: path.join(CAPTURAS, `${vista}-${esquema}-${ancho}.png`) });
+  }
+  // Atacantes: los tres modos (incursiones, Combates Max y tanques) caben en una línea y pintan algo
+  await p.click('#tab-atacantes');
+  const seg = await p.evaluate(() => new Set([...document.querySelectorAll('#atk-mode .seg-b')].map((b) => Math.round(b.getBoundingClientRect().top))).size);
+  if (seg !== 1) fallos.push('los modos de Atacantes no caben en una línea');
+  for (const modo of ['raid', 'max', 'tank']) {
+    await p.click(`#atk-mode [data-mode="${modo}"]`);
+    await p.waitForTimeout(150);
+    const ov = await p.evaluate(() => document.querySelectorAll('#view-atacantes .ovc').length);
+    await p.click('#atk-types .f:nth-child(3)');
+    await p.waitForTimeout(150);
+    const r = await p.evaluate(() => ({ n: document.querySelectorAll('#atk-body .arow').length, lateral: document.documentElement.scrollWidth > window.innerWidth }));
+    cuenta.push(modo + ' ' + ov + '/' + r.n);
+    if (!ov || !r.n) fallos.push('atacantes ' + modo + ': no pinta nada');
+    if (r.lateral) fallos.push('atacantes ' + modo + ': hay scroll lateral');
+    if (modo === 'tank') await p.screenshot({ path: path.join(CAPTURAS, `tanques-${esquema}-${ancho}.png`), fullPage: true });
+    await p.click('#atk-types .f:nth-child(1)');
   }
   const escrituras = await p.evaluate(() => window.__escrituras);
   if (escrituras.length) fallos.push('la página escribe en la base de datos: ' + escrituras.join(', '));

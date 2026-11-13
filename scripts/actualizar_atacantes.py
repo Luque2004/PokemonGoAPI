@@ -2,10 +2,10 @@
 """Actualiza los mejores atacantes de Pokémon GO desde Pokémon GO Hub (versión en español).
 
 Uso:
-    python3 scripts/actualizar_atacantes.py            # descarga las 36 páginas con curl
-    python3 scripts/actualizar_atacantes.py --html DIR # usa páginas ya descargadas (DIR/raid/*.html y DIR/max/*.html)
+    python3 scripts/actualizar_atacantes.py            # descarga las 54 páginas con curl
+    python3 scripts/actualizar_atacantes.py --html DIR # usa páginas ya descargadas (DIR/raid, DIR/max y DIR/tank/*.html)
 
-Escribe datos/atacantes-incursiones.json y datos/atacantes-max.json SOLO si la página se ha leído bien,
+Escribe datos/atacantes-incursiones.json, datos/atacantes-max.json y datos/tanques-max.json SOLO si la página se ha leído bien,
 y dice si los datos han cambiado respecto a los que ya había (IGUAL / CAMBIA). Sale con código 1 si algo falla.
 """
 import html, json, os, re, subprocess, sys, tempfile
@@ -16,8 +16,12 @@ TIPOS = [("normal", "Normal"), ("fighting", "Lucha"), ("flying", "Volador"), ("p
          ("grass", "Planta"), ("electric", "Eléctrico"), ("psychic", "Psíquico"), ("ice", "Hielo"), ("dragon", "Dragón"),
          ("dark", "Siniestro"), ("fairy", "Hada")]
 URLS = {"raid": "https://db.pokemongohub.net/es/pokemon-list/best-per-type/",
-        "max": "https://db.pokemongohub.net/es/pokemon-list/best-dynamax-per-type/"}
-SALIDA = {"raid": "datos/atacantes-incursiones.json", "max": "datos/atacantes-max.json"}
+        "max": "https://db.pokemongohub.net/es/pokemon-list/best-dynamax-per-type/",
+        "tank": "https://db.pokemongohub.net/es/pokemon-list/best-dynamax-tanks-per-type/"}
+SALIDA = {"raid": "datos/atacantes-incursiones.json", "max": "datos/atacantes-max.json", "tank": "datos/tanques-max.json"}
+WEB = {"raid": "https://db.pokemongohub.net/es/pokemon-list/best-per-type",
+       "max": "https://db.pokemongohub.net/es/best/dynamax-attackers-per-type",
+       "tank": "https://db.pokemongohub.net/es/best/dynamax-tanks-per-type"}
 MESES = {"ene": 1, "jan": 1, "feb": 2, "mar": 3, "abr": 4, "apr": 4, "may": 5, "jun": 6, "jul": 7, "ago": 8, "aug": 8,
          "sep": 9, "oct": 10, "nov": 11, "dic": 12, "dec": 12}
 
@@ -160,17 +164,44 @@ def combates_max(h, es):
     return F, P
 
 
+def tanques(h):
+    # Tanques de Combates Max contra ataques de un tipo: puntuación (100 = Blissey Dinamax, el mejor tanque general)
+    # y PS que pierde de media por golpe del jefe de referencia
+    F, tier = [], ""
+    for tr in filas(h):
+        t = re.search(r'data-tier="([A-Z+]+)"', cell(tr, "tier")) or re.match(r"\s*([A-Z+]{1,3})\s*$", tx(cell(tr, "tier")))
+        if t:
+            tier = t.group(1)
+        a = cell(tr, "attacker_name")
+        href = (re.search(r'href="([^"]+)"', a) or [None, ""])[1]
+        nombre = nombre_de(a)
+        q = cell(tr, "qm_name")
+        o = re.sub(r"\D", "", tx(cell(tr, "order")))
+        F.append({"puesto": int(o) if o else len(F) + 1, "tier": tier, "nombre": nombre, "icono": icono_de(a), "forma": forma(nombre, href),
+                  "rapido": {"nombre": tx(re.sub(r"<button.*?</button>", "", q, flags=re.S)).rstrip("*+").strip(),
+                             "legado": "Movimiento de legado" in q or tx(q).endswith("*")},
+                  "puntuacion": num(tx(cell(tr, "score"))), "ps": num(tx(cell(tr, "incomingHPPercent")))})
+        if len(F) >= 10:
+            break
+    top = F[0]["puntuacion"] if F and F[0]["puntuacion"] else None
+    for f in F:
+        f["pct"] = round(100 * f["puntuacion"] / top) if top and f["puntuacion"] else None
+    return F, []
+
+
 def procesar(modo, carpeta):
     out = {"fuente": "Pokémon GO Hub (db.pokemongohub.net)", "tipos": []}
     for slug, es in TIPOS:
         h = open(os.path.join(carpeta, slug + ".html"), encoding="utf-8", errors="replace").read()
         u = re.search(r"Actualizado el (\d+ \w+\.? \d{4}, \d+:\d+ UTC)", h)
-        top, dest = incursiones(h) if modo == "raid" else combates_max(h, es)
+        top, dest = incursiones(h) if modo == "raid" else combates_max(h, es) if modo == "max" else tanques(h)
         out["tipos"].append({"id": slug, "nombre": es, "actualizado": u.group(1) if u else "", "top": top, "destacados": dest})
     out["actualizado"] = max((t["actualizado"] for t in out["tipos"]), key=fecha, default="")
-    out["url"] = ("https://db.pokemongohub.net/es/pokemon-list/best-per-type" if modo == "raid"
-                  else "https://db.pokemongohub.net/es/best/dynamax-attackers-per-type")
-    if modo == "raid":  # 10 por tipo, con nombre y eDPS
+    out["url"] = WEB[modo]
+    if modo == "tank":  # 10 por tipo, con puntuación y PS por golpe
+        ok = len(out["tipos"]) == 18 and all(len(t["top"]) == 10 and all(r["nombre"] and r["puntuacion"] and r["ps"] and r["rapido"]["nombre"]
+                                                                          for r in t["top"]) for t in out["tipos"])
+    elif modo == "raid":  # 10 por tipo, con nombre y eDPS
         ok = len(out["tipos"]) == 18 and all(len(t["top"]) == 10 and all(r["nombre"] and r["edps"] for r in t["top"]) for t in out["tipos"])
     else:  # algunos tipos tienen menos de 10 disponibles (p. ej. Veneno)
         ok = len(out["tipos"]) == 18 and all(t["top"] and all(r["nombre"] and r["dano"] and r["max"] for r in t["top"]) for t in out["tipos"]) \
@@ -192,7 +223,7 @@ def main():
         carpeta = tempfile.mkdtemp(prefix="hub-")
         descargar(carpeta)
     fallo = False
-    for modo, nombre in (("raid", "Incursiones"), ("max", "Combates Max")):
+    for modo, nombre in (("raid", "Incursiones"), ("max", "Combates Max"), ("tank", "Tanques Max")):
         try:
             datos = procesar(modo, os.path.join(carpeta, modo))
         except OSError as e:

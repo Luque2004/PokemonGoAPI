@@ -1,0 +1,2671 @@
+{
+ "fuente": "Pokémon GO Hub (db.pokemongohub.net)",
+ "tipos": [
+  {
+   "id": "normal",
+   "nombre": "Normal",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Regirock Dinamax",
+     "icono": "pm377",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Fijar Blanco",
+      "legado": false
+     },
+     "puntuacion": 112.4,
+     "ps": 23.3,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Zamazenta Escudo Supremo",
+     "icono": "pm889.fCROWNED_SHIELD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 107.1,
+     "ps": 24.5,
+     "pct": 95
+    },
+    {
+     "puesto": 3,
+     "tier": "SS",
+     "nombre": "Registeel Dinamax",
+     "icono": "pm379",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 104.1,
+     "ps": 25.2,
+     "pct": 93
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 100.0,
+     "ps": 26.2,
+     "pct": 89
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Melmetal Gigamax",
+     "icono": "pm809.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 86
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Melmetal Dinamax",
+     "icono": "pm809",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 86
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Rhyperior Dinamax",
+     "icono": "pm464",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false
+     },
+     "puntuacion": 92.1,
+     "ps": 28.4,
+     "pct": 82
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Zacian Espada Suprema",
+     "icono": "pm888.fCROWNED_SWORD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 88.8,
+     "ps": 29.5,
+     "pct": 79
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Lugia Dinamax",
+     "icono": "pm249",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 85.8,
+     "ps": 30.5,
+     "pct": 76
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Metagross Dinamax",
+     "icono": "pm376",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false
+     },
+     "puntuacion": 84.4,
+     "ps": 31.0,
+     "pct": 75
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "fighting",
+   "nombre": "Lucha",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Lugia Dinamax",
+     "icono": "pm249",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 217.8,
+     "ps": 12.0,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Gengar Gigamax",
+     "icono": "pm94.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Lengüetazo",
+      "legado": true
+     },
+     "puntuacion": 120.2,
+     "ps": 21.8,
+     "pct": 55
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Gengar Dinamax",
+     "icono": "pm94",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Lengüetazo",
+      "legado": true
+     },
+     "puntuacion": 120.2,
+     "ps": 21.8,
+     "pct": 55
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Gardevoir Dinamax",
+     "icono": "pm282",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Rayo Carga",
+      "legado": false
+     },
+     "puntuacion": 103.6,
+     "ps": 25.3,
+     "pct": 48
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Ho-Oh Dinamax",
+     "icono": "pm250",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 100.3,
+     "ps": 26.1,
+     "pct": 46
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Eternatus",
+     "icono": "pm890",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false
+     },
+     "puntuacion": 99.7,
+     "ps": 26.3,
+     "pct": 46
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Uxie Dinamax",
+     "icono": "pm480",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 94.9,
+     "ps": 27.6,
+     "pct": 44
+    },
+    {
+     "puesto": 8,
+     "tier": "B",
+     "nombre": "Latias Dinamax",
+     "icono": "pm380",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "puntuacion": 90.2,
+     "ps": 29.0,
+     "pct": 41
+    },
+    {
+     "puesto": 9,
+     "tier": "B",
+     "nombre": "Hatterene Dinamax",
+     "icono": "pm858",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false
+     },
+     "puntuacion": 87.6,
+     "ps": 29.9,
+     "pct": 40
+    },
+    {
+     "puesto": 10,
+     "tier": "B",
+     "nombre": "Sylveon Dinamax",
+     "icono": "pm700",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Viento Feérico",
+      "legado": false
+     },
+     "puntuacion": 86.1,
+     "ps": 30.4,
+     "pct": 40
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "flying",
+   "nombre": "Volador",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Regirock Dinamax",
+     "icono": "pm377",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Fijar Blanco",
+      "legado": false
+     },
+     "puntuacion": 112.4,
+     "ps": 23.3,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Registeel Dinamax",
+     "icono": "pm379",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 104.1,
+     "ps": 25.2,
+     "pct": 93
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 100.0,
+     "ps": 26.2,
+     "pct": 89
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Melmetal Gigamax",
+     "icono": "pm809.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 86
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Melmetal Dinamax",
+     "icono": "pm809",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 86
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Rhyperior Dinamax",
+     "icono": "pm464",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false
+     },
+     "puntuacion": 92.1,
+     "ps": 28.4,
+     "pct": 82
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Zacian Espada Suprema",
+     "icono": "pm888.fCROWNED_SWORD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 88.8,
+     "ps": 29.5,
+     "pct": 79
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Lugia Dinamax",
+     "icono": "pm249",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 85.8,
+     "ps": 30.5,
+     "pct": 76
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Metagross Dinamax",
+     "icono": "pm376",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false
+     },
+     "puntuacion": 84.4,
+     "ps": 31.0,
+     "pct": 75
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Dialga Dinamax",
+     "icono": "pm483",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "puntuacion": 84.3,
+     "ps": 31.1,
+     "pct": 75
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "poison",
+   "nombre": "Veneno",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Zamazenta Escudo Supremo",
+     "icono": "pm889.fCROWNED_SHIELD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 167.9,
+     "ps": 15.6,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Registeel Dinamax",
+     "icono": "pm379",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 164.7,
+     "ps": 15.9,
+     "pct": 98
+    },
+    {
+     "puesto": 3,
+     "tier": "SS",
+     "nombre": "Excadrill Dinamax",
+     "icono": "pm530",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 159.9,
+     "ps": 16.4,
+     "pct": 95
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Melmetal Gigamax",
+     "icono": "pm809.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 153.9,
+     "ps": 17.0,
+     "pct": 92
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Melmetal Dinamax",
+     "icono": "pm809",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 153.9,
+     "ps": 17.0,
+     "pct": 92
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Rhyperior Dinamax",
+     "icono": "pm464",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false
+     },
+     "puntuacion": 146.8,
+     "ps": 17.8,
+     "pct": 87
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Metagross Dinamax",
+     "icono": "pm376",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false
+     },
+     "puntuacion": 134.6,
+     "ps": 19.4,
+     "pct": 80
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Dialga Dinamax",
+     "icono": "pm483",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "puntuacion": 133.9,
+     "ps": 19.6,
+     "pct": 80
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Corviknight Dinamax",
+     "icono": "pm823",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ataque Arena",
+      "legado": false
+     },
+     "puntuacion": 132.0,
+     "ps": 19.8,
+     "pct": 79
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Rhydon Dinamax",
+     "icono": "pm112",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Bofetón Lodo",
+      "legado": false
+     },
+     "puntuacion": 124.4,
+     "ps": 21.0,
+     "pct": 74
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "ground",
+   "nombre": "Tierra",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Lugia Dinamax",
+     "icono": "pm249",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 217.8,
+     "ps": 12.0,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Articuno Dinamax",
+     "icono": "pm144",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Vaho Gélido",
+      "legado": false
+     },
+     "puntuacion": 150.6,
+     "ps": 17.4,
+     "pct": 69
+    },
+    {
+     "puesto": 3,
+     "tier": "A",
+     "nombre": "Gyarados Dinamax",
+     "icono": "pm130",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false
+     },
+     "puntuacion": 125.8,
+     "ps": 20.8,
+     "pct": 58
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Butterfree Gigamax",
+     "icono": "pm12.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": true
+     },
+     "puntuacion": 111.7,
+     "ps": 23.4,
+     "pct": 51
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Butterfree Dinamax",
+     "icono": "pm12",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": true
+     },
+     "puntuacion": 111.7,
+     "ps": 23.4,
+     "pct": 51
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Noctowl Dinamax",
+     "icono": "pm164",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ataque Ala",
+      "legado": false
+     },
+     "puntuacion": 111.0,
+     "ps": 23.6,
+     "pct": 51
+    },
+    {
+     "puesto": 7,
+     "tier": "B",
+     "nombre": "Ho-Oh Dinamax",
+     "icono": "pm250",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 100.3,
+     "ps": 26.1,
+     "pct": 46
+    },
+    {
+     "puesto": 8,
+     "tier": "B",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 100.0,
+     "ps": 26.2,
+     "pct": 46
+    },
+    {
+     "puesto": 9,
+     "tier": "B",
+     "nombre": "Unfezant Dinamax",
+     "icono": "pm521",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false
+     },
+     "puntuacion": 89.8,
+     "ps": 29.2,
+     "pct": 41
+    },
+    {
+     "puesto": 10,
+     "tier": "C",
+     "nombre": "Corviknight Dinamax",
+     "icono": "pm823",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ataque Arena",
+      "legado": false
+     },
+     "puntuacion": 83.1,
+     "ps": 31.5,
+     "pct": 38
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "rock",
+   "nombre": "Roca",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Zamazenta Escudo Supremo",
+     "icono": "pm889.fCROWNED_SHIELD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 167.9,
+     "ps": 15.6,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Registeel Dinamax",
+     "icono": "pm379",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 104.1,
+     "ps": 25.2,
+     "pct": 62
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Excadrill Dinamax",
+     "icono": "pm530",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 100.3,
+     "ps": 26.1,
+     "pct": 60
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 100.0,
+     "ps": 26.2,
+     "pct": 60
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Melmetal Gigamax",
+     "icono": "pm809.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 58
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Melmetal Dinamax",
+     "icono": "pm809",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 58
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Rhyperior Dinamax",
+     "icono": "pm464",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false
+     },
+     "puntuacion": 92.1,
+     "ps": 28.4,
+     "pct": 55
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Zacian Espada Suprema",
+     "icono": "pm888.fCROWNED_SWORD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 88.8,
+     "ps": 29.5,
+     "pct": 53
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Metagross Dinamax",
+     "icono": "pm376",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false
+     },
+     "puntuacion": 84.4,
+     "ps": 31.0,
+     "pct": 50
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Dialga Dinamax",
+     "icono": "pm483",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "puntuacion": 84.3,
+     "ps": 31.1,
+     "pct": 50
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "bug",
+   "nombre": "Bicho",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Zamazenta Escudo Supremo",
+     "icono": "pm889.fCROWNED_SHIELD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 167.9,
+     "ps": 15.6,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Ho-Oh Dinamax",
+     "icono": "pm250",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 160.6,
+     "ps": 16.3,
+     "pct": 96
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Zacian Espada Suprema",
+     "icono": "pm888.fCROWNED_SWORD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 141.6,
+     "ps": 18.5,
+     "pct": 84
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Corviknight Dinamax",
+     "icono": "pm823",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ataque Arena",
+      "legado": false
+     },
+     "puntuacion": 132.0,
+     "ps": 19.8,
+     "pct": 79
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Moltres Dinamax",
+     "icono": "pm146",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false
+     },
+     "puntuacion": 117.8,
+     "ps": 22.2,
+     "pct": 70
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Registeel Dinamax",
+     "icono": "pm379",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 104.1,
+     "ps": 25.2,
+     "pct": 62
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Charizard Gigamax",
+     "icono": "pm6.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": true
+     },
+     "puntuacion": 102.1,
+     "ps": 25.7,
+     "pct": 61
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Charizard Dinamax",
+     "icono": "pm6",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": true
+     },
+     "puntuacion": 102.1,
+     "ps": 25.7,
+     "pct": 61
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 100.0,
+     "ps": 26.2,
+     "pct": 60
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Eternatus",
+     "icono": "pm890",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false
+     },
+     "puntuacion": 99.7,
+     "ps": 26.3,
+     "pct": 59
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "ghost",
+   "nombre": "Fantasma",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 253.2,
+     "ps": 10.3,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Chansey Dinamax",
+     "icono": "pm113",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 193.2,
+     "ps": 13.5,
+     "pct": 76
+    },
+    {
+     "puesto": 3,
+     "tier": "A",
+     "nombre": "Snorlax Gigamax",
+     "icono": "pm143.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Lengüetazo",
+      "legado": false
+     },
+     "puntuacion": 171.0,
+     "ps": 15.3,
+     "pct": 68
+    },
+    {
+     "puesto": 4,
+     "tier": "B",
+     "nombre": "Greedent Dinamax",
+     "icono": "pm820",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Placaje",
+      "legado": false
+     },
+     "puntuacion": 127.1,
+     "ps": 20.6,
+     "pct": 50
+    },
+    {
+     "puesto": 5,
+     "tier": "B",
+     "nombre": "Noctowl Dinamax",
+     "icono": "pm164",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ataque Ala",
+      "legado": false
+     },
+     "puntuacion": 111.0,
+     "ps": 23.6,
+     "pct": 44
+    },
+    {
+     "puesto": 6,
+     "tier": "B",
+     "nombre": "Dubwool Dinamax",
+     "icono": "pm832",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Placaje",
+      "legado": false
+     },
+     "puntuacion": 109.8,
+     "ps": 23.8,
+     "pct": 43
+    },
+    {
+     "puesto": 7,
+     "tier": "C",
+     "nombre": "Umbreon Dinamax",
+     "icono": "pm197",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Finta",
+      "legado": false
+     },
+     "puntuacion": 99.1,
+     "ps": 26.4,
+     "pct": 39
+    },
+    {
+     "puesto": 8,
+     "tier": "C",
+     "nombre": "Drampa Dinamax",
+     "icono": "pm780",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "puntuacion": 97.8,
+     "ps": 26.8,
+     "pct": 39
+    },
+    {
+     "puesto": 9,
+     "tier": "C",
+     "nombre": "Unfezant Dinamax",
+     "icono": "pm521",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false
+     },
+     "puntuacion": 89.8,
+     "ps": 29.2,
+     "pct": 35
+    },
+    {
+     "puesto": 10,
+     "tier": "D",
+     "nombre": "Urshifu Estilo Brusco Dinamax",
+     "icono": "pm892.fSINGLE_STRIKE",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Golpe Bajo",
+      "legado": false
+     },
+     "puntuacion": 78.2,
+     "ps": 33.5,
+     "pct": 31
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "steel",
+   "nombre": "Acero",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Zamazenta Escudo Supremo",
+     "icono": "pm889.fCROWNED_SHIELD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 107.1,
+     "ps": 24.5,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Registeel Dinamax",
+     "icono": "pm379",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 104.1,
+     "ps": 25.2,
+     "pct": 97
+    },
+    {
+     "puesto": 3,
+     "tier": "SS",
+     "nombre": "Suicune Dinamax",
+     "icono": "pm245",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false
+     },
+     "puntuacion": 101.3,
+     "ps": 25.8,
+     "pct": 95
+    },
+    {
+     "puesto": 4,
+     "tier": "SS",
+     "nombre": "Ho-Oh Dinamax",
+     "icono": "pm250",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 100.3,
+     "ps": 26.1,
+     "pct": 94
+    },
+    {
+     "puesto": 5,
+     "tier": "SS",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 100.0,
+     "ps": 26.2,
+     "pct": 93
+    },
+    {
+     "puesto": 6,
+     "tier": "SS",
+     "nombre": "Melmetal Gigamax",
+     "icono": "pm809.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 90
+    },
+    {
+     "puesto": 7,
+     "tier": "SS",
+     "nombre": "Melmetal Dinamax",
+     "icono": "pm809",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 90
+    },
+    {
+     "puesto": 8,
+     "tier": "S",
+     "nombre": "Milotic Dinamax",
+     "icono": "pm350",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Cascada",
+      "legado": false
+     },
+     "puntuacion": 91.9,
+     "ps": 28.5,
+     "pct": 86
+    },
+    {
+     "puesto": 9,
+     "tier": "S",
+     "nombre": "Vaporeon Dinamax",
+     "icono": "pm134",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false
+     },
+     "puntuacion": 87.2,
+     "ps": 30.0,
+     "pct": 81
+    },
+    {
+     "puesto": 10,
+     "tier": "S",
+     "nombre": "Lugia Dinamax",
+     "icono": "pm249",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 85.8,
+     "ps": 30.5,
+     "pct": 80
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "fire",
+   "nombre": "Fuego",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Palkia Dinamax",
+     "icono": "pm484",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "puntuacion": 126.9,
+     "ps": 20.6,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Regirock Dinamax",
+     "icono": "pm377",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Fijar Blanco",
+      "legado": false
+     },
+     "puntuacion": 112.4,
+     "ps": 23.3,
+     "pct": 89
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Omastar Dinamax",
+     "icono": "pm139",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false
+     },
+     "puntuacion": 108.2,
+     "ps": 24.2,
+     "pct": 85
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Suicune Dinamax",
+     "icono": "pm245",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false
+     },
+     "puntuacion": 101.3,
+     "ps": 25.8,
+     "pct": 80
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Ho-Oh Dinamax",
+     "icono": "pm250",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 100.3,
+     "ps": 26.1,
+     "pct": 79
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 100.0,
+     "ps": 26.2,
+     "pct": 79
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Eternatus",
+     "icono": "pm890",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false
+     },
+     "puntuacion": 99.7,
+     "ps": 26.3,
+     "pct": 79
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Kabutops Dinamax",
+     "icono": "pm141",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": true
+     },
+     "puntuacion": 92.6,
+     "ps": 28.3,
+     "pct": 73
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Rhyperior Dinamax",
+     "icono": "pm464",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false
+     },
+     "puntuacion": 92.1,
+     "ps": 28.4,
+     "pct": 73
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Milotic Dinamax",
+     "icono": "pm350",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Cascada",
+      "legado": false
+     },
+     "puntuacion": 91.9,
+     "ps": 28.5,
+     "pct": 72
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "water",
+   "nombre": "Agua",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Palkia Dinamax",
+     "icono": "pm484",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "puntuacion": 126.9,
+     "ps": 20.6,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Suicune Dinamax",
+     "icono": "pm245",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false
+     },
+     "puntuacion": 101.3,
+     "ps": 25.8,
+     "pct": 80
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 100.0,
+     "ps": 26.2,
+     "pct": 79
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Eternatus",
+     "icono": "pm890",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false
+     },
+     "puntuacion": 99.7,
+     "ps": 26.3,
+     "pct": 79
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Lapras Gigamax",
+     "icono": "pm131.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Psicoonda",
+      "legado": false
+     },
+     "puntuacion": 93.7,
+     "ps": 28.0,
+     "pct": 74
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Lapras Dinamax",
+     "icono": "pm131",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false
+     },
+     "puntuacion": 93.7,
+     "ps": 28.0,
+     "pct": 74
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Milotic Dinamax",
+     "icono": "pm350",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Cascada",
+      "legado": false
+     },
+     "puntuacion": 91.9,
+     "ps": 28.5,
+     "pct": 72
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Latias Dinamax",
+     "icono": "pm380",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "puntuacion": 90.2,
+     "ps": 29.0,
+     "pct": 71
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Vaporeon Dinamax",
+     "icono": "pm134",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false
+     },
+     "puntuacion": 87.2,
+     "ps": 30.0,
+     "pct": 69
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Lugia Dinamax",
+     "icono": "pm249",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 85.8,
+     "ps": 30.5,
+     "pct": 68
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "grass",
+   "nombre": "Planta",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Ho-Oh Dinamax",
+     "icono": "pm250",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 160.6,
+     "ps": 16.3,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Eternatus",
+     "icono": "pm890",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false
+     },
+     "puntuacion": 158.2,
+     "ps": 16.5,
+     "pct": 99
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Lugia Dinamax",
+     "icono": "pm249",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 137.0,
+     "ps": 19.1,
+     "pct": 85
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Dialga Dinamax",
+     "icono": "pm483",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "puntuacion": 133.9,
+     "ps": 19.6,
+     "pct": 83
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Corviknight Dinamax",
+     "icono": "pm823",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ataque Arena",
+      "legado": false
+     },
+     "puntuacion": 132.0,
+     "ps": 19.8,
+     "pct": 82
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Moltres Dinamax",
+     "icono": "pm146",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false
+     },
+     "puntuacion": 117.8,
+     "ps": 22.2,
+     "pct": 73
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Venusaur Gigamax",
+     "icono": "pm3.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false
+     },
+     "puntuacion": 112.4,
+     "ps": 23.3,
+     "pct": 70
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Venusaur Dinamax",
+     "icono": "pm3",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false
+     },
+     "puntuacion": 112.4,
+     "ps": 23.3,
+     "pct": 70
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Centiskorch Dinamax",
+     "icono": "pm851",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": false
+     },
+     "puntuacion": 112.2,
+     "ps": 23.3,
+     "pct": 70
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Zamazenta Escudo Supremo",
+     "icono": "pm889.fCROWNED_SHIELD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 107.1,
+     "ps": 24.5,
+     "pct": 67
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "electric",
+   "nombre": "Eléctrico",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Flygon Dinamax",
+     "icono": "pm330",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false
+     },
+     "puntuacion": 161.6,
+     "ps": 16.2,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Rhyperior Dinamax",
+     "icono": "pm464",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false
+     },
+     "puntuacion": 146.8,
+     "ps": 17.8,
+     "pct": 91
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Rhydon Dinamax",
+     "icono": "pm112",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Bofetón Lodo",
+      "legado": false
+     },
+     "puntuacion": 124.4,
+     "ps": 21.0,
+     "pct": 77
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Excadrill Dinamax",
+     "icono": "pm530",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 100.3,
+     "ps": 26.1,
+     "pct": 62
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 100.0,
+     "ps": 26.2,
+     "pct": 62
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Eternatus",
+     "icono": "pm890",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false
+     },
+     "puntuacion": 99.7,
+     "ps": 26.3,
+     "pct": 62
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Latias Dinamax",
+     "icono": "pm380",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "puntuacion": 90.2,
+     "ps": 29.0,
+     "pct": 56
+    },
+    {
+     "puesto": 8,
+     "tier": "B",
+     "nombre": "Dialga Dinamax",
+     "icono": "pm483",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "puntuacion": 84.3,
+     "ps": 31.1,
+     "pct": 52
+    },
+    {
+     "puesto": 9,
+     "tier": "B",
+     "nombre": "Regidrago Dinamax",
+     "icono": "pm895",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": true
+     },
+     "puntuacion": 81.8,
+     "ps": 32.0,
+     "pct": 51
+    },
+    {
+     "puesto": 10,
+     "tier": "B",
+     "nombre": "Latios Dinamax",
+     "icono": "pm381",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "puntuacion": 78.9,
+     "ps": 33.2,
+     "pct": 49
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "psychic",
+   "nombre": "Psíquico",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Malamar Dinamax",
+     "icono": "pm687",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false
+     },
+     "puntuacion": 166.3,
+     "ps": 15.7,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Umbreon Dinamax",
+     "icono": "pm197",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Finta",
+      "legado": false
+     },
+     "puntuacion": 158.0,
+     "ps": 16.6,
+     "pct": 95
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Lugia Dinamax",
+     "icono": "pm249",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 137.0,
+     "ps": 19.1,
+     "pct": 82
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Metagross Dinamax",
+     "icono": "pm376",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false
+     },
+     "puntuacion": 134.6,
+     "ps": 19.4,
+     "pct": 81
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Hydreigon Dinamax",
+     "icono": "pm635",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false
+     },
+     "puntuacion": 123.9,
+     "ps": 21.1,
+     "pct": 75
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Registeel Dinamax",
+     "icono": "pm379",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 104.1,
+     "ps": 25.2,
+     "pct": 63
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 100.0,
+     "ps": 26.2,
+     "pct": 60
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Melmetal Gigamax",
+     "icono": "pm809.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 58
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Melmetal Dinamax",
+     "icono": "pm809",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 58
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Grimmsnarl Gigamax",
+     "icono": "pm861.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false
+     },
+     "puntuacion": 95.6,
+     "ps": 27.4,
+     "pct": 57
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "ice",
+   "nombre": "Hielo",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Lapras Gigamax",
+     "icono": "pm131.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Psicoonda",
+      "legado": false
+     },
+     "puntuacion": 149.2,
+     "ps": 17.6,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Lapras Dinamax",
+     "icono": "pm131",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false
+     },
+     "puntuacion": 149.2,
+     "ps": 17.6,
+     "pct": 100
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Walrein Dinamax",
+     "icono": "pm365",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Vaho Gélido",
+      "legado": false
+     },
+     "puntuacion": 132.9,
+     "ps": 19.7,
+     "pct": 89
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Regice Dinamax",
+     "icono": "pm378",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Fijar Blanco",
+      "legado": false
+     },
+     "puntuacion": 112.4,
+     "ps": 23.3,
+     "pct": 75
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Zamazenta Escudo Supremo",
+     "icono": "pm889.fCROWNED_SHIELD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 107.1,
+     "ps": 24.5,
+     "pct": 72
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Registeel Dinamax",
+     "icono": "pm379",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 104.1,
+     "ps": 25.2,
+     "pct": 70
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Suicune Dinamax",
+     "icono": "pm245",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false
+     },
+     "puntuacion": 101.3,
+     "ps": 25.8,
+     "pct": 68
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 100.0,
+     "ps": 26.2,
+     "pct": 67
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Melmetal Gigamax",
+     "icono": "pm809.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 65
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Melmetal Dinamax",
+     "icono": "pm809",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 65
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "dragon",
+   "nombre": "Dragón",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Zacian Espada Suprema",
+     "icono": "pm888.fCROWNED_SWORD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 225.4,
+     "ps": 11.6,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Sylveon Dinamax",
+     "icono": "pm700",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Viento Feérico",
+      "legado": false
+     },
+     "puntuacion": 136.5,
+     "ps": 19.2,
+     "pct": 61
+    },
+    {
+     "puesto": 3,
+     "tier": "A",
+     "nombre": "Zamazenta Escudo Supremo",
+     "icono": "pm889.fCROWNED_SHIELD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 107.1,
+     "ps": 24.5,
+     "pct": 48
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Registeel Dinamax",
+     "icono": "pm379",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 104.1,
+     "ps": 25.2,
+     "pct": 46
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Gardevoir Dinamax",
+     "icono": "pm282",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Rayo Carga",
+      "legado": false
+     },
+     "puntuacion": 103.6,
+     "ps": 25.3,
+     "pct": 46
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 100.0,
+     "ps": 26.2,
+     "pct": 44
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Melmetal Gigamax",
+     "icono": "pm809.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 43
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Melmetal Dinamax",
+     "icono": "pm809",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 43
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Grimmsnarl Gigamax",
+     "icono": "pm861.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false
+     },
+     "puntuacion": 95.6,
+     "ps": 27.4,
+     "pct": 42
+    },
+    {
+     "puesto": 10,
+     "tier": "B",
+     "nombre": "Hatterene Dinamax",
+     "icono": "pm858",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false
+     },
+     "puntuacion": 87.6,
+     "ps": 29.9,
+     "pct": 39
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "dark",
+   "nombre": "Siniestro",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Urshifu Estilo Brusco Dinamax",
+     "icono": "pm892.fSINGLE_STRIKE",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Golpe Bajo",
+      "legado": false
+     },
+     "puntuacion": 124.1,
+     "ps": 21.1,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Zamazenta Escudo Supremo",
+     "icono": "pm889.fCROWNED_SHIELD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 107.1,
+     "ps": 24.5,
+     "pct": 86
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 100.0,
+     "ps": 26.2,
+     "pct": 81
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Umbreon Dinamax",
+     "icono": "pm197",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Finta",
+      "legado": false
+     },
+     "puntuacion": 99.1,
+     "ps": 26.4,
+     "pct": 80
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Grimmsnarl Gigamax",
+     "icono": "pm861.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false
+     },
+     "puntuacion": 95.6,
+     "ps": 27.4,
+     "pct": 77
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Zacian Espada Suprema",
+     "icono": "pm888.fCROWNED_SWORD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 88.8,
+     "ps": 29.5,
+     "pct": 72
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Sylveon Dinamax",
+     "icono": "pm700",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Viento Feérico",
+      "legado": false
+     },
+     "puntuacion": 86.1,
+     "ps": 30.4,
+     "pct": 69
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Urshifu Estilo Fluido Dinamax",
+     "icono": "pm892.fRAPID_STRIKE",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": false
+     },
+     "puntuacion": 78.2,
+     "ps": 33.5,
+     "pct": 63
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Hydreigon Dinamax",
+     "icono": "pm635",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false
+     },
+     "puntuacion": 77.6,
+     "ps": 33.7,
+     "pct": 63
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Chansey Dinamax",
+     "icono": "pm113",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 76.2,
+     "ps": 34.3,
+     "pct": 61
+    }
+   ],
+   "destacados": []
+  },
+  {
+   "id": "fairy",
+   "nombre": "Hada",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Registeel Dinamax",
+     "icono": "pm379",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 104.1,
+     "ps": 25.2,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Ho-Oh Dinamax",
+     "icono": "pm250",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 100.3,
+     "ps": 26.1,
+     "pct": 96
+    },
+    {
+     "puesto": 3,
+     "tier": "SS",
+     "nombre": "Blissey Dinamax",
+     "icono": "pm242",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "puntuacion": 100.0,
+     "ps": 26.2,
+     "pct": 96
+    },
+    {
+     "puesto": 4,
+     "tier": "SS",
+     "nombre": "Melmetal Gigamax",
+     "icono": "pm809.fGIGANTAMAX",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 93
+    },
+    {
+     "puesto": 5,
+     "tier": "SS",
+     "nombre": "Melmetal Dinamax",
+     "icono": "pm809",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "puntuacion": 96.6,
+     "ps": 27.1,
+     "pct": 93
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Zacian Espada Suprema",
+     "icono": "pm888.fCROWNED_SWORD",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "puntuacion": 88.8,
+     "ps": 29.5,
+     "pct": 85
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Lugia Dinamax",
+     "icono": "pm249",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "puntuacion": 85.8,
+     "ps": 30.5,
+     "pct": 82
+    },
+    {
+     "puesto": 8,
+     "tier": "S",
+     "nombre": "Metagross Dinamax",
+     "icono": "pm376",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false
+     },
+     "puntuacion": 84.4,
+     "ps": 31.0,
+     "pct": 81
+    },
+    {
+     "puesto": 9,
+     "tier": "S",
+     "nombre": "Entei Dinamax",
+     "icono": "pm244",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Colmillo Ígneo",
+      "legado": false
+     },
+     "puntuacion": 84.3,
+     "ps": 31.0,
+     "pct": 81
+    },
+    {
+     "puesto": 10,
+     "tier": "S",
+     "nombre": "Corviknight Dinamax",
+     "icono": "pm823",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ataque Arena",
+      "legado": false
+     },
+     "puntuacion": 83.1,
+     "ps": 31.5,
+     "pct": 80
+    }
+   ],
+   "destacados": []
+  }
+ ],
+ "actualizado": "12 nov 2026, 16:42 UTC",
+ "url": "https://db.pokemongohub.net/es/best/dynamax-tanks-per-type"
+}

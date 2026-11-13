@@ -4,7 +4,7 @@
 
 - **Agenda**: los eventos de Pokémon GO en hora de España, con bonificaciones, pases, incursiones y su valoración.
 - **Pases**: lo que da cada opción de pago frente a lo gratis, con precios en euros.
-- **Top**: los mejores atacantes de incursiones y de Combates Max, con la foto de cada Pokémon.
+- **Top**: los mejores atacantes de incursiones y de Combates Max, y los mejores tanques de Combates Max, con la foto de cada Pokémon.
 - **Raids**: los jefes de ahora y los próximos, a qué tipos son débiles y sus mejores counters con foto.
 - **Rocket**: buscas la frase del recluta o del líder y ves su equipo y el Pokémon oscuro que puedes capturar.
 
@@ -20,6 +20,7 @@ La página no depende de Google Calendar: todo lo lee de su propia base de datos
 | `agenda/snapshot` | `datos/agenda.json` |
 | `meta/atacantes` | `datos/atacantes-incursiones.json` |
 | `meta/atacantes-max` | `datos/atacantes-max.json` |
+| `meta/tanques-max` | `datos/tanques-max.json` |
 | `meta/rocket` | `datos/rocket.json` |
 | `meta/raids` | `datos/raids.json` |
 | `meta/scripts` | un JSON con el código de los scripts: `{"agenda": …, "raids": …, "rocket": …, "actualizar_atacantes": …}` (de la carpeta `scripts/`) |

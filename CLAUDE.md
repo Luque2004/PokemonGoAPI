@@ -14,8 +14,8 @@ Proyecto personal: una agenda de Pokémon GO (una página publicada como artifac
 ## Cómo está montado
 | Pieza | Dónde | Qué hace |
 |---|---|---|
-| Página | `pokemon-go-agenda/index.html` y `sprites2.webp` | Cinco pestañas: Agenda, Pases, Top (atacantes), Raids y Rocket. Lee la base de datos del artifact con `window.claude.use("db")` y `db.doc(ruta).onSnapshot`. **Nunca escribe en ella** (una versión antigua que escribía borró los pases de pago). |
-| Base de datos del artifact | `agenda/snapshot`, `meta/atacantes`, `meta/atacantes-max`, `meta/rocket`, `meta/raids` y `meta/scripts` | Lo que pinta la página. `meta/scripts` guarda el código de los scripts que usan las tareas (campos `agenda`, `raids`, `rocket` y `actualizar_atacantes`). |
+| Página | `pokemon-go-agenda/index.html` y `sprites2.webp` | Cinco pestañas: Agenda, Pases, Top (atacantes de incursiones y de Combates Max, y tanques Max), Raids y Rocket. Lee la base de datos del artifact con `window.claude.use("db")` y `db.doc(ruta).onSnapshot`. **Nunca escribe en ella** (una versión antigua que escribía borró los pases de pago). |
+| Base de datos del artifact | `agenda/snapshot`, `meta/atacantes`, `meta/atacantes-max`, `meta/tanques-max`, `meta/rocket`, `meta/raids` y `meta/scripts` | Lo que pinta la página. `meta/scripts` guarda el código de los scripts que usan las tareas (campos `agenda`, `raids`, `rocket` y `actualizar_atacantes`). |
 | Datos | `datos/*.json` | Copia de esos documentos (formatos en el README) más `eventos.json`, que se genera de `agenda.json`. |
 | Scripts | `scripts/` | Descargan y validan. Dicen `IGUAL` o `CAMBIA` y, si una web cambia de formato, paran con `ERROR` sin tocar nada. |
 | Tareas programadas | claude.ai/code/routines | «Raids de Pokémon GO (diario)», a las 9:41. «Eventos Pokémon GO al calendario», los lunes a las 0:05: eventos, copia opcional en Google Calendar, notificación al móvil, Team GO Rocket y, el primer lunes de cada mes, atacantes. Las dos van con Sonnet, tienen este repo conectado y al final suben a `main` con `scripts/subir.py`. |

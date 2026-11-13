@@ -286,6 +286,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .legend { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 12.5px; color: var(--muted); }
 .seg { display: inline-flex; gap: 4px; align-self: flex-start; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 3px; max-width: 100%; }
 .seg-b { font: inherit; font-size: 13.5px; font-weight: 600; color: var(--muted); background: transparent; border: 0; border-radius: 999px; padding: 7px 12px; cursor: pointer; white-space: nowrap; }
+@media (max-width: 419px) { .seg-b .se, .seg-b .sl { display: none; } .seg-b { padding: 7px 10px; } }
 .seg-b[aria-pressed="true"] { color: var(--ink); background: var(--surface-2); box-shadow: inset 0 0 0 1.5px var(--ink); }
 .tag.giga { background: color-mix(in srgb, var(--t-max) 16%, var(--surface)); border-color: color-mix(in srgb, var(--t-max) 50%, var(--line)); }
 .tag.dina { background: color-mix(in srgb, var(--t-event) 14%, var(--surface)); border-color: color-mix(in srgb, var(--t-event) 45%, var(--line)); }
@@ -464,8 +465,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   <section class="sec" id="atk-sec">
     <div class="sec-h"><h2>Mejores atacantes</h2><span id="atk-upd"></span></div>
     <div class="seg" id="atk-mode" role="group" aria-label="Tipo de combate">
-      <button class="seg-b" type="button" data-mode="raid" aria-pressed="true">⚔️ Incursiones</button>
-      <button class="seg-b" type="button" data-mode="max" aria-pressed="false">⚡ Combates Max</button>
+      <button class="seg-b" type="button" data-mode="raid" aria-pressed="true" aria-label="Incursiones"><span class="se" aria-hidden="true">⚔️ </span>Incursiones</button>
+      <button class="seg-b" type="button" data-mode="max" aria-pressed="false" aria-label="Combates Max"><span class="se" aria-hidden="true">⚡ </span><span class="sl">Combates </span>Max</button>
+      <button class="seg-b" type="button" data-mode="tank" aria-pressed="false" aria-label="Tanques Max"><span class="se" aria-hidden="true">🛡️ </span>Tanques<span class="sl"> Max</span></button>
     </div>
     <p class="sec-note" id="atk-note"></p>
     <input class="search" id="atk-q" type="search" placeholder="Busca un Pokémon (ej.: Gible)" autocomplete="off" spellcheck="false" aria-label="Buscar un Pokémon">
@@ -984,15 +986,17 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     return c;
   }
 
-  // ---------- Mejores atacantes: incursiones (meta/atacantes) y Combates Max (meta/atacantes-max) ----------
-  const ATK_PATHS = { raid: "meta/atacantes", max: "meta/atacantes-max" };
-  const MODES = ["raid", "max"];
+  // ---------- Mejores atacantes: incursiones (meta/atacantes), Combates Max (meta/atacantes-max) y tanques Max (meta/tanques-max) ----------
+  const ATK_PATHS = { raid: "meta/atacantes", max: "meta/atacantes-max", tank: "meta/tanques-max" };
+  const MODES = ["raid", "max", "tank"];
+  const META_MODES = ["raid", "max"]; // los tanques no cuentan para las etiquetas «🏆 Meta» de los eventos
+  const isMax = (m) => m === "max" || m === "tank";
   const TYPES = [["normal", "Normal", "#a8a77a"], ["fighting", "Lucha", "#c22e28"], ["flying", "Volador", "#a98ff3"], ["poison", "Veneno", "#a33ea1"], ["ground", "Tierra", "#e2bf65"], ["rock", "Roca", "#b6a136"], ["bug", "Bicho", "#a6b91a"], ["ghost", "Fantasma", "#735797"], ["steel", "Acero", "#b7b7ce"], ["fire", "Fuego", "#ee8130"], ["water", "Agua", "#6390f0"], ["grass", "Planta", "#7ac74c"], ["electric", "Eléctrico", "#f7d02c"], ["psychic", "Psíquico", "#f95587"], ["ice", "Hielo", "#96d9d6"], ["dragon", "Dragón", "#6f35fc"], ["dark", "Siniestro", "#705746"], ["fairy", "Hada", "#d685ad"]];
   const TYPE_COLOR = Object.fromEntries(TYPES.map((t) => [t[0], t[2]]));
   const TYPE_NAME = Object.fromEntries(TYPES.map((t) => [t[0], t[1]]));
   const typeIdx = (id) => TYPES.findIndex((t) => t[0] === id);
   // Opciones destacadas de la fuente ("General" es siempre el n.º 1, así que no se repite)
-  const PICK_ORDER = { raid: ["Alternativa no legendaria", "Sin MT élite", "Mega / Primigenio", "Oscuro"], max: ["Sin Gigamax", "Sin MT élite"] };
+  const PICK_ORDER = { raid: ["Alternativa no legendaria", "Sin MT élite", "Mega / Primigenio", "Oscuro"], max: ["Sin Gigamax", "Sin MT élite"], tank: [] };
   const PICK_TITLE = { "Alternativa no legendaria": "Alternativa no legendaria", "Sin MT élite": "Mejor sin MT élite", "Mega / Primigenio": "Mejor Mega o primigenio", "Oscuro": "Mejor oscuro", "Sin Gigamax": "Mejor sin Gigamax" };
   const PICK_SHORT = { "Alternativa no legendaria": "alternativa no legendaria", "Sin MT élite": "mejor sin MT élite", "Mega / Primigenio": "mejor Mega", "Oscuro": "mejor oscuro", "Sin Gigamax": "mejor sin Gigamax" };
   const PICK_NOTE = { "Alternativa no legendaria": "sin legendarios, singulares, Mega, primigenios ni oscuros" };
@@ -1001,6 +1005,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   const MODE_NOTE = {
     raid: "Los 10 mejores de cada tipo para incursiones, según el daño que hacen de verdad (eDPS). Elige un tipo o busca un Pokémon.",
     max: "Los mejores de cada tipo para Combates Max, según el daño de su ataque Max. Cada uno indica si es Gigamax o Dinamax.",
+    tank: "Los que mejor aguantan los golpes del jefe en Combates Max. El tipo es el del ataque del jefe, no el de tu Pokémon: elige el tipo de los ataques del jefe al que te enfrentas.",
   };
   const LEGEND = {
     raid: [["MT élite", ""], "Ataque de legado: ya no se aprende de forma normal. Hace falta una MT élite o un evento, como un Día de la Comunidad.",
@@ -1011,6 +1016,11 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
       ["Especial", "esp"], "Formas con un ataque Max propio y fijo, como Zacian y Zamazenta coronados o Eternatus.",
       ["MT élite", ""], "Ese ataque rápido es de legado: hace falta una MT élite o un evento.",
       null, "% del n.º 1: daño de un ataque Max de nivel 3 comparado con el mejor del tipo. Nivel 40, IV 15/15/15, rival neutro y sin clima."],
+    tank: [["Gigamax", "giga"], "Forma Gigamax.", ["Dinamax", "dina"], "Forma Dinamax.",
+      ["Especial", "esp"], "Formas con un ataque Max propio, como Zacian y Zamazenta coronados o Eternatus.",
+      ["MT élite", ""], "Ese ataque rápido es de legado: hace falta una MT élite o un evento.",
+      null, "Puntuación: 100 es Blissey Dinamax, el mejor tanque en general; más de 100 aguanta más que él contra ese tipo. «Pierde» es la media de PS que pierde por cada golpe del jefe.",
+      null, "Nivel 40, IV 15/15/15 y ataques Max de nivel 3. No cuenta Maxibarrera ni Maxivigor. El ataque rápido es el que llena antes el contador Max."],
   };
   // Evolución final ← preevoluciones (Horas Destacadas, Días de la Comunidad y Pokémon Dinamax, que siguen siéndolo al evolucionar)
   const FAMILY = ["venusaur:bulbasaur,ivysaur", "charizard:charmander,charmeleon", "blastoise:squirtle,wartortle", "beedrill:weedle,kakuna", "pidgeot:pidgey,pidgeotto", "raichu:pichu,pikachu", "clefable:cleffa,clefairy", "ninetales:vulpix", "wigglytuff:igglybuff,jigglypuff", "vileplume:oddish,gloom", "bellossom:oddish,gloom", "arcanine:growlithe", "poliwrath:poliwag,poliwhirl", "politoed:poliwag,poliwhirl", "alakazam:abra,kadabra", "machamp:machop,machoke", "victreebel:bellsprout,weepinbell", "golem:geodude,graveler", "slowbro:slowpoke", "slowking:slowpoke", "magnezone:magnemite,magneton", "gengar:gastly,haunter", "steelix:onix", "rhyperior:rhyhorn,rhydon", "blissey:happiny,chansey", "tangrowth:tangela", "kingdra:horsea,seadra", "starmie:staryu", "scizor:scyther", "kleavor:scyther", "electivire:elekid,electabuzz", "magmortar:magby,magmar", "gyarados:magikarp", "vaporeon:eevee", "jolteon:eevee", "flareon:eevee", "espeon:eevee", "umbreon:eevee", "leafeon:eevee", "glaceon:eevee", "sylveon:eevee", "porygon z:porygon,porygon2", "snorlax:munchlax", "dragonite:dratini,dragonair", "meganium:chikorita,bayleef", "typhlosion:cyndaquil,quilava", "feraligatr:totodile,croconaw", "ampharos:mareep,flaaffy", "azumarill:azurill,marill", "togekiss:togepi,togetic", "honchkrow:murkrow", "mismagius:misdreavus", "weavile:sneasel", "mamoswine:swinub,piloswine", "ursaluna:teddiursa,ursaring", "houndoom:houndour", "donphan:phanpy", "tyranitar:larvitar,pupitar", "gliscor:gligar", "granbull:snubbull", "sceptile:treecko,grovyle", "blaziken:torchic,combusken", "swampert:mudkip,marshtomp", "gardevoir:ralts,kirlia", "gallade:ralts,kirlia", "breloom:shroomish", "slaking:slakoth,vigoroth", "hariyama:makuhita", "aggron:aron,lairon", "medicham:meditite", "manectric:electrike", "roserade:budew,roselia", "sharpedo:carvanha", "camerupt:numel", "flygon:trapinch,vibrava", "altaria:swablu", "banette:shuppet", "dusknoir:duskull,dusclops", "glalie:snorunt", "froslass:snorunt", "salamence:bagon,shelgon", "metagross:beldum,metang", "walrein:spheal,sealeo", "milotic:feebas", "torterra:turtwig,grotle", "infernape:chimchar,monferno", "empoleon:piplup,prinplup", "staraptor:starly,staravia", "luxray:shinx,luxio", "rampardos:cranidos", "bastiodon:shieldon", "garchomp:gible,gabite", "lucario:riolu", "hippowdon:hippopotas", "toxicroak:croagunk", "abomasnow:snover", "serperior:snivy,servine", "emboar:tepig,pignite", "samurott:oshawott,dewott", "excadrill:drilbur", "conkeldurr:timburr,gurdurr", "gigalith:roggenrola,boldore", "scolipede:venipede,whirlipede", "krookodile:sandile,krokorok", "darmanitan:darumaka", "chandelure:litwick,lampent", "haxorus:axew,fraxure", "beartic:cubchoo", "eelektross:tynamo,eelektrik", "hydreigon:deino,zweilous", "volcarona:larvesta", "golurk:golett", "kingambit:pawniard,bisharp", "braviary:rufflet", "mienshao:mienfoo", "zoroark:zorua", "gothitelle:gothita,gothorita", "reuniclus:solosis,duosion", "seismitoad:tympole,palpitoad", "chesnaught:chespin,quilladin", "delphox:fennekin,braixen", "greninja:froakie,frogadier", "talonflame:fletchling,fletchinder", "pyroar:litleo", "aegislash:honedge,doublade", "tyrantrum:tyrunt", "aurorus:amaura", "goodra:goomy,sliggoo", "noivern:noibat", "avalugg:bergmite", "florges:flabebe,floette", "clawitzer:clauncher", "decidueye:rowlet,dartrix", "incineroar:litten,torracat", "primarina:popplio,brionne", "toucannon:pikipek,trumbeak", "vikavolt:grubbin,charjabug", "crabominable:crabrawler", "lycanroc:rockruff", "golisopod:wimpod", "kommo o:jangmo o,hakamo o", "tsareena:bounsweet,steenee", "lunala:cosmog,cosmoem", "solgaleo:cosmog,cosmoem", "naganadel:poipole", "melmetal:meltan", "rillaboom:grookey,thwackey", "cinderace:scorbunny,raboot", "inteleon:sobble,drizzile", "corviknight:rookidee,corvisquire", "dragapult:dreepy,drakloak", "grimmsnarl:impidimp,morgrem", "hatterene:hatenna,hattrem", "toxtricity:toxel", "urshifu:kubfu", "meowscarada:sprigatito,floragato", "skeledirge:fuecoco,crocalor", "quaquaval:quaxly,quaxwell", "baxcalibur:frigibax,arctibax", "tinkaton:tinkatink,tinkatuff", "garganacl:nacli,naclstack", "armarouge:charcadet", "ceruledge:charcadet", "gholdengo:gimmighoul", "annihilape:mankey,primeape", "pawmot:pawmi,pawmo", "glimmora:glimmet", "kingler:krabby", "wailord:wailmer", "omastar:omanyte", "kabutops:kabuto", "butterfree:caterpie,metapod", "garbodor:trubbish", "meowstic:espurr", "dubwool:wooloo", "greedent:skwovet", "centiskorch:sizzlipede", "unfezant:pidove,tranquill", "swoobat:woobat", "noctowl:hoothoot", "malamar:inkay", "hitmonlee:tyrogue", "hitmonchan:tyrogue", "hitmontop:tyrogue", "drednaw:chewtle", "coalossal:rolycoly,carkol", "flapple:applin", "appletun:applin", "sandaconda:silicobra", "orbeetle:blipbug,dottler", "copperajah:cufant"];
@@ -1057,11 +1067,12 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     return {
       puesto: Number.isInteger(r.puesto) && r.puesto > 0 && r.puesto < 100 ? r.puesto : i + 1,
       tier: str(r.tier, 3), etiqueta: str(r.etiqueta, 40), nombre: str(r.nombre, 60),
-      forma: mode === "max" && FORMAS.includes(r.forma) ? r.forma : "",
+      forma: isMax(mode) && FORMAS.includes(r.forma) ? r.forma : "",
       rapido: cleanMove(r.rapido),
       // en Combates Max el segundo ataque es el ataque Max
-      cargado: mode === "max" ? { nombre: str(r.max, 40), legado: false, plus: false } : cleanMove(r.cargado),
-      edps: mode === "max" ? null : numOr(r.edps), dano: mode === "max" ? numOr(r.dano) : null,
+      cargado: mode === "max" ? { nombre: str(r.max, 40), legado: false, plus: false } : mode === "tank" ? { nombre: "", legado: false, plus: false } : cleanMove(r.cargado),
+      edps: mode === "raid" ? numOr(r.edps) : null, dano: mode === "max" ? numOr(r.dano) : null,
+      puntos: mode === "tank" ? numOr(r.puntuacion) : null, ps: mode === "tank" ? numOr(r.ps) : null,
       pct: pct == null ? null : Math.max(0, Math.min(100, Math.round(pct))),
       icono: typeof r.icono === "string" && /^pm\d{1,4}(\.f[A-Z0-9_]{1,40})?$/.test(r.icono) ? r.icono : "",
     };
@@ -1080,14 +1091,14 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     return tipos.length ? { tipos, actualizado: str(d.actualizado, 40), url: hubUrl(d.url) } : null;
   }
 
-  const atkData = { raid: null, max: null };
-  const atkStatus = { raid: "loading", max: "loading" };
+  const atkData = { raid: null, max: null, tank: null };
+  const atkStatus = { raid: "loading", max: "loading", tank: "loading" };
   let atkIdx = { raid: new Map(), max: new Map() }, atkRe = null, atkQuery = "", atkType = "all", atkMode = "raid";
-  try { atkType = localStorage.getItem("pogo-atk-type") || "all"; atkMode = localStorage.getItem("pogo-atk-mode") === "max" ? "max" : "raid"; } catch (_) {}
+  try { atkType = localStorage.getItem("pogo-atk-type") || "all"; const m = localStorage.getItem("pogo-atk-mode"); atkMode = MODES.includes(m) ? m : "raid"; } catch (_) {}
   const cur = () => atkData[atkMode];
   function buildIndex() {
     const names = new Set(Object.keys(PRE));
-    MODES.forEach((mode) => {
+    META_MODES.forEach((mode) => {
       const idx = new Map();
       const d = atkData[mode];
       const add = (t, r, extra) => {
@@ -1115,7 +1126,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   const MAX_RE = /dinamax|gigamax|dynamax|eternamax|combates? max|max battle/;
   function formIn(species, after) {
     const keys = new Set();
-    MODES.forEach((m) => species.forEach((s) => (atkIdx[m].get(s) || []).forEach((r) => r.p.form && keys.add(r.p.form))));
+    META_MODES.forEach((m) => species.forEach((s) => (atkIdx[m].get(s) || []).forEach((r) => r.p.form && keys.add(r.p.form))));
     const words = after.split(" ").filter((w) => w && !NOT_FORM.has(w));
     const known = words.find((w) => keys.has(w));
     if (known) return known;
@@ -1230,7 +1241,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   const fNum = new Intl.NumberFormat("es-ES", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
   const sameMoves = (a, b) => !!(a && b && a.nombre === b.nombre && a.rapido.nombre === b.rapido.nombre && a.cargado.nombre === b.cargado.nombre);
   // En Combates Max el nombre ya dice "Gigamax"/"Dinamax": se muestra sin esa palabra y con su etiqueta
-  const shortName = (r) => (atkMode === "max" ? r.nombre.replace(/\s+(Gigamax|Dinamax)$/i, "") : r.nombre);
+  const shortName = (r) => (isMax(atkMode) ? r.nombre.replace(/\s+(Gigamax|Dinamax)$/i, "") : r.nombre);
   var tipEl = null; // var: hideTip() se puede llamar antes de llegar aquí
   function showTip(node, pct, value, sub) {
     if (!tipEl) { tipEl = el("div", "tip"); tipEl.setAttribute("role", "tooltip"); document.body.append(tipEl); }
@@ -1256,7 +1267,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   function formaTag(r) { return r.forma ? el("span", "tag " + FORMA_CLASS[r.forma], r.forma) : null; }
   function moveLine(r) {
     const d = el("div", "moves");
-    [r.rapido, r.cargado].forEach((mv, i) => {
+    (atkMode === "tank" ? [r.rapido] : [r.rapido, r.cargado]).forEach((mv, i) => {
       if (i) d.append(document.createTextNode(atkMode === "max" ? " → " : " · "));
       d.append(document.createTextNode(mv.nombre || "—"));
       if (mv.legado) d.append(el("span", "tag", "MT élite"));
@@ -1265,6 +1276,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     return d;
   }
   function valueOf(r) {
+    if (atkMode === "tank") return r.puntos != null ? { label: "Puntuación " + fNum.format(r.puntos) + (r.ps != null ? " · pierde " + fNum.format(r.ps) + " % PS/golpe" : ""), tip: "Puntuación " + fNum.format(r.puntos) } : null;
     if (atkMode === "max") return r.dano != null ? { label: "Daño " + r.dano, tip: r.dano + " de daño" } : null;
     return r.edps != null ? { label: "eDPS " + fNum.format(r.edps), tip: fNum.format(r.edps) + " eDPS" } : null;
   }
@@ -1295,13 +1307,13 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     if (v) nm.append(el("span", "small", v.label));
     li.append(nm, moveLine(r));
     if (r.pct != null) {
-      li.append(meter(r.pct, v ? v.tip : r.pct + " %", r.pct + " % del n.º 1 de " + t.nombre));
+      li.append(meter(r.pct, v ? v.tip : r.pct + " %", r.pct + " % del n.º 1 " + (atkMode === "tank" ? "contra " : "de ") + t.nombre));
       li.append(el("span", "pct", r.pct + " %"));
     }
     return li;
   }
   function setMode(mode, quiet) {
-    atkMode = mode === "max" ? "max" : "raid";
+    atkMode = MODES.includes(mode) ? mode : "raid";
     try { localStorage.setItem("pogo-atk-mode", atkMode); } catch (_) {}
     if (!quiet) renderAtk();
   }
@@ -1309,6 +1321,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   function renderAtk() {
     document.querySelectorAll("#atk-mode .seg-b").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.mode === atkMode)));
     $("atk-note").textContent = MODE_NOTE[atkMode];
+    document.querySelector("#atk-sec h2").textContent = atkMode === "tank" ? "Mejores tanques" : "Mejores atacantes";
     renderAtkTypes();
     renderAtkBody();
     const d = cur();
@@ -1326,7 +1339,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     const src = $("atk-src");
     src.textContent = "";
     if (d) {
-      src.append(document.createTextNode("Fuente: Pokémon GO Hub" + (atkMode === "max" ? " (mejores atacantes Dinamax por tipo)" : "") + (d.actualizado ? ", actualizado el " + d.actualizado : "") + ". "));
+      src.append(document.createTextNode("Fuente: Pokémon GO Hub" + (atkMode === "max" ? " (mejores atacantes Dinamax por tipo)" : atkMode === "tank" ? " (mejores tanques para Combates Max por tipo de ataque)" : "") + (d.actualizado ? ", actualizado el " + d.actualizado : "") + ". "));
       if (d.url) { const a = el("a", null, "Ver la clasificación completa ↗"); a.href = d.url; a.target = "_blank"; a.rel = "noopener noreferrer"; src.append(a); }
     }
   }
@@ -1360,7 +1373,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     hideTip();
     const d = cur();
     if (!d) {
-      const msg = { loading: "Cargando los mejores atacantes…", empty: "Todavía no hay datos de atacantes.", error: "No se pueden cargar los atacantes ahora mismo. Prueba en un rato.", nodb: "Abre la agenda en claude.ai con tu sesión iniciada para ver los atacantes." };
+      const qu = atkMode === "tank" ? "tanques" : "atacantes";
+      const msg = { loading: "Cargando los mejores " + qu + "…", empty: "Todavía no hay datos de " + qu + ".", error: "No se pueden cargar los " + qu + " ahora mismo. Prueba en un rato.", nodb: "Abre la agenda en claude.ai con tu sesión iniciada para ver los " + qu + "." };
       box.append(el("p", "sec-note", msg[atkStatus[atkMode]] || msg.loading));
       return;
     }
@@ -1369,7 +1383,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     if (t) renderType(box, t); else renderOverview(box, d);
   }
   function renderOverview(box, d) {
-    box.append(el("h3", "sub-h", "El mejor de cada tipo"));
+    box.append(el("h3", "sub-h", atkMode === "tank" ? "El mejor tanque contra cada tipo de ataque" : "El mejor de cada tipo"));
     const g = el("div", "ov");
     d.tipos.forEach((t) => {
       const b = el("button", "ovc");
@@ -1391,7 +1405,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     box.append(g);
   }
   function renderType(box, t) {
-    box.append(el("h3", "sub-h", (t.top.length === 10 ? "Top 10" : "Los " + t.top.length + " mejores") + " de tipo " + t.nombre));
+    box.append(el("h3", "sub-h", (t.top.length === 10 ? "Top 10" : "Los " + t.top.length + " mejores") + (atkMode === "tank" ? " contra ataques de tipo " : " de tipo ") + t.nombre));
     if (atkMode === "max" && t.top.length < 10) box.append(el("p", "sec-note", "Solo hay " + t.top.length + " atacantes de tipo " + t.nombre + " disponibles para Combates Max."));
     const ol = el("ol", "atk");
     t.top.forEach((r) => ol.append(atkRow(t, r, { rank: r.puesto })));
@@ -1432,9 +1446,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     });
     res.sort((a, b) => (a.rank ? 0 : 1) - (b.rank ? 0 : 1) || (a.rank || 0) - (b.rank || 0) || typeIdx(a.t.id) - typeIdx(b.t.id));
     const fam = [...finals].filter((f) => !nq.includes(f)).map(titleCase);
-    const where = atkMode === "max" ? "para Combates Max" : "para incursiones";
+    const where = atkMode === "max" ? "para Combates Max" : atkMode === "tank" ? "como tanque de Combates Max" : "para incursiones";
     if (!res.length) {
-      box.append(el("p", "sec-note", "«" + q.trim() + "» no está entre los mejores atacantes " + where + (fam.length ? " (tampoco su evolución, " + fam.join(" / ") + ")" : "") + "."));
+      box.append(el("p", "sec-note", "«" + q.trim() + "» no está entre los mejores " + (atkMode === "tank" ? "tanques" : "atacantes") + " " + where.replace(/^como tanque /, "") + (fam.length ? " (tampoco su evolución, " + fam.join(" / ") + ")" : "") + "."));
       return;
     }
     box.append(el("h3", "sub-h", res.length + (res.length === 1 ? " resultado " : " resultados ") + where));
