@@ -1,0 +1,451 @@
+{
+ "fuente": "Google Calendar (eventos «Pokémon GO:» de la agenda)",
+ "zonaHoraria": "Europe/Madrid",
+ "copiaDeLaAgenda": "2026-11-13T09:52:01.685Z",
+ "eventos": [
+  {
+   "titulo": "Into the Wild",
+   "tipo": "Evento",
+   "inicio": "2026-11-09T10:00:00+01:00",
+   "fin": "2026-11-13T20:00:00+01:00",
+   "bonificaciones": [],
+   "pasesGratis": "límite de incursiones remotas: 30 del 9 al 13 de noviembre y sin límite el 14 y el 15",
+   "goPassGratis": [
+    "Meltan Dinamax en Combates Max",
+    "puntos hasta el dom 15 a las 18:00",
+    "recompensas hasta el mar 17 a las 23:59"
+   ],
+   "incursiones": [
+    "Regidrago Dinamax (Combate Max)",
+    "Latias y Latios Dinamax (Combate Max 5★, vie 13 a las 18:00)"
+   ],
+   "dePago": [
+    {
+     "nombre": "GO Pass Deluxe: Into the Wild",
+     "precio": "14,99 $; 19,99 $ con +10 rangos",
+     "da": [
+      "Gorra Plateada (Hyper Training; caduca dom 22 a las 23:59)",
+      "extras de rango como huevos a ½ distancia (rango 25)",
+      "más encuentros de Meltan Dinamax"
+     ],
+     "estrellas": 2,
+     "valoracion": "Caro; solo si quieres la Gorra Plateada y vas a subir muchos rangos esta semana."
+    }
+   ],
+   "texto": "Evento de tipo acero y dragón. Debut de Regidrago Dinamax en Combates Max y de Meltan Dinamax con el GO Pass gratuito.",
+   "noticia": "https://pokemongo.com/es/news/into-the-wild-2026"
+  },
+  {
+   "titulo": "Hora de Combates Max – Latias y Latios Dinamax",
+   "tipo": "Combates Max",
+   "inicio": "2026-11-13T18:00:00+01:00",
+   "fin": "2026-11-13T19:00:00+01:00",
+   "bonificaciones": [],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [],
+   "dePago": [],
+   "texto": "Hora de Combates Max del evento Into the Wild: Latias y Latios Dinamax en Combates Max de 5 estrellas.",
+   "noticia": "https://pokemongo.com/es/news/into-the-wild-2026"
+  },
+  {
+   "titulo": "GO Wild Area Global (día 1 – Dialga)",
+   "tipo": "Evento",
+   "inicio": "2026-11-14T10:00:00+01:00",
+   "fin": "2026-11-14T18:00:00+01:00",
+   "bonificaciones": [
+    "Safari Balls al girar PokéStops y discos de gimnasio",
+    "Límite de Partículas Max: 1.600 al día",
+    "3 encuentros sorpresa en fotos al día",
+    "Juego en grupo 8 h",
+    "Pokémon poderosos en Rutas y con Incienso"
+   ],
+   "pasesGratis": "hasta 3 Pases de incursión al día al girar discos de gimnasio · Sin límite de incursiones remotas (sáb 14 y dom 15)",
+   "goPassGratis": [],
+   "incursiones": [
+    "Dialga Dinamax (Combate Max)",
+    "Duraludon Gigamax (Combate Max 6★)",
+    "Zekrom (incursión 5★)",
+    "Kyurem Blanco (incursión 5★)",
+    "Machamp con chaqueta (incursión 3★)"
+   ],
+   "dePago": [
+    {
+     "nombre": "Entrada GO Wild Area Global",
+     "precio": "11,99 $, sirve para los dos días",
+     "da": [
+      "Globos cada hora con Safari Balls",
+      "Investigación especial: Duraludon Gigamax con fondo especial",
+      "Medalla a elegir (Acero o Dragón): +1 Caramelo++ (nivel 31+) y +1.000 Polvos estelares por cada Pokémon poderoso de ese tipo",
+      "Latias y Latios poderosos con Incienso",
+      "Unown con Incienso",
+      "Más prob. de variocolor",
+      "×2 Caramelos al capturar",
+      "×2 duración del Incienso",
+      "Módulos Cebo de 2 h",
+      "hasta 6 Pases de incursión al día (en vez de 3)",
+      "Límite de Partículas Max: 3.200 al día y más Partículas en Power Spots",
+      "Más huevos de 10 km",
+      "6 encuentros sorpresa en fotos al día",
+      "hasta 6 intercambios especiales al día",
+      "½ Polvos estelares en intercambios",
+      "Pose de avatar nueva al completar la investigación"
+     ],
+     "estrellas": 4,
+     "valoracion": "Merece la pena si vas a jugar los dos días: el Duraludon Gigamax con fondo especial es exclusivo, los globos te dan Safari Balls para los poderosos y doblas pases y Caramelos. Si solo vas a jugar un rato, no compensa."
+    }
+   ],
+   "texto": "Evento global de 10:00 a 18:00 (hora local). Hoy debuta Dialga Dinamax en Combates Max. Las Safari Balls solo se pueden usar en el horario del evento y desaparecen al terminar. Las bonificaciones de intercambio de la entrada duran todo el día (0:00–23:59). GO Pass Into the Wild: hoy y mañana se ganan GO Points sin límite diario, hasta el dom 15 a las 18:00.",
+   "noticia": "https://pokemongo.com/gowildarea/global"
+  },
+  {
+   "titulo": "Minior Showers (Leónidas)",
+   "tipo": "Lluvia de meteoros",
+   "inicio": "2026-11-14T17:00:00+01:00",
+   "fin": "2026-11-19T23:59:00+01:00",
+   "bonificaciones": [
+    "+1.000 Polvos estelares por Minior"
+   ],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [],
+   "dePago": [],
+   "texto": "Lluvia de meteoros Leónidas: Minior (forma meteoro) en estado salvaje, con más apariciones cada día de 17:00 a 21:00.",
+   "noticia": "https://leekduck.com/events/minior-showers-leonids-2026/"
+  },
+  {
+   "titulo": "GO Wild Area Global (día 2 – Palkia)",
+   "tipo": "Evento",
+   "inicio": "2026-11-15T10:00:00+01:00",
+   "fin": "2026-11-15T18:00:00+01:00",
+   "bonificaciones": [
+    "Safari Balls al girar PokéStops y discos de gimnasio",
+    "Límite de Partículas Max: 1.600 al día",
+    "3 encuentros sorpresa en fotos al día",
+    "Juego en grupo 8 h",
+    "Pokémon poderosos en Rutas y con Incienso"
+   ],
+   "pasesGratis": "hasta 3 Pases de incursión al día al girar discos de gimnasio · Sin límite de incursiones remotas (sáb 14 y dom 15)",
+   "goPassGratis": [],
+   "incursiones": [
+    "Palkia Dinamax (Combate Max)",
+    "Duraludon Gigamax (Combate Max 6★)",
+    "Reshiram (incursión 5★)",
+    "Kyurem Negro (incursión 5★)",
+    "Machamp con chaqueta (incursión 3★)"
+   ],
+   "dePago": [
+    {
+     "nombre": "Entrada GO Wild Area Global",
+     "precio": "11,99 $, sirve para los dos días",
+     "da": [
+      "Globos cada hora con Safari Balls",
+      "Investigación especial: Duraludon Gigamax con fondo especial",
+      "Medalla a elegir (Acero o Dragón): +1 Caramelo++ (nivel 31+) y +1.000 Polvos estelares por cada Pokémon poderoso de ese tipo",
+      "Latias y Latios poderosos con Incienso",
+      "Unown con Incienso",
+      "Más prob. de variocolor",
+      "×2 Caramelos al capturar",
+      "×2 duración del Incienso",
+      "Módulos Cebo de 2 h",
+      "hasta 6 Pases de incursión al día (en vez de 3)",
+      "Límite de Partículas Max: 3.200 al día y más Partículas en Power Spots",
+      "Más huevos de 10 km",
+      "6 encuentros sorpresa en fotos al día",
+      "hasta 6 intercambios especiales al día",
+      "½ Polvos estelares en intercambios",
+      "Pose de avatar nueva al completar la investigación"
+     ],
+     "estrellas": 4,
+     "valoracion": "Merece la pena si vas a jugar los dos días: el Duraludon Gigamax con fondo especial es exclusivo, los globos te dan Safari Balls para los poderosos y doblas pases y Caramelos. Si solo vas a jugar un rato, no compensa."
+    }
+   ],
+   "texto": "Segundo día del evento global, de 10:00 a 18:00 (hora local). Hoy debuta Palkia Dinamax en Combates Max. Las Safari Balls solo se pueden usar en el horario del evento y desaparecen al terminar. Último día para ganar GO Points del GO Pass Into the Wild (hasta las 18:00); recompensas a reclamar hasta el mar 17 a las 23:59.",
+   "noticia": "https://pokemongo.com/gowildarea/global"
+  },
+  {
+   "titulo": "Dynamax Trails",
+   "tipo": "Evento",
+   "inicio": "2026-11-16T10:00:00+01:00",
+   "fin": "2026-11-23T20:00:00+01:00",
+   "bonificaciones": [
+    "×8 Partículas Max en Power Spots",
+    "Posibilidad de Partículas Max al capturar Pokémon del evento y tras Combates Max",
+    "Límite de Partículas Max: 2.400",
+    "Más Power Spots activos y se renuevan más rápido",
+    "Posible Fondo especial al capturar tras un Combate Max",
+    "Pegatinas del evento"
+   ],
+   "pasesGratis": "límite de incursiones remotas sube de 10 a 30 del vie 20 a las 22:00 al dom 22 a las 3:00 (hora de España)",
+   "goPassGratis": [
+    "encuentros con Pokémon Dinamax con Fondo especial",
+    "1 encuentro con Eternatus (o 100 Caramelos de Eternatus si ya lo tienes)",
+    "Caramelos y Caramelos XL de Eternatus",
+    "Caramelo Raro",
+    "Polvos estelares",
+    "pegatinas",
+    "×2 Polvos estelares al capturar (rango 15)",
+    "½ Caramelos y Polvos para el Cañón Dinamax (rango 35)",
+    "más Caramelos y Caramelos XL de Combates Max (rango 55)",
+    "recompensas hasta el mié 25 a las 20:00",
+    "acceso anticipado el sáb 14 a las 10:00 si reclamas el rango 1 de Into the Wild"
+   ],
+   "incursiones": [
+    "Todos los Pokémon Dinamax vistos hasta ahora (salvo Legendarios y Singulares) en Combates Max",
+    "Eternamax Eternatus en la mayoría de Power Spots (sáb 21, 11:00–14:00)"
+   ],
+   "dePago": [
+    {
+     "nombre": "GO Pass Deluxe: Dynamax Trails",
+     "precio": "4,99 $; gratis si reclamaste el rango 1 del GO Pass de Into the Wild",
+     "da": [
+      "más encuentros con Pokémon Dinamax con Fondo especial",
+      "más Caramelos y Caramelos XL de Eternatus",
+      "Pinias Plateadas",
+      "Caramelo Raro XL",
+      "pegatinas",
+      "progreso más rápido",
+      "en la tienda web de regalo: 10 Ultra Balls, 5 Revivir Máx., 1 Pase de Combate Prémium y 5 Pociones Máx."
+     ],
+     "estrellas": 3,
+     "valoracion": "Barato, y gratis si ya reclamaste Into the Wild; vale la pena si quieres Caramelos de Eternatus y Dinamax con Fondo especial."
+    }
+   ],
+   "texto": "Semana centrada en Combates Max. Incluye la Hora Destacada del jue 19 (Grookey, Scorbunny y Sobble, ×2 Caramelos) y el regreso de Eternatus el sáb 21 de 11:00 a 14:00; solo se puede capturar una vez durante el evento.",
+   "noticia": "https://pokemongo.com/news/dynamax-trails-eternamax-eternatus-2026"
+  },
+  {
+   "titulo": "Hora de Incursiones – Cresselia y Darkrai",
+   "tipo": "Incursiones",
+   "inicio": "2026-11-18T18:00:00+01:00",
+   "fin": "2026-11-18T19:00:00+01:00",
+   "bonificaciones": [],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [],
+   "dePago": [],
+   "texto": "Hora de Incursiones: Cresselia y Darkrai en incursiones de 5 estrellas, con más incursiones de 5★ de lo normal durante la hora.",
+   "noticia": "https://leekduck.com/events/raidhour20261118/"
+  },
+  {
+   "titulo": "Hora Destacada – Grookey, Scorbunny y Sobble",
+   "tipo": "Hora Destacada",
+   "inicio": "2026-11-19T18:00:00+01:00",
+   "fin": "2026-11-19T19:00:00+01:00",
+   "bonificaciones": [
+    "×2 Caramelos al capturar"
+   ],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [],
+   "dePago": [],
+   "texto": "Hora Destacada: los iniciales de Galar, Grookey, Scorbunny y Sobble.",
+   "noticia": "https://leekduck.com/events/pokemonspotlighthour2026-11-19/"
+  },
+  {
+   "titulo": "Eternatus Eternamax",
+   "tipo": "Combates Max",
+   "inicio": "2026-11-21T11:00:00+01:00",
+   "fin": "2026-11-21T14:00:00+01:00",
+   "bonificaciones": [],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [],
+   "dePago": [],
+   "texto": "Durante Dynamax Trails, Eternatus Eternamax aparece en los Power Spots.",
+   "noticia": "https://leekduck.com/events/dynamax-trails-2026/"
+  },
+  {
+   "titulo": "Día de la Comunidad – Pawniard",
+   "tipo": "Día de la Comunidad",
+   "inicio": "2026-11-21T14:00:00+01:00",
+   "fin": "2026-11-21T17:00:00+01:00",
+   "bonificaciones": [
+    "Huevos a ¼ distancia",
+    "×2 Caramelos al capturar",
+    "×2 prob. Caramelos++ al capturar (nivel 31+)",
+    "Incienso 3 h",
+    "Módulos Cebo 1 h (14:00–21:00; Pawniard muy probable)",
+    "1 intercambio especial extra, 2 en total (14:00–21:00)",
+    "−50 % Polvos estelares en intercambios (14:00–21:00)",
+    "Sorpresa al hacer fotos",
+    "Ataque exclusivo: Kowtow Cleave (Kingambit al evolucionar Bisharp durante el evento o 4 h después)",
+    "Evolución de Bisharp a Kingambit tras derrotar 1 jefe de incursión Siniestro o Acero con Bisharp de compañero (hasta las 21:00)"
+   ],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [],
+   "dePago": [
+    {
+     "nombre": "Investigación especial",
+     "precio": "1,99 $; también como Ultra Ticket Box web con 5 Ultra Balls de regalo",
+     "da": [
+      "3 encuentros con Pawniard con Fondo especial",
+      "más encuentros con Pawniard",
+      "1 Pase de Combate Prémium",
+      "1 Caramelo Raro XL",
+      "más recompensas (sin medalla ni historia)"
+     ],
+     "estrellas": 2,
+     "valoracion": "Barata, pero aporta poco; solo si quieres el Pawniard con Fondo especial o el Pase de Combate Prémium."
+    }
+   ],
+   "texto": "Más apariciones de Pawniard y más probabilidad de variocolor o de Fondo especial. Investigación de campo temática con encuentros de Pawniard.",
+   "noticia": "https://pokemongo.com/news/communityday-november-2026-pawniard"
+  },
+  {
+   "titulo": "Lunes Max – Espurr",
+   "tipo": "Combates Max",
+   "inicio": "2026-11-23T06:00:00+01:00",
+   "fin": "2026-11-23T21:00:00+01:00",
+   "bonificaciones": [
+    "Power Spots se renuevan más rápido",
+    "Más Power Spots activos que el resto de la semana"
+   ],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [
+    "Espurr Dinamax (Combate Max, del 23 al 29 de nov.)"
+   ],
+   "dePago": [],
+   "texto": "Lunes Max de 6:00 a 21:00 (hora local). Coincide con la última jornada de Dynamax Trails.",
+   "noticia": "https://leekduck.com/events/max-mondays-2026-11-23/"
+  },
+  {
+   "titulo": "Twilight Wishes",
+   "tipo": "Evento",
+   "inicio": "2026-11-24T10:00:00+01:00",
+   "fin": "2026-11-30T20:00:00+01:00",
+   "bonificaciones": [
+    "Más prob. variocolor Staryu y Elgyem"
+   ],
+   "pasesGratis": "",
+   "goPassGratis": [
+    "Más prob. de Pokémon Lucky en intercambios y de Amigos Lucky (rango 1)",
+    "×2 Polvos estelares al capturar (rango 10)",
+    "encuentros con Pokémon del evento",
+    "Pieza Estrella",
+    "Caramelo Raro",
+    "Energía Mega de Beedrill, Houndoom, Sableye y Manectric",
+    "recompensas hasta el mié 2 de diciembre a las 20:00"
+   ],
+   "incursiones": [
+    "Pikachu con corona solar y lunar (1★)",
+    "Espeon con bufanda solar y Umbreon con bufanda lunar (3★)",
+    "Mega Beedrill, Mega Houndoom, Mega Sableye y Mega Manectric (Megaincursiones)"
+   ],
+   "dePago": [
+    {
+     "nombre": "GO Pass Deluxe: Twilight Wishes",
+     "precio": "4,99 $; 6,99 $ con +6 rangos, que da hasta el rango 7",
+     "da": [
+      "×3 Polvos estelares al capturar en el rango 10 (en vez de ×2)",
+      "más encuentros con Pokémon del evento",
+      "pose de avatar del evento",
+      "Piezas Estrella",
+      "Pases de Combate Prémium",
+      "en la tienda web de regalo: 10 Ultra Balls, 5 Revivir Máx., 1 Pase de Combate Prémium (2 con +6 rangos) y 5 Pociones Máx.",
+      "Ultra Box web (+6 rangos): 20 Ultra Balls, 10 Revivir Máx., 10 Pociones Máx. y 5 Pases de Combate Prémium"
+     ],
+     "estrellas": 2,
+     "valoracion": "Solo si vas a completar el GO Pass entero o quieres los Pases de Combate Prémium y la pose de avatar."
+    }
+   ],
+   "texto": "Evento bajo el cielo estrellado con Staryu, Elgyem, Clefairy y Rockruff en estado salvaje. Final de la temporada: Pokémon de Twilight Trails en investigaciones de campo (Applin y Maschiff hasta el jue 26 a las 10:00; después Gengar y Drifblim con disfraces de Halloween y Bramblin).",
+   "noticia": "https://pokemongo.com/news/twilight-wishes-2026"
+  },
+  {
+   "titulo": "Hora de Incursiones – Deoxys",
+   "tipo": "Incursiones",
+   "inicio": "2026-11-25T18:00:00+01:00",
+   "fin": "2026-11-25T19:00:00+01:00",
+   "bonificaciones": [],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [],
+   "dePago": [],
+   "texto": "Hora de Incursiones: Deoxys (formas Normal, Ataque, Defensa y Velocidad) en incursiones de 5 estrellas, con más incursiones de 5★ de lo normal durante la hora.",
+   "noticia": "https://leekduck.com/events/raidhour20261125/"
+  },
+  {
+   "titulo": "Hora Destacada – Noibat",
+   "tipo": "Hora Destacada",
+   "inicio": "2026-11-26T18:00:00+01:00",
+   "fin": "2026-11-26T19:00:00+01:00",
+   "bonificaciones": [
+    "×2 Caramelos al capturar"
+   ],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [],
+   "dePago": [],
+   "texto": "Hora Destacada: Noibat.",
+   "noticia": "https://leekduck.com/events/pokemonspotlighthour2026-11-26/"
+  },
+  {
+   "titulo": "Super Mega Raid Day – Mega Clefable",
+   "tipo": "Incursiones",
+   "inicio": "2026-11-28T14:00:00+01:00",
+   "fin": "2026-11-28T17:00:00+01:00",
+   "bonificaciones": [
+    "Clefable de Super Megaincursiones con Mega Nivel 1 desbloqueado",
+    "Más prob. de Clefable variocolor",
+    "Ataque exclusivo: Moonblast+ (Mega Clefable)"
+   ],
+   "pasesGratis": "hasta 6 Pases de incursión al girar discos de gimnasio (sáb 28 de 14:00 a 17:00) · 1 Pase de Combate Prémium en la Investigación con límite de tiempo (con encuentro con Metagross) · límite de incursiones remotas: 20, del sáb 28 a las 2:00 al dom 29 a las 5:00 (hora de España)",
+   "goPassGratis": [],
+   "incursiones": [
+    "Mega Clefable (Super Megaincursión; debut y primer Nivel Mega Súper Máx.)"
+   ],
+   "dePago": [
+    {
+     "nombre": "Entrada Super Mega Raid Day",
+     "precio": "4,99 $, solo en la tienda del juego hasta las 17:00; también como Ultra Ticket Box web con 1 Pase de Combate Prémium extra",
+     "da": [
+      "hasta 14 Pases de incursión al girar discos en vez de 6",
+      "más prob. de Caramelo Raro XL en incursiones",
+      "+5.000 PX por Super Megaincursión",
+      "+5.000 Polvos estelares por Super Megaincursión"
+     ],
+     "estrellas": 3,
+     "valoracion": "Solo si vas a hacer muchas Super Megaincursiones de Mega Clefable seguidas; si no, los 6 pases gratis bastan."
+    }
+   ],
+   "texto": "Debut de Mega Clefable en Super Megaincursiones. Reto global: la bonificación para Mega Clefable depende de los niveles completados (del vie 27 a las 5:00 al sáb 28 a las 20:00 PST).",
+   "noticia": "https://pokemongo.com/news/clefable-super-mega-raid-day-2026"
+  },
+  {
+   "titulo": "Lunes Max – Cryogonal",
+   "tipo": "Combates Max",
+   "inicio": "2026-11-30T06:00:00+01:00",
+   "fin": "2026-11-30T21:00:00+01:00",
+   "bonificaciones": [
+    "Power Spots se renuevan más rápido",
+    "Más Power Spots activos que el resto de la semana"
+   ],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [
+    "Cryogonal Dinamax (Combate Max, del 30 de nov. al 6 de dic.)"
+   ],
+   "dePago": [],
+   "texto": "Lunes Max de 6:00 a 21:00 (hora local).",
+   "noticia": "https://leekduck.com/events/max-mondays-2026-11-30/"
+  },
+  {
+   "titulo": "Minior Showers (Gemínidas)",
+   "tipo": "Lluvia de meteoros",
+   "inicio": "2026-12-11T17:00:00+01:00",
+   "fin": "2026-12-16T23:59:00+01:00",
+   "bonificaciones": [
+    "+1.000 Polvos estelares por Minior"
+   ],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [],
+   "dePago": [],
+   "texto": "Lluvia de meteoros Gemínidas: Minior (forma meteoro) en estado salvaje, con más apariciones cada día de 17:00 a 21:00. Debutan dos núcleos de Minior, uno exclusivo del hemisferio norte y otro del sur (colores aún sin confirmar).",
+   "noticia": "https://leekduck.com/events/minior-showers-geminids-2026/"
+  }
+ ]
+}

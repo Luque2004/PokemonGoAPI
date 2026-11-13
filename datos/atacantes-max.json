@@ -1,0 +1,2798 @@
+{
+ "fuente": "Pokémon GO Hub (db.pokemongohub.net)",
+ "tipos": [
+  {
+   "id": "normal",
+   "nombre": "Normal",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Snorlax Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Lengüetazo",
+      "legado": false
+     },
+     "max": "Gigarreciclaje",
+     "dano": 244,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Darmanitan Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Placaje",
+      "legado": false
+     },
+     "max": "Maxiataque",
+     "dano": 214,
+     "pct": 88
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Inteleon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "max": "Maxiataque",
+     "dano": 213,
+     "pct": 87
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Rillaboom Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Arañazo",
+      "legado": false
+     },
+     "max": "Maxiataque",
+     "dano": 196,
+     "pct": 80
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Ho-Oh Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Poder Oculto",
+      "legado": false
+     },
+     "max": "Maxiataque",
+     "dano": 196,
+     "pct": 80
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Cinderace Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Placaje",
+      "legado": false
+     },
+     "max": "Maxiataque",
+     "dano": 195,
+     "pct": 80
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Gigalith Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Fijar Blanco",
+      "legado": false
+     },
+     "max": "Maxiataque",
+     "dano": 186,
+     "pct": 76
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Passimian Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Derribo",
+      "legado": false
+     },
+     "max": "Maxiataque",
+     "dano": 183,
+     "pct": 75
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Leafeon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ataque Rápido",
+      "legado": false
+     },
+     "max": "Maxiataque",
+     "dano": 178,
+     "pct": 73
+    },
+    {
+     "puesto": 10,
+     "tier": "B",
+     "nombre": "Sylveon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ataque Rápido",
+      "legado": false
+     },
+     "max": "Maxiataque",
+     "dano": 168,
+     "pct": 69
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Darmanitan Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Placaje",
+      "legado": false
+     },
+     "max": "Maxiataque",
+     "dano": 214,
+     "pct": 88
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Snorlax Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Lengüetazo",
+      "legado": false
+     },
+     "max": "Gigarreciclaje",
+     "dano": 244,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "fighting",
+   "nombre": "Lucha",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Machamp Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Puño Bala",
+      "legado": false
+     },
+     "max": "Gigapuñición",
+     "dano": 296,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Urshifu Estilo Fluido Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": false
+     },
+     "max": "Maxipuño",
+     "dano": 249,
+     "pct": 84
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Urshifu Estilo Brusco Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": false
+     },
+     "max": "Maxipuño",
+     "dano": 249,
+     "pct": 84
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Gallade Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Patada Baja",
+      "legado": false
+     },
+     "max": "Maxipuño",
+     "dano": 233,
+     "pct": 79
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Machamp Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": false
+     },
+     "max": "Maxipuño",
+     "dano": 230,
+     "pct": 78
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Hitmonlee Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Patada Baja",
+      "legado": false
+     },
+     "max": "Maxipuño",
+     "dano": 221,
+     "pct": 75
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Alakazam Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": true
+     },
+     "max": "Maxipuño",
+     "dano": 220,
+     "pct": 74
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Passimian Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": false
+     },
+     "max": "Maxipuño",
+     "dano": 219,
+     "pct": 74
+    },
+    {
+     "puesto": 9,
+     "tier": "B",
+     "nombre": "Electivire Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Patada Baja",
+      "legado": false
+     },
+     "max": "Maxipuño",
+     "dano": 203,
+     "pct": 69
+    },
+    {
+     "puesto": 10,
+     "tier": "B",
+     "nombre": "Hitmonchan Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": false
+     },
+     "max": "Maxipuño",
+     "dano": 192,
+     "pct": 65
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Urshifu Estilo Fluido Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": false
+     },
+     "max": "Maxipuño",
+     "dano": 249,
+     "pct": 84
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Machamp Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Puño Bala",
+      "legado": false
+     },
+     "max": "Gigapuñición",
+     "dano": 296,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "flying",
+   "nombre": "Volador",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Moltres Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ataque Ala",
+      "legado": false
+     },
+     "max": "Maxiciclón",
+     "dano": 246,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Unfezant Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false
+     },
+     "max": "Maxiciclón",
+     "dano": 223,
+     "pct": 91
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Charizard Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false
+     },
+     "max": "Maxiciclón",
+     "dano": 220,
+     "pct": 89
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Corviknight Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false
+     },
+     "max": "Maxiciclón",
+     "dano": 165,
+     "pct": 67
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Swoobat Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false
+     },
+     "max": "Maxiciclón",
+     "dano": 163,
+     "pct": 66
+    },
+    {
+     "puesto": 6,
+     "tier": "B",
+     "nombre": "Noctowl Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ataque Ala",
+      "legado": false
+     },
+     "max": "Maxiciclón",
+     "dano": 148,
+     "pct": 60
+    },
+    {
+     "puesto": 7,
+     "tier": "B",
+     "nombre": "Malamar Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Picotazo",
+      "legado": false
+     },
+     "max": "Maxiciclón",
+     "dano": 148,
+     "pct": 60
+    },
+    {
+     "puesto": 8,
+     "tier": "B",
+     "nombre": "Tranquill Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false
+     },
+     "max": "Maxiciclón",
+     "dano": 147,
+     "pct": 60
+    },
+    {
+     "puesto": 9,
+     "tier": "C",
+     "nombre": "Corvisquire Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false
+     },
+     "max": "Maxiciclón",
+     "dano": 133,
+     "pct": 54
+    },
+    {
+     "puesto": 10,
+     "tier": "D",
+     "nombre": "Woobat Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false
+     },
+     "max": "Maxiciclón",
+     "dano": 113,
+     "pct": 46
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Moltres Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ataque Ala",
+      "legado": false
+     },
+     "max": "Maxiciclón",
+     "dano": 246,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Moltres Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ataque Ala",
+      "legado": false
+     },
+     "max": "Maxiciclón",
+     "dano": 246,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "poison",
+   "nombre": "Veneno",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "S",
+     "nombre": "Garbodor Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Acoso",
+      "legado": false
+     },
+     "max": "Gigapestilencia",
+     "dano": 233,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "A",
+     "nombre": "Toxtricity (Forma Aguda) Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ácido",
+      "legado": false
+     },
+     "max": "Maxiácido",
+     "dano": 221,
+     "pct": 95
+    },
+    {
+     "puesto": 3,
+     "tier": "A",
+     "nombre": "Toxtricity (Forma Grave) Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ácido",
+      "legado": false
+     },
+     "max": "Maxiácido",
+     "dano": 221,
+     "pct": 95
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Toxtricity (Forma Aguda) Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ácido",
+      "legado": false
+     },
+     "max": "Maxiácido",
+     "dano": 221,
+     "pct": 95
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Garbodor Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Acoso",
+      "legado": false
+     },
+     "max": "Gigapestilencia",
+     "dano": 233,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "ground",
+   "nombre": "Tierra",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Excadrill Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false
+     },
+     "max": "Maxitemblor",
+     "dano": 249,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Rhyperior Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Bofetón Lodo",
+      "legado": false
+     },
+     "max": "Maxitemblor",
+     "dano": 237,
+     "pct": 95
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Rhydon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Bofetón Lodo",
+      "legado": false
+     },
+     "max": "Maxitemblor",
+     "dano": 219,
+     "pct": 88
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Flygon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false
+     },
+     "max": "Maxitemblor",
+     "dano": 203,
+     "pct": 82
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Kingler Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": true
+     },
+     "max": "Maxitemblor",
+     "dano": 196,
+     "pct": 79
+    },
+    {
+     "puesto": 6,
+     "tier": "B",
+     "nombre": "Gigalith Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Bofetón Lodo",
+      "legado": false
+     },
+     "max": "Maxitemblor",
+     "dano": 186,
+     "pct": 75
+    },
+    {
+     "puesto": 7,
+     "tier": "B",
+     "nombre": "Kabutops Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false
+     },
+     "max": "Maxitemblor",
+     "dano": 181,
+     "pct": 73
+    },
+    {
+     "puesto": 8,
+     "tier": "C",
+     "nombre": "Omastar Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false
+     },
+     "max": "Maxitemblor",
+     "dano": 171,
+     "pct": 69
+    },
+    {
+     "puesto": 9,
+     "tier": "C",
+     "nombre": "Trapinch Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false
+     },
+     "max": "Maxitemblor",
+     "dano": 164,
+     "pct": 66
+    },
+    {
+     "puesto": 10,
+     "tier": "D",
+     "nombre": "Drilbur Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Bofetón Lodo",
+      "legado": false
+     },
+     "max": "Maxitemblor",
+     "dano": 156,
+     "pct": 63
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Excadrill Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false
+     },
+     "max": "Maxitemblor",
+     "dano": 249,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Excadrill Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false
+     },
+     "max": "Maxitemblor",
+     "dano": 249,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "rock",
+   "nombre": "Roca",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Rhyperior Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false
+     },
+     "max": "Maxilito",
+     "dano": 237,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Gigalith Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false
+     },
+     "max": "Maxilito",
+     "dano": 223,
+     "pct": 94
+    },
+    {
+     "puesto": 3,
+     "tier": "A",
+     "nombre": "Omastar Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Lanzarrocas",
+      "legado": true
+     },
+     "max": "Maxilito",
+     "dano": 205,
+     "pct": 86
+    },
+    {
+     "puesto": 4,
+     "tier": "B",
+     "nombre": "Regirock Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Lanzarrocas",
+      "legado": false
+     },
+     "max": "Maxilito",
+     "dano": 179,
+     "pct": 76
+    },
+    {
+     "puesto": 5,
+     "tier": "B",
+     "nombre": "Boldore Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false
+     },
+     "max": "Maxilito",
+     "dano": 175,
+     "pct": 74
+    },
+    {
+     "puesto": 6,
+     "tier": "C",
+     "nombre": "Wailord Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Desenrollar",
+      "legado": false
+     },
+     "max": "Maxilito",
+     "dano": 146,
+     "pct": 62
+    },
+    {
+     "puesto": 7,
+     "tier": "C",
+     "nombre": "Blastoise Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Desenrollar",
+      "legado": false
+     },
+     "max": "Maxilito",
+     "dano": 143,
+     "pct": 60
+    },
+    {
+     "puesto": 8,
+     "tier": "D",
+     "nombre": "Roggenrola Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false
+     },
+     "max": "Maxilito",
+     "dano": 126,
+     "pct": 53
+    },
+    {
+     "puesto": 9,
+     "tier": "E",
+     "nombre": "Wailmer Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Desenrollar",
+      "legado": false
+     },
+     "max": "Maxilito",
+     "dano": 117,
+     "pct": 49
+    },
+    {
+     "puesto": 10,
+     "tier": "F",
+     "nombre": "Shuckle Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Lanzarrocas",
+      "legado": false
+     },
+     "max": "Maxilito",
+     "dano": 30,
+     "pct": 13
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Rhyperior Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false
+     },
+     "max": "Maxilito",
+     "dano": 237,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Rhyperior Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false
+     },
+     "max": "Maxilito",
+     "dano": 237,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "bug",
+   "nombre": "Bicho",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Centiskorch Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": false
+     },
+     "max": "Maxinsecto",
+     "dano": 217,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Butterfree Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": true
+     },
+     "max": "Gigaestupor",
+     "dano": 216,
+     "pct": 100
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Metagross Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false
+     },
+     "max": "Maxinsecto",
+     "dano": 209,
+     "pct": 96
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Kabutops Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": true
+     },
+     "max": "Maxinsecto",
+     "dano": 181,
+     "pct": 83
+    },
+    {
+     "puesto": 5,
+     "tier": "B",
+     "nombre": "Butterfree Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": true
+     },
+     "max": "Maxinsecto",
+     "dano": 168,
+     "pct": 77
+    },
+    {
+     "puesto": 6,
+     "tier": "C",
+     "nombre": "Garbodor Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Acoso",
+      "legado": false
+     },
+     "max": "Maxinsecto",
+     "dano": 151,
+     "pct": 70
+    },
+    {
+     "puesto": 7,
+     "tier": "D",
+     "nombre": "Trapinch Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Estoicismo",
+      "legado": false
+     },
+     "max": "Maxinsecto",
+     "dano": 136,
+     "pct": 63
+    },
+    {
+     "puesto": 8,
+     "tier": "E",
+     "nombre": "Sizzlipede Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": false
+     },
+     "max": "Maxinsecto",
+     "dano": 123,
+     "pct": 57
+    },
+    {
+     "puesto": 9,
+     "tier": "E",
+     "nombre": "Metang Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false
+     },
+     "max": "Maxinsecto",
+     "dano": 118,
+     "pct": 54
+    },
+    {
+     "puesto": 10,
+     "tier": "F",
+     "nombre": "Caterpie Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": false
+     },
+     "max": "Maxinsecto",
+     "dano": 65,
+     "pct": 30
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Centiskorch Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": false
+     },
+     "max": "Maxinsecto",
+     "dano": 217,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Centiskorch Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": false
+     },
+     "max": "Maxinsecto",
+     "dano": 217,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "ghost",
+   "nombre": "Fantasma",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Gengar Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Lengüetazo",
+      "legado": true
+     },
+     "max": "Gigaaparición",
+     "dano": 328,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Gengar Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Lengüetazo",
+      "legado": true
+     },
+     "max": "Maxiespectro",
+     "dano": 255,
+     "pct": 78
+    },
+    {
+     "puesto": 3,
+     "tier": "A",
+     "nombre": "Haunter Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Lengüetazo",
+      "legado": true
+     },
+     "max": "Maxiespectro",
+     "dano": 220,
+     "pct": 67
+    },
+    {
+     "puesto": 4,
+     "tier": "B",
+     "nombre": "Metagross Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Umbría",
+      "legado": true
+     },
+     "max": "Maxiespectro",
+     "dano": 209,
+     "pct": 64
+    },
+    {
+     "puesto": 5,
+     "tier": "C",
+     "nombre": "Gastly Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Lengüetazo",
+      "legado": false
+     },
+     "max": "Maxiespectro",
+     "dano": 186,
+     "pct": 57
+    },
+    {
+     "puesto": 6,
+     "tier": "D",
+     "nombre": "Sableye Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Umbría",
+      "legado": false
+     },
+     "max": "Maxiespectro",
+     "dano": 144,
+     "pct": 44
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Gengar Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Lengüetazo",
+      "legado": true
+     },
+     "max": "Maxiespectro",
+     "dano": 255,
+     "pct": 78
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Gengar Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Garra Umbría",
+      "legado": false
+     },
+     "max": "Gigaaparición",
+     "dano": 328,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "steel",
+   "nombre": "Acero",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Zacian Espada Suprema",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "max": "Tajo Supremo",
+     "dano": 320,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Melmetal Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "max": "Gigafundido",
+     "dano": 286,
+     "pct": 89
+    },
+    {
+     "puesto": 3,
+     "tier": "A",
+     "nombre": "Dialga Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "max": "Maximetal",
+     "dano": 268,
+     "pct": 84
+    },
+    {
+     "puesto": 4,
+     "tier": "B",
+     "nombre": "Metagross Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Puño Bala",
+      "legado": false
+     },
+     "max": "Maximetal",
+     "dano": 251,
+     "pct": 78
+    },
+    {
+     "puesto": 5,
+     "tier": "B",
+     "nombre": "Excadrill Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "max": "Maximetal",
+     "dano": 249,
+     "pct": 78
+    },
+    {
+     "puesto": 6,
+     "tier": "B",
+     "nombre": "Zamazenta Escudo Supremo",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "max": "Embate Supremo",
+     "dano": 245,
+     "pct": 77
+    },
+    {
+     "puesto": 7,
+     "tier": "C",
+     "nombre": "Duraludon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "max": "Maximetal",
+     "dano": 235,
+     "pct": 73
+    },
+    {
+     "puesto": 8,
+     "tier": "D",
+     "nombre": "Kingler Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "max": "Maximetal",
+     "dano": 196,
+     "pct": 61
+    },
+    {
+     "puesto": 9,
+     "tier": "D",
+     "nombre": "Ho-Oh Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ala de Acero",
+      "legado": false
+     },
+     "max": "Maximetal",
+     "dano": 196,
+     "pct": 61
+    },
+    {
+     "puesto": 10,
+     "tier": "D",
+     "nombre": "Machamp Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Puño Bala",
+      "legado": false
+     },
+     "max": "Maximetal",
+     "dano": 192,
+     "pct": 60
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Zacian Espada Suprema",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "max": "Tajo Supremo",
+     "dano": 320,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Zacian Espada Suprema",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "max": "Tajo Supremo",
+     "dano": 320,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "fire",
+   "nombre": "Fuego",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Cinderace Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Placaje",
+      "legado": false
+     },
+     "max": "Gigaesfera Ígnea",
+     "dano": 300,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Charizard Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": true
+     },
+     "max": "Gigallamarada",
+     "dano": 283,
+     "pct": 94
+    },
+    {
+     "puesto": 3,
+     "tier": "A",
+     "nombre": "Darmanitan Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Colmillo Ígneo",
+      "legado": false
+     },
+     "max": "Maxignición",
+     "dano": 257,
+     "pct": 86
+    },
+    {
+     "puesto": 4,
+     "tier": "B",
+     "nombre": "Moltres Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false
+     },
+     "max": "Maxignición",
+     "dano": 246,
+     "pct": 82
+    },
+    {
+     "puesto": 5,
+     "tier": "B",
+     "nombre": "Flareon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ascuas",
+      "legado": false
+     },
+     "max": "Maxignición",
+     "dano": 241,
+     "pct": 80
+    },
+    {
+     "puesto": 6,
+     "tier": "C",
+     "nombre": "Ho-Oh Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Calcinación",
+      "legado": false
+     },
+     "max": "Maxignición",
+     "dano": 235,
+     "pct": 78
+    },
+    {
+     "puesto": 7,
+     "tier": "C",
+     "nombre": "Cinderace Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false
+     },
+     "max": "Maxignición",
+     "dano": 234,
+     "pct": 78
+    },
+    {
+     "puesto": 8,
+     "tier": "C",
+     "nombre": "Entei Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Colmillo Ígneo",
+      "legado": false
+     },
+     "max": "Maxignición",
+     "dano": 231,
+     "pct": 77
+    },
+    {
+     "puesto": 9,
+     "tier": "D",
+     "nombre": "Arcanine Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Colmillo Ígneo",
+      "legado": false
+     },
+     "max": "Maxignición",
+     "dano": 224,
+     "pct": 75
+    },
+    {
+     "puesto": 10,
+     "tier": "D",
+     "nombre": "Charizard Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Ascuas",
+      "legado": true
+     },
+     "max": "Maxignición",
+     "dano": 220,
+     "pct": 73
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Darmanitan Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Colmillo Ígneo",
+      "legado": false
+     },
+     "max": "Maxignición",
+     "dano": 257,
+     "pct": 86
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Cinderace Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Placaje",
+      "legado": false
+     },
+     "max": "Gigaesfera Ígnea",
+     "dano": 300,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "water",
+   "nombre": "Agua",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Inteleon Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "max": "Gigadisparo",
+     "dano": 329,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Kingler Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "max": "Gigaespuma",
+     "dano": 303,
+     "pct": 92
+    },
+    {
+     "puesto": 3,
+     "tier": "A",
+     "nombre": "Inteleon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false
+     },
+     "max": "Maxichorro",
+     "dano": 256,
+     "pct": 78
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Urshifu Estilo Fluido Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Cascada",
+      "legado": false
+     },
+     "max": "Maxichorro",
+     "dano": 249,
+     "pct": 76
+    },
+    {
+     "puesto": 5,
+     "tier": "B",
+     "nombre": "Kingler Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Burbuja",
+      "legado": false
+     },
+     "max": "Maxichorro",
+     "dano": 236,
+     "pct": 72
+    },
+    {
+     "puesto": 6,
+     "tier": "B",
+     "nombre": "Gyarados Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Cascada",
+      "legado": false
+     },
+     "max": "Maxichorro",
+     "dano": 233,
+     "pct": 71
+    },
+    {
+     "puesto": 7,
+     "tier": "C",
+     "nombre": "Blastoise Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false
+     },
+     "max": "Gigacañonazo",
+     "dano": 221,
+     "pct": 67
+    },
+    {
+     "puesto": 8,
+     "tier": "C",
+     "nombre": "Kabutops Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Cascada",
+      "legado": false
+     },
+     "max": "Maxichorro",
+     "dano": 217,
+     "pct": 66
+    },
+    {
+     "puesto": 9,
+     "tier": "C",
+     "nombre": "Omastar Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false
+     },
+     "max": "Maxichorro",
+     "dano": 205,
+     "pct": 62
+    },
+    {
+     "puesto": 10,
+     "tier": "C",
+     "nombre": "Vaporeon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false
+     },
+     "max": "Maxichorro",
+     "dano": 203,
+     "pct": 62
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Inteleon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false
+     },
+     "max": "Maxichorro",
+     "dano": 256,
+     "pct": 78
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Inteleon Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": false
+     },
+     "max": "Gigadisparo",
+     "dano": 329,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "grass",
+   "nombre": "Planta",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Rillaboom Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Arañazo",
+      "legado": false
+     },
+     "max": "Gigarredoble",
+     "dano": 302,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Venusaur Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false
+     },
+     "max": "Gigalianas",
+     "dano": 253,
+     "pct": 84
+    },
+    {
+     "puesto": 3,
+     "tier": "A",
+     "nombre": "Rillaboom Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Hoja Afilada",
+      "legado": false
+     },
+     "max": "Maxiflora",
+     "dano": 235,
+     "pct": 78
+    },
+    {
+     "puesto": 4,
+     "tier": "B",
+     "nombre": "Tsareena Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Hoja Afilada",
+      "legado": false
+     },
+     "max": "Maxiflora",
+     "dano": 219,
+     "pct": 73
+    },
+    {
+     "puesto": 5,
+     "tier": "B",
+     "nombre": "Leafeon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Semilladora",
+      "legado": true
+     },
+     "max": "Maxiflora",
+     "dano": 213,
+     "pct": 71
+    },
+    {
+     "puesto": 6,
+     "tier": "C",
+     "nombre": "Venusaur Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false
+     },
+     "max": "Maxiflora",
+     "dano": 197,
+     "pct": 65
+    },
+    {
+     "puesto": 7,
+     "tier": "C",
+     "nombre": "Gardevoir Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Hoja Mágica",
+      "legado": false
+     },
+     "max": "Maxiflora",
+     "dano": 194,
+     "pct": 64
+    },
+    {
+     "puesto": 8,
+     "tier": "D",
+     "nombre": "Thwackey Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Hoja Afilada",
+      "legado": false
+     },
+     "max": "Maxiflora",
+     "dano": 166,
+     "pct": 55
+    },
+    {
+     "puesto": 9,
+     "tier": "D",
+     "nombre": "Ivysaur Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false
+     },
+     "max": "Maxiflora",
+     "dano": 154,
+     "pct": 51
+    },
+    {
+     "puesto": 10,
+     "tier": "E",
+     "nombre": "Greedent Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Semilladora",
+      "legado": false
+     },
+     "max": "Maxiflora",
+     "dano": 135,
+     "pct": 45
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Rillaboom Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Hoja Afilada",
+      "legado": false
+     },
+     "max": "Maxiflora",
+     "dano": 235,
+     "pct": 78
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Rillaboom Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Arañazo",
+      "legado": false
+     },
+     "max": "Gigarredoble",
+     "dano": 302,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "electric",
+   "nombre": "Eléctrico",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Toxtricity Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Chispa",
+      "legado": false
+     },
+     "max": "Gigadescarga",
+     "dano": 284,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Zapdos Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": true
+     },
+     "max": "Maxitormenta",
+     "dano": 248,
+     "pct": 87
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Electivire Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "max": "Maxitormenta",
+     "dano": 244,
+     "pct": 86
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Raikou Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "max": "Maxitormenta",
+     "dano": 237,
+     "pct": 83
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Jolteon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "max": "Maxitormenta",
+     "dano": 228,
+     "pct": 80
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Toxtricity (Forma Aguda) Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Chispa",
+      "legado": false
+     },
+     "max": "Maxitormenta",
+     "dano": 221,
+     "pct": 78
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Toxtricity (Forma Grave) Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Chispa",
+      "legado": false
+     },
+     "max": "Maxitormenta",
+     "dano": 221,
+     "pct": 78
+    },
+    {
+     "puesto": 8,
+     "tier": "B",
+     "nombre": "Electabuzz Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "max": "Maxitormenta",
+     "dano": 197,
+     "pct": 69
+    },
+    {
+     "puesto": 9,
+     "tier": "B",
+     "nombre": "Gardevoir Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Rayo Carga",
+      "legado": false
+     },
+     "max": "Maxitormenta",
+     "dano": 194,
+     "pct": 68
+    },
+    {
+     "puesto": 10,
+     "tier": "C",
+     "nombre": "Melmetal Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false
+     },
+     "max": "Maxitormenta",
+     "dano": 186,
+     "pct": 65
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Zapdos Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": true
+     },
+     "max": "Maxitormenta",
+     "dano": 248,
+     "pct": 87
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Toxtricity Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Chispa",
+      "legado": false
+     },
+     "max": "Gigadescarga",
+     "dano": 284,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "psychic",
+   "nombre": "Psíquico",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Alakazam Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false
+     },
+     "max": "Maxionda",
+     "dano": 264,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Azelf Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Paranormal",
+      "legado": false
+     },
+     "max": "Maxionda",
+     "dano": 263,
+     "pct": 100
+    },
+    {
+     "puesto": 3,
+     "tier": "SS",
+     "nombre": "Latios Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Cabezazo Zen",
+      "legado": false
+     },
+     "max": "Maxionda",
+     "dano": 261,
+     "pct": 99
+    },
+    {
+     "puesto": 4,
+     "tier": "SS",
+     "nombre": "Espeon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Cabezazo Zen",
+      "legado": false
+     },
+     "max": "Maxionda",
+     "dano": 255,
+     "pct": 97
+    },
+    {
+     "puesto": 5,
+     "tier": "SS",
+     "nombre": "Metagross Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Cabezazo Zen",
+      "legado": false
+     },
+     "max": "Maxionda",
+     "dano": 251,
+     "pct": 95
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Gallade Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false
+     },
+     "max": "Maxionda",
+     "dano": 233,
+     "pct": 88
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Hatterene Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false
+     },
+     "max": "Maxionda",
+     "dano": 233,
+     "pct": 88
+    },
+    {
+     "puesto": 8,
+     "tier": "S",
+     "nombre": "Gardevoir Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Confusión",
+      "legado": false
+     },
+     "max": "Maxionda",
+     "dano": 233,
+     "pct": 88
+    },
+    {
+     "puesto": 9,
+     "tier": "S",
+     "nombre": "Kadabra Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false
+     },
+     "max": "Maxionda",
+     "dano": 228,
+     "pct": 86
+    },
+    {
+     "puesto": 10,
+     "tier": "S",
+     "nombre": "Latias Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Cabezazo Zen",
+      "legado": false
+     },
+     "max": "Maxionda",
+     "dano": 225,
+     "pct": 85
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Alakazam Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false
+     },
+     "max": "Maxionda",
+     "dano": 264,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Alakazam Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false
+     },
+     "max": "Maxionda",
+     "dano": 264,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "ice",
+   "nombre": "Hielo",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Weavile Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Canto Helado",
+      "legado": false
+     },
+     "max": "Maxihelada",
+     "dano": 238,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Glaceon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Vaho Gélido",
+      "legado": false
+     },
+     "max": "Maxihelada",
+     "dano": 234,
+     "pct": 98
+    },
+    {
+     "puesto": 3,
+     "tier": "A",
+     "nombre": "Lapras Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Psicoonda",
+      "legado": false
+     },
+     "max": "Gigamelodía",
+     "dano": 214,
+     "pct": 90
+    },
+    {
+     "puesto": 4,
+     "tier": "B",
+     "nombre": "Articuno Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Vaho Gélido",
+      "legado": false
+     },
+     "max": "Maxihelada",
+     "dano": 191,
+     "pct": 80
+    },
+    {
+     "puesto": 5,
+     "tier": "B",
+     "nombre": "Cryogonal Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Vaho Gélido",
+      "legado": false
+     },
+     "max": "Maxihelada",
+     "dano": 190,
+     "pct": 80
+    },
+    {
+     "puesto": 6,
+     "tier": "B",
+     "nombre": "Sneasel Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Canto Helado",
+      "legado": false
+     },
+     "max": "Maxihelada",
+     "dano": 189,
+     "pct": 79
+    },
+    {
+     "puesto": 7,
+     "tier": "C",
+     "nombre": "Walrein Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Vaho Gélido",
+      "legado": false
+     },
+     "max": "Maxihelada",
+     "dano": 182,
+     "pct": 76
+    },
+    {
+     "puesto": 8,
+     "tier": "C",
+     "nombre": "Regice Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Vaho Gélido",
+      "legado": false
+     },
+     "max": "Maxihelada",
+     "dano": 179,
+     "pct": 75
+    },
+    {
+     "puesto": 9,
+     "tier": "D",
+     "nombre": "Lapras Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Vaho Gélido",
+      "legado": false
+     },
+     "max": "Maxihelada",
+     "dano": 166,
+     "pct": 70
+    },
+    {
+     "puesto": 10,
+     "tier": "E",
+     "nombre": "Suicune Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Colmillo Hielo",
+      "legado": false
+     },
+     "max": "Maxihelada",
+     "dano": 150,
+     "pct": 63
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Weavile Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Canto Helado",
+      "legado": false
+     },
+     "max": "Maxihelada",
+     "dano": 238,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Weavile Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Canto Helado",
+      "legado": false
+     },
+     "max": "Maxihelada",
+     "dano": 238,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "dragon",
+   "nombre": "Dragón",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Eternatus",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false
+     },
+     "max": "Cañón Dinamax",
+     "dano": 348,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Duraludon Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "max": "Gigadesgaste",
+     "dano": 302,
+     "pct": 87
+    },
+    {
+     "puesto": 3,
+     "tier": "A",
+     "nombre": "Palkia Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "max": "Maxidraco",
+     "dano": 272,
+     "pct": 78
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Dialga Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "max": "Maxidraco",
+     "dano": 268,
+     "pct": 77
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Latios Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "max": "Maxidraco",
+     "dano": 261,
+     "pct": 75
+    },
+    {
+     "puesto": 6,
+     "tier": "B",
+     "nombre": "Hydreigon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "max": "Maxidraco",
+     "dano": 250,
+     "pct": 72
+    },
+    {
+     "puesto": 7,
+     "tier": "C",
+     "nombre": "Duraludon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false
+     },
+     "max": "Maxidraco",
+     "dano": 235,
+     "pct": 68
+    },
+    {
+     "puesto": 8,
+     "tier": "C",
+     "nombre": "Drampa Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "max": "Maxidraco",
+     "dano": 227,
+     "pct": 65
+    },
+    {
+     "puesto": 9,
+     "tier": "C",
+     "nombre": "Latias Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false
+     },
+     "max": "Maxidraco",
+     "dano": 225,
+     "pct": 65
+    },
+    {
+     "puesto": 10,
+     "tier": "D",
+     "nombre": "Flygon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false
+     },
+     "max": "Maxidraco",
+     "dano": 203,
+     "pct": 58
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Eternatus",
+     "forma": "Especial",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false
+     },
+     "max": "Cañón Dinamax",
+     "dano": 348,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Duraludon Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false
+     },
+     "max": "Gigadesgaste",
+     "dano": 302,
+     "pct": 87
+    }
+   ]
+  },
+  {
+   "id": "dark",
+   "nombre": "Siniestro",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Grimmsnarl Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false
+     },
+     "max": "Gigasopor",
+     "dano": 287,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Hydreigon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false
+     },
+     "max": "Maxisombra",
+     "dano": 250,
+     "pct": 87
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Urshifu Estilo Brusco Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Golpe Bajo",
+      "legado": false
+     },
+     "max": "Maxisombra",
+     "dano": 249,
+     "pct": 87
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Weavile Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Finta",
+      "legado": false
+     },
+     "max": "Maxisombra",
+     "dano": 238,
+     "pct": 83
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Gengar Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Golpe Bajo",
+      "legado": false
+     },
+     "max": "Maxisombra",
+     "dano": 213,
+     "pct": 74
+    },
+    {
+     "puesto": 6,
+     "tier": "B",
+     "nombre": "Gyarados Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false
+     },
+     "max": "Maxisombra",
+     "dano": 194,
+     "pct": 68
+    },
+    {
+     "puesto": 7,
+     "tier": "B",
+     "nombre": "Sneasel Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Finta",
+      "legado": false
+     },
+     "max": "Maxisombra",
+     "dano": 189,
+     "pct": 66
+    },
+    {
+     "puesto": 8,
+     "tier": "B",
+     "nombre": "Arcanine Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": true
+     },
+     "max": "Maxisombra",
+     "dano": 186,
+     "pct": 65
+    },
+    {
+     "puesto": 9,
+     "tier": "C",
+     "nombre": "Regidrago Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false
+     },
+     "max": "Maxisombra",
+     "dano": 167,
+     "pct": 58
+    },
+    {
+     "puesto": 10,
+     "tier": "C",
+     "nombre": "Zweilous Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false
+     },
+     "max": "Maxisombra",
+     "dano": 161,
+     "pct": 56
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Hydreigon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false
+     },
+     "max": "Maxisombra",
+     "dano": 250,
+     "pct": 87
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Grimmsnarl Gigamax",
+     "forma": "Gigamax",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false
+     },
+     "max": "Gigasopor",
+     "dano": 287,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "fairy",
+   "nombre": "Hada",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Gardevoir Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false
+     },
+     "max": "Maxiestela",
+     "dano": 233,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Hatterene Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false
+     },
+     "max": "Maxiestela",
+     "dano": 233,
+     "pct": 100
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Sylveon Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Viento Feérico",
+      "legado": false
+     },
+     "max": "Maxiestela",
+     "dano": 201,
+     "pct": 86
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Gallade Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false
+     },
+     "max": "Maxiestela",
+     "dano": 194,
+     "pct": 83
+    },
+    {
+     "puesto": 5,
+     "tier": "B",
+     "nombre": "Latias Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false
+     },
+     "max": "Maxiestela",
+     "dano": 187,
+     "pct": 80
+    },
+    {
+     "puesto": 6,
+     "tier": "B",
+     "nombre": "Tsareena Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false
+     },
+     "max": "Maxiestela",
+     "dano": 183,
+     "pct": 79
+    },
+    {
+     "puesto": 7,
+     "tier": "C",
+     "nombre": "Hattrem Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false
+     },
+     "max": "Maxiestela",
+     "dano": 130,
+     "pct": 56
+    },
+    {
+     "puesto": 8,
+     "tier": "D",
+     "nombre": "Hatenna Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false
+     },
+     "max": "Maxiestela",
+     "dano": 87,
+     "pct": 37
+    },
+    {
+     "puesto": 9,
+     "tier": "E",
+     "nombre": "Steenee Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false
+     },
+     "max": "Maxiestela",
+     "dano": 72,
+     "pct": 31
+    },
+    {
+     "puesto": 10,
+     "tier": "F",
+     "nombre": "Bounsweet Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false
+     },
+     "max": "Maxiestela",
+     "dano": 54,
+     "pct": 23
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "Sin Gigamax",
+     "nombre": "Gardevoir Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false
+     },
+     "max": "Maxiestela",
+     "dano": 233,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Gardevoir Dinamax",
+     "forma": "Dinamax",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false
+     },
+     "max": "Maxiestela",
+     "dano": 233,
+     "pct": 100
+    }
+   ]
+  }
+ ],
+ "actualizado": "12 nov 2026, 16:42 UTC",
+ "url": "https://db.pokemongohub.net/es/best/dynamax-attackers-per-type"
+}

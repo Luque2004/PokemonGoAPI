@@ -1,0 +1,1501 @@
+<title>Agenda Pokémon GO</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..800&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: una sola columna tipo "horario de entrenador": arriba lo que está pasando y la cuenta atrás,
+   luego la franja de 7 días y la agenda por días con la hora en una columna fija a la izquierda. */
+:root {
+  --bg: #eef2f6;
+  --surface: #ffffff;
+  --surface-2: #f6f8fb;
+  --ink: #142231;
+  --muted: #5a6b7d;
+  --line: #d9e1ea;
+  --accent: #0b84a5;
+  --t-raid: #d4472f;
+  --t-spot: #b98400;
+  --t-comm: #17945f;
+  --t-max: #c0307f;
+  --t-event: #2d68d0;
+  --t-meteor: #6553cf;
+  --t-other: #5a6b7d;
+  --bonus-fg: #8a5a00;
+  --bonus-bg: #fff4d6;
+  --bonus-line: #f0d48a;
+  --font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --radius: 14px;
+  /* Barras de "% del n.º 1": un solo color (una serie); el fondo es un paso más claro del mismo tono */
+  --bar: #0b84a5;
+  --bar-track: color-mix(in srgb, var(--bar) 16%, var(--surface));
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d141c; --surface: #16202b; --surface-2: #1b2734; --ink: #e7eef6; --muted: #93a3b5; --line: #263443;
+    --accent: #43b7d6; --bar: #2f9fbf;
+    --t-raid: #ff7a62; --t-spot: #f2c14a; --t-comm: #4fd39a; --t-max: #f06cb6; --t-event: #79a7ff; --t-meteor: #a497ff; --t-other: #93a3b5;
+    --bonus-fg: #ffd77a; --bonus-bg: rgba(255, 215, 122, .1); --bonus-line: rgba(255, 215, 122, .3);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d141c; --surface: #16202b; --surface-2: #1b2734; --ink: #e7eef6; --muted: #93a3b5; --line: #263443;
+  --accent: #43b7d6; --bar: #2f9fbf;
+  --t-raid: #ff7a62; --t-spot: #f2c14a; --t-comm: #4fd39a; --t-max: #f06cb6; --t-event: #79a7ff; --t-meteor: #a497ff; --t-other: #93a3b5;
+  --bonus-fg: #ffd77a; --bonus-bg: rgba(255, 215, 122, .1); --bonus-line: rgba(255, 215, 122, .3);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+.bonus { display: flex; flex-wrap: wrap; gap: 5px; }
+.tabs { display: flex; gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px; }
+.tab { flex: 1 1 auto; white-space: nowrap; font: inherit; font-weight: 600; font-size: 14px; color: var(--muted); background: transparent; border: 0; border-radius: 999px; padding: 9px 10px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
+.tab[aria-selected="true"] { background: var(--ink); color: var(--bg); }
+.tab-count { font-size: 12px; font-variant-numeric: tabular-nums; }
+.tab-count:empty { display: none; }
+.view { display: flex; flex-direction: column; gap: 28px; }
+.sec-note { margin: -4px 0 0; color: var(--muted); font-size: 13.5px; }
+.pay { display: flex; flex-direction: column; gap: 10px; }
+.payrow { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; display: grid; gap: 12px; }
+.pay-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 8px 10px; }
+.pay-title { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.pay-title h3 { font-size: 16.5px; font-weight: 700; line-height: 1.25; }
+.price { font-family: var(--font-display); font-stretch: 100%; font-weight: 700; font-size: 15px; line-height: 1.3; max-width: 100%; overflow-wrap: anywhere; background: var(--surface-2); border: 1px solid var(--line); border-radius: 12px; padding: 4px 10px; }
+.cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.col { background: var(--surface-2); border-radius: 10px; padding: 10px; min-width: 0; }
+.col.paid { background: var(--bonus-bg); border: 1px solid var(--bonus-line); }
+.col-h { font-size: 11.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.col.paid .col-h { color: var(--bonus-fg); }
+.col ul, .reco ul { margin: 0; padding-left: 16px; display: flex; flex-direction: column; gap: 4px; font-size: 13.5px; }
+.col li.muted { color: var(--muted); list-style: none; margin-left: -16px; }
+.verdict { display: flex; gap: 8px; align-items: baseline; font-size: 14px; }
+.stars { color: var(--t-spot); letter-spacing: .05em; white-space: nowrap; font-size: 15px; }
+.raids { display: grid; gap: 4px; font-size: 13.5px; }
+.raid-day b { font-weight: 600; }
+.reco { background: var(--surface); border: 1px solid var(--accent); border-radius: var(--radius); padding: 14px; display: grid; gap: 8px; }
+.reco h3 { font-size: 15px; }
+.reco:empty { display: none; }
+.pass {
+  font-size: 13px; font-weight: 500; color: var(--ink); background: var(--surface-2);
+  border: 1px solid var(--line); border-radius: 8px; padding: 5px 9px; line-height: 1.4;
+}
+.bonus span {
+  font-size: 12.5px; font-weight: 600; color: var(--bonus-fg); background: var(--bonus-bg);
+  border: 1px solid var(--bonus-line); border-radius: 7px; padding: 2px 8px;
+}
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-block: 20px 48px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+h1, h2, h3 { font-family: var(--font-display); font-stretch: 112%; margin: 0; text-wrap: balance; }
+.num { font-variant-numeric: tabular-nums; }
+a { color: var(--accent); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+
+/* Cabecera */
+.top { display: flex; align-items: flex-end; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.top h1 { font-size: clamp(28px, 7vw, 40px); font-weight: 800; letter-spacing: -.01em; line-height: 1.05; margin-top: 4px; }
+.top-meta { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 13px; }
+.btn {
+  font: inherit; font-weight: 600; font-size: 13px;
+  color: var(--ink); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 999px; padding: 7px 14px; cursor: pointer;
+}
+.btn:hover { border-color: var(--muted); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+/* Secciones */
+.sec { display: flex; flex-direction: column; gap: 12px; }
+.sec-h { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.sec-h h2 { font-size: 17px; font-weight: 700; }
+.sec-h span { font-size: 13px; color: var(--muted); }
+
+/* Siguiente evento */
+.next {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 20px;
+  padding: 20px; display: grid; gap: 16px;
+}
+.next-head { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.next h3 { font-size: clamp(22px, 5.4vw, 30px); font-weight: 800; line-height: 1.1; }
+.next-when { color: var(--muted); font-size: 14px; }
+.countdown { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.cd { background: var(--surface-2); border-radius: 12px; padding: 10px 8px; text-align: center; }
+.cd b { display: block; font-family: var(--font-display); font-stretch: 100%; font-size: clamp(24px, 7vw, 34px); font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.cd small { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.next.live .countdown { display: none; }
+.live-note { display: none; font-weight: 600; }
+.next.live .live-note { display: flex; align-items: center; gap: 8px; }
+.pulse { width: 10px; height: 10px; border-radius: 50%; background: var(--tc, var(--accent)); box-shadow: 0 0 0 0 var(--tc, var(--accent)); }
+@media (prefers-reduced-motion: no-preference) {
+  .pulse { animation: pulse 1.8s ease-out infinite; }
+  @keyframes pulse { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--tc) 60%, transparent); } 100% { box-shadow: 0 0 0 10px transparent; } }
+}
+
+/* Chip de tipo */
+.chip {
+  --tc: var(--t-other);
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; font-weight: 600; letter-spacing: .02em;
+  color: var(--tc);
+  background: color-mix(in srgb, var(--tc) 12%, transparent);
+  border-radius: 999px; padding: 3px 10px 3px 7px; white-space: nowrap;
+  align-self: flex-start; justify-self: start; max-width: 100%; overflow: hidden; text-overflow: ellipsis;
+}
+.chip svg { width: 14px; height: 14px; flex: none; }
+.raid { --tc: var(--t-raid); } .spot { --tc: var(--t-spot); } .comm { --tc: var(--t-comm); }
+.max { --tc: var(--t-max); } .event { --tc: var(--t-event); } .meteor { --tc: var(--t-meteor); } .other { --tc: var(--t-other); }
+
+/* Ahora mismo */
+.now-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.now-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; display: grid; gap: 8px; min-width: 0; }
+.now-card h3 { font-size: 16px; font-weight: 700; line-height: 1.2; }
+.bar { height: 6px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--tc); border-radius: inherit; }
+.now-card .meta { display: flex; justify-content: space-between; gap: 8px; font-size: 12.5px; color: var(--muted); }
+
+/* Semana */
+.week { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; }
+.day {
+  font: inherit; color: inherit; text-align: center; cursor: pointer;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+  padding: 8px 2px 10px; display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 0;
+}
+.day:disabled { cursor: default; opacity: .55; }
+.day .dw { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+.day .dn { font-family: var(--font-display); font-weight: 700; font-size: 19px; line-height: 1.2; }
+.day.today { border-color: var(--accent); }
+.day.today .dw { color: var(--accent); }
+.dots { display: flex; flex-wrap: wrap; justify-content: center; gap: 3px; min-height: 8px; margin-top: 4px; padding: 0 4px; }
+.dots i { width: 7px; height: 7px; border-radius: 50%; background: var(--tc); }
+
+/* Filtros */
+.filters { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+.filters::-webkit-scrollbar { display: none; }
+.f {
+  font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap;
+  border: 1px solid var(--line); background: var(--surface); color: var(--muted);
+  border-radius: 999px; padding: 6px 12px; display: inline-flex; align-items: center; gap: 6px;
+}
+.f i { width: 8px; height: 8px; border-radius: 50%; background: var(--tc, var(--muted)); }
+.f[aria-pressed="true"] { color: var(--ink); border-color: var(--ink); }
+
+/* Agenda */
+.agenda { display: flex; flex-direction: column; gap: 22px; }
+.group { display: flex; flex-direction: column; gap: 8px; scroll-margin-top: 16px; }
+.group-h { font-family: var(--font-display); font-stretch: 112%; font-weight: 700; font-size: 15px; display: flex; gap: 8px; align-items: baseline; }
+.group-h small { font-family: var(--font-body); font-weight: 500; font-size: 13px; color: var(--muted); }
+.item {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 0;
+}
+.item.past { opacity: .55; }
+.time { padding: 14px 0 14px 14px; display: flex; flex-direction: column; gap: 2px; }
+.time b { font-family: var(--font-display); font-stretch: 100%; font-size: 17px; font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.time span { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.body { padding: 14px 14px 14px 10px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.body h3 { font-size: 16.5px; font-weight: 700; line-height: 1.25; }
+.body p { margin: 0; color: var(--muted); font-size: 14px; }
+.links { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; font-weight: 600; margin-top: 2px; }
+.links a { text-decoration: none; }
+.links a:hover { text-decoration: underline; }
+.range { font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+/* Estados */
+.notice { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; display: grid; gap: 10px; }
+.notice h2 { font-size: 17px; }
+.notice p { margin: 0; color: var(--muted); }
+.skel { display: grid; gap: 10px; }
+.skel div { height: 74px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
+@media (prefers-reduced-motion: no-preference) {
+  .skel div { animation: fade 1.4s ease-in-out infinite alternate; }
+  @keyframes fade { from { opacity: .55; } to { opacity: 1; } }
+}
+.foot { font-size: 12.5px; color: var(--muted); display: flex; flex-direction: column; gap: 4px; }
+
+/* Atacantes */
+.search {
+  width: 100%; font: inherit; font-size: 15px; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 10px 16px;
+}
+.search::placeholder { color: var(--muted); }
+.search:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.types { display: flex; flex-wrap: wrap; gap: 5px; }
+.types .f { font-size: 12.5px; padding: 5px 10px; gap: 5px; }
+.types .f i { width: 7px; height: 7px; }
+.sub-h { font-size: 15px; font-weight: 700; margin-top: 6px; }
+.stack { display: flex; flex-direction: column; gap: 10px; }
+.atk { display: flex; flex-direction: column; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.arow {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 12px 14px; display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; column-gap: 10px; row-gap: 4px; align-items: center;
+}
+.arow .rank { grid-row: 1 / span 3; align-self: start; font-family: var(--font-display); font-stretch: 100%; font-weight: 700; font-size: 18px; line-height: 1.25; color: var(--muted); font-variant-numeric: tabular-nums; }
+.aname { grid-column: 2 / 4; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; min-width: 0; }
+.aname b { font-size: 15.5px; line-height: 1.3; }
+.tier { font-size: 11px; font-weight: 700; letter-spacing: .04em; color: var(--muted); border: 1px solid var(--line); border-radius: 6px; padding: 0 5px; line-height: 1.5; }
+.small { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.moves { font-size: 13px; color: var(--muted); line-height: 1.5; }
+.arow .moves { grid-column: 2 / 4; }
+.tag {
+  display: inline-block; font-size: 10.5px; font-weight: 700; letter-spacing: .03em; color: var(--ink);
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: 5px; padding: 0 5px; margin-left: 4px;
+  line-height: 1.5; vertical-align: 1px; white-space: nowrap;
+}
+.meter { grid-column: 2; height: 8px; background: var(--bar-track); border-radius: 0 4px 4px 0; position: relative; }
+.meter::before { content: ""; position: absolute; inset: -8px 0; } /* zona táctil más grande que la barra */
+.meter i { display: block; height: 100%; background: var(--bar); border-radius: 0 4px 4px 0; }
+.meter:hover i, .meter:focus-visible i { filter: brightness(1.15); }
+.meter:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.pct { grid-column: 3; font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; min-width: 4.5ch; }
+.ttag { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; color: var(--muted); }
+.ttag i, .mchip i { width: 8px; height: 8px; border-radius: 50%; background: var(--tc, var(--muted)); flex: none; }
+.picks { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); gap: 8px; }
+.pick { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; display: grid; gap: 3px; min-width: 0; align-content: start; }
+.pick .col-h { margin-bottom: 0; }
+.pick b { font-size: 14.5px; line-height: 1.3; }
+.ov { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); gap: 8px; }
+.ovc {
+  font: inherit; color: inherit; text-align: left; cursor: pointer; min-width: 0;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 12px 14px; display: grid; gap: 3px; align-content: start;
+}
+.ovc:hover { border-color: var(--muted); }
+.ovc .ttag { color: var(--ink); font-family: var(--font-display); font-stretch: 112%; font-weight: 700; font-size: 15px; }
+.ovc b { font-size: 15px; line-height: 1.3; }
+.legend { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 12.5px; color: var(--muted); }
+.seg { display: inline-flex; gap: 4px; align-self: flex-start; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 3px; max-width: 100%; }
+.seg-b { font: inherit; font-size: 13.5px; font-weight: 600; color: var(--muted); background: transparent; border: 0; border-radius: 999px; padding: 7px 12px; cursor: pointer; white-space: nowrap; }
+.seg-b[aria-pressed="true"] { color: var(--ink); background: var(--surface-2); box-shadow: inset 0 0 0 1.5px var(--ink); }
+.tag.giga { background: color-mix(in srgb, var(--t-max) 16%, var(--surface)); border-color: color-mix(in srgb, var(--t-max) 50%, var(--line)); }
+.tag.dina { background: color-mix(in srgb, var(--t-event) 14%, var(--surface)); border-color: color-mix(in srgb, var(--t-event) 45%, var(--line)); }
+.tag.esp { background: color-mix(in srgb, var(--t-spot) 18%, var(--surface)); border-color: color-mix(in srgb, var(--t-spot) 50%, var(--line)); }
+.aname .tag, .ov-name .tag { margin-left: 0; }
+.ov-name { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; }
+.legend .tag { margin: 0 6px 0 0; }
+.meta-row { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+.meta-h { font-size: 12.5px; font-weight: 700; color: var(--muted); margin-right: 1px; }
+.mchip {
+  display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 600; color: var(--ink);
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: 7px; padding: 2px 8px; text-decoration: none;
+}
+.mchip:hover { border-color: var(--muted); }
+.mchip { flex-wrap: wrap; column-gap: 6px; row-gap: 0; }
+.mchip b { font-weight: 600; white-space: nowrap; }
+.mchip span { color: var(--muted); font-weight: 500; white-space: nowrap; }
+.tip {
+  position: fixed; z-index: 20; pointer-events: none; max-width: 240px;
+  background: var(--ink); color: var(--bg); border-radius: 8px; padding: 6px 10px;
+  font-size: 12.5px; line-height: 1.35; box-shadow: 0 6px 18px rgba(0, 0, 0, .18);
+}
+.tip b { display: block; font-size: 14px; font-variant-numeric: tabular-nums; }
+
+@media (max-width: 360px) {
+  .tab { padding: 8px 6px; font-size: 13px; gap: 4px; }
+}
+@media (max-width: 420px) {
+  .item { grid-template-columns: 56px minmax(0, 1fr); }
+  .time { padding-left: 12px; }
+  .next { padding: 16px; }
+}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">Hora local · Barcelona</div>
+      <h1>Agenda Pokémon GO</h1>
+    </div>
+    <div class="top-meta">
+      <span id="updated" class="num">Conectando con Google Calendar…</span>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Secciones">
+    <button class="tab" id="tab-agenda" role="tab" type="button" data-view="agenda" aria-selected="true">📅 Agenda</button>
+    <button class="tab" id="tab-pases" role="tab" type="button" data-view="pases" aria-selected="false">💳 Pases</button>
+    <button class="tab" id="tab-atacantes" role="tab" type="button" data-view="atacantes" aria-selected="false">🏆 Atacantes</button>
+  </nav>
+
+  <div id="state"></div>
+
+  <div class="view" id="view-agenda">
+
+  <section class="sec" id="next-sec" hidden>
+    <div class="sec-h"><h2>Lo próximo</h2><span id="next-rel"></span></div>
+    <article class="next" id="next"></article>
+  </section>
+
+  <section class="sec" id="now-sec" hidden>
+    <div class="sec-h"><h2>En marcha ahora</h2><span id="now-count"></span></div>
+    <div class="now-list" id="now"></div>
+  </section>
+
+  <section class="sec" id="week-sec" hidden>
+    <div class="sec-h"><h2>Estos 7 días</h2><span>Toca un día para ir a él</span></div>
+    <div class="week" id="week"></div>
+  </section>
+
+  <section class="sec" id="agenda-sec" hidden>
+    <div class="sec-h"><h2>Agenda</h2><span id="agenda-count"></span></div>
+    <div class="filters" id="filters" role="group" aria-label="Filtrar por tipo"></div>
+    <div class="agenda" id="agenda"></div>
+  </section>
+  </div>
+
+  <div class="view" id="view-pases" hidden>
+  <section class="sec" id="pay-sec" hidden>
+    <div class="sec-h"><h2>Pases de pago</h2><span id="pay-count"></span></div>
+    <p class="sec-note">Qué te da cada opción de pago frente a lo que tiene todo el mundo gratis.</p>
+    <p class="sec-note" id="pay-empty" hidden>No hay opciones de pago en los eventos de las próximas semanas.</p>
+    <div class="pay" id="pay"></div>
+    <div class="reco" id="reco"></div>
+  </section>
+
+  </div>
+
+  <div class="view" id="view-atacantes" hidden>
+  <section class="sec" id="atk-sec">
+    <div class="sec-h"><h2>Mejores atacantes</h2><span id="atk-upd"></span></div>
+    <div class="seg" id="atk-mode" role="group" aria-label="Tipo de combate">
+      <button class="seg-b" type="button" data-mode="raid" aria-pressed="true">⚔️ Incursiones</button>
+      <button class="seg-b" type="button" data-mode="max" aria-pressed="false">⚡ Combates Max</button>
+    </div>
+    <p class="sec-note" id="atk-note"></p>
+    <input class="search" id="atk-q" type="search" placeholder="Busca un Pokémon (ej.: Gible)" autocomplete="off" spellcheck="false" aria-label="Buscar un Pokémon">
+    <div class="types" id="atk-types" role="group" aria-label="Tipo de ataque"></div>
+    <div class="stack" id="atk-body"></div>
+    <ul class="legend" id="atk-legend" hidden></ul>
+    <p class="sec-note" id="atk-src"></p>
+  </section>
+  </div>
+
+  <footer class="foot">
+    <span>Eventos de Pokémon GO del Google Calendar del dueño de esta agenda (solo los que empiezan por «Pokémon GO:»). Se actualizan cada lunes.</span>
+  </footer>
+</div>
+
+<script>
+(() => {
+  const SERVER = "Google Calendar";
+  const TOOL = "list_events";
+  const TZ = "Europe/Madrid";
+  const DAY = 86400000;
+
+  const $ = (id) => document.getElementById(id);
+  const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+
+  // ---------- Tipos ----------
+  const ICONS = {
+    raid: '<svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 1.2l2 4.3 4.7.5-3.5 3.2 1 4.6L8 11.5l-4.2 2.3 1-4.6L1.3 6l4.7-.5z"/></svg>',
+    spot: '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3" fill="currentColor"/><path stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M8 1.5v2M8 12.5v2M1.5 8h2M12.5 8h2M3.4 3.4l1.4 1.4M11.2 11.2l1.4 1.4M3.4 12.6l1.4-1.4M11.2 4.8l1.4-1.4"/></svg>',
+    comm: '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="5.5" cy="5.5" r="2.3" fill="currentColor"/><circle cx="11" cy="6" r="2" fill="currentColor"/><path fill="currentColor" d="M1.5 13.5c0-2.4 1.8-4 4-4s4 1.6 4 4zM9.6 13.5c.1-1.6-.4-2.8-1.3-3.6.7-.5 1.6-.8 2.7-.8 2 0 3.5 1.5 3.5 4.4z"/></svg>',
+    max: '<svg viewBox="0 0 16 16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" d="M8 1.5l5.6 3.2v6.6L8 14.5l-5.6-3.2V4.7z"/><path fill="currentColor" d="M8 4.6l2.6 3.2H9v3.6H7V7.8H5.4z"/></svg>',
+    event: '<svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M3 1.5h1.5v13H3z"/><path fill="currentColor" d="M5 2.2h8.5l-2 3.1 2 3.1H5z"/></svg>',
+    meteor: '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="10.5" cy="10.5" r="3.5" fill="currentColor"/><path stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M2 2l5.2 5.2M4.6 1.6l3.3 3.3M1.6 4.6l3.3 3.3"/></svg>',
+    other: '<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="8" cy="8" r="2" fill="currentColor"/></svg>',
+  };
+  const LABEL = { raid: "Incursiones", spot: "Hora Destacada", comm: "Día de la Comunidad", max: "Combates Max", event: "Evento", meteor: "Lluvia de meteoros", other: "Especial" };
+  const FILTERS = [["all", "Todo"], ["raid", "Incursiones"], ["spot", "Destacadas"], ["comm", "Comunidad"], ["max", "Max"], ["event", "Eventos"], ["meteor", "Meteoros"]];
+
+  function classify(title, multiDay) {
+    const t = title.toLowerCase();
+    if (/minior|meteor/.test(t)) return "meteor";
+    if (multiDay) return "event";
+    if (/hora destacada|spotlight/.test(t)) return "spot";
+    if (/d[ií]a de la comunidad|community day/.test(t)) return "comm";
+    if (/combates? max|dinamax|dynamax|gigamax|eternatus|lunes max|max battle/.test(t)) return "max";
+    if (/incursi|raid/.test(t)) return "raid";
+    if (/minior|meteor/.test(t)) return "meteor";
+    if (multiDay || /wild area|go fest|tour|safari/.test(t)) return "event";
+    return "other";
+  }
+
+  function chip(type, label) {
+    const c = el("span", "chip " + type);
+    c.innerHTML = ICONS[type] || ICONS.other;
+    c.append(document.createTextNode(label || LABEL[type]));
+    return c;
+  }
+
+  // ---------- Fechas ----------
+  const fmt = (opts) => new Intl.DateTimeFormat("es-ES", { timeZone: TZ, ...opts });
+  const fTime = fmt({ hour: "2-digit", minute: "2-digit", hour12: false });
+  const fDayShort = fmt({ weekday: "short" });
+  const fDayNum = fmt({ day: "numeric" });
+  const fDayLong = fmt({ weekday: "long", day: "numeric", month: "long" });
+  const fDayMed = fmt({ weekday: "short", day: "numeric", month: "short" });
+  const fKey = fmt({ year: "numeric", month: "2-digit", day: "2-digit" });
+  const fUpd = fmt({ weekday: "short", hour: "2-digit", minute: "2-digit", hour12: false });
+  const dayKey = (d) => fKey.format(d); // dd/mm/aaaa en Madrid
+  const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+
+  // medianoche de Madrid para una fecha dada
+  function madridMidnight(d) {
+    const parts = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(d);
+    const guess = new Date(parts + "T00:00:00Z");
+    const off = tzOffsetMs(guess);
+    return new Date(guess.getTime() - off);
+  }
+  function tzOffsetMs(d) {
+    const p = new Intl.DateTimeFormat("en-US", { timeZone: TZ, hourCycle: "h23", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit" }).formatToParts(d);
+    const g = Object.fromEntries(p.map((x) => [x.type, x.value]));
+    const asUTC = Date.UTC(+g.year, +g.month - 1, +g.day, +g.hour, +g.minute, +g.second);
+    return asUTC - d.getTime();
+  }
+  function localISO(d) { // "YYYY-MM-DDTHH:MM:SS" en Madrid, sin offset
+    const p = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, hourCycle: "h23", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit" }).formatToParts(d);
+    const g = Object.fromEntries(p.map((x) => [x.type, x.value]));
+    return `${g.year}-${g.month}-${g.day}T${g.hour}:${g.minute}:${g.second}`;
+  }
+  function parseWhen(w) {
+    if (!w) return null;
+    if (w.dateTime) return new Date(w.dateTime);
+    if (w.date) return madridMidnight(new Date(w.date + "T12:00:00Z"));
+    return null;
+  }
+  function relDays(d, now) {
+    const a = madridMidnight(now).getTime(), b = madridMidnight(d).getTime();
+    const n = Math.round((b - a) / DAY);
+    if (n === 0) return "Hoy";
+    if (n === 1) return "Mañana";
+    if (n > 1 && n < 7) return "En " + n + " días";
+    return "";
+  }
+  function dur(ms) {
+    const m = Math.max(0, Math.round(ms / 60000));
+    const d = Math.floor(m / 1440), h = Math.floor((m % 1440) / 60), mi = m % 60;
+    if (d > 0) return d + " d " + h + " h";
+    if (h > 0) return h + " h " + mi + " min";
+    return mi + " min";
+  }
+
+  // ---------- Datos ----------
+  const BONUS_RE = /(?:<b>\s*)?(?:🎁\s*)?Bonificaciones:\s*(?:<\/b>)?\s*([^<]*)(?:<br\s*\/?>\s*)*/i;
+  // Las descripciones se leen en un documento inerte: nunca se ejecuta ni se carga nada de ellas.
+  function inert(html) { return new DOMParser().parseFromString(String(html || ""), "text/html").body; }
+  function safeUrl(u) {
+    try { const x = new URL(u); return x.protocol === "https:" || x.protocol === "http:" ? x.href : null; } catch (_) { return null; }
+  }
+  function bonusFromHtml(html) {
+    const m = String(html || "").match(BONUS_RE);
+    if (!m) return [];
+    const tmp = inert(m[1]);
+    return tmp.textContent.split(/\s*·\s*/).map((s) => s.trim()).filter(Boolean);
+  }
+  const PASS_RE = /(?:<b>\s*)?(?:🎟️?\s*)?Pases(?: de incursi[oó]n)?(?: gratis)?:\s*(?:<\/b>)?\s*([^<]*)(?:<br\s*\/?>\s*)*/i;
+  // Recompensas del GO Pass gratuito: "🎫 GO Pass gratis: x · y"
+  const GOPASS_RE = /(?:<b>\s*)?(?:🎫\s*)?GO Pass gratis:\s*(?:<\/b>)?\s*([^<]*)(?:<br\s*\/?>\s*)*/i;
+  function goPassFromHtml(html) {
+    const m = String(html || "").match(GOPASS_RE);
+    return m ? inert(m[1]).textContent.split(/\s*·\s*/).map((s) => s.trim()).filter(Boolean) : [];
+  }
+  function passFromHtml(html) {
+    const m = String(html || "").match(PASS_RE);
+    const t = m ? inert(m[1]).textContent.trim() : "";
+    // Solo se muestra cuando hay pases gratis extra.
+    return /^(no\b|gratis,?\s*no\b)/i.test(t) ? "" : t;
+  }
+  // Solo la línea "⚔️ Incursiones: …"; no frases como "Hora de Incursiones: …" del texto.
+  const RAIDS_RE = /(?<![A-Za-zÀ-ÿ] )(?:<b>\s*)?(?:⚔️?\s*)?Incursiones(?: y Combates Max)?:\s*(?:<\/b>)?\s*([^<]*)(?:<br\s*\/?>\s*)*/i;
+  function raidsFromHtml(html) {
+    const m = String(html || "").match(RAIDS_RE);
+    return m ? inert(m[1]).textContent.split(/\s*·\s*/).map((x) => x.trim()).filter(Boolean) : [];
+  }
+  // Opciones de pago: "💳 De pago: Nombre (precio): qué da · qué da" + "💡 ¿Merece la pena?: ★★★★☆ — motivo"
+  const PAID_RE = /(?:<b>\s*)?💳\s*De pago:\s*(?:<\/b>)?\s*([^<]*)(?:<br\s*\/?>\s*)*(?:(?:<b>\s*)?(?:💡\s*)?¿?Merece la pena\??:\s*(?:<\/b>)?\s*([^<]*))?(?:<br\s*\/?>\s*)*/gi;
+  function paidFromHtml(html) {
+    const out = [];
+    String(html || "").replace(PAID_RE, (_, what, verdict) => {
+      const w = inert(what).textContent.trim();
+      const v = inert(verdict || "").textContent.trim();
+      if (!w) return "";
+      // "<Nombre> (<precio>): <qué da> · …". El nombre puede llevar ":" (GO Pass Deluxe: Into the Wild) y el precio también (hasta las 17:00)
+      const pm = w.match(/^(.+?)\s*\(([^)]*)\)\s*:\s*(.*)$/);
+      const i = w.indexOf(":");
+      const name = pm ? pm[1].trim() : (i > 0 ? w.slice(0, i) : w).trim();
+      const rest = pm ? pm[3] : i > 0 ? w.slice(i + 1) : "";
+      const gives = rest.split(/\s*·\s*/).map((s) => s.trim()).filter(Boolean);
+      const stars = (v.match(/★/g) || []).length || +((v.match(/(\d)\s*\/\s*5/) || [])[1] || 0);
+      out.push({ name, price: pm ? pm[2].trim() : "", gives, stars, verdict: v.replace(/^[★☆\s]+[—–-]?\s*/, "").replace(/^\d\s*\/\s*5\s*[—–-]?\s*/, "") });
+      return "";
+    });
+    return out;
+  }
+  function passRow(text) { return el("div", "pass", "🎟️ " + text); }
+  function bonusRow(list) {
+    const r = el("div", "bonus");
+    list.forEach((b) => r.append(el("span", null, b)));
+    return r;
+  }
+  function textFromHtml(html) {
+    const tmp = inert(String(html || "").replace(BONUS_RE, "").replace(PASS_RE, "").replace(GOPASS_RE, "").replace(RAIDS_RE, "").replace(PAID_RE, "").replace(/<br\s*\/?>/gi, " "));
+    tmp.querySelectorAll("a, script, style").forEach((a) => a.remove());
+    return tmp.textContent.replace(/🔗/g, "").replace(/\s+/g, " ").trim();
+  }
+  function linkFromHtml(html) {
+    const a = inert(html).querySelector("a[href]");
+    return a ? safeUrl(a.getAttribute("href")) : null;
+  }
+  function normalize(payload) {
+    const raw = payload && Array.isArray(payload.events) ? payload.events : [];
+    return raw
+      .filter((e) => e && e.status !== "cancelled" && /^pok[eé]mon go\s*:/i.test(e.summary || ""))
+      .map((e) => {
+        const start = parseWhen(e.start), end = parseWhen(e.end) || start;
+        const parts = (e.summary || "").replace(/^pok[eé]mon go\s*:\s*/i, "").trim().split(/\s+·\s+/);
+        const title = parts[0];
+        const titleBonus = parts.slice(1);
+        const multi = end - start > DAY - 60000 || dayKey(start) !== dayKey(new Date(end.getTime() - 1));
+        const type = classify(title, multi);
+        let kind = LABEL[type], name = title;
+        const m = title.match(/^(Hora de Incursiones|Hora Destacada|Hora de Combates Max|D[ií]a de la Comunidad(?: Cl[aá]sico)?|Super Mega Raid Day|Mega Raid Day|Raid Day|Max Battle Day|Lunes Max)\s+[–—-]\s+(.+)$/i);
+        if (m) { kind = m[1]; name = m[2]; }
+        return { id: e.id, title, name, kind, type, start, end, multi, bonus: (function (b) { return b.length ? b : titleBonus; })(bonusFromHtml(e.description)), pass: passFromHtml(e.description), paid: paidFromHtml(e.description), goPass: goPassFromHtml(e.description), raids: raidsFromHtml(e.description), desc: textFromHtml(e.description), news: linkFromHtml(e.description) };
+      })
+      .filter((e) => e.start && e.end)
+      .sort((a, b) => a.start - b.start);
+  }
+
+  // ---------- Estado ----------
+  let events = [];
+  let filter = "all";
+  try { filter = localStorage.getItem("pogo-filter") || "all"; } catch (_) {}
+  let lastStamp = null;
+  let mcp = null;
+  let tick = null;
+
+  function showState(kind, title, text, action) {
+    const box = $("state");
+    box.textContent = "";
+    if (!kind) return;
+    if (kind === "loading") {
+      const s = el("div", "skel"); for (let i = 0; i < 4; i++) s.append(el("div"));
+      box.append(s); return;
+    }
+    const n = el("div", "notice");
+    n.append(el("h2", null, title), el("p", null, text));
+    if (action) { const b = el("button", "btn primary", action.label); b.type = "button"; b.addEventListener("click", action.run); const r = el("div"); r.append(b); n.append(r); }
+    box.append(n);
+  }
+
+  function render() {
+    const now = new Date();
+    const live = events.filter((e) => e.end > now);
+    const hasData = events.length > 0;
+    ["next-sec", "now-sec", "week-sec", "agenda-sec", "pay-sec"].forEach((id) => ($(id).hidden = !hasData));
+    if (!hasData) return;
+
+    // En marcha (eventos de varios días ya empezados)
+    const running = live.filter((e) => e.start <= now && e.multi);
+    $("now-sec").hidden = running.length === 0;
+    const nowBox = $("now"); nowBox.textContent = "";
+    running.forEach((e) => {
+      const c = el("article", "now-card " + e.type);
+      const pct = Math.min(100, Math.max(0, ((now - e.start) / (e.end - e.start)) * 100));
+      c.append(chip(e.type, e.kind));
+      c.append(el("h3", null, e.name));
+      const bar = el("div", "bar"); const fill = el("i"); fill.style.width = pct.toFixed(1) + "%"; bar.append(fill); c.append(bar);
+      const meta = el("div", "meta num");
+      meta.append(el("span", null, "Termina " + fDayMed.format(e.end) + ", " + fTime.format(e.end)), el("span", null, "Quedan " + dur(e.end - now)));
+      c.append(meta);
+      nowBox.append(c);
+    });
+    $("now-count").textContent = running.length ? running.length + (running.length === 1 ? " evento" : " eventos") : "";
+
+    // Lo próximo: el siguiente evento corto (horas, días especiales) o, si no hay, cualquiera por empezar
+    const nextUp = live.find((e) => !e.multi && e.end > now) || live.find((e) => e.start > now);
+    $("next-sec").hidden = !nextUp;
+    if (nextUp) renderNext(nextUp, now);
+
+    // Semana
+    const week = $("week"); week.textContent = "";
+    const base = madridMidnight(now);
+    for (let i = 0; i < 7; i++) {
+      const d0 = new Date(base.getTime() + i * DAY + 3 * 3600000); // evita saltos de hora
+      const dStart = madridMidnight(d0), dEnd = new Date(dStart.getTime() + DAY);
+      const todays = events.filter((e) => e.start < dEnd && e.end > dStart);
+      const starts = events.filter((e) => dayKey(e.start) === dayKey(d0) && e.end > now);
+      const b = el("button", "day" + (i === 0 ? " today" : ""));
+      b.type = "button";
+      b.setAttribute("aria-label", cap(fDayLong.format(d0)) + ": " + todays.length + (todays.length === 1 ? " evento" : " eventos"));
+      b.append(el("span", "dw", fDayShort.format(d0).replace(".", "")), el("span", "dn num", fDayNum.format(d0)));
+      const dots = el("span", "dots");
+      todays.slice(0, 6).forEach((e) => { const i2 = el("i", e.type); dots.append(i2); });
+      b.append(dots);
+      if (!starts.length) b.disabled = true;
+      b.addEventListener("click", () => {
+        if (filter !== "all") { setFilter("all"); }
+        showView("agenda");
+        const g = document.querySelector('[data-day="' + dayKey(d0) + '"]');
+        if (g) g.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
+      });
+      week.append(b);
+    }
+
+    renderFilters();
+    renderAgenda(now);
+    renderPaid(now);
+  }
+
+  // ---------- Pases de pago ----------
+  const starText = (n) => "★★★★★".slice(0, n) + "☆☆☆☆☆".slice(0, 5 - n);
+  // Un mismo pase que vale para varios días (p. ej. GO Wild Area día 1 y día 2) se muestra una sola vez.
+  const baseName = (e) => e.name.replace(/\s*\((?:d[ií]a|day)\s*\d+[^)]*\)\s*$/i, "").trim();
+  const uniq = (arr) => arr.filter((x, i) => x && arr.indexOf(x) === i);
+  function renderPaid(now) {
+    const groups = new Map();
+    events.filter((e) => e.end > now).forEach((e) => e.paid.forEach((p) => {
+      const key = baseName(e).toLowerCase() + "|" + p.name.toLowerCase() + "|" + p.price;
+      if (!groups.has(key)) groups.set(key, { base: baseName(e), p: Object.assign({}, p), evs: [] });
+      const g = groups.get(key);
+      g.evs.push(e);
+      g.p.gives = uniq(g.p.gives.concat(p.gives));
+      if (p.stars > g.p.stars) { g.p.stars = p.stars; g.p.verdict = p.verdict || g.p.verdict; }
+      if (!g.p.verdict) g.p.verdict = p.verdict;
+    }));
+    const rows = [...groups.values()].map((g) => { g.evs.sort((x, y) => x.start - y.start); return g; })
+      .sort((x, y) => x.evs[0].start - y.evs[0].start);
+    $("pay-empty").hidden = rows.length > 0; $("pay").hidden = rows.length === 0;
+    const box = $("pay"); box.textContent = "";
+    $("pay-count").textContent = "";
+    rows.forEach((g) => {
+      const e0 = g.evs[0], eN = g.evs[g.evs.length - 1], p = g.p;
+      const several = g.evs.length > 1;
+      const r = el("article", "payrow " + e0.type);
+      const head = el("div", "pay-head");
+      const t = el("div", "pay-title");
+      t.append(chip(e0.type, several ? "Evento" : e0.kind), el("h3", null, g.base));
+      t.append(el("div", "range", several || e0.multi
+        ? cap(fDayMed.format(e0.start)) + " → " + fDayMed.format(eN.end)
+        : cap(fDayMed.format(e0.start)) + ", " + fTime.format(e0.start) + "–" + fTime.format(e0.end)));
+      head.append(t);
+      if (p.price) head.append(el("span", "price", p.price));
+      r.append(head);
+      const cols = el("div", "cols");
+      const free = el("div", "col");
+      free.append(el("div", "col-h", "Gratis para todos"));
+      const fl = el("ul");
+      uniq([].concat(...g.evs.map((e) => e.bonus))).forEach((b) => fl.append(el("li", null, b)));
+      uniq(g.evs.map((e) => e.pass)).forEach((x) => fl.append(el("li", null, "🎟️ " + x)));
+      uniq([].concat(...g.evs.map((e) => e.goPass))).forEach((x) => fl.append(el("li", null, "🎫 GO Pass: " + x)));
+      if (!fl.children.length) fl.append(el("li", "muted", "Nada especial aparte del evento"));
+      free.append(fl);
+      const paid = el("div", "col paid");
+      paid.append(el("div", "col-h", "Con " + p.name));
+      const pl = el("ul");
+      (p.gives.length ? p.gives : ["Ver la noticia del evento"]).forEach((x) => pl.append(el("li", null, x)));
+      paid.append(pl);
+      cols.append(free, paid);
+      r.append(cols);
+      // Incursiones y Combates Max de cada día
+      const withRaids = g.evs.filter((e) => e.raids.length);
+      if (withRaids.length) {
+        const rb = el("div", "raids");
+        rb.append(el("div", "col-h", several ? "Incursiones por día" : "Incursiones"));
+        withRaids.forEach((e) => {
+          const line = el("div", "raid-day");
+          if (several) line.append(el("b", null, cap(fDayMed.format(e.start)) + ": "));
+          line.append(document.createTextNode(e.raids.join(" · ")));
+          rb.append(line);
+        });
+        const meta = metaRow([].concat(...g.evs.map((e) => metaRefs(e, true))));
+        if (meta) rb.append(meta);
+        r.append(rb);
+      }
+      if (p.verdict || p.stars) {
+        const v = el("div", "verdict");
+        if (p.stars) { const s = el("span", "stars", starText(Math.min(5, p.stars))); s.setAttribute("aria-label", p.stars + " de 5"); v.append(s); }
+        v.append(el("span", null, p.verdict));
+        r.append(v);
+      }
+      box.append(r);
+    });
+    // Recomendación final
+    const reco = $("reco"); reco.textContent = "";
+    if (!rows.length) return;
+    const sorted = rows.slice().sort((a, b) => b.p.stars - a.p.stars || a.evs[0].start - b.evs[0].start);
+    const best = sorted.filter((x) => x.p.stars >= 4).slice(0, 2);
+    const worst = sorted.filter((x) => x.p.stars > 0 && x.p.stars <= 2);
+    reco.append(el("h3", null, "Recomendación"));
+    const ul = el("ul");
+    // "GO Pass Deluxe: Into the Wild" ya dice de qué evento es: no se repite
+    const payLabel = (x) => (x.p.name.toLowerCase().includes(x.base.toLowerCase()) ? x.p.name : x.p.name + " de " + x.base);
+    if (best.length) best.forEach((x) => ul.append(el("li", null, "Si vas a comprar algo: " + payLabel(x) + (x.p.price ? " (" + x.p.price + ")" : "") + ". " + x.p.verdict)));
+    else ul.append(el("li", null, "Ninguna opción de pago destaca ahora mismo: con lo gratuito tienes suficiente."));
+    if (worst.length) ul.append(el("li", null, "Lo que menos compensa: " + worst.map(payLabel).join(", ") + "."));
+    reco.append(ul);
+  }
+
+  function renderNext(e, now) {
+    const box = $("next"); box.textContent = "";
+    box.className = "next " + e.type + (e.start <= now ? " live" : "");
+    const head = el("div", "next-head"); head.append(chip(e.type, e.kind)); box.append(head);
+    box.append(el("h3", null, e.name));
+    const when = el("div", "next-when num");
+    when.textContent = cap(fDayLong.format(e.start)) + " · " + fTime.format(e.start) + "–" + fTime.format(e.end);
+    box.append(when);
+    const cd = el("div", "countdown");
+    [["d", "días"], ["h", "horas"], ["m", "min"], ["s", "seg"]].forEach(([k, l]) => { const c = el("div", "cd"); const b = el("b", null, "0"); b.dataset.k = k; c.append(b, el("small", null, l)); cd.append(c); });
+    box.append(cd);
+    const ln = el("div", "live-note"); const p = el("span", "pulse"); ln.append(p, el("span", null, "Está pasando ahora · termina a las " + fTime.format(e.end))); box.append(ln);
+    if (e.bonus.length) box.append(bonusRow(e.bonus));
+    if (e.pass) box.append(passRow(e.pass));
+    const meta = metaRow(metaRefs(e));
+    if (meta) box.append(meta);
+    if (e.desc) box.append(el("p", "next-when", e.desc));
+    box.append(linksFor(e));
+    $("next-rel").textContent = e.start <= now ? "Ahora" : (relDays(e.start, now) || cap(fDayMed.format(e.start)));
+    updateCountdown(e);
+    if (tick) clearInterval(tick);
+    tick = setInterval(() => {
+      const n = new Date();
+      if (n >= e.end) { clearInterval(tick); tick = null; render(); return; }
+      if (n >= e.start && !box.classList.contains("live")) { render(); return; }
+      updateCountdown(e);
+    }, 1000);
+  }
+  function updateCountdown(e) {
+    let ms = Math.max(0, e.start - new Date());
+    const v = { d: Math.floor(ms / DAY), h: Math.floor((ms % DAY) / 3600000), m: Math.floor((ms % 3600000) / 60000), s: Math.floor((ms % 60000) / 1000) };
+    document.querySelectorAll("#next .cd b").forEach((b) => { const k = b.dataset.k; b.textContent = k === "d" ? String(v[k]) : String(v[k]).padStart(2, "0"); });
+  }
+
+  const VIEWS = ["agenda", "pases", "atacantes"];
+  function showView(v) {
+    v = VIEWS.includes(v) ? v : "agenda";
+    VIEWS.forEach((x) => {
+      $("view-" + x).hidden = v !== x;
+      $("tab-" + x).setAttribute("aria-selected", String(v === x));
+    });
+    if (typeof hideTip === "function") hideTip();
+  }
+  document.querySelectorAll(".tab").forEach((b) => b.addEventListener("click", () => {
+    const v = b.dataset.view;
+    if (location.hash === "#" + v) showView(v); else location.hash = v;
+    window.scrollTo(0, 0);
+  }));
+  window.addEventListener("hashchange", () => showView(location.hash.slice(1)));
+  showView(location.hash.slice(1));
+
+  function linksFor(e) {
+    const l = el("div", "links");
+    if (e.paid && e.paid.length) { const a = el("a", null, "💳 Opciones de pago"); a.href = "#pases"; l.append(a); }
+    if (e.news) { const a = el("a", null, "Ver noticia ↗"); a.href = e.news; a.target = "_blank"; a.rel = "noopener noreferrer"; l.append(a); }
+    return l;
+  }
+
+  function setFilter(f) {
+    filter = f;
+    try { localStorage.setItem("pogo-filter", f); } catch (_) {}
+    renderFilters(); renderAgenda(new Date());
+  }
+  function renderFilters() {
+    const box = $("filters"); box.textContent = "";
+    const present = new Set(events.map((e) => e.type));
+    FILTERS.forEach(([k, label]) => {
+      if (k !== "all" && !present.has(k)) return;
+      const b = el("button", "f " + (k === "all" ? "" : k));
+      b.type = "button";
+      if (k !== "all") b.append(el("i"));
+      b.append(document.createTextNode(label));
+      b.setAttribute("aria-pressed", String(filter === k));
+      b.addEventListener("click", () => setFilter(k));
+      box.append(b);
+    });
+    if (filter !== "all" && !present.has(filter)) { filter = "all"; }
+  }
+
+  function renderAgenda(now) {
+    const box = $("agenda"); box.textContent = "";
+    const todayStart = madridMidnight(now);
+    const list = events.filter((e) => e.start >= todayStart && (filter === "all" || e.type === filter));
+    $("agenda-count").textContent = list.length + (list.length === 1 ? " evento" : " eventos");
+    if (!list.length) { box.append(el("p", "range", "No hay eventos de este tipo en las próximas semanas.")); return; }
+    const groups = new Map();
+    list.forEach((e) => { const k = dayKey(e.start); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(e); });
+    groups.forEach((items, k) => {
+      const g = el("section", "group"); g.dataset.day = k;
+      const h = el("h3", "group-h"); h.append(document.createTextNode(cap(fDayLong.format(items[0].start))));
+      const rel = relDays(items[0].start, now); if (rel) h.append(el("small", null, rel));
+      g.append(h);
+      items.forEach((e) => g.append(itemCard(e, now)));
+      box.append(g);
+    });
+  }
+  function itemCard(e, now) {
+    const c = el("article", "item " + e.type + (e.end <= now ? " past" : ""));
+    const t = el("div", "time");
+    t.append(el("b", null, fTime.format(e.start)));
+    t.append(el("span", null, e.multi ? "inicio" : "– " + fTime.format(e.end)));
+    const b = el("div", "body");
+    b.append(chip(e.type, e.kind));
+    b.append(el("h3", null, e.name));
+    if (e.multi) b.append(el("div", "range", "Hasta el " + fDayMed.format(e.end) + " a las " + fTime.format(e.end) + " · " + dur(e.end - e.start)));
+    if (e.bonus.length) b.append(bonusRow(e.bonus));
+    if (e.pass) b.append(passRow(e.pass));
+    if (e.goPass.length) b.append(el("div", "pass", "🎫 GO Pass gratis: " + e.goPass.join(" · ")));
+    if (e.raids.length) b.append(el("div", "pass", "⚔️ " + e.raids.join(" · ")));
+    const meta = metaRow(metaRefs(e));
+    if (meta) b.append(meta);
+    if (e.desc) b.append(el("p", null, e.desc));
+    b.append(linksFor(e));
+    c.append(t, b);
+    return c;
+  }
+
+  function setUpdated(result) {
+    const stamp = result && result.cache && result.cache.storedAt ? new Date(result.cache.storedAt) : new Date();
+    lastStamp = stamp;
+    $("updated").textContent = "Actualizado " + fUpd.format(stamp);
+  }
+
+  // ---------- Mejores atacantes: incursiones (meta/atacantes) y Combates Max (meta/atacantes-max) ----------
+  const ATK_PATHS = { raid: "meta/atacantes", max: "meta/atacantes-max" };
+  const MODES = ["raid", "max"];
+  const TYPES = [["normal", "Normal", "#a8a77a"], ["fighting", "Lucha", "#c22e28"], ["flying", "Volador", "#a98ff3"], ["poison", "Veneno", "#a33ea1"], ["ground", "Tierra", "#e2bf65"], ["rock", "Roca", "#b6a136"], ["bug", "Bicho", "#a6b91a"], ["ghost", "Fantasma", "#735797"], ["steel", "Acero", "#b7b7ce"], ["fire", "Fuego", "#ee8130"], ["water", "Agua", "#6390f0"], ["grass", "Planta", "#7ac74c"], ["electric", "Eléctrico", "#f7d02c"], ["psychic", "Psíquico", "#f95587"], ["ice", "Hielo", "#96d9d6"], ["dragon", "Dragón", "#6f35fc"], ["dark", "Siniestro", "#705746"], ["fairy", "Hada", "#d685ad"]];
+  const TYPE_COLOR = Object.fromEntries(TYPES.map((t) => [t[0], t[2]]));
+  const TYPE_NAME = Object.fromEntries(TYPES.map((t) => [t[0], t[1]]));
+  const typeIdx = (id) => TYPES.findIndex((t) => t[0] === id);
+  // Opciones destacadas de la fuente ("General" es siempre el n.º 1, así que no se repite)
+  const PICK_ORDER = { raid: ["Alternativa no legendaria", "Sin MT élite", "Mega / Primigenio", "Oscuro"], max: ["Sin Gigamax", "Sin MT élite"] };
+  const PICK_TITLE = { "Alternativa no legendaria": "Alternativa no legendaria", "Sin MT élite": "Mejor sin MT élite", "Mega / Primigenio": "Mejor Mega o primigenio", "Oscuro": "Mejor oscuro", "Sin Gigamax": "Mejor sin Gigamax" };
+  const PICK_SHORT = { "Alternativa no legendaria": "alternativa no legendaria", "Sin MT élite": "mejor sin MT élite", "Mega / Primigenio": "mejor Mega", "Oscuro": "mejor oscuro", "Sin Gigamax": "mejor sin Gigamax" };
+  const PICK_NOTE = { "Alternativa no legendaria": "sin legendarios, singulares, Mega, primigenios ni oscuros" };
+  const FORMAS = ["Gigamax", "Dinamax", "Especial"];
+  const FORMA_CLASS = { Gigamax: "giga", Dinamax: "dina", Especial: "esp" };
+  const MODE_NOTE = {
+    raid: "Los 10 mejores de cada tipo para incursiones, según el daño que hacen de verdad (eDPS). Elige un tipo o busca un Pokémon.",
+    max: "Los mejores de cada tipo para Combates Max, según el daño de su ataque Max. Cada uno indica si es Gigamax o Dinamax.",
+  };
+  const LEGEND = {
+    raid: [["MT élite", ""], "Ataque de legado: ya no se aprende de forma normal. Hace falta una MT élite o un evento, como un Día de la Comunidad.",
+      ["Plus", ""], "Ataque Plus de los Mega: llega a su máxima potencia con Meganivel 4, que es lo que supone la tabla.",
+      null, "% del n.º 1: su eDPS comparado con el mejor del tipo. Nivel 40, IV 15/15/15, sin clima, amistad ni Mejora de equipo."],
+    max: [["Gigamax", "giga"], "Tiene su propio ataque Gigamax, siempre el mismo, sea cual sea su ataque rápido.",
+      ["Dinamax", "dina"], "Su ataque Max suele ser del tipo de su ataque rápido; por eso cada uno lleva el rápido recomendado.",
+      ["Especial", "esp"], "Formas con un ataque Max propio y fijo, como Zacian y Zamazenta coronados o Eternatus.",
+      ["MT élite", ""], "Ese ataque rápido es de legado: hace falta una MT élite o un evento.",
+      null, "% del n.º 1: daño de un ataque Max de nivel 3 comparado con el mejor del tipo. Nivel 40, IV 15/15/15, rival neutro y sin clima."],
+  };
+  // Evolución final ← preevoluciones (Horas Destacadas, Días de la Comunidad y Pokémon Dinamax, que siguen siéndolo al evolucionar)
+  const FAMILY = ["venusaur:bulbasaur,ivysaur", "charizard:charmander,charmeleon", "blastoise:squirtle,wartortle", "beedrill:weedle,kakuna", "pidgeot:pidgey,pidgeotto", "raichu:pichu,pikachu", "clefable:cleffa,clefairy", "ninetales:vulpix", "wigglytuff:igglybuff,jigglypuff", "vileplume:oddish,gloom", "bellossom:oddish,gloom", "arcanine:growlithe", "poliwrath:poliwag,poliwhirl", "politoed:poliwag,poliwhirl", "alakazam:abra,kadabra", "machamp:machop,machoke", "victreebel:bellsprout,weepinbell", "golem:geodude,graveler", "slowbro:slowpoke", "slowking:slowpoke", "magnezone:magnemite,magneton", "gengar:gastly,haunter", "steelix:onix", "rhyperior:rhyhorn,rhydon", "blissey:happiny,chansey", "tangrowth:tangela", "kingdra:horsea,seadra", "starmie:staryu", "scizor:scyther", "kleavor:scyther", "electivire:elekid,electabuzz", "magmortar:magby,magmar", "gyarados:magikarp", "vaporeon:eevee", "jolteon:eevee", "flareon:eevee", "espeon:eevee", "umbreon:eevee", "leafeon:eevee", "glaceon:eevee", "sylveon:eevee", "porygon z:porygon,porygon2", "snorlax:munchlax", "dragonite:dratini,dragonair", "meganium:chikorita,bayleef", "typhlosion:cyndaquil,quilava", "feraligatr:totodile,croconaw", "ampharos:mareep,flaaffy", "azumarill:azurill,marill", "togekiss:togepi,togetic", "honchkrow:murkrow", "mismagius:misdreavus", "weavile:sneasel", "mamoswine:swinub,piloswine", "ursaluna:teddiursa,ursaring", "houndoom:houndour", "donphan:phanpy", "tyranitar:larvitar,pupitar", "gliscor:gligar", "granbull:snubbull", "sceptile:treecko,grovyle", "blaziken:torchic,combusken", "swampert:mudkip,marshtomp", "gardevoir:ralts,kirlia", "gallade:ralts,kirlia", "breloom:shroomish", "slaking:slakoth,vigoroth", "hariyama:makuhita", "aggron:aron,lairon", "medicham:meditite", "manectric:electrike", "roserade:budew,roselia", "sharpedo:carvanha", "camerupt:numel", "flygon:trapinch,vibrava", "altaria:swablu", "banette:shuppet", "dusknoir:duskull,dusclops", "glalie:snorunt", "froslass:snorunt", "salamence:bagon,shelgon", "metagross:beldum,metang", "walrein:spheal,sealeo", "milotic:feebas", "torterra:turtwig,grotle", "infernape:chimchar,monferno", "empoleon:piplup,prinplup", "staraptor:starly,staravia", "luxray:shinx,luxio", "rampardos:cranidos", "bastiodon:shieldon", "garchomp:gible,gabite", "lucario:riolu", "hippowdon:hippopotas", "toxicroak:croagunk", "abomasnow:snover", "serperior:snivy,servine", "emboar:tepig,pignite", "samurott:oshawott,dewott", "excadrill:drilbur", "conkeldurr:timburr,gurdurr", "gigalith:roggenrola,boldore", "scolipede:venipede,whirlipede", "krookodile:sandile,krokorok", "darmanitan:darumaka", "chandelure:litwick,lampent", "haxorus:axew,fraxure", "beartic:cubchoo", "eelektross:tynamo,eelektrik", "hydreigon:deino,zweilous", "volcarona:larvesta", "golurk:golett", "kingambit:pawniard,bisharp", "braviary:rufflet", "mienshao:mienfoo", "zoroark:zorua", "gothitelle:gothita,gothorita", "reuniclus:solosis,duosion", "seismitoad:tympole,palpitoad", "chesnaught:chespin,quilladin", "delphox:fennekin,braixen", "greninja:froakie,frogadier", "talonflame:fletchling,fletchinder", "pyroar:litleo", "aegislash:honedge,doublade", "tyrantrum:tyrunt", "aurorus:amaura", "goodra:goomy,sliggoo", "noivern:noibat", "avalugg:bergmite", "florges:flabebe,floette", "clawitzer:clauncher", "decidueye:rowlet,dartrix", "incineroar:litten,torracat", "primarina:popplio,brionne", "toucannon:pikipek,trumbeak", "vikavolt:grubbin,charjabug", "crabominable:crabrawler", "lycanroc:rockruff", "golisopod:wimpod", "kommo o:jangmo o,hakamo o", "tsareena:bounsweet,steenee", "lunala:cosmog,cosmoem", "solgaleo:cosmog,cosmoem", "naganadel:poipole", "melmetal:meltan", "rillaboom:grookey,thwackey", "cinderace:scorbunny,raboot", "inteleon:sobble,drizzile", "corviknight:rookidee,corvisquire", "dragapult:dreepy,drakloak", "grimmsnarl:impidimp,morgrem", "hatterene:hatenna,hattrem", "toxtricity:toxel", "urshifu:kubfu", "meowscarada:sprigatito,floragato", "skeledirge:fuecoco,crocalor", "quaquaval:quaxly,quaxwell", "baxcalibur:frigibax,arctibax", "tinkaton:tinkatink,tinkatuff", "garganacl:nacli,naclstack", "armarouge:charcadet", "ceruledge:charcadet", "gholdengo:gimmighoul", "annihilape:mankey,primeape", "pawmot:pawmi,pawmo", "glimmora:glimmet", "kingler:krabby", "wailord:wailmer", "omastar:omanyte", "kabutops:kabuto", "butterfree:caterpie,metapod", "garbodor:trubbish", "meowstic:espurr", "dubwool:wooloo", "greedent:skwovet", "centiskorch:sizzlipede", "unfezant:pidove,tranquill", "swoobat:woobat", "noctowl:hoothoot", "malamar:inkay", "hitmonlee:tyrogue", "hitmonchan:tyrogue", "hitmontop:tyrogue", "drednaw:chewtle", "coalossal:rolycoly,carkol", "flapple:applin", "appletun:applin", "sandaconda:silicobra", "orbeetle:blipbug,dottler", "copperajah:cufant"];
+  const PRE = {};
+  FAMILY.forEach((f) => { const [fin, pres] = f.split(":"); pres.split(",").forEach((x) => (PRE[x] = PRE[x] || []).push(fin)); });
+
+  // Nombres normalizados: sin tildes, en minúsculas, sin signos (se conservan , ; / para separar nombres)
+  const norm = (s) => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9.:',;\/]+/g, " ").replace(/\s+/g, " ").trim();
+  // Igual, pero la X / Y mayúscula suelta de los Mega (Mega-Charizard Y) no se confunde con la conjunción "y"
+  const normX = (s) => norm(String(s || "").replace(/(^|[^A-Za-z0-9])([XY])(?![A-Za-z0-9])/g, "$1mega$2"));
+  const escRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const titleCase = (s) => s.split(" ").map((w) => (w ? w[0].toUpperCase() + w.slice(1) : w)).join(" ");
+  const MULTI = ["tapu koko", "tapu lele", "tapu bulu", "tapu fini", "mr. mime", "mr. rime", "mime jr.", "type: null", "ho oh", "porygon z", "jangmo o", "hakamo o", "kommo o", "chien pao", "ting lu", "wo chien", "chi yu", "great tusk", "scream tail", "brute bonnet", "flutter mane", "slither wing", "sandy shocks", "roaring moon", "walking wake", "gouging fire", "raging bolt", "iron treads", "iron bundle", "iron hands", "iron jugulis", "iron moth", "iron thorns", "iron valiant", "iron leaves", "iron boulder", "iron crown"];
+  const FORM_STOP = new Set(["de", "del", "la", "el", "los", "las", "forma", "formas", "form", "estilo", "modo", "con"]);
+  const NOT_FORM = new Set(["oscuro", "oscura", "oscuros", "oscuras", "primigenio", "primigenia", "dinamax", "gigamax", "dynamax", "megax", "megay", "mega"]);
+  const GENERIC_FORMS = new Set(["origen", "alola", "galar", "hisui", "paldea", "blanco", "negro", "alas", "melena", "espada", "escudo"]);
+  // "Mega-Mewtwo X" → { especie "mewtwo", mega, letra "x" } · "Landorus oscuro (Forma Avatar)" → { "landorus", oscuro, forma "avatar" }
+  function parseName(raw) {
+    raw = String(raw || "");
+    const paren = (raw.match(/\(([^)]*)\)/) || [])[1] || "";
+    let s = normX(raw.replace(/\([^)]*\)/g, " "));
+    const p = { mega: false, primal: false, shadow: false, letter: "", form: "", species: "" };
+    if (s.startsWith("mega ")) { p.mega = true; s = s.slice(5); }
+    const toks = s.split(" ").filter((w) => {
+      if (/^oscur[oa]$/.test(w)) { p.shadow = true; return false; }
+      if (/^primigeni[oa]$/.test(w)) { p.primal = true; return false; }
+      if (/^mega[xy]$/.test(w)) { p.letter = w.slice(4); return false; }
+      return !!w;
+    });
+    const joined = toks.join(" ");
+    const multi = MULTI.find((m) => joined === m || joined.startsWith(m + " "));
+    const n = multi ? multi.split(" ").length : 1;
+    p.species = toks.slice(0, n).join(" ");
+    p.form = toks.slice(n).concat(norm(paren).split(" ")).filter((w) => w && !FORM_STOP.has(w) && !NOT_FORM.has(w))[0] || "";
+    return p;
+  }
+
+  const str = (x, n) => (typeof x === "string" ? x.trim().slice(0, n) : "");
+  const numOr = (x) => (typeof x === "number" && isFinite(x) ? x : null);
+  const cleanMove = (m) => ({ nombre: str(m && m.nombre, 40), legado: !!(m && m.legado === true), plus: !!(m && m.plus === true) });
+  function cleanRow(r, i, mode) {
+    r = r && typeof r === "object" ? r : {};
+    const pct = numOr(r.pct);
+    return {
+      puesto: Number.isInteger(r.puesto) && r.puesto > 0 && r.puesto < 100 ? r.puesto : i + 1,
+      tier: str(r.tier, 3), etiqueta: str(r.etiqueta, 40), nombre: str(r.nombre, 60),
+      forma: mode === "max" && FORMAS.includes(r.forma) ? r.forma : "",
+      rapido: cleanMove(r.rapido),
+      // en Combates Max el segundo ataque es el ataque Max
+      cargado: mode === "max" ? { nombre: str(r.max, 40), legado: false, plus: false } : cleanMove(r.cargado),
+      edps: mode === "max" ? null : numOr(r.edps), dano: mode === "max" ? numOr(r.dano) : null,
+      pct: pct == null ? null : Math.max(0, Math.min(100, Math.round(pct))),
+    };
+  }
+  function hubUrl(u) { const s = safeUrl(u); try { return s && new URL(s).hostname === "db.pokemongohub.net" ? s : null; } catch (_) { return null; } }
+  function cleanData(d, mode) {
+    if (!d || !Array.isArray(d.tipos)) return null;
+    const tipos = [];
+    d.tipos.forEach((t) => {
+      if (!t || !TYPE_COLOR[t.id] || tipos.some((x) => x.id === t.id)) return;
+      const top = (Array.isArray(t.top) ? t.top : []).slice(0, 10).map((r, i) => cleanRow(r, i, mode)).filter((r) => r.nombre);
+      const picks = (Array.isArray(t.destacados) ? t.destacados : []).slice(0, 10).map((r, i) => cleanRow(r, i, mode)).filter((r) => r.nombre && PICK_ORDER[mode].includes(r.etiqueta));
+      if (top.length) tipos.push({ id: t.id, nombre: TYPE_NAME[t.id], top, picks });
+    });
+    tipos.sort((a, b) => typeIdx(a.id) - typeIdx(b.id));
+    return tipos.length ? { tipos, actualizado: str(d.actualizado, 40), url: hubUrl(d.url) } : null;
+  }
+
+  const atkData = { raid: null, max: null };
+  const atkStatus = { raid: "loading", max: "loading" };
+  let atkIdx = { raid: new Map(), max: new Map() }, atkRe = null, atkQuery = "", atkType = "all", atkMode = "raid";
+  try { atkType = localStorage.getItem("pogo-atk-type") || "all"; atkMode = localStorage.getItem("pogo-atk-mode") === "max" ? "max" : "raid"; } catch (_) {}
+  const cur = () => atkData[atkMode];
+  function buildIndex() {
+    const names = new Set(Object.keys(PRE));
+    MODES.forEach((mode) => {
+      const idx = new Map();
+      const d = atkData[mode];
+      const add = (t, r, extra) => {
+        const p = parseName(r.nombre);
+        if (!p.species) return;
+        if (!idx.has(p.species)) idx.set(p.species, []);
+        idx.get(p.species).push(Object.assign({ mode, type: t.id, typeName: t.nombre, name: r.nombre, forma: r.forma, pct: r.pct, p }, extra));
+      };
+      if (d) d.tipos.forEach((t) => {
+        t.top.forEach((r) => add(t, r, { rank: r.puesto }));
+        t.picks.forEach((r) => add(t, r, { label: r.etiqueta }));
+      });
+      atkIdx[mode] = idx;
+      idx.forEach((_, k) => names.add(k));
+    });
+    atkRe = new RegExp("(^|[^a-z0-9])(" + [...names].sort((a, b) => b.length - a.length).map(escRe).join("|") + ")(?=[^a-z0-9]|$)", "g");
+  }
+
+  // ---------- Pokémon meta en los eventos ----------
+  // Incursiones: Combates Max → solo la forma normal (sin Mega ni oscuros) · "X oscuro" → solo oscuros ·
+  // nombre normal → el normal y sus Mega/primigenios (cualquiera puede megaevolucionar) · las formas
+  // (Origen, Blanco, Tótem…) solo cuentan si se nombran · preevoluciones solo en Destacadas y Comunidad.
+  // Combates Max: solo en Combates Max · "Gigamax" → solo Gigamax · "Dinamax" → Dinamax (y los de ataque
+  // propio) · las preevoluciones Dinamax cuentan por su evolución Dinamax (siguen siéndolo al evolucionar).
+  const MAX_RE = /dinamax|gigamax|dynamax|eternamax|combates? max|max battle/;
+  function formIn(species, after) {
+    const keys = new Set();
+    MODES.forEach((m) => species.forEach((s) => (atkIdx[m].get(s) || []).forEach((r) => r.p.form && keys.add(r.p.form))));
+    const words = after.split(" ").filter((w) => w && !NOT_FORM.has(w));
+    const known = words.find((w) => keys.has(w));
+    if (known) return known;
+    const fm = after.match(/(?:^| )formas? ([a-z0-9]+)/);
+    if (fm && !NOT_FORM.has(fm[1])) return fm[1];
+    const first = words.find((w) => !FORM_STOP.has(w)) || "";
+    return GENERIC_FORMS.has(first) ? first : "";
+  }
+  function pickRefs(list, ctx, form, letter, out) {
+    list.forEach((r) => {
+      const p = r.p;
+      let ok;
+      if (ctx.max) ok = !p.mega && !p.primal && !p.shadow && p.form === form;
+      else if (ctx.shadow) ok = p.shadow && p.form === form;
+      else if (p.mega || p.primal) ok = !form && (!letter || !p.letter || p.letter === letter);
+      else ok = !p.shadow && p.form === form;
+      if (ok && !out.includes(r)) out.push(r);
+    });
+  }
+  function pickMax(list, want, form, out) {
+    list.forEach((r) => {
+      let ok = r.p.form === form;
+      if (want === "G") ok = ok && r.forma === "Gigamax";
+      else if (want === "D") ok = ok && r.forma !== "Gigamax";
+      else if (want === "evo") ok = ok && r.forma === "Dinamax";
+      if (ok && !out.includes(r)) out.push(r);
+    });
+  }
+  function scanText(text, opts, out) {
+    if (!atkRe) return;
+    const t = normX(text);
+    if (!t) return;
+    const max = !!opts.max || MAX_RE.test(t);
+    const shadowSeg = /incursion(es)? oscura|shadow raid/.test(t);
+    const giga = /gigamax/.test(t), dina = /dinamax|dynamax/.test(t);
+    const segForm = giga && !dina ? "G" : dina && !giga ? "D" : "";
+    const occ = [];
+    let m;
+    atkRe.lastIndex = 0;
+    while ((m = atkRe.exec(t))) occ.push({ sp: m[2], i: m.index + m[1].length });
+    occ.forEach((o, k) => {
+      const end = o.i + o.sp.length;
+      const stop = k + 1 < occ.length ? occ[k + 1].i : t.length;
+      const raw = t.slice(end, Math.min(stop, end + 40));
+      const letter = (raw.match(/^ mega([xy])(?![a-z0-9])/) || [])[1] || "";
+      const after = raw.split(/ y | e | o |[,;\/]/)[0];
+      const before = t.slice(Math.max(0, o.i - 8), o.i);
+      const finals = opts.family ? PRE[o.sp] || [] : [];
+      const form = formIn([o.sp].concat(finals, max ? PRE[o.sp] || [] : []), after);
+      const shadow = !max && (/(^| )oscur[oa]s?( |$)/.test(after) || /shadow $/.test(before) || shadowSeg);
+      pickRefs(atkIdx.raid.get(o.sp) || [], { max, shadow }, form, letter, out);
+      finals.forEach((f) => pickRefs(atkIdx.raid.get(f) || [], { max: false, shadow: false }, form, "", out));
+      if (max) {
+        const want = /(^| )gigamax( |$)/.test(after) ? "G" : /(^| )(dinamax|dynamax)( |$)/.test(after) ? "D" : segForm;
+        pickMax(atkIdx.max.get(o.sp) || [], want, form, out);
+        if (want !== "G") (PRE[o.sp] || []).forEach((f) => pickMax(atkIdx.max.get(f) || [], "evo", form, out));
+      }
+    });
+  }
+  function metaRefs(e, raidsOnly) {
+    const out = [];
+    if (!atkRe || !e) return out;
+    if (!raidsOnly && e.type !== "event" && e.type !== "meteor") {
+      scanText(e.name, { family: e.type === "spot" || e.type === "comm", max: e.type === "max" || MAX_RE.test(normX(e.title)) }, out);
+    }
+    (e.raids || []).forEach((seg) => scanText(seg, {}, out));
+    return out;
+  }
+  function groupMeta(refs) {
+    const by = new Map();
+    refs.forEach((r) => { const k = r.mode + "|" + r.name; if (!by.has(k)) by.set(k, []); const g = by.get(k); if (!g.includes(r)) g.push(r); });
+    const groups = [];
+    by.forEach((rs) => {
+      const mode = rs[0].mode, order = PICK_ORDER[mode];
+      const tops = rs.filter((r) => r.rank).sort((a, b) => a.rank - b.rank || typeIdx(a.type) - typeIdx(b.type));
+      const picks = rs.filter((r) => !r.rank && !tops.some((x) => x.type === r.type)).sort((a, b) => order.indexOf(a.label) - order.indexOf(b.label) || typeIdx(a.type) - typeIdx(b.type));
+      if (tops.length || picks.length) groups.push({ mode, name: rs[0].name, species: rs[0].p.species, tops, picks });
+    });
+    const key = (g) => (g.tops.length ? g.tops[0].rank : 20 + PICK_ORDER[g.mode].indexOf(g.picks[0].label));
+    return groups.sort((a, b) => key(a) - key(b) || a.name.localeCompare(b.name, "es"));
+  }
+  function metaRow(refs) {
+    const groups = groupMeta(refs);
+    if (!groups.length) return null;
+    const row = el("div", "meta-row");
+    row.append(el("span", "meta-h", "🏆 Meta"));
+    groups.slice(0, 6).forEach((g) => {
+      const first = g.tops[0] || g.picks[0];
+      let what = g.tops.length ? g.tops.slice(0, 2).map((r) => "#" + r.rank + " " + r.typeName).join(" · ") : PICK_SHORT[first.label] + " de " + first.typeName;
+      if (g.mode === "max") what = "Max " + what;
+      const a = el("a", "mchip");
+      a.href = "#atacantes";
+      const dot = el("i"); dot.style.setProperty("--tc", TYPE_COLOR[first.type]);
+      a.append(dot, el("b", null, g.name), el("span", null, what));
+      a.setAttribute("aria-label", g.name + ": " + (g.mode === "max" ? "en Combates Max, " : "") + what.replace(/^Max /, "") + ". Ver en Atacantes");
+      a.addEventListener("click", (ev) => { ev.preventDefault(); openAtk(titleCase(g.species), g.mode); });
+      row.append(a);
+    });
+    if (groups.length > 6) row.append(el("span", "meta-h", "+" + (groups.length - 6)));
+    return row;
+  }
+  function openAtk(q, mode) {
+    setMode(mode || atkMode, true);
+    atkQuery = q;
+    $("atk-q").value = q;
+    renderAtk();
+    if (location.hash === "#atacantes") showView("atacantes"); else location.hash = "atacantes";
+    window.scrollTo(0, 0);
+  }
+
+  // ---------- Pestaña Atacantes ----------
+  const fNum = new Intl.NumberFormat("es-ES", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+  const sameMoves = (a, b) => !!(a && b && a.nombre === b.nombre && a.rapido.nombre === b.rapido.nombre && a.cargado.nombre === b.cargado.nombre);
+  // En Combates Max el nombre ya dice "Gigamax"/"Dinamax": se muestra sin esa palabra y con su etiqueta
+  const shortName = (r) => (atkMode === "max" ? r.nombre.replace(/\s+(Gigamax|Dinamax)$/i, "") : r.nombre);
+  var tipEl = null; // var: hideTip() se puede llamar antes de llegar aquí
+  function showTip(node, pct, value, sub) {
+    if (!tipEl) { tipEl = el("div", "tip"); tipEl.setAttribute("role", "tooltip"); document.body.append(tipEl); }
+    tipEl.textContent = "";
+    tipEl.append(el("b", null, value), el("span", null, sub));
+    tipEl.hidden = false;
+    const r = node.getBoundingClientRect();
+    const w = tipEl.offsetWidth, h = tipEl.offsetHeight;
+    const x = Math.min(window.innerWidth - w - 8, Math.max(8, r.left + (r.width * pct) / 100 - w / 2));
+    const y = r.top - h - 10 >= 8 ? r.top - h - 10 : r.bottom + 10;
+    tipEl.style.left = x + "px";
+    tipEl.style.top = y + "px";
+  }
+  function hideTip() { if (tipEl) tipEl.hidden = true; }
+  window.addEventListener("scroll", hideTip, { passive: true });
+
+  function typeTag(id) {
+    const s = el("span", "ttag");
+    const i = el("i"); i.style.setProperty("--tc", TYPE_COLOR[id] || "");
+    s.append(i, document.createTextNode(TYPE_NAME[id] || ""));
+    return s;
+  }
+  function formaTag(r) { return r.forma ? el("span", "tag " + FORMA_CLASS[r.forma], r.forma) : null; }
+  function moveLine(r) {
+    const d = el("div", "moves");
+    [r.rapido, r.cargado].forEach((mv, i) => {
+      if (i) d.append(document.createTextNode(atkMode === "max" ? " → " : " · "));
+      d.append(document.createTextNode(mv.nombre || "—"));
+      if (mv.legado) d.append(el("span", "tag", "MT élite"));
+      if (mv.plus) d.append(el("span", "tag", "Plus"));
+    });
+    return d;
+  }
+  function valueOf(r) {
+    if (atkMode === "max") return r.dano != null ? { label: "Daño " + r.dano, tip: r.dano + " de daño" } : null;
+    return r.edps != null ? { label: "eDPS " + fNum.format(r.edps), tip: fNum.format(r.edps) + " eDPS" } : null;
+  }
+  function meter(pct, value, sub) {
+    const m = el("div", "meter");
+    const f = el("i"); f.style.width = pct + "%"; m.append(f);
+    m.tabIndex = 0;
+    m.setAttribute("role", "img");
+    m.setAttribute("aria-label", value + ", " + sub);
+    const show = () => showTip(m, pct, value, sub);
+    m.addEventListener("pointerenter", show);
+    m.addEventListener("focus", show);
+    m.addEventListener("pointerleave", hideTip);
+    m.addEventListener("blur", hideTip);
+    return m;
+  }
+  function atkRow(t, r, o) {
+    const li = el("li", "arow");
+    li.append(el("span", "rank", o.rank ? String(o.rank) : "–"));
+    const nm = el("div", "aname");
+    if (o.showType) nm.append(typeTag(t.id));
+    nm.append(el("b", null, shortName(r)));
+    const ft = formaTag(r);
+    if (ft) nm.append(ft);
+    if (r.tier) nm.append(el("span", "tier", r.tier));
+    if (o.label) nm.append(el("span", "small", PICK_TITLE[o.label]));
+    const v = valueOf(r);
+    if (v) nm.append(el("span", "small", v.label));
+    li.append(nm, moveLine(r));
+    if (r.pct != null) {
+      li.append(meter(r.pct, v ? v.tip : r.pct + " %", r.pct + " % del n.º 1 de " + t.nombre));
+      li.append(el("span", "pct", r.pct + " %"));
+    }
+    return li;
+  }
+  function setMode(mode, quiet) {
+    atkMode = mode === "max" ? "max" : "raid";
+    try { localStorage.setItem("pogo-atk-mode", atkMode); } catch (_) {}
+    if (!quiet) renderAtk();
+  }
+  document.querySelectorAll("#atk-mode .seg-b").forEach((b) => b.addEventListener("click", () => setMode(b.dataset.mode)));
+  function renderAtk() {
+    document.querySelectorAll("#atk-mode .seg-b").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.mode === atkMode)));
+    $("atk-note").textContent = MODE_NOTE[atkMode];
+    renderAtkTypes();
+    renderAtkBody();
+    const d = cur();
+    const lg = $("atk-legend");
+    lg.textContent = "";
+    lg.hidden = !d;
+    for (let i = 0; i < LEGEND[atkMode].length; i += 2) {
+      const li = el("li");
+      const tg = LEGEND[atkMode][i];
+      if (tg) li.append(el("span", "tag" + (tg[1] ? " " + tg[1] : ""), tg[0]));
+      li.append(document.createTextNode(LEGEND[atkMode][i + 1]));
+      lg.append(li);
+    }
+    $("atk-upd").textContent = d && d.actualizado ? "Datos del " + d.actualizado.replace(/,.*$/, "") : "";
+    const src = $("atk-src");
+    src.textContent = "";
+    if (d) {
+      src.append(document.createTextNode("Fuente: Pokémon GO Hub" + (atkMode === "max" ? " (mejores atacantes Dinamax por tipo)" : "") + (d.actualizado ? ", actualizado el " + d.actualizado : "") + ". "));
+      if (d.url) { const a = el("a", null, "Ver la clasificación completa ↗"); a.href = d.url; a.target = "_blank"; a.rel = "noopener noreferrer"; src.append(a); }
+    }
+  }
+  function renderAtkTypes() {
+    const box = $("atk-types");
+    box.textContent = "";
+    const d = cur();
+    if (!d) return;
+    const searching = norm(atkQuery).length >= 2;
+    [["all", "Todos"]].concat(d.tipos.map((t) => [t.id, t.nombre])).forEach(([id, label]) => {
+      const b = el("button", "f");
+      b.type = "button";
+      if (id !== "all") { const i = el("i"); i.style.setProperty("--tc", TYPE_COLOR[id]); b.append(i); }
+      b.append(document.createTextNode(label));
+      b.setAttribute("aria-pressed", String(!searching && atkType === id));
+      b.addEventListener("click", () => setAtkType(id));
+      box.append(b);
+    });
+  }
+  function setAtkType(id) {
+    atkType = id;
+    atkQuery = "";
+    $("atk-q").value = "";
+    try { localStorage.setItem("pogo-atk-type", id); } catch (_) {}
+    renderAtkTypes();
+    renderAtkBody();
+  }
+  function renderAtkBody() {
+    const box = $("atk-body");
+    box.textContent = "";
+    hideTip();
+    const d = cur();
+    if (!d) {
+      const msg = { loading: "Cargando los mejores atacantes…", empty: "Todavía no hay datos de atacantes.", error: "No se pueden cargar los atacantes ahora mismo. Prueba en un rato.", nodb: "Abre la agenda en claude.ai con tu sesión iniciada para ver los atacantes." };
+      box.append(el("p", "sec-note", msg[atkStatus[atkMode]] || msg.loading));
+      return;
+    }
+    if (norm(atkQuery).length >= 2) { renderSearch(box, d, atkQuery); return; }
+    const t = d.tipos.find((x) => x.id === atkType);
+    if (t) renderType(box, t); else renderOverview(box, d);
+  }
+  function renderOverview(box, d) {
+    box.append(el("h3", "sub-h", "El mejor de cada tipo"));
+    const g = el("div", "ov");
+    d.tipos.forEach((t) => {
+      const b = el("button", "ovc");
+      b.type = "button";
+      b.append(typeTag(t.id));
+      const r = t.top[0];
+      const head = el("span", "ov-name");
+      head.append(el("b", null, shortName(r)));
+      const ft = formaTag(r);
+      if (ft) head.append(ft);
+      b.append(head, moveLine(r));
+      const alt = atkMode === "max"
+        ? (r.forma === "Gigamax" ? t.picks.find((p) => p.etiqueta === "Sin Gigamax" && !sameMoves(p, r)) : null)
+        : t.picks.find((p) => p.etiqueta === "Alternativa no legendaria");
+      if (alt) b.append(el("span", "small", (atkMode === "max" ? "Sin Gigamax: " : "Alternativa no legendaria: ") + alt.nombre));
+      b.addEventListener("click", () => { setAtkType(t.id); $("atk-sec").scrollIntoView({ block: "start" }); });
+      g.append(b);
+    });
+    box.append(g);
+  }
+  function renderType(box, t) {
+    box.append(el("h3", "sub-h", (t.top.length === 10 ? "Top 10" : "Los " + t.top.length + " mejores") + " de tipo " + t.nombre));
+    if (atkMode === "max" && t.top.length < 10) box.append(el("p", "sec-note", "Solo hay " + t.top.length + " atacantes de tipo " + t.nombre + " disponibles para Combates Max."));
+    const ol = el("ol", "atk");
+    t.top.forEach((r) => ol.append(atkRow(t, r, { rank: r.puesto })));
+    box.append(ol);
+    const picks = PICK_ORDER[atkMode].map((lab) => t.picks.find((p) => p.etiqueta === lab)).filter((p) => p && !sameMoves(p, t.top[0]));
+    if (!picks.length) return;
+    box.append(el("h3", "sub-h", "Otras opciones"));
+    const w = el("div", "picks");
+    picks.forEach((p) => {
+      const c = el("div", "pick");
+      const head = el("span", "ov-name");
+      head.append(el("b", null, shortName(p)));
+      const ft = formaTag(p);
+      if (ft) head.append(ft);
+      c.append(el("div", "col-h", PICK_TITLE[p.etiqueta]), head, moveLine(p));
+      const inTop = t.top.find((r) => sameMoves(r, p));
+      const bits = [];
+      if (p.pct != null) bits.push(p.pct + " % del n.º 1");
+      if (inTop) bits.push("n.º " + inTop.puesto + " de la lista");
+      if (PICK_NOTE[p.etiqueta]) bits.push(PICK_NOTE[p.etiqueta]);
+      if (bits.length) c.append(el("span", "small", bits.join(" · ")));
+      w.append(c);
+    });
+    box.append(w);
+  }
+  function renderSearch(box, d, q) {
+    const nq = norm(q);
+    const finals = new Set();
+    Object.keys(PRE).forEach((k) => { if (k === nq || (nq.length >= 3 && k.startsWith(nq))) PRE[k].forEach((f) => finals.add(f)); });
+    const hit = (r) => norm(r.nombre).includes(nq) || finals.has(parseName(r.nombre).species);
+    const res = [];
+    d.tipos.forEach((t) => {
+      t.top.forEach((r) => { if (hit(r)) res.push({ t, r, rank: r.puesto }); });
+      t.picks.forEach((r) => {
+        if (!hit(r) || t.top.some((x) => sameMoves(x, r)) || res.some((x) => x.t === t && sameMoves(x.r, r))) return;
+        res.push({ t, r, label: r.etiqueta });
+      });
+    });
+    res.sort((a, b) => (a.rank ? 0 : 1) - (b.rank ? 0 : 1) || (a.rank || 0) - (b.rank || 0) || typeIdx(a.t.id) - typeIdx(b.t.id));
+    const fam = [...finals].filter((f) => !nq.includes(f)).map(titleCase);
+    const where = atkMode === "max" ? "para Combates Max" : "para incursiones";
+    if (!res.length) {
+      box.append(el("p", "sec-note", "«" + q.trim() + "» no está entre los mejores atacantes " + where + (fam.length ? " (tampoco su evolución, " + fam.join(" / ") + ")" : "") + "."));
+      return;
+    }
+    box.append(el("h3", "sub-h", res.length + (res.length === 1 ? " resultado " : " resultados ") + where));
+    if (fam.length) box.append(el("p", "sec-note", "Incluye su evolución: " + fam.join(" / ") + "."));
+    const ul = el("ul", "atk");
+    res.forEach((x) => ul.append(atkRow(x.t, x.r, { rank: x.rank, label: x.label, showType: true })));
+    box.append(ul);
+  }
+  $("atk-q").addEventListener("input", () => { atkQuery = $("atk-q").value; renderAtkTypes(); renderAtkBody(); });
+  function watchAtk() {
+    if (!db) { MODES.forEach((m) => (atkStatus[m] = "nodb")); renderAtk(); return; }
+    MODES.forEach((mode) => {
+      try {
+        db.doc(ATK_PATHS[mode]).onSnapshot((snap) => {
+          const data = snap.exists ? cleanData(snap.data(), mode) : null;
+          if (data) {
+            atkData[mode] = data;
+            atkStatus[mode] = "ok";
+            buildIndex();
+            renderAtk();
+            if (events.length) render();
+          } else if (!atkData[mode] && !(snap.metadata && snap.metadata.fromCache)) { atkStatus[mode] = "empty"; renderAtk(); }
+        }, () => { if (!atkData[mode]) { atkStatus[mode] = "error"; renderAtk(); } });
+      } catch (_) { atkStatus[mode] = "error"; renderAtk(); }
+    });
+  }
+
+  // ---------- Copia compartida (para quien vea la agenda sin ser el dueño) ----------
+  const SHARED_PATH = "agenda/snapshot";
+  let db = null, isOwner = false, viewerMode = false, liveLoaded = false, lastSharedJSON = null, snapTimer = null;
+  function applyShared(data) {
+    events = normalize({ events: data.events });
+    const when = data.updatedAt ? new Date(data.updatedAt) : null;
+    $("updated").textContent = when && !isNaN(when) ? "Actualizado " + fUpd.format(when) : "";
+    if (events.length) { showState(null); render(); }
+    else { render(); showState("empty", "Sin eventos de Pokémon GO", "No hay eventos de Pokémon GO para las próximas semanas."); }
+  }
+  async function refreshShared() {
+    if (!db) return;
+    $("updated").textContent = "Actualizando…";
+    try {
+      const snap = await db.doc(SHARED_PATH).get();
+      const data = snap.exists ? snap.data() : null;
+      if (data && Array.isArray(data.events)) applyShared(data);
+      else $("updated").textContent = "Todavía no hay eventos";
+    } catch (_) { $("updated").textContent = "No se pudo actualizar, prueba en un rato"; }
+  }
+  function toShared(payload) {
+    const raw = payload && Array.isArray(payload.events) ? payload.events : [];
+    return raw
+      .filter((e) => e && e.status !== "cancelled" && /^pok[eé]mon go\s*:/i.test(e.summary || ""))
+      .map((e) => ({
+        summary: String(e.summary || ""),
+        start: { dateTime: (e.start && e.start.dateTime) || null, date: (e.start && e.start.date) || null },
+        end: { dateTime: (e.end && e.end.dateTime) || null, date: (e.end && e.end.date) || null },
+        description: String(e.description || ""),
+      }));
+  }
+  function shareSnapshot(payload) {
+    if (!db || !isOwner) return;
+    const shared = toShared(payload);
+    const js = JSON.stringify(shared);
+    if (js === lastSharedJSON) return;
+    lastSharedJSON = js;
+    db.doc(SHARED_PATH).set({ events: shared, updatedAt: new Date().toISOString() }).catch(() => { lastSharedJSON = null; });
+  }
+  function watchShared() {
+    if (!db) return;
+    snapTimer = setTimeout(() => {
+      if (!events.length && !liveLoaded) showState("error", "No se puede cargar la agenda", "No consigo leer los eventos compartidos ahora mismo. Prueba a abrirla de nuevo en un rato.");
+    }, 10000);
+    db.doc(SHARED_PATH).onSnapshot((snap) => {
+      if (snap.metadata && !snap.metadata.fromCache && snapTimer) { clearTimeout(snapTimer); snapTimer = null; }
+      const data = snap.exists ? snap.data() : null;
+      if (data && Array.isArray(data.events)) lastSharedJSON = JSON.stringify(data.events);
+      if (liveLoaded) return; // el dueño ya ve sus datos en directo
+      if (!data || !Array.isArray(data.events)) {
+        if (!isOwner && !(snap.metadata && snap.metadata.fromCache)) showState("empty", "Todavía no hay eventos", "La agenda se llena cuando su dueño la abre. Vuelve a mirar más tarde.");
+        return;
+      }
+      applyShared(data);
+    }, () => {
+      if (snapTimer) { clearTimeout(snapTimer); snapTimer = null; }
+      if (!events.length && !liveLoaded && !isOwner) showState("error", "No se puede cargar la agenda", "Abre la agenda en claude.ai con tu sesión iniciada.");
+    });
+  }
+
+  // ---------- Conector ----------
+  function query() {
+    const now = new Date();
+    const from = madridMidnight(now);
+    const to = new Date(from.getTime() + 60 * DAY);
+    return { fullText: "Pokémon GO", startTime: localISO(from), endTime: localISO(to), timeZone: TZ, orderBy: "startTime", pageSize: 100 };
+  }
+
+  function handleError(err) {
+    const code = err && err.code;
+    const keep = events.length > 0;
+    if (code === "needs_reauth") { events = []; render(); showState("error", "Vuelve a conectar Google Calendar", "La conexión con tu calendario ha caducado. Entra en claude.ai → Ajustes → Conectores y reconecta Google Calendar."); return; }
+    if (code === "server_not_connected" || code === "server_not_found" || code === "selection_required") { events = []; render(); showState("error", "Falta Google Calendar", "Esta agenda lee tu Google Calendar. Añádelo en claude.ai → Ajustes → Conectores y vuelve a abrir la página."); return; }
+    if (code === "not_in_manifest" || code === "approval_required" || code === "consent_required") {
+      events = []; render();
+      showState("error", "Permite leer tu calendario", "La agenda necesita tu permiso para leer los eventos de Pokémon GO de tu Google Calendar.", { label: "Dar permiso", run: () => load(true) });
+      return;
+    }
+    if (code === "blocked_by_policy") { events = []; render(); showState("error", "Acceso bloqueado", "La política de tu organización no permite que esta página lea Google Calendar."); return; }
+    if (code === "not_granted" || code === "capability_disabled" || code === "capability_removed") { noMcp(); return; }
+    if (err && err.retryable && !handleError.retried) {
+      handleError.retried = true;
+      setTimeout(() => load(false), (err.retryAfterMs || 1500) + Math.random() * 1000);
+      if (!keep) showState("error", "Google Calendar no responde", "Lo vuelvo a intentar en unos segundos.");
+      return;
+    }
+    if (keep) { $("updated").textContent = "No se pudo actualizar · datos de " + fUpd.format(lastStamp); return; }
+    showState("error", "No he podido leer tu calendario", (err && err.message) ? "Google Calendar respondió con un error. Prueba a actualizar en un rato." : "Prueba a actualizar en un rato.", { label: "Reintentar", run: () => load(true) });
+  }
+
+  function onData(result) {
+    handleError.retried = false;
+    liveLoaded = true;
+    events = normalize(result && result.payload);
+    setUpdated(result);
+    shareSnapshot(result && result.payload);
+    if (!events.length) {
+      render();
+      showState("empty", "Sin eventos de Pokémon GO", "No hay eventos de Pokémon GO en tu calendario para las próximas semanas. La tarea de los lunes los añadirá cuando se anuncien.");
+    } else { showState(null); render(); }
+  }
+
+  let unwatch = null;
+  async function load(fresh) {
+    if (!mcp) return;
+    if (!events.length) showState("loading");
+    try {
+      const res = await mcp.callTool(SERVER, TOOL, query(), { cache: fresh ? { staleTime: 0, gcTime: 604800000, refresh: true } : { staleTime: 300000, gcTime: 604800000 } });
+      onData(res);
+      startWatch();
+    } catch (err) { handleError(err); }
+  }
+  function startWatch() {
+    if (unwatch) return;
+    unwatch = mcp.watchTool(SERVER, TOOL, query(), (ev) => {
+      if (ev.type === "data") onData(ev.result);
+      else if (ev.error && ["needs_reauth", "server_not_connected", "blocked_by_policy", "approval_required"].includes(ev.error.code)) { if (unwatch) { unwatch(); unwatch = null; } handleError(ev.error); }
+    }, { cache: { staleTime: 300000, gcTime: 604800000 }, refetchInterval: 900000 });
+  }
+
+  function noMcp() {
+    if (events.length) return; // ya se ve la copia compartida
+    if (db && !isOwner) return; // quien no es el dueño solo usa la copia compartida
+    events = []; render();
+    $("updated").textContent = "Sin conexión con el calendario";
+    showState("error", "Abre la agenda en claude.ai", "Esta página lee tu Google Calendar a través de Claude. Ábrela desde la app de Claude o en claude.ai con tu sesión iniciada.");
+  }
+
+
+  showState("loading");
+  renderAtk();
+  const c = window.claude;
+  if (!c || typeof c.use !== "function") { MODES.forEach((m) => (atkStatus[m] = "nodb")); renderAtk(); noMcp(); return; }
+  (async () => {
+    const [dbNs, userNs] = await Promise.all([
+      c.use("db").catch(() => null),
+      c.use("user").catch(() => null),
+    ]);
+    db = dbNs;
+    watchAtk(); // los atacantes los ve todo el mundo (dueño e invitados)
+    isOwner = userNs ? await userNs.isOwner() : false;
+    if (db) watchShared();
+    // Solo el dueño lee su Google Calendar; el resto ve la copia compartida.
+    if (userNs && !isOwner) {
+      viewerMode = true;
+      if (!db) showState("error", "Inicia sesión para ver la agenda", "Abre la agenda en claude.ai con tu sesión iniciada.");
+      return;
+    }
+    const ns = await c.use("mcp").catch(() => null);
+    if (!ns) { noMcp(); return; }
+    mcp = ns;
+    load(false);
+  })().catch(noMcp);
+})();
+</script>

@@ -1,0 +1,4669 @@
+{
+ "fuente": "Pokémon GO Hub (db.pokemongohub.net)",
+ "tipos": [
+  {
+   "id": "normal",
+   "nombre": "Normal",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Regigigas oscuro",
+     "rapido": {
+      "nombre": "Cabezazo Zen",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Agarrón",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 18.5,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Mega-Staraptor",
+     "rapido": {
+      "nombre": "Ataque Rápido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pájaro Osado",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 18.32,
+     "pct": 99
+    },
+    {
+     "puesto": 3,
+     "tier": "SS",
+     "nombre": "Mega-Delphox",
+     "rapido": {
+      "nombre": "Arañazo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Llama Embrujada",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 17.7,
+     "pct": 96
+    },
+    {
+     "puesto": 4,
+     "tier": "SS",
+     "nombre": "Mega-Mewtwo Y",
+     "rapido": {
+      "nombre": "Confusión",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Hiperrayo",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 17.6,
+     "pct": 95
+    },
+    {
+     "puesto": 5,
+     "tier": "SS",
+     "nombre": "Mega-Mewtwo X",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Hiperrayo",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 17.36,
+     "pct": 94
+    },
+    {
+     "puesto": 6,
+     "tier": "SS",
+     "nombre": "Zacian Espada Suprema",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Gigaimpacto",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 16.47,
+     "pct": 89
+    },
+    {
+     "puesto": 7,
+     "tier": "SS",
+     "nombre": "Mega-Starmie",
+     "rapido": {
+      "nombre": "Placaje",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Hidroariete",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 16.44,
+     "pct": 89
+    },
+    {
+     "puesto": 8,
+     "tier": "SS",
+     "nombre": "Mega-Clefable",
+     "rapido": {
+      "nombre": "Destructor",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Fuerza Lunar",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 16.34,
+     "pct": 88
+    },
+    {
+     "puesto": 9,
+     "tier": "SS",
+     "nombre": "Regigigas",
+     "rapido": {
+      "nombre": "Cabezazo Zen",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Agarrón",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 16.2,
+     "pct": 88
+    },
+    {
+     "puesto": 10,
+     "tier": "SS",
+     "nombre": "Gigalith oscuro",
+     "rapido": {
+      "nombre": "Fijar Blanco",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo Meteórico",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 15.97,
+     "pct": 86
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Regigigas oscuro",
+     "rapido": {
+      "nombre": "Cabezazo Zen",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Agarrón",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 18.5,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Staraptor",
+     "rapido": {
+      "nombre": "Ataque Rápido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pájaro Osado",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 18.32,
+     "pct": 99
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Regigigas oscuro",
+     "rapido": {
+      "nombre": "Cabezazo Zen",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Agarrón",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 18.5,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Gigalith",
+     "rapido": {
+      "nombre": "Fijar Blanco",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo Meteórico",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 14.14,
+     "pct": 76
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Staraptor",
+     "rapido": {
+      "nombre": "Ataque Rápido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pájaro Osado",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 18.32,
+     "pct": 99
+    }
+   ]
+  },
+  {
+   "id": "fighting",
+   "nombre": "Lucha",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Mega-Mewtwo X",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Puño Dinámico",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 38.94,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Mega-Lucario",
+     "rapido": {
+      "nombre": "Palmeo",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Esfera Aural",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 32.62,
+     "pct": 84
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Mega-Blaziken",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Esfera Aural",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 31.73,
+     "pct": 81
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Keldeo (Forma Brío)",
+     "rapido": {
+      "nombre": "Patada Baja",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Sable Místico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 28.64,
+     "pct": 74
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Mega-Falinks",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Demolición",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 28.41,
+     "pct": 73
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Mega-Mewtwo Y",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Onda Certera",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 28.13,
+     "pct": 72
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Mega-Gallade",
+     "rapido": {
+      "nombre": "Patada Baja",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Espada Santa",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 28.1,
+     "pct": 72
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Mega-Heracross",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "A Bocajarro",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 25.29,
+     "pct": 65
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Blaziken oscuro",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Esfera Aural",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 25.16,
+     "pct": 65
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Conkeldurr oscuro",
+     "rapido": {
+      "nombre": "Palmeo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Puño Dinámico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 24.97,
+     "pct": 64
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Mega-Mewtwo X",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Puño Dinámico",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 38.94,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Mewtwo X",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Puño Dinámico",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 38.94,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Blaziken oscuro",
+     "rapido": {
+      "nombre": "Contraataque",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Esfera Aural",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 25.16,
+     "pct": 65
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Lucario",
+     "rapido": {
+      "nombre": "Palmeo",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Esfera Aural",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.68,
+     "pct": 61
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Mewtwo X",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Puño Dinámico",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 34.73,
+     "pct": 89
+    }
+   ]
+  },
+  {
+   "id": "flying",
+   "nombre": "Volador",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Mega-Rayquaza",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Ascenso Draco",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 45.3,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Mega-Staraptor",
+     "rapido": {
+      "nombre": "Tornado",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pájaro Osado",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 35.23,
+     "pct": 78
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Rayquaza",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Ascenso Draco",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 32.96,
+     "pct": 73
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Mega-Skarmory",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pico Taladro",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 32.76,
+     "pct": 72
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Moltres oscuro",
+     "rapido": {
+      "nombre": "Ataque Ala",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Vuelo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 32.19,
+     "pct": 71
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Salamence oscuro",
+     "rapido": {
+      "nombre": "Colmillo Ígneo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Vuelo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 30.26,
+     "pct": 67
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Mega-Salamence",
+     "rapido": {
+      "nombre": "Colmillo Ígneo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Vuelo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 30.13,
+     "pct": 67
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Toucannon oscuro",
+     "rapido": {
+      "nombre": "Picotazo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pico Cañón",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 28.44,
+     "pct": 63
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Enamorus (Forma Avatar)",
+     "rapido": {
+      "nombre": "Viento Feérico",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Vuelo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 28.35,
+     "pct": 63
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Yveltal",
+     "rapido": {
+      "nombre": "Tornado",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Ala Mortífera",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 27.53,
+     "pct": 61
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Mega-Rayquaza",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Ascenso Draco",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 45.3,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Rayquaza",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Ascenso Draco",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 45.3,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Moltres oscuro",
+     "rapido": {
+      "nombre": "Ataque Ala",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Vuelo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 32.19,
+     "pct": 71
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Salamence",
+     "rapido": {
+      "nombre": "Colmillo Ígneo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Vuelo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 25.92,
+     "pct": 57
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Rayquaza",
+     "rapido": {
+      "nombre": "Tajo Aéreo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Ascenso Draco",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 45.3,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "poison",
+   "nombre": "Veneno",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Mega-Victreebel",
+     "rapido": {
+      "nombre": "Ácido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Ácida",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 26.91,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Mega-Gengar",
+     "rapido": {
+      "nombre": "Lengüetazo",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 25.56,
+     "pct": 95
+    },
+    {
+     "puesto": 3,
+     "tier": "SS",
+     "nombre": "Eternatus",
+     "rapido": {
+      "nombre": "Puya Nociva",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 24.97,
+     "pct": 93
+    },
+    {
+     "puesto": 4,
+     "tier": "SS",
+     "nombre": "Mega-Beedrill",
+     "rapido": {
+      "nombre": "Puya Nociva",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 24.48,
+     "pct": 91
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Nihilego",
+     "rapido": {
+      "nombre": "Puya Nociva",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.26,
+     "pct": 83
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Overqwil oscuro",
+     "rapido": {
+      "nombre": "Puya Nociva",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.08,
+     "pct": 82
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Naganadel",
+     "rapido": {
+      "nombre": "Puya Nociva",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 21.31,
+     "pct": 79
+    },
+    {
+     "puesto": 8,
+     "tier": "S",
+     "nombre": "Gengar oscuro",
+     "rapido": {
+      "nombre": "Lengüetazo",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 20.71,
+     "pct": 77
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Roserade",
+     "rapido": {
+      "nombre": "Puya Nociva",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 19.99,
+     "pct": 74
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Scolipede oscuro",
+     "rapido": {
+      "nombre": "Puya Nociva",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 19.39,
+     "pct": 72
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Mega-Victreebel",
+     "rapido": {
+      "nombre": "Ácido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Ácida",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 26.91,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Victreebel",
+     "rapido": {
+      "nombre": "Ácido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Ácida",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 26.91,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Overqwil oscuro",
+     "rapido": {
+      "nombre": "Puya Nociva",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.08,
+     "pct": 82
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Roserade",
+     "rapido": {
+      "nombre": "Puya Nociva",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 19.99,
+     "pct": 74
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Victreebel",
+     "rapido": {
+      "nombre": "Ácido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Ácida",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 26.91,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "ground",
+   "nombre": "Tierra",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Groudon Primigenio",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Filo del Abismo",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 30.77,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Mega-Garchomp",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Tierra Viva",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 28.15,
+     "pct": 91
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Groudon oscuro",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Filo del Abismo",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 26.21,
+     "pct": 85
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Garchomp oscuro",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Tierra Viva",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 25.21,
+     "pct": 82
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Landorus (Forma Tótem)",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Simún de Arena",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 24.38,
+     "pct": 79
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Landorus oscuro (Forma Avatar)",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Tierra Viva",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.88,
+     "pct": 78
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Excadrill oscuro",
+     "rapido": {
+      "nombre": "Bofetón Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Arenas Ardientes",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.49,
+     "pct": 76
+    },
+    {
+     "puesto": 8,
+     "tier": "S",
+     "nombre": "Rhyperior oscuro",
+     "rapido": {
+      "nombre": "Bofetón Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Taladradora",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.31,
+     "pct": 76
+    },
+    {
+     "puesto": 9,
+     "tier": "S",
+     "nombre": "Groudon",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Filo del Abismo",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 22.64,
+     "pct": 74
+    },
+    {
+     "puesto": 10,
+     "tier": "S",
+     "nombre": "Mega-Swampert",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Terremoto",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.6,
+     "pct": 73
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Groudon Primigenio",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Filo del Abismo",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 30.77,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Groudon Primigenio",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Filo del Abismo",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 30.77,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Groudon oscuro",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Filo del Abismo",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 26.21,
+     "pct": 85
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Garchomp",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Tierra Viva",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 21.46,
+     "pct": 70
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Groudon Primigenio",
+     "rapido": {
+      "nombre": "Disparo Lodo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Terremoto",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 28.25,
+     "pct": 92
+    }
+   ]
+  },
+  {
+   "id": "rock",
+   "nombre": "Roca",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Mega-Diancie",
+     "rapido": {
+      "nombre": "Lanzarrocas",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Avalancha",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 29.01,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Rhyperior oscuro",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Romperrocas",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 28.19,
+     "pct": 97
+    },
+    {
+     "puesto": 3,
+     "tier": "SS",
+     "nombre": "Mega-Tyranitar",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Roca Afilada",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.07,
+     "pct": 93
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Mega-Aerodactyl",
+     "rapido": {
+      "nombre": "Lanzarrocas",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Avalancha",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 25.86,
+     "pct": 89
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Gigalith oscuro",
+     "rapido": {
+      "nombre": "Fijar Blanco",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo Meteórico",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 25.64,
+     "pct": 88
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Rampardos oscuro",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Avalancha",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 25.46,
+     "pct": 88
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Tyrantrum oscuro",
+     "rapido": {
+      "nombre": "Lanzarrocas",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo Meteórico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 24.8,
+     "pct": 85
+    },
+    {
+     "puesto": 8,
+     "tier": "S",
+     "nombre": "Tyranitar oscuro",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Roca Afilada",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 24.61,
+     "pct": 85
+    },
+    {
+     "puesto": 9,
+     "tier": "S",
+     "nombre": "Rhyperior",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Romperrocas",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 24.05,
+     "pct": 83
+    },
+    {
+     "puesto": 10,
+     "tier": "S",
+     "nombre": "Mega-Rayquaza",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Poder Pasado",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.59,
+     "pct": 81
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Mega-Diancie",
+     "rapido": {
+      "nombre": "Lanzarrocas",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Avalancha",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 29.01,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Diancie",
+     "rapido": {
+      "nombre": "Lanzarrocas",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Avalancha",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 29.01,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Rhyperior oscuro",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Romperrocas",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 28.19,
+     "pct": 97
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Rhyperior",
+     "rapido": {
+      "nombre": "Antiaéreo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Romperrocas",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 24.05,
+     "pct": 83
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Diancie",
+     "rapido": {
+      "nombre": "Lanzarrocas",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Avalancha",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 29.01,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "bug",
+   "nombre": "Bicho",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Mega-Beedrill",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Aguijón Letal",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 27.46,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Mega-Heracross",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Megacuerno",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.13,
+     "pct": 99
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Mega-Pinsir",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Tijera X",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 24.27,
+     "pct": 88
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Mega-Scizor",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Tijera X",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.22,
+     "pct": 85
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Vikavolt oscuro",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Tijera X",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.62,
+     "pct": 82
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Scizor oscuro",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Tijera X",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.13,
+     "pct": 81
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Volcarona",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Zumbido",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 21.61,
+     "pct": 79
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Mega-Sceptile",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Vasto Impacto",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 21.24,
+     "pct": 77
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Pinsir oscuro",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Tijera X",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 21.19,
+     "pct": 77
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Golisopod oscuro",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Tijera X",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 20.87,
+     "pct": 76
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Mega-Beedrill",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Aguijón Letal",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 27.46,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Beedrill",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Aguijón Letal",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 27.46,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Vikavolt oscuro",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Tijera X",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.62,
+     "pct": 82
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Volcarona",
+     "rapido": {
+      "nombre": "Picadura",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Zumbido",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 21.61,
+     "pct": 79
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Heracross",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Megacuerno",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.13,
+     "pct": 99
+    }
+   ]
+  },
+  {
+   "id": "ghost",
+   "nombre": "Fantasma",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Mega-Chandelure",
+     "rapido": {
+      "nombre": "Infortunio",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Viento Aciago",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 35.7,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Necrozma Alas del Alba",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo Umbrío",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 28.61,
+     "pct": 80
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Mega-Mewtwo Y",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bola Sombra",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 27.78,
+     "pct": 78
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Mega-Gengar",
+     "rapido": {
+      "nombre": "Lengüetazo",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bola Sombra",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.36,
+     "pct": 77
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Mega-Mewtwo X",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bola Sombra",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 26.44,
+     "pct": 74
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Darkrai oscuro",
+     "rapido": {
+      "nombre": "Alarido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bola Sombra",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 25.29,
+     "pct": 71
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Mega-Banette",
+     "rapido": {
+      "nombre": "Garra Umbría",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bola Sombra",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.61,
+     "pct": 66
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Chandelure oscuro",
+     "rapido": {
+      "nombre": "Infortunio",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bola Sombra",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.25,
+     "pct": 65
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Mewtwo oscuro",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bola Sombra",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 22.61,
+     "pct": 63
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Lunala",
+     "rapido": {
+      "nombre": "Garra Umbría",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bola Sombra",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.6,
+     "pct": 63
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Mega-Chandelure",
+     "rapido": {
+      "nombre": "Infortunio",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Viento Aciago",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 35.7,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Chandelure",
+     "rapido": {
+      "nombre": "Infortunio",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Viento Aciago",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 35.7,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Darkrai oscuro",
+     "rapido": {
+      "nombre": "Alarido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bola Sombra",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 25.29,
+     "pct": 71
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Gholdengo",
+     "rapido": {
+      "nombre": "Infortunio",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bola Sombra",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 21.18,
+     "pct": 59
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Chandelure",
+     "rapido": {
+      "nombre": "Infortunio",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Viento Aciago",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 35.7,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "steel",
+   "nombre": "Acero",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Zacian Espada Suprema",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Tajo Supremo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 33.24,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Zamazenta Escudo Supremo",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Embate Supremo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 32.4,
+     "pct": 97
+    },
+    {
+     "puesto": 3,
+     "tier": "SS",
+     "nombre": "Necrozma Melena Crepuscular",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Meteoimpacto",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 31.6,
+     "pct": 95
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Mega-Metagross",
+     "rapido": {
+      "nombre": "Puño Bala",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Puño Meteoro",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 27.68,
+     "pct": 83
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Mega-Lucario",
+     "rapido": {
+      "nombre": "Palmeo",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Puño Meteoro",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.35,
+     "pct": 82
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Metagross oscuro",
+     "rapido": {
+      "nombre": "Puño Bala",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Puño Meteoro",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 27.35,
+     "pct": 82
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Dialga oscuro",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Cabeza de Hierro",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.96,
+     "pct": 72
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Metagross",
+     "rapido": {
+      "nombre": "Puño Bala",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Puño Meteoro",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 23.22,
+     "pct": 70
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Mega-Skarmory",
+     "rapido": {
+      "nombre": "Ala de Acero",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pico Taladro",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 22.56,
+     "pct": 68
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Excadrill oscuro",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Cabeza de Hierro",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 21.91,
+     "pct": 66
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Zacian Espada Suprema",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Tajo Supremo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 33.24,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Metagross",
+     "rapido": {
+      "nombre": "Puño Bala",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Puño Meteoro",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 27.68,
+     "pct": 83
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Metagross oscuro",
+     "rapido": {
+      "nombre": "Puño Bala",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Puño Meteoro",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 27.35,
+     "pct": 82
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Metagross",
+     "rapido": {
+      "nombre": "Puño Bala",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Puño Meteoro",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 23.22,
+     "pct": 70
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Zacian Espada Suprema",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Tajo Supremo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 33.24,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "fire",
+   "nombre": "Fuego",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Mega-Delphox",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Llama Embrujada",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 33.72,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Mega-Charizard Y",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Anillo Ígneo",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 29.27,
+     "pct": 87
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Mega-Blaziken",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Anillo Ígneo",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 29.27,
+     "pct": 87
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Reshiram oscuro",
+     "rapido": {
+      "nombre": "Colmillo Ígneo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Llama Fusión",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 28.55,
+     "pct": 85
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Mega-Chandelure",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Viento Aciago",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 28.49,
+     "pct": 84
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Blacephalon",
+     "rapido": {
+      "nombre": "Calcinación",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Cabeza Sorpresa",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 28.19,
+     "pct": 84
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Heatran oscuro",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Lluvia Ígnea",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 26.11,
+     "pct": 77
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Mega-Charizard X",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Anillo Ígneo",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 25.03,
+     "pct": 74
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Chandelure oscuro",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Sofoco",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 24.61,
+     "pct": 73
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Reshiram",
+     "rapido": {
+      "nombre": "Colmillo Ígneo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Llama Fusión",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 24.47,
+     "pct": 73
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Mega-Delphox",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Llama Embrujada",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 33.72,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Delphox",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Llama Embrujada",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 33.72,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Reshiram oscuro",
+     "rapido": {
+      "nombre": "Colmillo Ígneo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Llama Fusión",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 28.55,
+     "pct": 85
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Volcarona",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Sofoco",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 21.64,
+     "pct": 64
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Delphox",
+     "rapido": {
+      "nombre": "Giro Fuego",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Llama Embrujada",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 33.72,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "water",
+   "nombre": "Agua",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Kyogre Primigenio",
+     "rapido": {
+      "nombre": "Cascada",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pulso Primigenio",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 30.28,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Mega-Greninja",
+     "rapido": {
+      "nombre": "Shuriken de Agua",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Surf",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 30.15,
+     "pct": 100
+    },
+    {
+     "puesto": 3,
+     "tier": "SS",
+     "nombre": "Mega-Starmie",
+     "rapido": {
+      "nombre": "Psicoonda",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Hidroariete",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 28.53,
+     "pct": 94
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Mega-Swampert",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Hidrocañón",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 26.8,
+     "pct": 89
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Kyogre oscuro",
+     "rapido": {
+      "nombre": "Cascada",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pulso Primigenio",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 25.74,
+     "pct": 85
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Mega-Blastoise",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Hidrocañón",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 24.41,
+     "pct": 81
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Mega-Gyarados",
+     "rapido": {
+      "nombre": "Cascada",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Hidrobomba",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.21,
+     "pct": 77
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Swampert oscuro",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Hidrocañón",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 22.3,
+     "pct": 74
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Kyogre",
+     "rapido": {
+      "nombre": "Cascada",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pulso Primigenio",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 22.29,
+     "pct": 74
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Greninja oscuro",
+     "rapido": {
+      "nombre": "Shuriken de Agua",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Hidrocañón",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 21.66,
+     "pct": 72
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Kyogre Primigenio",
+     "rapido": {
+      "nombre": "Cascada",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pulso Primigenio",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 30.28,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Kyogre Primigenio",
+     "rapido": {
+      "nombre": "Cascada",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pulso Primigenio",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 30.28,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Kyogre oscuro",
+     "rapido": {
+      "nombre": "Cascada",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pulso Primigenio",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 25.74,
+     "pct": 85
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Inteleon",
+     "rapido": {
+      "nombre": "Pistola Agua",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Disparo Certero",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 20.73,
+     "pct": 68
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Greninja",
+     "rapido": {
+      "nombre": "Shuriken de Agua",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Surf",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 30.15,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "grass",
+   "nombre": "Planta",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Mega-Chesnaught",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Germen",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 27.35,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Mega-Sceptile",
+     "rapido": {
+      "nombre": "Corte Furia",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Planta Feroz",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 26.41,
+     "pct": 97
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Mega-Venusaur",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Planta Feroz",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 22.55,
+     "pct": 82
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Kartana",
+     "rapido": {
+      "nombre": "Hoja Afilada",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Hoja Aguda",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.49,
+     "pct": 82
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Chesnaught oscuro",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Planta Feroz",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 21.89,
+     "pct": 80
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Shaymin (Forma Cielo)",
+     "rapido": {
+      "nombre": "Hoja Mágica",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Hierba Lazo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 21.51,
+     "pct": 79
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Zarude",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Latigazo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 21.2,
+     "pct": 78
+    },
+    {
+     "puesto": 8,
+     "tier": "S",
+     "nombre": "Tangrowth oscuro",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Latigazo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 21.14,
+     "pct": 77
+    },
+    {
+     "puesto": 9,
+     "tier": "S",
+     "nombre": "Venusaur oscuro",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Planta Feroz",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 20.93,
+     "pct": 77
+    },
+    {
+     "puesto": 10,
+     "tier": "S",
+     "nombre": "Mega-Victreebel",
+     "rapido": {
+      "nombre": "Hoja Mágica",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Hoja Aguda",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 20.86,
+     "pct": 76
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Mega-Chesnaught",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Germen",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 27.35,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Chesnaught",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Germen",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 27.35,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Chesnaught oscuro",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Planta Feroz",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 21.89,
+     "pct": 80
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Rillaboom",
+     "rapido": {
+      "nombre": "Hoja Afilada",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Planta Feroz",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 20.41,
+     "pct": 75
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Chesnaught",
+     "rapido": {
+      "nombre": "Látigo Cepa",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bomba Germen",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 27.35,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "electric",
+   "nombre": "Eléctrico",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Mega-Raichu Y",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Electrocañón",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 29.56,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Mega-Manectric",
+     "rapido": {
+      "nombre": "Colmillo Rayo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Chispazo",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 28.34,
+     "pct": 96
+    },
+    {
+     "puesto": 3,
+     "tier": "SS",
+     "nombre": "Mega-Raichu X",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Placaje Eléctrico",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 27.68,
+     "pct": 94
+    },
+    {
+     "puesto": 4,
+     "tier": "SS",
+     "nombre": "Zekrom oscuro",
+     "rapido": {
+      "nombre": "Rayo Carga",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo Fusión",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 26.57,
+     "pct": 90
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Thundurus oscuro (Forma Tótem)",
+     "rapido": {
+      "nombre": "Voltiocambio",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Electormenta",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 25.5,
+     "pct": 86
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Mega-Mewtwo Y",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 25.16,
+     "pct": 85
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Zeraora",
+     "rapido": {
+      "nombre": "Voltiocambio",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Puños Plasma",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 24.4,
+     "pct": 83
+    },
+    {
+     "puesto": 8,
+     "tier": "S",
+     "nombre": "Raikou oscuro",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Voltio Cruel",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 24.06,
+     "pct": 81
+    },
+    {
+     "puesto": 9,
+     "tier": "S",
+     "nombre": "Mega-Mewtwo X",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.94,
+     "pct": 81
+    },
+    {
+     "puesto": 10,
+     "tier": "S",
+     "nombre": "Regieleki",
+     "rapido": {
+      "nombre": "Fijar Blanco",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Electrojaula",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 23.49,
+     "pct": 79
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Mega-Raichu Y",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Electrocañón",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 29.56,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Raichu Y",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Electrocañón",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 29.56,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Zekrom oscuro",
+     "rapido": {
+      "nombre": "Rayo Carga",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo Fusión",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 26.57,
+     "pct": 90
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Electivire",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Voltio Cruel",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 20.03,
+     "pct": 68
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Raichu Y",
+     "rapido": {
+      "nombre": "Impactrueno",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Electrocañón",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 29.56,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "psychic",
+   "nombre": "Psíquico",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Mega-Mewtwo Y",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Premonición",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 47.52,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Mega-Mewtwo X",
+     "rapido": {
+      "nombre": "Confusión",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Onda Mental",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 39.79,
+     "pct": 84
+    },
+    {
+     "puesto": 3,
+     "tier": "A",
+     "nombre": "Mewtwo oscuro",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Onda Mental",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 33.49,
+     "pct": 70
+    },
+    {
+     "puesto": 4,
+     "tier": "A",
+     "nombre": "Mega-Alakazam",
+     "rapido": {
+      "nombre": "Confusión",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Psíquico",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 30.87,
+     "pct": 65
+    },
+    {
+     "puesto": 5,
+     "tier": "A",
+     "nombre": "Mega-Gardevoir",
+     "rapido": {
+      "nombre": "Confusión",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Psíquico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 29.34,
+     "pct": 62
+    },
+    {
+     "puesto": 6,
+     "tier": "A",
+     "nombre": "Mega-Latios",
+     "rapido": {
+      "nombre": "Cabezazo Zen",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Psíquico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 29.18,
+     "pct": 61
+    },
+    {
+     "puesto": 7,
+     "tier": "A",
+     "nombre": "Mega-Gallade",
+     "rapido": {
+      "nombre": "Confusión",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Psíquico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 29.14,
+     "pct": 61
+    },
+    {
+     "puesto": 8,
+     "tier": "A",
+     "nombre": "Mewtwo",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Onda Mental",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 28.8,
+     "pct": 61
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Mega-Delphox",
+     "rapido": {
+      "nombre": "Cabezazo Zen",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Psíquico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 28.63,
+     "pct": 60
+    },
+    {
+     "puesto": 10,
+     "tier": "B",
+     "nombre": "Mega-Metagross",
+     "rapido": {
+      "nombre": "Cabezazo Zen",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Psíquico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 26.82,
+     "pct": 56
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Mega-Mewtwo Y",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Premonición",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 47.52,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Mewtwo Y",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Premonición",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 47.52,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Mewtwo oscuro",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Onda Mental",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 33.49,
+     "pct": 70
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Metagross",
+     "rapido": {
+      "nombre": "Cabezazo Zen",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Psíquico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.43,
+     "pct": 47
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Mewtwo Y",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Premonición",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 47.52,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "ice",
+   "nombre": "Hielo",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Kyurem Blanco",
+     "rapido": {
+      "nombre": "Colmillo Hielo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Llama Gélida",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 32.57,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Kyurem Negro",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo Gélido",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 29.36,
+     "pct": 90
+    },
+    {
+     "puesto": 3,
+     "tier": "SS",
+     "nombre": "Mega-Mewtwo Y",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo Hielo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 29.21,
+     "pct": 90
+    },
+    {
+     "puesto": 4,
+     "tier": "SS",
+     "nombre": "Mega-Mewtwo X",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo Hielo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.92,
+     "pct": 86
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Mamoswine oscuro",
+     "rapido": {
+      "nombre": "Nieve Polvo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Alud",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 25.11,
+     "pct": 77
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Mega-Gardevoir",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Triple Axel",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 24.05,
+     "pct": 74
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Mewtwo oscuro",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo Hielo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.68,
+     "pct": 73
+    },
+    {
+     "puesto": 8,
+     "tier": "S",
+     "nombre": "Zamazenta Escudo Supremo",
+     "rapido": {
+      "nombre": "Colmillo Hielo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Embate Supremo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.35,
+     "pct": 72
+    },
+    {
+     "puesto": 9,
+     "tier": "S",
+     "nombre": "Kyogre Primigenio",
+     "rapido": {
+      "nombre": "Cascada",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Alud",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.02,
+     "pct": 71
+    },
+    {
+     "puesto": 10,
+     "tier": "S",
+     "nombre": "Baxcalibur",
+     "rapido": {
+      "nombre": "Colmillo Hielo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Alud",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.81,
+     "pct": 70
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Kyurem Blanco",
+     "rapido": {
+      "nombre": "Colmillo Hielo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Llama Gélida",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 32.57,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Mewtwo Y",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo Hielo",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 29.21,
+     "pct": 90
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Mamoswine oscuro",
+     "rapido": {
+      "nombre": "Nieve Polvo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Alud",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 25.11,
+     "pct": 77
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Baxcalibur",
+     "rapido": {
+      "nombre": "Colmillo Hielo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Alud",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.81,
+     "pct": 70
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Kyurem Blanco",
+     "rapido": {
+      "nombre": "Colmillo Hielo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Llama Gélida",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 32.57,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "dragon",
+   "nombre": "Dragón",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Mega-Rayquaza",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Vasto Impacto",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 34.5,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Eternatus",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Cañón Dinamax",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 33.81,
+     "pct": 98
+    },
+    {
+     "puesto": 3,
+     "tier": "SS",
+     "nombre": "Mega-Dragonite",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Enfado",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 32.4,
+     "pct": 94
+    },
+    {
+     "puesto": 4,
+     "tier": "SS",
+     "nombre": "Mega-Garchomp",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Vasto Impacto",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 31.68,
+     "pct": 92
+    },
+    {
+     "puesto": 5,
+     "tier": "SS",
+     "nombre": "Kyurem Negro",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Rayo Gélido",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 31.64,
+     "pct": 92
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Kyurem Blanco",
+     "rapido": {
+      "nombre": "Dragoaliento",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Llama Gélida",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 29.59,
+     "pct": 86
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Garchomp oscuro",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Vasto Impacto",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.75,
+     "pct": 80
+    },
+    {
+     "puesto": 8,
+     "tier": "S",
+     "nombre": "Mega-Salamence",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Cometa Draco",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.25,
+     "pct": 79
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Haxorus oscuro",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Vasto Impacto",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 26.59,
+     "pct": 77
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Palkia oscuro",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Cometa Draco",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 26.07,
+     "pct": 76
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Mega-Rayquaza",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Vasto Impacto",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 34.5,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Rayquaza",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Vasto Impacto",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 34.5,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Garchomp oscuro",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Vasto Impacto",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.75,
+     "pct": 80
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Baxcalibur",
+     "rapido": {
+      "nombre": "Colmillo Hielo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Asalto Espadón",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 25.67,
+     "pct": 74
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Dragonite",
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Enfado",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 32.4,
+     "pct": 94
+    }
+   ]
+  },
+  {
+   "id": "dark",
+   "nombre": "Siniestro",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Mega-Houndoom",
+     "rapido": {
+      "nombre": "Alarido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pulso Umbrío",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 31.07,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "S",
+     "nombre": "Mega-Tyranitar",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Giro Vil",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.57,
+     "pct": 89
+    },
+    {
+     "puesto": 3,
+     "tier": "S",
+     "nombre": "Darkrai oscuro",
+     "rapido": {
+      "nombre": "Alarido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Juego Sucio",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.15,
+     "pct": 87
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Hydreigon oscuro",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Giro Vil",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 26.11,
+     "pct": 84
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Mega-Gengar",
+     "rapido": {
+      "nombre": "Golpe Bajo",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Bola Sombra",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 26.04,
+     "pct": 84
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Tyranitar oscuro",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Giro Vil",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 26.0,
+     "pct": 84
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Mega-Absol",
+     "rapido": {
+      "nombre": "Alarido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Giro Vil",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 25.91,
+     "pct": 83
+    },
+    {
+     "puesto": 8,
+     "tier": "S",
+     "nombre": "Mega-Greninja",
+     "rapido": {
+      "nombre": "Finta",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Giro Vil",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 25.18,
+     "pct": 81
+    },
+    {
+     "puesto": 9,
+     "tier": "A",
+     "nombre": "Darkrai",
+     "rapido": {
+      "nombre": "Alarido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Juego Sucio",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 23.32,
+     "pct": 75
+    },
+    {
+     "puesto": 10,
+     "tier": "A",
+     "nombre": "Mega-Salamence",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Giro Vil",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.77,
+     "pct": 73
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Mega-Houndoom",
+     "rapido": {
+      "nombre": "Alarido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pulso Umbrío",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 31.07,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Houndoom",
+     "rapido": {
+      "nombre": "Alarido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pulso Umbrío",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 31.07,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Darkrai oscuro",
+     "rapido": {
+      "nombre": "Alarido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Juego Sucio",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.15,
+     "pct": 87
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Hydreigon",
+     "rapido": {
+      "nombre": "Mordisco",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Giro Vil",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 22.24,
+     "pct": 72
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Houndoom",
+     "rapido": {
+      "nombre": "Alarido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Pulso Umbrío",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 31.07,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "id": "fairy",
+   "nombre": "Hada",
+   "actualizado": "12 nov 2026, 16:42 UTC",
+   "top": [
+    {
+     "puesto": 1,
+     "tier": "SS",
+     "nombre": "Mega-Gardevoir",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Brillo Mágico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.46,
+     "pct": 100
+    },
+    {
+     "puesto": 2,
+     "tier": "SS",
+     "nombre": "Mega-Clefable",
+     "rapido": {
+      "nombre": "Viento Feérico",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Fuerza Lunar",
+      "legado": false,
+      "plus": true
+     },
+     "edps": 27.0,
+     "pct": 98
+    },
+    {
+     "puesto": 3,
+     "tier": "SS",
+     "nombre": "Zacian Espada Suprema",
+     "rapido": {
+      "nombre": "Garra Metal",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Carantoña",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 25.09,
+     "pct": 91
+    },
+    {
+     "puesto": 4,
+     "tier": "S",
+     "nombre": "Gardevoir oscuro",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Brillo Mágico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.77,
+     "pct": 83
+    },
+    {
+     "puesto": 5,
+     "tier": "S",
+     "nombre": "Enamorus (Forma Avatar)",
+     "rapido": {
+      "nombre": "Viento Feérico",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Brillo Mágico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.52,
+     "pct": 82
+    },
+    {
+     "puesto": 6,
+     "tier": "S",
+     "nombre": "Mega-Alakazam",
+     "rapido": {
+      "nombre": "Psicocorte",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Brillo Mágico",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 22.05,
+     "pct": 80
+    },
+    {
+     "puesto": 7,
+     "tier": "S",
+     "nombre": "Mega-Gallade",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Espada Santa",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 21.4,
+     "pct": 78
+    },
+    {
+     "puesto": 8,
+     "tier": "S",
+     "nombre": "Tapu Lele",
+     "rapido": {
+      "nombre": "Impresionar",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Furia Natural",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 21.19,
+     "pct": 77
+    },
+    {
+     "puesto": 9,
+     "tier": "S",
+     "nombre": "Tapu Koko",
+     "rapido": {
+      "nombre": "Ataque Rápido",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Furia Natural",
+      "legado": true,
+      "plus": false
+     },
+     "edps": 20.92,
+     "pct": 76
+    },
+    {
+     "puesto": 10,
+     "tier": "S",
+     "nombre": "Xerneas",
+     "rapido": {
+      "nombre": "Geocontrol",
+      "legado": true,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Fuerza Lunar",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 20.82,
+     "pct": 76
+    }
+   ],
+   "destacados": [
+    {
+     "etiqueta": "General",
+     "nombre": "Mega-Gardevoir",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Brillo Mágico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.46,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Mega / Primigenio",
+     "nombre": "Mega-Gardevoir",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Brillo Mágico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.46,
+     "pct": 100
+    },
+    {
+     "etiqueta": "Oscuro",
+     "nombre": "Gardevoir oscuro",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Brillo Mágico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 22.77,
+     "pct": 83
+    },
+    {
+     "etiqueta": "Alternativa no legendaria",
+     "nombre": "Gardevoir",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Brillo Mágico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 19.59,
+     "pct": 71
+    },
+    {
+     "etiqueta": "Sin MT élite",
+     "nombre": "Mega-Gardevoir",
+     "rapido": {
+      "nombre": "Encanto",
+      "legado": false,
+      "plus": false
+     },
+     "cargado": {
+      "nombre": "Brillo Mágico",
+      "legado": false,
+      "plus": false
+     },
+     "edps": 27.46,
+     "pct": 100
+    }
+   ]
+  }
+ ],
+ "actualizado": "12 nov 2026, 16:42 UTC",
+ "url": "https://db.pokemongohub.net/es/pokemon-list/best-per-type"
+}
