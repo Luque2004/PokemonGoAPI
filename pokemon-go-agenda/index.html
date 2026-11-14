@@ -286,7 +286,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .legend { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 12.5px; color: var(--muted); }
 .seg { display: inline-flex; gap: 4px; align-self: flex-start; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 3px; max-width: 100%; }
 .seg-b { font: inherit; font-size: 13.5px; font-weight: 600; color: var(--muted); background: transparent; border: 0; border-radius: 999px; padding: 7px 12px; cursor: pointer; white-space: nowrap; }
-@media (max-width: 419px) { .seg-b .se, .seg-b .sl { display: none; } .seg-b { padding: 7px 10px; } }
+@media (max-width: 599px) { .seg-b .se, .seg-b .sl { display: none; } .seg-b { padding: 7px 10px; } }
+.seg-b { flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; } /* nunca se sale de la píldora */
 .seg-b[aria-pressed="true"] { color: var(--ink); background: var(--surface-2); box-shadow: inset 0 0 0 1.5px var(--ink); }
 .tag.giga { background: color-mix(in srgb, var(--t-max) 16%, var(--surface)); border-color: color-mix(in srgb, var(--t-max) 50%, var(--line)); }
 .tag.dina { background: color-mix(in srgb, var(--t-event) 14%, var(--surface)); border-color: color-mix(in srgb, var(--t-event) 45%, var(--line)); }
@@ -379,7 +380,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .rd-list .spr.none { --s: 24px; margin: 6px; }
 .rd-cn { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 8px; }
 .rd-cn b { font-size: 14px; }
-@media (max-width: 420px) {
+@media (max-width: 539px) {
   .tab { padding: 8px 7px; font-size: 13px; gap: 4px; }
   .tl-l { display: none; }
   .tl-s { display: inline; }

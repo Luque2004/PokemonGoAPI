@@ -71,6 +71,8 @@ async function caso(navegador, esquema, ancho) {
   await p.click('#tab-atacantes');
   const seg = await p.evaluate(() => new Set([...document.querySelectorAll('#atk-mode .seg-b')].map((b) => Math.round(b.getBoundingClientRect().top))).size);
   if (seg !== 1) fallos.push('los modos de Atacantes no caben en una línea');
+  const sale = await p.evaluate(() => [...document.querySelectorAll('#atk-mode, #atk-mode .seg-b')].some((x) => x.scrollWidth > x.clientWidth + 1));
+  if (sale) fallos.push('el texto de los modos de Atacantes se sale de su botón');
   for (const modo of ['raid', 'max', 'tank']) {
     await p.click(`#atk-mode [data-mode="${modo}"]`);
     await p.waitForTimeout(150);
@@ -99,7 +101,7 @@ async function caso(navegador, esquema, ancho) {
   let fallos = 0;
   try {
     for (const esquema of ['light', 'dark']) {
-      for (const ancho of [390, 360, 320]) {
+      for (const ancho of [540, 430, 390, 360, 320]) {
         const r = await caso(navegador, esquema, ancho);
         fallos += r.fallos.length;
         console.log((esquema === 'light' ? 'claro ' : 'oscuro') + ' ' + ancho + ' px: ' + r.cuenta.join(' · ') +
