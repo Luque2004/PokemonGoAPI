@@ -1093,7 +1093,27 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
       if (top.length) tipos.push({ id: t.id, nombre: TYPE_NAME[t.id], top, picks });
     });
     tipos.sort((a, b) => typeIdx(a.id) - typeIdx(b.id));
-    return tipos.length ? { tipos, actualizado: str(d.actualizado, 40), url: hubUrl(d.url) } : null;
+    if (!tipos.length) return null;
+    return { tipos, actualizado: str(d.actualizado, 40), url: hubUrl(d.url), general: cleanGeneral(d.general, tipos, mode) };
+  }
+  // Clasificación general (todos los tipos): la de Pokémon GO Hub en incursiones y tanques. En Combates Max Hub no
+  // tiene: son los 10 que más daño hacen en las listas por tipo (el daño es contra un rival neutro, así que se comparan).
+  function cleanGeneral(g, tipos, mode) {
+    let top;
+    if (mode === "max") {
+      const seen = new Set();
+      top = tipos.flatMap((t) => t.top.map((r) => Object.assign({}, r, { tipo: t.id })))
+        .filter((r) => r.dano != null)
+        .sort((a, b) => b.dano - a.dano || typeIdx(a.tipo) - typeIdx(b.tipo))
+        .filter((r) => { const k = r.nombre + "|" + r.rapido.nombre + "|" + r.cargado.nombre; if (seen.has(k)) return false; seen.add(k); return true; })
+        .slice(0, 10);
+      const best = top.length ? top[0].dano : 0;
+      top.forEach((r, i) => { r.puesto = i + 1; r.tier = ""; r.pct = best ? Math.round((100 * r.dano) / best) : null; });
+      return top.length ? { id: "general", nombre: "General", top, picks: [], derivada: true } : null;
+    }
+    if (!g || !Array.isArray(g.top)) return null;
+    top = g.top.slice(0, 10).map((r, i) => cleanRow(r, i, mode)).filter((r) => r.nombre);
+    return top.length ? { id: "general", nombre: "General", top, picks: [], actualizado: str(g.actualizado, 40), url: hubUrl(g.url) } : null;
   }
 
   const atkData = { raid: null, max: null, tank: null };
@@ -1300,9 +1320,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   }
   function atkRow(t, r, o) {
     const li = el("li", "arow");
-    li.append(el("span", "rank", o.rank ? String(o.rank) : "–"), atkSpr(r, t.id));
+    li.append(el("span", "rank", o.rank ? String(o.rank) : "–"), atkSpr(r, o.tipo || t.id));
     const nm = el("div", "aname");
     if (o.showType) nm.append(typeTag(t.id));
+    else if (o.tipo) nm.append(typeTag(o.tipo));
     nm.append(el("b", null, shortName(r)));
     const ft = formaTag(r);
     if (ft) nm.append(ft);
@@ -1312,7 +1333,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     if (v) nm.append(el("span", "small", v.label));
     li.append(nm, moveLine(r));
     if (r.pct != null) {
-      li.append(meter(r.pct, v ? v.tip : r.pct + " %", r.pct + " % del n.º 1 " + (atkMode === "tank" ? "contra " : "de ") + t.nombre));
+      li.append(meter(r.pct, v ? v.tip : r.pct + " %", r.pct + " % del n.º 1 " + (t.id === "general" ? "general" : (atkMode === "tank" ? "contra " : "de ") + t.nombre)));
       li.append(el("span", "pct", r.pct + " %"));
     }
     return li;
@@ -1354,10 +1375,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     const d = cur();
     if (!d) return;
     const searching = norm(atkQuery).length >= 2;
-    [["all", "Todos"]].concat(d.tipos.map((t) => [t.id, t.nombre])).forEach(([id, label]) => {
+    [["all", "Todos"]].concat(d.general ? [["general", "General"]] : [], d.tipos.map((t) => [t.id, t.nombre])).forEach(([id, label]) => {
       const b = el("button", "f");
       b.type = "button";
-      if (id !== "all") { const i = el("i"); i.style.setProperty("--tc", TYPE_COLOR[id]); b.append(i); }
+      if (TYPE_COLOR[id]) { const i = el("i"); i.style.setProperty("--tc", TYPE_COLOR[id]); b.append(i); }
       b.append(document.createTextNode(label));
       b.setAttribute("aria-pressed", String(!searching && atkType === id));
       b.addEventListener("click", () => setAtkType(id));
@@ -1384,6 +1405,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
       return;
     }
     if (norm(atkQuery).length >= 2) { renderSearch(box, d, atkQuery); return; }
+    if (atkType === "general" && d.general) { renderGeneral(box, d.general); return; }
     const t = d.tipos.find((x) => x.id === atkType);
     if (t) renderType(box, t); else renderOverview(box, d);
   }
@@ -1408,6 +1430,25 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
       g.append(b);
     });
     box.append(g);
+  }
+  const GENERAL_NOTE = {
+    raid: "Los mejores atacantes de incursiones sea cual sea su tipo, por eDPS contra las debilidades medias de los jefes de nivel 4 o más.",
+    max: "Los que más daño hacen con su ataque Max, sea cual sea su tipo, contra un rival neutro. Para un jefe concreto, mira el tipo al que es débil.",
+    tank: "Los mejores tanques cuando no sabes qué ataques tiene el jefe. Si los sabes, elige su tipo arriba.",
+  };
+  function renderGeneral(box, g) {
+    box.append(el("h3", "sub-h", "Top " + g.top.length + " general"));
+    box.append(el("p", "sec-note", GENERAL_NOTE[atkMode]));
+    const ol = el("ol", "atk");
+    g.top.forEach((r) => ol.append(atkRow(g, r, { rank: r.puesto, tipo: r.tipo })));
+    box.append(ol);
+    if (g.url) {
+      const p = el("p", "sec-note");
+      p.append(document.createTextNode("Fuente: Pokémon GO Hub" + (g.actualizado ? ", actualizado el " + g.actualizado : "") + ". "));
+      const a = el("a", null, "Ver la clasificación general ↗"); a.href = g.url; a.target = "_blank"; a.rel = "noopener noreferrer";
+      p.append(a);
+      box.append(p);
+    }
   }
   function renderType(box, t) {
     box.append(el("h3", "sub-h", (t.top.length === 10 ? "Top 10" : "Los " + t.top.length + " mejores") + (atkMode === "tank" ? " contra ataques de tipo " : " de tipo ") + t.nombre));

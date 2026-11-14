@@ -85,6 +85,14 @@ async function caso(navegador, esquema, ancho) {
     if (r.lateral) fallos.push('atacantes ' + modo + ': hay scroll lateral');
     if (await p.evaluate(() => [...document.querySelectorAll('#atk-mode, #atk-mode .seg-b')].some((x) => x.scrollWidth > x.clientWidth + 1))) fallos.push('atacantes ' + modo + ': el texto de los modos se sale o se corta');
     if (modo === 'tank') await p.screenshot({ path: path.join(CAPTURAS, `tanques-${esquema}-${ancho}.png`), fullPage: true });
+    // General: 10 de todos los tipos
+    await p.click('#atk-types .f:nth-child(2)');
+    await p.waitForTimeout(150);
+    const g = await p.evaluate(() => ({ txt: document.querySelector('#atk-types .f:nth-child(2)').textContent, n: document.querySelectorAll('#atk-body .arow').length, lateral: document.documentElement.scrollWidth > window.innerWidth }));
+    cuenta[cuenta.length - 1] += '/' + g.n;
+    if (g.txt !== 'General' || g.n !== 10) fallos.push('atacantes ' + modo + ': la lista General no tiene 10');
+    if (g.lateral) fallos.push('atacantes ' + modo + ' general: hay scroll lateral');
+    await p.screenshot({ path: path.join(CAPTURAS, `general-${modo}-${esquema}-${ancho}.png`), fullPage: true });
     await p.click('#atk-types .f:nth-child(1)');
   }
   const escrituras = await p.evaluate(() => window.__escrituras);

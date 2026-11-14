@@ -2667,5 +2667,151 @@
   }
  ],
  "actualizado": "12 nov 2026, 16:42 UTC",
- "url": "https://db.pokemongohub.net/es/best/dynamax-tanks-per-type"
+ "url": "https://db.pokemongohub.net/es/best/dynamax-tanks-per-type",
+ "general": {
+  "actualizado": "12 nov 2026, 16:42 UTC",
+  "url": "https://db.pokemongohub.net/es/best-dyanamax-tanks",
+  "top": [
+   {
+    "puesto": 1,
+    "tier": "SS",
+    "nombre": "Blissey Dinamax",
+    "icono": "pm242",
+    "forma": "Dinamax",
+    "rapido": {
+     "nombre": "Destructor",
+     "legado": false
+    },
+    "puntuacion": 100.0,
+    "ps": 26.2,
+    "pct": 100
+   },
+   {
+    "puesto": 2,
+    "tier": "S",
+    "nombre": "Lugia Dinamax",
+    "icono": "pm249",
+    "forma": "Dinamax",
+    "rapido": {
+     "nombre": "Paranormal",
+     "legado": false
+    },
+    "puntuacion": 81.4,
+    "ps": 32.2,
+    "pct": 81
+   },
+   {
+    "puesto": 3,
+    "tier": "S",
+    "nombre": "Zamazenta Escudo Supremo",
+    "icono": "pm889.fCROWNED_SHIELD",
+    "forma": "Especial",
+    "rapido": {
+     "nombre": "Garra Metal",
+     "legado": false
+    },
+    "puntuacion": 76.9,
+    "ps": 34.0,
+    "pct": 77
+   },
+   {
+    "puesto": 4,
+    "tier": "S",
+    "nombre": "Chansey Dinamax",
+    "icono": "pm113",
+    "forma": "Dinamax",
+    "rapido": {
+     "nombre": "Destructor",
+     "legado": false
+    },
+    "puntuacion": 76.3,
+    "ps": 34.3,
+    "pct": 76
+   },
+   {
+    "puesto": 5,
+    "tier": "S",
+    "nombre": "Registeel Dinamax",
+    "icono": "pm379",
+    "forma": "Dinamax",
+    "rapido": {
+     "nombre": "Garra Metal",
+     "legado": false
+    },
+    "puntuacion": 75.9,
+    "ps": 34.5,
+    "pct": 76
+   },
+   {
+    "puesto": 6,
+    "tier": "A",
+    "nombre": "Melmetal Gigamax",
+    "icono": "pm809.fGIGANTAMAX",
+    "forma": "Gigamax",
+    "rapido": {
+     "nombre": "Impactrueno",
+     "legado": false
+    },
+    "puntuacion": 70.5,
+    "ps": 37.1,
+    "pct": 70
+   },
+   {
+    "puesto": 7,
+    "tier": "A",
+    "nombre": "Melmetal Dinamax",
+    "icono": "pm809",
+    "forma": "Dinamax",
+    "rapido": {
+     "nombre": "Impactrueno",
+     "legado": false
+    },
+    "puntuacion": 70.5,
+    "ps": 37.1,
+    "pct": 70
+   },
+   {
+    "puesto": 8,
+    "tier": "A",
+    "nombre": "Zacian Espada Suprema",
+    "icono": "pm888.fCROWNED_SWORD",
+    "forma": "Especial",
+    "rapido": {
+     "nombre": "Garra Metal",
+     "legado": false
+    },
+    "puntuacion": 69.4,
+    "ps": 37.7,
+    "pct": 69
+   },
+   {
+    "puesto": 9,
+    "tier": "A",
+    "nombre": "Snorlax Gigamax",
+    "icono": "pm143.fGIGANTAMAX",
+    "forma": "Gigamax",
+    "rapido": {
+     "nombre": "Lengüetazo",
+     "legado": false
+    },
+    "puntuacion": 67.5,
+    "ps": 38.8,
+    "pct": 68
+   },
+   {
+    "puesto": 10,
+    "tier": "A",
+    "nombre": "Regirock Dinamax",
+    "icono": "pm377",
+    "forma": "Dinamax",
+    "rapido": {
+     "nombre": "Fijar Blanco",
+     "legado": false
+    },
+    "puntuacion": 65.0,
+    "ps": 40.3,
+    "pct": 65
+   }
+  ]
+ }
 }

@@ -2,8 +2,9 @@
 """Actualiza los mejores atacantes de Pokémon GO desde Pokémon GO Hub (versión en español).
 
 Uso:
-    python3 scripts/actualizar_atacantes.py            # descarga las 54 páginas con curl
-    python3 scripts/actualizar_atacantes.py --html DIR # usa páginas ya descargadas (DIR/raid, DIR/max y DIR/tank/*.html)
+    python3 scripts/actualizar_atacantes.py            # descarga las 56 páginas con curl
+    python3 scripts/actualizar_atacantes.py --html DIR # usa páginas ya descargadas (DIR/raid, DIR/max y DIR/tank/*.html;
+                                                       # la lista general, en DIR/raid/general.html y DIR/tank/general.html)
 
 Escribe datos/atacantes-incursiones.json, datos/atacantes-max.json y datos/tanques-max.json SOLO si la página se ha leído bien,
 y dice si los datos han cambiado respecto a los que ya había (IGUAL / CAMBIA). Sale con código 1 si algo falla.
@@ -19,6 +20,9 @@ URLS = {"raid": "https://db.pokemongohub.net/es/pokemon-list/best-per-type/",
         "max": "https://db.pokemongohub.net/es/pokemon-list/best-dynamax-per-type/",
         "tank": "https://db.pokemongohub.net/es/pokemon-list/best-dynamax-tanks-per-type/"}
 SALIDA = {"raid": "datos/atacantes-incursiones.json", "max": "datos/atacantes-max.json", "tank": "datos/tanques-max.json"}
+# Clasificación general (todos los tipos juntos). Para Combates Max, Pokémon GO Hub no tiene: la página la saca de las listas por tipo.
+GENERAL = {"raid": "https://db.pokemongohub.net/es/best/overall-attackers",
+           "tank": "https://db.pokemongohub.net/es/best-dyanamax-tanks"}
 WEB = {"raid": "https://db.pokemongohub.net/es/pokemon-list/best-per-type",
        "max": "https://db.pokemongohub.net/es/best/dynamax-attackers-per-type",
        "tank": "https://db.pokemongohub.net/es/best/dynamax-tanks-per-type"}
@@ -198,6 +202,14 @@ def procesar(modo, carpeta):
         out["tipos"].append({"id": slug, "nombre": es, "actualizado": u.group(1) if u else "", "top": top, "destacados": dest})
     out["actualizado"] = max((t["actualizado"] for t in out["tipos"]), key=fecha, default="")
     out["url"] = WEB[modo]
+    if modo in GENERAL:
+        h = open(os.path.join(carpeta, "general.html"), encoding="utf-8", errors="replace").read()
+        u = re.search(r"Actualizado el (\d+ \w+\.? \d{4}, \d+:\d+ UTC)", h)
+        top = incursiones(h)[0] if modo == "raid" else tanques(h)[0]
+        out["general"] = {"actualizado": u.group(1) if u else "", "url": GENERAL[modo], "top": top}
+        campo = "edps" if modo == "raid" else "puntuacion"
+        if not (len(top) == 10 and all(r["nombre"] and r[campo] and r["rapido"]["nombre"] for r in top)):
+            return None
     if modo == "tank":  # 10 por tipo, con puntuación y PS por golpe
         ok = len(out["tipos"]) == 18 and all(len(t["top"]) == 10 and all(r["nombre"] and r["puntuacion"] and r["ps"] and r["rapido"]["nombre"]
                                                                           for r in t["top"]) for t in out["tipos"])
@@ -214,6 +226,8 @@ def descargar(destino):
         os.makedirs(os.path.join(destino, modo), exist_ok=True)
         for slug, _ in TIPOS:
             subprocess.run(["curl", "-sL", "-A", "Mozilla/5.0", "--retry", "2", "-o", os.path.join(destino, modo, slug + ".html"), base + slug], check=False)
+        if modo in GENERAL:
+            subprocess.run(["curl", "-sL", "-A", "Mozilla/5.0", "--retry", "2", "-o", os.path.join(destino, modo, "general.html"), GENERAL[modo]], check=False)
 
 
 def main():

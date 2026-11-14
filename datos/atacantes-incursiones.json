@@ -4935,5 +4935,191 @@
   }
  ],
  "actualizado": "12 nov 2026, 16:42 UTC",
- "url": "https://db.pokemongohub.net/es/pokemon-list/best-per-type"
+ "url": "https://db.pokemongohub.net/es/pokemon-list/best-per-type",
+ "general": {
+  "actualizado": "12 nov 2026, 16:42 UTC",
+  "url": "https://db.pokemongohub.net/es/best/overall-attackers",
+  "top": [
+   {
+    "puesto": 1,
+    "tier": "SS",
+    "nombre": "Mega-Rayquaza",
+    "icono": "pm384.fMEGA",
+    "rapido": {
+     "nombre": "Cola Dragón",
+     "legado": false,
+     "plus": false
+    },
+    "cargado": {
+     "nombre": "Ascenso Draco",
+     "legado": false,
+     "plus": false
+    },
+    "edps": 25.64,
+    "pct": 100
+   },
+   {
+    "puesto": 2,
+    "tier": "SS",
+    "nombre": "Mega-Mewtwo Y",
+    "icono": "pm150.fMEGA_Y",
+    "rapido": {
+     "nombre": "Psicocorte",
+     "legado": false,
+     "plus": false
+    },
+    "cargado": {
+     "nombre": "Premonición",
+     "legado": false,
+     "plus": true
+    },
+    "edps": 25.4,
+    "pct": 99
+   },
+   {
+    "puesto": 3,
+    "tier": "SS",
+    "nombre": "Mega-Chandelure",
+    "icono": "pm609.fMEGA",
+    "rapido": {
+     "nombre": "Infortunio",
+     "legado": false,
+     "plus": false
+    },
+    "cargado": {
+     "nombre": "Viento Aciago",
+     "legado": false,
+     "plus": true
+    },
+    "edps": 25.34,
+    "pct": 99
+   },
+   {
+    "puesto": 4,
+    "tier": "SS",
+    "nombre": "Mega-Mewtwo X",
+    "icono": "pm150.fMEGA_X",
+    "rapido": {
+     "nombre": "Psicocorte",
+     "legado": false,
+     "plus": false
+    },
+    "cargado": {
+     "nombre": "Puño Dinámico",
+     "legado": false,
+     "plus": true
+    },
+    "edps": 23.28,
+    "pct": 91
+   },
+   {
+    "puesto": 5,
+    "tier": "S",
+    "nombre": "Necrozma Alas del Alba",
+    "icono": "pm800.fDAWN_WINGS",
+    "rapido": {
+     "nombre": "Psicocorte",
+     "legado": false,
+     "plus": false
+    },
+    "cargado": {
+     "nombre": "Rayo Umbrío",
+     "legado": false,
+     "plus": false
+    },
+    "edps": 22.17,
+    "pct": 86
+   },
+   {
+    "puesto": 6,
+    "tier": "S",
+    "nombre": "Eternatus",
+    "icono": "pm890",
+    "rapido": {
+     "nombre": "Cola Dragón",
+     "legado": false,
+     "plus": false
+    },
+    "cargado": {
+     "nombre": "Cañón Dinamax",
+     "legado": true,
+     "plus": false
+    },
+    "edps": 22.09,
+    "pct": 86
+   },
+   {
+    "puesto": 7,
+    "tier": "S",
+    "nombre": "Kyurem Negro",
+    "icono": "pm646.fBLACK",
+    "rapido": {
+     "nombre": "Cola Dragón",
+     "legado": false,
+     "plus": false
+    },
+    "cargado": {
+     "nombre": "Rayo Gélido",
+     "legado": false,
+     "plus": false
+    },
+    "edps": 21.16,
+    "pct": 83
+   },
+   {
+    "puesto": 8,
+    "tier": "S",
+    "nombre": "Mega-Dragonite",
+    "icono": "pm149.fMEGA",
+    "rapido": {
+     "nombre": "Cola Dragón",
+     "legado": false,
+     "plus": false
+    },
+    "cargado": {
+     "nombre": "Enfado",
+     "legado": false,
+     "plus": true
+    },
+    "edps": 21.05,
+    "pct": 82
+   },
+   {
+    "puesto": 9,
+    "tier": "S",
+    "nombre": "Kyurem Blanco",
+    "icono": "pm646.fWHITE",
+    "rapido": {
+     "nombre": "Colmillo Hielo",
+     "legado": false,
+     "plus": false
+    },
+    "cargado": {
+     "nombre": "Llama Gélida",
+     "legado": false,
+     "plus": false
+    },
+    "edps": 20.77,
+    "pct": 81
+   },
+   {
+    "puesto": 10,
+    "tier": "S",
+    "nombre": "Mega-Delphox",
+    "icono": "pm655.fMEGA",
+    "rapido": {
+     "nombre": "Giro Fuego",
+     "legado": false,
+     "plus": false
+    },
+    "cargado": {
+     "nombre": "Llama Embrujada",
+     "legado": false,
+     "plus": true
+    },
+    "edps": 20.63,
+    "pct": 80
+   }
+  ]
+ }
 }
