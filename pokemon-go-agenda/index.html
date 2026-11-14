@@ -286,7 +286,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .legend { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 12.5px; color: var(--muted); }
 .seg { display: inline-flex; gap: 4px; align-self: flex-start; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 3px; max-width: 100%; }
 .seg-b { font: inherit; font-size: 13.5px; font-weight: 600; color: var(--muted); background: transparent; border: 0; border-radius: 999px; padding: 7px 12px; cursor: pointer; white-space: nowrap; }
-@media (max-width: 599px) { .seg-b .sl { display: none; } .seg { align-self: center; } .seg-b { padding: 7px 10px; } }
+.seg-b .ss { display: none; }
+@media (max-width: 599px) { .seg-b .sl { display: none; } .seg-b .ss { display: inline; } .seg { align-self: center; } .seg-b { padding: 7px 10px; } }
+@media (max-width: 419px) { .seg-b .ss { display: none; } }
 @media (max-width: 380px) { .seg { gap: 2px; } .seg-b { padding: 7px 6px; font-size: 12.5px; } }
 @media (max-width: 340px) { .seg { gap: 0; padding: 2px; } .seg-b { padding: 7px 4px; font-size: 12px; } }
 .seg-b { flex: 0 1 auto; min-width: 0; overflow: hidden; text-overflow: ellipsis; } /* nunca se sale de la píldora */
@@ -469,7 +471,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     <div class="sec-h"><h2>Mejores atacantes</h2><span id="atk-upd"></span></div>
     <div class="seg" id="atk-mode" role="group" aria-label="Tipo de combate">
       <button class="seg-b" type="button" data-mode="raid" aria-pressed="true" aria-label="Incursiones"><span class="se" aria-hidden="true">⚔️ </span>Incursiones</button>
-      <button class="seg-b" type="button" data-mode="max" aria-pressed="false" aria-label="Combates Max"><span class="se" aria-hidden="true">⚡ </span><span class="sl">Combates </span>Max</button>
+      <button class="seg-b" type="button" data-mode="max" aria-pressed="false" aria-label="Combates Max"><span class="se" aria-hidden="true">⚡ </span><span class="sl">Combates </span><span class="ss">Comb. </span>Max</button>
       <button class="seg-b" type="button" data-mode="tank" aria-pressed="false" aria-label="Tanques Max"><span class="se" aria-hidden="true">🛡️ </span>Tanques Max</button>
     </div>
     <p class="sec-note" id="atk-note"></p>
