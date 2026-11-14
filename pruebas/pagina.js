@@ -83,6 +83,7 @@ async function caso(navegador, esquema, ancho) {
     cuenta.push(modo + ' ' + ov + '/' + r.n);
     if (!ov || !r.n) fallos.push('atacantes ' + modo + ': no pinta nada');
     if (r.lateral) fallos.push('atacantes ' + modo + ': hay scroll lateral');
+    if (await p.evaluate(() => [...document.querySelectorAll('#atk-mode, #atk-mode .seg-b')].some((x) => x.scrollWidth > x.clientWidth + 1))) fallos.push('atacantes ' + modo + ': el texto de los modos se sale o se corta');
     if (modo === 'tank') await p.screenshot({ path: path.join(CAPTURAS, `tanques-${esquema}-${ancho}.png`), fullPage: true });
     await p.click('#atk-types .f:nth-child(1)');
   }
