@@ -1,42 +1,6 @@
 {
  "events": [
   {
-   "description": "<b>🎟️ Pases gratis:</b> límite de incursiones remotas: 30 del 9 al 13 de noviembre y sin límite el 14 y el 15<br><b>🎫 GO Pass gratis:</b> Meltan Dinamax en Combates Max · puntos hasta el dom 15 a las 18:00 · recompensas hasta el mar 17 a las 23:59<br><b>⚔️ Incursiones:</b> Regidrago Dinamax (Combate Max) · Latias y Latios Dinamax (Combate Max 5★, vie 13 a las 18:00)<br><b>💳 De pago:</b> GO Pass Deluxe: Into the Wild (16,49 € en la tienda web; 21,99 € con +10 rangos): Gorra Plateada (Hyper Training; caduca dom 22 a las 23:59) · extras de rango como huevos a ½ distancia (rango 25) · más encuentros de Meltan Dinamax<br><b>💡 ¿Merece la pena?:</b> ★★☆☆☆ — Caro; solo si quieres la Gorra Plateada y vas a subir muchos rangos esta semana.<br><br>Evento de tipo acero y dragón. Debut de Regidrago Dinamax en Combates Max y de Meltan Dinamax con el GO Pass gratuito.<br><br>🔗 <a href=\"https://pokemongo.com/es/news/into-the-wild-2026\">Ver noticia</a>",
-   "end": {
-    "date": null,
-    "dateTime": "2026-11-13T20:00:00+01:00"
-   },
-   "start": {
-    "date": null,
-    "dateTime": "2026-11-09T10:00:00+01:00"
-   },
-   "summary": "Pokémon GO: Into the Wild"
-  },
-  {
-   "description": "Hora de Combates Max del evento Into the Wild: Latias y Latios Dinamax en Combates Max de 5 estrellas.<br><br>🔗 <a href=\"https://pokemongo.com/es/news/into-the-wild-2026\">Ver noticia</a>",
-   "end": {
-    "date": null,
-    "dateTime": "2026-11-13T19:00:00+01:00"
-   },
-   "start": {
-    "date": null,
-    "dateTime": "2026-11-13T18:00:00+01:00"
-   },
-   "summary": "Pokémon GO: Hora de Combates Max – Latias y Latios Dinamax"
-  },
-  {
-   "description": "<b>🎁 Bonificaciones:</b> Safari Balls al girar PokéStops y discos de gimnasio · Límite de Partículas Max: 1.600 al día · 3 encuentros sorpresa en fotos al día · Juego en grupo 8 h · Pokémon poderosos en Rutas y con Incienso<br><b>🎟️ Pases gratis:</b> hasta 3 Pases de incursión al día al girar discos de gimnasio · Sin límite de incursiones remotas (sáb 14 y dom 15)<br><b>⚔️ Incursiones:</b> Dialga Dinamax (Combate Max) · Duraludon Gigamax (Combate Max 6★) · Zekrom (incursión 5★) · Kyurem Blanco (incursión 5★) · Machamp con chaqueta (incursión 3★)<br><b>💳 De pago:</b> Entrada GO Wild Area Global (≈ 13,19 €, sirve para los dos días): Globos cada hora con Safari Balls · Investigación especial: Duraludon Gigamax con fondo especial · Medalla a elegir (Acero o Dragón): +1 Caramelo++ (nivel 31+) y +1.000 Polvos estelares por cada Pokémon poderoso de ese tipo · Latias y Latios poderosos con Incienso · Unown con Incienso · Más prob. de variocolor · ×2 Caramelos al capturar · ×2 duración del Incienso · Módulos Cebo de 2 h · hasta 6 Pases de incursión al día (en vez de 3) · Límite de Partículas Max: 3.200 al día y más Partículas en Power Spots · Más huevos de 10 km · 6 encuentros sorpresa en fotos al día · hasta 6 intercambios especiales al día · ½ Polvos estelares en intercambios · Pose de avatar nueva al completar la investigación<br><b>💡 ¿Merece la pena?:</b> ★★★★☆ — Merece la pena si vas a jugar los dos días: el Duraludon Gigamax con fondo especial es exclusivo, los globos te dan Safari Balls para los poderosos y doblas pases y Caramelos. Si solo vas a jugar un rato, no compensa.<br><br>Evento global de 10:00 a 18:00 (hora local). Hoy debuta Dialga Dinamax en Combates Max. Las Safari Balls solo se pueden usar en el horario del evento y desaparecen al terminar. Las bonificaciones de intercambio de la entrada duran todo el día (0:00–23:59). GO Pass Into the Wild: hoy y mañana se ganan GO Points sin límite diario, hasta el dom 15 a las 18:00.<br><br>🔗 <a href=\"https://pokemongo.com/gowildarea/global\">Ver noticia</a>",
-   "end": {
-    "date": null,
-    "dateTime": "2026-11-14T18:00:00+01:00"
-   },
-   "start": {
-    "date": null,
-    "dateTime": "2026-11-14T10:00:00+01:00"
-   },
-   "summary": "Pokémon GO: GO Wild Area Global (día 1 – Dialga) · Safari Balls"
-  },
-  {
    "description": "<b>🎁 Bonificaciones:</b> +1.000 Polvos estelares por Minior<br><br>Lluvia de meteoros Leónidas: Minior (forma meteoro) en estado salvaje, con más apariciones cada día de 17:00 a 21:00.<br><br>🔗 <a href=\"https://leekduck.com/events/minior-showers-leonids-2026/\">Ver noticia</a>",
    "end": {
     "date": null,
@@ -47,18 +11,6 @@
     "dateTime": "2026-11-14T17:00:00+01:00"
    },
    "summary": "Pokémon GO: Minior Showers (Leónidas) · +1.000 Polvos"
-  },
-  {
-   "description": "<b>🎁 Bonificaciones:</b> Safari Balls al girar PokéStops y discos de gimnasio · Límite de Partículas Max: 1.600 al día · 3 encuentros sorpresa en fotos al día · Juego en grupo 8 h · Pokémon poderosos en Rutas y con Incienso<br><b>🎟️ Pases gratis:</b> hasta 3 Pases de incursión al día al girar discos de gimnasio · Sin límite de incursiones remotas (sáb 14 y dom 15)<br><b>⚔️ Incursiones:</b> Palkia Dinamax (Combate Max) · Duraludon Gigamax (Combate Max 6★) · Reshiram (incursión 5★) · Kyurem Negro (incursión 5★) · Machamp con chaqueta (incursión 3★)<br><b>💳 De pago:</b> Entrada GO Wild Area Global (≈ 13,19 €, sirve para los dos días): Globos cada hora con Safari Balls · Investigación especial: Duraludon Gigamax con fondo especial · Medalla a elegir (Acero o Dragón): +1 Caramelo++ (nivel 31+) y +1.000 Polvos estelares por cada Pokémon poderoso de ese tipo · Latias y Latios poderosos con Incienso · Unown con Incienso · Más prob. de variocolor · ×2 Caramelos al capturar · ×2 duración del Incienso · Módulos Cebo de 2 h · hasta 6 Pases de incursión al día (en vez de 3) · Límite de Partículas Max: 3.200 al día y más Partículas en Power Spots · Más huevos de 10 km · 6 encuentros sorpresa en fotos al día · hasta 6 intercambios especiales al día · ½ Polvos estelares en intercambios · Pose de avatar nueva al completar la investigación<br><b>💡 ¿Merece la pena?:</b> ★★★★☆ — Merece la pena si vas a jugar los dos días: el Duraludon Gigamax con fondo especial es exclusivo, los globos te dan Safari Balls para los poderosos y doblas pases y Caramelos. Si solo vas a jugar un rato, no compensa.<br><br>Segundo día del evento global, de 10:00 a 18:00 (hora local). Hoy debuta Palkia Dinamax en Combates Max. Las Safari Balls solo se pueden usar en el horario del evento y desaparecen al terminar. Último día para ganar GO Points del GO Pass Into the Wild (hasta las 18:00); recompensas a reclamar hasta el mar 17 a las 23:59.<br><br>🔗 <a href=\"https://pokemongo.com/gowildarea/global\">Ver noticia</a>",
-   "end": {
-    "date": null,
-    "dateTime": "2026-11-15T18:00:00+01:00"
-   },
-   "start": {
-    "date": null,
-    "dateTime": "2026-11-15T10:00:00+01:00"
-   },
-   "summary": "Pokémon GO: GO Wild Area Global (día 2 – Palkia) · Safari Balls"
   },
   {
    "description": "<b>🎁 Bonificaciones:</b> Power Spots se renuevan más rápido · Más Power Spots activos que el resto de la semana<br><b>🎯 ¿Vale la pena?:</b> Por valorar: el Pokémon Dinamax destacado aún no se ha anunciado.<br><br>Lunes Max de 6:00 a 21:00 (hora local). El Pokémon destacado del 16 al 23 de noviembre se anunciará más adelante. Coincide con el primer día de Dynamax Trails.<br><br>🔗 <a href=\"https://leekduck.com/events/max-mondays-2026-11-16/\">Ver noticia</a>",
@@ -217,5 +169,5 @@
    "summary": "Pokémon GO: Minior Showers (Gemínidas) · +1.000 Polvos"
   }
  ],
- "updatedAt": "2026-11-13T14:51:45.000Z"
+ "updatedAt": "2026-11-15T23:06:37.000Z"
 }
