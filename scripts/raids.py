@@ -9,6 +9,9 @@ Uso (desde /tmp/hub):
 - Jefes, PC, clima, variocolor y fechas de cada rotación: leekduck.com/raids/manifest.json y /raids/<slug>.html.
   Las horas de Leek Duck son hora local de cada jugador: aquí se guardan como hora de España.
 - Counters: db.pokemongohub.net/es/pokemon/<id>/counters (simulados contra ese jefe; nivel 50, 15/15/15).
+  Si un counter necesita un ataque de legado (MT élite), se añade "sin_legado": su mejor combinación sin ataques de
+  legado según la API de esa misma página (/api/counters, «Permitir ataques de legado» desactivado), o null si así
+  ya no está entre los 50 mejores contra ese jefe.
 - Debilidades: tabla de tipos del juego (×1,6 supereficaz, ×2,56 doble).
 - Los títulos y notas de Leek Duck vienen en inglés: se traducen una vez (ver «traducir») y se reutilizan.
 Escribe datos/raids.json SOLO si todo se ha leído bien.
@@ -124,6 +127,38 @@ def disfraz(icono):
 
 
 CACHE = {}
+API = "https://db.pokemongohub.net/api/counters?view=counters"
+
+
+def sin_legado(h, slug, carpeta):
+    """Los counters de ese jefe sin ataques de legado (sin MT élite), con la API de la misma página de Pokémon GO Hub
+    (opción «Permitir ataques de legado» desactivada). {nombre: (rápido, cargado, puntuación)} o None si falla."""
+    u = h.replace('\\"', '"')
+    m = re.search(r'"pokemon":\{"id":(\d+),"name":"[^"]*","originalName":"[^"]*","form":(null|"[^"]*")', u)
+    n = re.search(r'"initialRaidLevel":"([^"]+)"', u)
+    if not m or not n:
+        return None
+    cuerpo = {"target": {"id": int(m.group(1)), "form": json.loads(m.group(2))}, "locale": "es", "targetRaidLevel": n.group(1),
+              "weather": "extreme", "responseSize": 50, "attackerCPMinimum": 1200, "includePrimalPokemon": True,
+              "includeShadowPokemon": True, "includeMegaPokemon": True, "includeUnavailablePokemon": False, "megaLevel": 1,
+              "allowLegacyMoves": False, "allowMixedMovesets": True, "allowOfftypeAttackers": True}
+    if carpeta:  # pruebas: respuesta guardada como sinlegado_<slug>.json
+        ruta = os.path.join(carpeta, "sinlegado_%s.json" % slug)
+        t = open(ruta, encoding="utf-8").read() if os.path.exists(ruta) else ""
+    else:
+        r = subprocess.run(["curl", "-s", "-A", "Mozilla/5.0", "--retry", "2", "--max-time", "45", "-H", "content-type: application/json",
+                            "-X", "POST", API, "-d", json.dumps(cuerpo)], capture_output=True)
+        t = r.stdout.decode("utf-8", "replace")
+    try:
+        at = json.loads(t)["attackers"]
+        out = {}
+        for x in at:
+            if x["qm"]["isLegacy"] or x["cm"]["isLegacy"]:
+                return None  # la API no ha hecho caso a la opción
+            out.setdefault(x["attacker"]["name"].strip(), (x["qm"]["name"].strip(), x["cm"]["name"].strip(), round(float(x["score"]), 2)))
+        return out if len(at) >= 20 else None
+    except (ValueError, KeyError, TypeError):
+        return None
 
 
 def counters(icono, carpeta):
@@ -154,6 +189,12 @@ def counters(icono, carpeta):
                       "edps": num(tx(celda(tr, "score"))), "tier": tier})
             if len(F) >= N_COUNTERS:
                 break
+        if any(c["legado"] for c in F):
+            sl = sin_legado(h, slug_hub(ico), carpeta)
+            for c in F:
+                if c["legado"] and sl is not None:
+                    alt = sl.get(c["nombre"])  # None: sin MT élite ya no está entre los 50 mejores
+                    c["sin_legado"] = {"rapido": alt[0], "cargado": alt[1], "edps": alt[2]} if alt else None
         res = (html.unescape(t.group(1)).strip(), url, F, con_disfraz)
         break
     CACHE[icono] = res

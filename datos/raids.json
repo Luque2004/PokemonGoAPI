@@ -58,7 +58,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 100.82,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Contraataque",
+          "cargado": "Esfera Aural",
+          "edps": 90.67
+         }
         },
         {
          "nombre": "Mega-Mewtwo X",
@@ -70,7 +75,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 99.7,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Psicocorte",
+          "cargado": "Puño Dinámico+",
+          "edps": 74.18
+         }
         },
         {
          "nombre": "Mega-Blaziken",
@@ -118,7 +128,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 83.15,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Psicocorte",
+          "cargado": "Onda Certera",
+          "edps": 62.77
+         }
         },
         {
          "nombre": "Mega-Gallade",
@@ -142,7 +157,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 80.56,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Acoso",
+          "cargado": "Aguijón Letal+",
+          "edps": 78.75
+         }
         },
         {
          "nombre": "Mega-Heracross",
@@ -178,7 +198,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 77.98,
-         "tier": "C"
+         "tier": "C",
+         "sin_legado": {
+          "rapido": "Contraataque",
+          "cargado": "Esfera Aural",
+          "edps": 69.99
+         }
         },
         {
          "nombre": "Mega-Falinks",
@@ -260,7 +285,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 47.32,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Garra Umbría",
+          "cargado": "Bola Sombra",
+          "edps": 46.36
+         }
         },
         {
          "nombre": "Darkrai oscuro",
@@ -284,7 +314,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 45.03,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Confusión",
+          "cargado": "Premonición+",
+          "edps": 36.34
+         }
         },
         {
          "nombre": "Mega-Absol",
@@ -296,7 +331,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 44.98,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Alarido",
+          "cargado": "Vendetta",
+          "edps": 38.89
+         }
         },
         {
          "nombre": "Mega-Mewtwo X",
@@ -308,7 +348,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 43.86,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Confusión",
+          "cargado": "Psíquico",
+          "edps": 34.19
+         }
         },
         {
          "nombre": "Mega-Houndoom",
@@ -332,7 +377,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 42.68,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Alarido",
+          "cargado": "Vendetta",
+          "edps": 36.93
+         }
         },
         {
          "nombre": "Chandelure oscuro",
@@ -356,7 +406,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 41.98,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Golpe Bajo",
+          "cargado": "Bola Sombra",
+          "edps": 40.91
+         }
         },
         {
          "nombre": "Hydreigon oscuro",
@@ -368,7 +423,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 41.18,
-         "tier": "C"
+         "tier": "C",
+         "sin_legado": {
+          "rapido": "Mordisco",
+          "cargado": "Pulso Umbrío",
+          "edps": 36.57
+         }
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/200/counters"
@@ -452,7 +512,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 51.71,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Garra Umbría",
+          "cargado": "Bola Sombra",
+          "edps": 50.25
+         }
         },
         {
          "nombre": "Kyogre Primigenio",
@@ -464,7 +529,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 50.78,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Cascada",
+          "cargado": "Hidrobomba",
+          "edps": 47.29
+         }
         },
         {
          "nombre": "Kyurem Blanco",
@@ -500,7 +570,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 49.62,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Shuriken de Agua",
+          "cargado": "Surf+",
+          "edps": 48.67
+         }
         },
         {
          "nombre": "Mega-Absol",
@@ -512,7 +587,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 48.8,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Alarido",
+          "cargado": "Vendetta",
+          "edps": 42.25
+         }
         },
         {
          "nombre": "Mega-Mewtwo Y",
@@ -524,7 +604,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 48.64,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Psicocorte",
+          "cargado": "Rayo Hielo",
+          "edps": 43.24
+         }
         },
         {
          "nombre": "Kyurem Negro",
@@ -548,7 +633,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 48.59,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Semilladora",
+          "cargado": "Hoja Aguda",
+          "edps": 42.25
+         }
         },
         {
          "nombre": "Kyogre oscuro",
@@ -560,7 +650,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 47.68,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Cascada",
+          "cargado": "Surf",
+          "edps": 44.12
+         }
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/562-Galarian/counters"
@@ -644,7 +739,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 60.69,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Garra Umbría",
+          "cargado": "Bola Sombra",
+          "edps": 58.6
+         }
         },
         {
          "nombre": "Kyogre Primigenio",
@@ -656,7 +756,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 60.03,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Cascada",
+          "cargado": "Surf",
+          "edps": 55.79
+         }
         },
         {
          "nombre": "Mega-Greninja",
@@ -668,7 +773,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 58.52,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Shuriken de Agua",
+          "cargado": "Surf+",
+          "edps": 56.72
+         }
         },
         {
          "nombre": "Kyurem Blanco",
@@ -716,7 +826,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 57.05,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Semilladora",
+          "cargado": "Hoja Aguda",
+          "edps": 49.91
+         }
         },
         {
          "nombre": "Mega-Mewtwo Y",
@@ -728,7 +843,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 56.83,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Confusión",
+          "cargado": "Rayo Hielo",
+          "edps": 50.62
+         }
         },
         {
          "nombre": "Mega-Absol",
@@ -740,7 +860,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 56.55,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Alarido",
+          "cargado": "Pulso Umbrío",
+          "edps": 48.85
+         }
         },
         {
          "nombre": "Mega-Mewtwo X",
@@ -752,7 +877,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 55.3,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Psicocorte",
+          "cargado": "Rayo Hielo",
+          "edps": 49.09
+         }
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/769/counters"
@@ -844,7 +974,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 39.95,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Cascada",
+          "cargado": "Surf",
+          "edps": 37.22
+         }
         },
         {
          "nombre": "Groudon Primigenio",
@@ -856,7 +991,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 39.9,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Disparo Lodo",
+          "cargado": "Terremoto",
+          "edps": 36.62
+         }
         },
         {
          "nombre": "Mega-Gengar",
@@ -868,7 +1008,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 39.46,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Golpe Bajo",
+          "cargado": "Bola Sombra",
+          "edps": 38.38
+         }
         },
         {
          "nombre": "Mega-Greninja",
@@ -880,7 +1025,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 38.86,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Shuriken de Agua",
+          "cargado": "Surf+",
+          "edps": 37.62
+         }
         },
         {
          "nombre": "Darkrai oscuro",
@@ -904,7 +1054,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 37.67,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Confusión",
+          "cargado": "Premonición+",
+          "edps": 30.18
+         }
         },
         {
          "nombre": "Mega-Absol",
@@ -916,7 +1071,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 37.41,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Alarido",
+          "cargado": "Pulso Umbrío",
+          "edps": 31.82
+         }
         },
         {
          "nombre": "Mega-Mewtwo X",
@@ -928,7 +1088,8 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 36.75,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": null
         },
         {
          "nombre": "Kyogre oscuro",
@@ -940,7 +1101,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 36.72,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Cascada",
+          "cargado": "Surf",
+          "edps": 34.39
+         }
         },
         {
          "nombre": "Rampardos oscuro",
@@ -1002,7 +1168,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 77.17,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Contraataque",
+          "cargado": "Esfera Aural",
+          "edps": 69.6
+         }
         },
         {
          "nombre": "Mega-Mewtwo X",
@@ -1014,7 +1185,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 76.42,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Psicocorte",
+          "cargado": "Puño Dinámico+",
+          "edps": 56.86
+         }
         },
         {
          "nombre": "Mega-Blaziken",
@@ -1062,7 +1238,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 63.09,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Psicocorte",
+          "cargado": "Onda Certera",
+          "edps": 47.94
+         }
         },
         {
          "nombre": "Mega-Gallade",
@@ -1086,7 +1267,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 60.42,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Acoso",
+          "cargado": "Aguijón Letal+",
+          "edps": 58.99
+         }
         },
         {
          "nombre": "Mega-Heracross",
@@ -1122,7 +1308,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 59.18,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Contraataque",
+          "cargado": "Esfera Aural",
+          "edps": 53.43
+         }
         },
         {
          "nombre": "Mega-Falinks",
@@ -1194,7 +1385,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 47.14,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Cascada",
+          "cargado": "Surf",
+          "edps": 44.37
+         }
         },
         {
          "nombre": "Kyurem Blanco",
@@ -1230,7 +1426,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 45.24,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Shuriken de Agua",
+          "cargado": "Surf+",
+          "edps": 43.12
+         }
         },
         {
          "nombre": "Darkrai oscuro",
@@ -1254,7 +1455,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 44.57,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Confusión",
+          "cargado": "Rayo Hielo",
+          "edps": 39.7
+         }
         },
         {
          "nombre": "Mega-Sceptile",
@@ -1266,7 +1472,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 44.52,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Semilladora",
+          "cargado": "Hoja Aguda",
+          "edps": 38.92
+         }
         },
         {
          "nombre": "Kyurem Negro",
@@ -1302,7 +1513,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 43.3,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Garra Umbría",
+          "cargado": "Bola Sombra",
+          "edps": 42.42
+         }
         },
         {
          "nombre": "Mega-Mewtwo X",
@@ -1314,7 +1530,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 43.28,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Psicocorte",
+          "cargado": "Rayo Hielo",
+          "edps": 38.41
+         }
         },
         {
          "nombre": "Kyogre oscuro",
@@ -1326,7 +1547,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 42.97,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Cascada",
+          "cargado": "Surf",
+          "edps": 40.83
+         }
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/623/counters"
@@ -1408,7 +1634,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 25.64,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Garra Umbría",
+          "cargado": "Bola Sombra",
+          "edps": 25.45
+         }
         },
         {
          "nombre": "Darkrai oscuro",
@@ -1432,7 +1663,8 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 24.1,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": null
         },
         {
          "nombre": "Mega-Houndoom",
@@ -1468,7 +1700,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 23.76,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Alarido",
+          "cargado": "Pulso Umbrío",
+          "edps": 20.54
+         }
         },
         {
          "nombre": "Chandelure oscuro",
@@ -1516,7 +1753,8 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 23.18,
-         "tier": "C"
+         "tier": "C",
+         "sin_legado": null
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/488/counters"
@@ -1566,7 +1804,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 37.12,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Psicocorte",
+          "cargado": "Puño Dinámico+",
+          "edps": 27.62
+         }
         },
         {
          "nombre": "Mega-Lucario",
@@ -1578,7 +1821,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 35.78,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Contraataque",
+          "cargado": "Esfera Aural",
+          "edps": 32.46
+         }
         },
         {
          "nombre": "Mega-Blaziken",
@@ -1626,7 +1874,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 30.59,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Psicocorte",
+          "cargado": "Onda Certera",
+          "edps": 24.03
+         }
         },
         {
          "nombre": "Blaziken oscuro",
@@ -1698,7 +1951,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 27.9,
-         "tier": "C"
+         "tier": "C",
+         "sin_legado": {
+          "rapido": "Acoso",
+          "cargado": "Aguijón Letal+",
+          "edps": 26.67
+         }
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/491/counters"
@@ -1752,7 +2010,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 38.04,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Psicocorte",
+          "cargado": "Premonición+",
+          "edps": 29.55
+         }
         },
         {
          "nombre": "Mega-Tyranitar",
@@ -1788,7 +2051,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 35.84,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Psicocorte",
+          "cargado": "Psíquico",
+          "edps": 27.1
+         }
         },
         {
          "nombre": "Mega-Gengar",
@@ -1800,7 +2068,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 35.66,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Garra Umbría",
+          "cargado": "Bola Sombra",
+          "edps": 34.22
+         }
         },
         {
          "nombre": "Darkrai oscuro",
@@ -1872,7 +2145,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 31.69,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Alarido",
+          "cargado": "Pulso Umbrío",
+          "edps": 27.57
+         }
         },
         {
          "nombre": "Hydreigon oscuro",
@@ -1884,7 +2162,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 31.46,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Mordisco",
+          "cargado": "Pulso Umbrío",
+          "edps": 27.57
+         }
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/354-Mega/counters"
@@ -1965,7 +2248,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 118.01,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Cascada",
+          "cargado": "Hidrobomba",
+          "edps": 109.83
+         }
         },
         {
          "nombre": "Mega-Greninja",
@@ -1977,7 +2265,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 116.28,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Shuriken de Agua",
+          "cargado": "Surf+",
+          "edps": 113.39
+         }
         },
         {
          "nombre": "Mega-Sceptile",
@@ -1989,7 +2282,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 113.54,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Semilladora",
+          "cargado": "Hoja Aguda",
+          "edps": 99.35
+         }
         },
         {
          "nombre": "Kyogre oscuro",
@@ -2001,7 +2299,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 109.58,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Cascada",
+          "cargado": "Surf",
+          "edps": 102.18
+         }
         },
         {
          "nombre": "Kingler oscuro",
@@ -2025,7 +2328,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 105.03,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Shuriken de Agua",
+          "cargado": "Surf",
+          "edps": 86.41
+         }
         },
         {
          "nombre": "Kartana",
@@ -2061,7 +2369,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 101.77,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Pistola Agua",
+          "cargado": "Surf",
+          "edps": 85.85
+         }
         },
         {
          "nombre": "Sceptile oscuro",
@@ -2073,7 +2386,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 97.25,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Semilladora",
+          "cargado": "Hoja Aguda",
+          "edps": 84.52
+         }
         },
         {
          "nombre": "Mega-Chesnaught",
@@ -2097,7 +2415,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 95.03,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Pistola Agua",
+          "cargado": "Disparo Certero",
+          "edps": 93.45
+         }
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/246/counters"
@@ -2143,7 +2466,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 79.53,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Voltiocambio",
+          "cargado": "Rayo",
+          "edps": 69.99
+         }
         },
         {
          "nombre": "Zekrom oscuro",
@@ -2155,7 +2483,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 72.12,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Rayo Carga",
+          "cargado": "Voltio Cruel",
+          "edps": 69.46
+         }
         },
         {
          "nombre": "Mega-Raichu Y",
@@ -2179,7 +2512,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 71.48,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Corte Furia",
+          "cargado": "Hoja Aguda",
+          "edps": 61.73
+         }
         },
         {
          "nombre": "Regieleki",
@@ -2191,7 +2529,8 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 70.83,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": null
         },
         {
          "nombre": "Mega-Manectric",
@@ -2215,7 +2554,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 66.4,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Voltiocambio",
+          "cargado": "Rayo",
+          "edps": 58.44
+         }
         },
         {
          "nombre": "Zeraora",
@@ -2337,7 +2681,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 144.69,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Confusión",
+          "cargado": "Premonición+",
+          "edps": 141.46
+         }
         },
         {
          "nombre": "Mega-Rayquaza",
@@ -2361,7 +2710,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 140.2,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Confusión",
+          "cargado": "Psíquico",
+          "edps": 131.54
+         }
         },
         {
          "nombre": "Deoxys (Forma Normal)",
@@ -2385,7 +2739,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 128.74,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Confusión",
+          "cargado": "Psíquico",
+          "edps": 120.72
+         }
         },
         {
          "nombre": "Mega-Alakazam",
@@ -2397,7 +2756,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 120.61,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Confusión",
+          "cargado": "Premonición",
+          "edps": 114.01
+         }
         },
         {
          "nombre": "Toucannon oscuro",
@@ -2409,7 +2773,8 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 112.4,
-         "tier": "C"
+         "tier": "C",
+         "sin_legado": null
         },
         {
          "nombre": "Rayquaza",
@@ -2445,7 +2810,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 109.18,
-         "tier": "C"
+         "tier": "C",
+         "sin_legado": {
+          "rapido": "Confusión",
+          "cargado": "Premonición",
+          "edps": 102.83
+         }
         },
         {
          "nombre": "Staraptor oscuro",
@@ -2457,7 +2827,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 108.36,
-         "tier": "C"
+         "tier": "C",
+         "sin_legado": {
+          "rapido": "Ataque Ala",
+          "cargado": "Vuelo",
+          "edps": 103.75
+         }
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/296/counters"
@@ -2515,7 +2890,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 108.3,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Contraataque",
+          "cargado": "Esfera Aural",
+          "edps": 97.84
+         }
         },
         {
          "nombre": "Mega-Mewtwo X",
@@ -2527,7 +2907,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 108.03,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Psicocorte",
+          "cargado": "Puño Dinámico+",
+          "edps": 93.33
+         }
         },
         {
          "nombre": "Zacian Espada Suprema",
@@ -2587,7 +2972,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 93.34,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Cascada",
+          "cargado": "Surf",
+          "edps": 87.24
+         }
         },
         {
          "nombre": "Keldeo (Forma Brío)",
@@ -2611,7 +3001,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 90.42,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Psicocorte",
+          "cargado": "Onda Certera",
+          "edps": 80.05
+         }
         },
         {
          "nombre": "Groudon Primigenio",
@@ -2623,7 +3018,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 90.18,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Disparo Lodo",
+          "cargado": "Terremoto",
+          "edps": 83.09
+         }
         },
         {
          "nombre": "Blaziken oscuro",
@@ -2647,7 +3047,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 89.57,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Shuriken de Agua",
+          "cargado": "Surf+",
+          "edps": 86.34
+         }
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/408/counters"
@@ -2701,7 +3106,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 61.13,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Voltiocambio",
+          "cargado": "Rayo",
+          "edps": 54.59
+         }
         },
         {
          "nombre": "Zekrom oscuro",
@@ -2713,7 +3123,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 57.01,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Rayo Carga",
+          "cargado": "Voltio Cruel",
+          "edps": 54.64
+         }
         },
         {
          "nombre": "Mega-Raichu Y",
@@ -2737,7 +3152,8 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 56.66,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": null
         },
         {
          "nombre": "Mega-Sceptile",
@@ -2749,7 +3165,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 55.33,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Semilladora",
+          "cargado": "Hoja Aguda",
+          "edps": 47.82
+         }
         },
         {
          "nombre": "Mega-Manectric",
@@ -2785,7 +3206,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 51.36,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Voltiocambio",
+          "cargado": "Rayo",
+          "edps": 45.74
+         }
         },
         {
          "nombre": "Zeraora",
@@ -2905,7 +3331,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 60.31,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Contraataque",
+          "cargado": "Esfera Aural",
+          "edps": 53.99
+         }
         },
         {
          "nombre": "Mega-Mewtwo X",
@@ -2917,7 +3348,12 @@
          "rapido_legado": true,
          "cargado_legado": false,
          "edps": 60.22,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Psicocorte",
+          "cargado": "Puño Dinámico+",
+          "edps": 52.06
+         }
         },
         {
          "nombre": "Mega-Blaziken",
@@ -2965,7 +3401,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 53.98,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Giro Fuego",
+          "cargado": "Llama Embrujada+",
+          "edps": 52.74
+         }
         },
         {
          "nombre": "Reshiram oscuro",
@@ -2977,7 +3418,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 52.59,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Colmillo Ígneo",
+          "cargado": "Sofoco",
+          "edps": 48.92
+         }
         },
         {
          "nombre": "Kyogre Primigenio",
@@ -2989,7 +3435,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 52.01,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Cascada",
+          "cargado": "Surf",
+          "edps": 48.57
+         }
         },
         {
          "nombre": "Mega-Charizard Y",
@@ -3001,7 +3452,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 51.98,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Giro Fuego",
+          "cargado": "Sofoco",
+          "edps": 47.37
+         }
         },
         {
          "nombre": "Blacephalon",
@@ -3013,7 +3469,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 51.73,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": {
+          "rapido": "Calcinación",
+          "cargado": "Llama Embrujada",
+          "edps": 41.99
+         }
         },
         {
          "nombre": "Mega-Greninja",
@@ -3025,7 +3486,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 50.57,
-         "tier": "C"
+         "tier": "C",
+         "sin_legado": {
+          "rapido": "Shuriken de Agua",
+          "cargado": "Surf+",
+          "edps": 48.87
+         }
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/221/counters"
@@ -3071,7 +3537,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 53.14,
-         "tier": "SS"
+         "tier": "SS",
+         "sin_legado": {
+          "rapido": "Voltiocambio",
+          "cargado": "Rayo",
+          "edps": 48.37
+         }
         },
         {
          "nombre": "Zekrom oscuro",
@@ -3083,7 +3554,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 50.82,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Rayo Carga",
+          "cargado": "Voltio Cruel",
+          "edps": 49.03
+         }
         },
         {
          "nombre": "Mega-Raichu Y",
@@ -3107,7 +3583,8 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 49.03,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": null
         },
         {
          "nombre": "Mega-Sceptile",
@@ -3119,7 +3596,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 48.96,
-         "tier": "A"
+         "tier": "A",
+         "sin_legado": {
+          "rapido": "Semilladora",
+          "cargado": "Hoja Aguda",
+          "edps": 42.71
+         }
         },
         {
          "nombre": "Mega-Manectric",
@@ -3179,7 +3661,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 44.72,
-         "tier": "C"
+         "tier": "C",
+         "sin_legado": {
+          "rapido": "Voltiocambio",
+          "cargado": "Rayo",
+          "edps": 40.41
+         }
         },
         {
          "nombre": "Mega-Mewtwo Y",
@@ -3273,7 +3760,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 36.68,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Voltiocambio",
+          "cargado": "Rayo",
+          "edps": 34.26
+         }
         },
         {
          "nombre": "Zekrom oscuro",
@@ -3285,7 +3777,12 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 36.6,
-         "tier": "S"
+         "tier": "S",
+         "sin_legado": {
+          "rapido": "Rayo Carga",
+          "cargado": "Voltio Cruel",
+          "edps": 36.14
+         }
         },
         {
          "nombre": "Mega-Raichu Y",
@@ -3369,7 +3866,8 @@
          "rapido_legado": false,
          "cargado_legado": true,
          "edps": 33.09,
-         "tier": "B"
+         "tier": "B",
+         "sin_legado": null
         },
         {
          "nombre": "Mega-Manectric",

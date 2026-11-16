@@ -389,6 +389,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .rd-list .spr.none { --s: 24px; margin: 6px; }
 .rd-cn { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 8px; }
 .rd-cn b { font-size: 14px; }
+.rd-alt { margin-top: 3px; font-size: 13px; line-height: 1.45; padding: 2px 8px; border-left: 2px solid var(--accent); background: var(--surface-2); border-radius: 0 6px 6px 0; }
+.rd-alt .rd-lab { color: var(--accent); }
 @media (max-width: 539px) {
   .tab { padding: 8px 7px; font-size: 13px; gap: 4px; }
   .tl-l { display: none; }
@@ -1732,6 +1734,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
             nombre: str(c && c.nombre, 60), icono: icoOk(c && c.icono), rapido: str(c && c.rapido, 40), cargado: str(c && c.cargado, 40),
             tipo: c && TYPE_COLOR[c.tipo] ? c.tipo : "", legado: !!(c && c.legado === true), rl: !!(c && c.rapido_legado === true), cl: !!(c && c.cargado_legado === true),
             edps: numOr(c && c.edps), tier: str(c && c.tier, 3),
+            // Mejor combinación sin ataques de legado: objeto, null (así ya no está entre los 50 mejores) o undefined (sin dato)
+            sl: c && c.sin_legado === null ? null : c && c.sin_legado && typeof c.sin_legado === "object"
+              ? { rapido: str(c.sin_legado.rapido, 40), cargado: str(c.sin_legado.cargado, 40), edps: numOr(c.sin_legado.edps) } : undefined,
           })).filter((c) => c.nombre),
           hub: hubUrl(j && j.hub),
         })).filter((j) => j.nombre && j.tipos.length),
@@ -1815,12 +1820,20 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
       if (c.tier) n.append(el("span", "tier", c.tier));
       const leg = c.rl || c.cl ? [c.rl, c.cl] : [false, c.legado]; // por si faltan los datos de cada ataque
       txt.append(n, el("div", "moves", c.rapido + (leg[0] ? " *" : "") + " · " + c.cargado + (leg[1] ? " *" : "") + (c.edps != null ? " · eDPS " + fNum.format(c.edps) : "")));
+      if (c.legado && c.sl !== undefined) {
+        const alt = el("div", "rd-alt");
+        alt.append(el("span", "rd-lab", "Sin MT élite"));
+        alt.append(document.createTextNode(" " + (c.sl && c.sl.rapido && c.sl.cargado
+          ? c.sl.rapido + " · " + c.sl.cargado + (c.sl.edps != null ? " · eDPS " + fNum.format(c.sl.edps) : "")
+          : "ya no está entre los 50 mejores contra este jefe")));
+        txt.append(alt);
+      }
       li.append(rdMon(c), txt);
       ol.append(li);
     });
     body.append(ol);
     const notes = [];
-    if (j.counters.some((c) => c.legado)) notes.push("* Ataque de legado: hace falta una MT élite o un evento.");
+    if (j.counters.some((c) => c.legado)) notes.push("* Ataque de legado: hace falta una MT élite o un evento." + (j.counters.some((c) => c.legado && c.sl !== undefined) ? " Debajo, su mejor combinación sin MT élite." : ""));
     notes.push("Simulados contra este jefe por Pokémon GO Hub: nivel 50, IV 15/15/15, sin clima ni amistad. Las Mega y los primigenios suelen ir primero; si no tienes, mira los siguientes.");
     const p = el("p", "sec-note", notes.join(" ") + " ");
     if (j.hub) { const a = el("a", null, "Ver los 20 en Pokémon GO Hub ↗"); a.href = j.hub; a.target = "_blank"; a.rel = "noopener noreferrer"; p.append(a); }
