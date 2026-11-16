@@ -391,6 +391,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .rd-cn b { font-size: 14px; }
 .rd-alt { margin-top: 3px; font-size: 13px; line-height: 1.45; padding: 2px 8px; border-left: 2px solid var(--accent); background: var(--surface-2); border-radius: 0 6px 6px 0; }
 .rd-alt .rd-lab { color: var(--accent); }
+.arow .atk-alt { grid-column: 3 / 5; }
 @media (max-width: 539px) {
   .tab { padding: 8px 7px; font-size: 13px; gap: 4px; }
   .tl-l { display: none; }
@@ -1087,6 +1088,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
       puntos: mode === "tank" ? numOr(r.puntuacion) : null, ps: mode === "tank" ? numOr(r.ps) : null,
       pct: pct == null ? null : Math.max(0, Math.min(100, Math.round(pct))),
       icono: typeof r.icono === "string" && /^pm\d{1,4}(\.f[A-Z0-9_]{1,40})?$/.test(r.icono) ? r.icono : "",
+      // Mejor combinación sin MT élite: objeto, null (así ya no está en la lista de ese tipo) o undefined (sin dato)
+      sl: r.sin_legado === null ? null : r.sin_legado && typeof r.sin_legado === "object" ? {
+        rapido: cleanMove(r.sin_legado.rapido), cargado: mode === "raid" ? cleanMove(r.sin_legado.cargado) : null,
+        pct: numOr(r.sin_legado.pct) } : undefined,
     };
   }
   function hubUrl(u) { const s = safeUrl(u); try { return s && new URL(s).hostname === "db.pokemongohub.net" ? s : null; } catch (_) { return null; } }
@@ -1339,6 +1344,19 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     const v = valueOf(r);
     if (v) nm.append(el("span", "small", v.label));
     li.append(nm, moveLine(r));
+    if (r.sl !== undefined && (r.rapido.legado || r.cargado.legado)) {
+      const alt = el("div", "rd-alt atk-alt");
+      alt.append(el("span", "rd-lab", "Sin MT élite"), document.createTextNode(" "));
+      if (r.sl && r.sl.rapido.nombre) {
+        [r.sl.rapido, r.sl.cargado].filter(Boolean).forEach((mv, i) => {
+          if (i) alt.append(document.createTextNode(" · "));
+          alt.append(document.createTextNode(mv.nombre));
+          if (mv.plus) alt.append(el("span", "tag", "Plus"));
+        });
+        if (r.sl.pct != null) alt.append(document.createTextNode(r.sl.pct >= 100 ? " · mismo daño" : " · " + r.sl.pct + " % de su " + (atkMode === "max" ? "daño" : "eDPS")));
+      } else alt.append(document.createTextNode(t.id === "general" ? "ya no está entre los mejores" : "ya no está entre los mejores de " + t.nombre));
+      li.append(alt);
+    }
     if (r.pct != null) {
       li.append(meter(r.pct, v ? v.tip : r.pct + " %", r.pct + " % del n.º 1 " + (t.id === "general" ? "general" : (atkMode === "tank" ? "contra " : "de ") + t.nombre)));
       li.append(el("span", "pct", r.pct + " %"));

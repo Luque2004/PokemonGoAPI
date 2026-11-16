@@ -22,7 +22,18 @@
       "plus": false
      },
      "edps": 18.5,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cabezazo Zen",
+       "plus": false
+      },
+      "pct": 82,
+      "cargado": {
+       "nombre": "Gigaimpacto",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 2,
@@ -76,7 +87,8 @@
       "plus": false
      },
      "edps": 17.6,
-     "pct": 95
+     "pct": 95,
+     "sin_legado": null
     },
     {
      "puesto": 5,
@@ -94,7 +106,8 @@
       "plus": false
      },
      "edps": 17.36,
-     "pct": 94
+     "pct": 94,
+     "sin_legado": null
     },
     {
      "puesto": 6,
@@ -130,7 +143,18 @@
       "plus": true
      },
      "edps": 16.44,
-     "pct": 89
+     "pct": 89,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Poder Oculto",
+       "plus": false
+      },
+      "pct": 93,
+      "cargado": {
+       "nombre": "Hidroariete",
+       "plus": true
+      }
+     }
     },
     {
      "puesto": 8,
@@ -148,7 +172,18 @@
       "plus": true
      },
      "edps": 16.34,
-     "pct": 88
+     "pct": 88,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Encanto",
+       "plus": false
+      },
+      "pct": 76,
+      "cargado": {
+       "nombre": "Rapidez",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 9,
@@ -166,7 +201,18 @@
       "plus": false
      },
      "edps": 16.2,
-     "pct": 88
+     "pct": 88,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cabezazo Zen",
+       "plus": false
+      },
+      "pct": 81,
+      "cargado": {
+       "nombre": "Gigaimpacto",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 10,
@@ -184,7 +230,18 @@
       "plus": false
      },
      "edps": 15.97,
-     "pct": 86
+     "pct": 86,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Fijar Blanco",
+       "plus": false
+      },
+      "pct": 82,
+      "cargado": {
+       "nombre": "Avalancha",
+       "plus": false
+      }
+     }
     }
    ],
    "destacados": [
@@ -203,7 +260,18 @@
       "plus": false
      },
      "edps": 18.5,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cabezazo Zen",
+       "plus": false
+      },
+      "pct": 82,
+      "cargado": {
+       "nombre": "Gigaimpacto",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Mega / Primigenio",
@@ -237,7 +305,18 @@
       "plus": false
      },
      "edps": 18.5,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cabezazo Zen",
+       "plus": false
+      },
+      "pct": 82,
+      "cargado": {
+       "nombre": "Gigaimpacto",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Alternativa no legendaria",
@@ -254,7 +333,18 @@
       "plus": false
      },
      "edps": 14.14,
-     "pct": 76
+     "pct": 76,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Fijar Blanco",
+       "plus": false
+      },
+      "pct": 81,
+      "cargado": {
+       "nombre": "Avalancha",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Sin MT élite",
@@ -296,7 +386,18 @@
       "plus": true
      },
      "edps": 38.94,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Psicocorte",
+       "plus": false
+      },
+      "pct": 82,
+      "cargado": {
+       "nombre": "Puño Dinámico",
+       "plus": true
+      }
+     }
     },
     {
      "puesto": 2,
@@ -314,7 +415,18 @@
       "plus": false
      },
      "edps": 32.62,
-     "pct": 84
+     "pct": 84,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Contraataque",
+       "plus": false
+      },
+      "pct": 90,
+      "cargado": {
+       "nombre": "Esfera Aural",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 3,
@@ -386,7 +498,18 @@
       "plus": false
      },
      "edps": 28.13,
-     "pct": 72
+     "pct": 72,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Psicocorte",
+       "plus": false
+      },
+      "pct": 85,
+      "cargado": {
+       "nombre": "Onda Certera",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 7,
@@ -477,7 +600,18 @@
       "plus": true
      },
      "edps": 38.94,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Psicocorte",
+       "plus": false
+      },
+      "pct": 82,
+      "cargado": {
+       "nombre": "Puño Dinámico",
+       "plus": true
+      }
+     }
     },
     {
      "etiqueta": "Mega / Primigenio",
@@ -494,7 +628,18 @@
       "plus": true
      },
      "edps": 38.94,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Psicocorte",
+       "plus": false
+      },
+      "pct": 82,
+      "cargado": {
+       "nombre": "Puño Dinámico",
+       "plus": true
+      }
+     }
     },
     {
      "etiqueta": "Oscuro",
@@ -528,7 +673,18 @@
       "plus": false
      },
      "edps": 23.68,
-     "pct": 61
+     "pct": 61,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Contraataque",
+       "plus": false
+      },
+      "pct": 90,
+      "cargado": {
+       "nombre": "Esfera Aural",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Sin MT élite",
@@ -588,7 +744,18 @@
       "plus": true
      },
      "edps": 35.23,
-     "pct": 78
+     "pct": 78,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Ataque Ala",
+       "plus": false
+      },
+      "pct": 97,
+      "cargado": {
+       "nombre": "Vuelo",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 3,
@@ -696,7 +863,18 @@
       "plus": false
      },
      "edps": 28.44,
-     "pct": 63
+     "pct": 63,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Picotazo",
+       "plus": false
+      },
+      "pct": 78,
+      "cargado": {
+       "nombre": "Pico Taladro",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 9,
@@ -732,7 +910,18 @@
       "plus": false
      },
      "edps": 27.53,
-     "pct": 61
+     "pct": 61,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Tornado",
+       "plus": false
+      },
+      "pct": 81,
+      "cargado": {
+       "nombre": "Vendaval",
+       "plus": false
+      }
+     }
     }
    ],
    "destacados": [
@@ -862,7 +1051,18 @@
       "plus": false
      },
      "edps": 25.56,
-     "pct": 95
+     "pct": 95,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Infortunio",
+       "plus": false
+      },
+      "pct": 97,
+      "cargado": {
+       "nombre": "Bomba Lodo",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 3,
@@ -970,7 +1170,18 @@
       "plus": false
      },
      "edps": 20.71,
-     "pct": 77
+     "pct": 77,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Infortunio",
+       "plus": false
+      },
+      "pct": 96,
+      "cargado": {
+       "nombre": "Bomba Lodo",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 9,
@@ -1118,7 +1329,18 @@
       "plus": false
      },
      "edps": 30.77,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Disparo Lodo",
+       "plus": false
+      },
+      "pct": 92,
+      "cargado": {
+       "nombre": "Terremoto",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 2,
@@ -1136,7 +1358,18 @@
       "plus": false
      },
      "edps": 28.15,
-     "pct": 91
+     "pct": 91,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Disparo Lodo",
+       "plus": false
+      },
+      "pct": 97,
+      "cargado": {
+       "nombre": "Terremoto",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 3,
@@ -1154,7 +1387,18 @@
       "plus": false
      },
      "edps": 26.21,
-     "pct": 85
+     "pct": 85,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Disparo Lodo",
+       "plus": false
+      },
+      "pct": 92,
+      "cargado": {
+       "nombre": "Terremoto",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 4,
@@ -1172,7 +1416,18 @@
       "plus": false
      },
      "edps": 25.21,
-     "pct": 82
+     "pct": 82,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Disparo Lodo",
+       "plus": false
+      },
+      "pct": 95,
+      "cargado": {
+       "nombre": "Terremoto",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 5,
@@ -1190,7 +1445,18 @@
       "plus": false
      },
      "edps": 24.38,
-     "pct": 79
+     "pct": 79,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Disparo Lodo",
+       "plus": false
+      },
+      "pct": 87,
+      "cargado": {
+       "nombre": "Terremoto",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 6,
@@ -1262,7 +1528,18 @@
       "plus": false
      },
      "edps": 22.64,
-     "pct": 74
+     "pct": 74,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Disparo Lodo",
+       "plus": false
+      },
+      "pct": 92,
+      "cargado": {
+       "nombre": "Terremoto",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 10,
@@ -1299,7 +1576,18 @@
       "plus": false
      },
      "edps": 30.77,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Disparo Lodo",
+       "plus": false
+      },
+      "pct": 92,
+      "cargado": {
+       "nombre": "Terremoto",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Mega / Primigenio",
@@ -1316,7 +1604,18 @@
       "plus": false
      },
      "edps": 30.77,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Disparo Lodo",
+       "plus": false
+      },
+      "pct": 92,
+      "cargado": {
+       "nombre": "Terremoto",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Oscuro",
@@ -1333,7 +1632,18 @@
       "plus": false
      },
      "edps": 26.21,
-     "pct": 85
+     "pct": 85,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Disparo Lodo",
+       "plus": false
+      },
+      "pct": 92,
+      "cargado": {
+       "nombre": "Terremoto",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Alternativa no legendaria",
@@ -1350,7 +1660,18 @@
       "plus": false
      },
      "edps": 21.46,
-     "pct": 70
+     "pct": 70,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Disparo Lodo",
+       "plus": false
+      },
+      "pct": 96,
+      "cargado": {
+       "nombre": "Terremoto",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Sin MT élite",
@@ -1410,7 +1731,18 @@
       "plus": false
      },
      "edps": 28.19,
-     "pct": 97
+     "pct": 97,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Antiaéreo",
+       "plus": false
+      },
+      "pct": 85,
+      "cargado": {
+       "nombre": "Roca Afilada",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 3,
@@ -1428,7 +1760,18 @@
       "plus": false
      },
      "edps": 27.07,
-     "pct": 93
+     "pct": 93,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Mordisco",
+       "plus": false
+      },
+      "pct": 77,
+      "cargado": {
+       "nombre": "Roca Afilada",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 4,
@@ -1464,7 +1807,18 @@
       "plus": false
      },
      "edps": 25.64,
-     "pct": 88
+     "pct": 88,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Antiaéreo",
+       "plus": false
+      },
+      "pct": 88,
+      "cargado": {
+       "nombre": "Avalancha",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 6,
@@ -1518,7 +1872,18 @@
       "plus": false
      },
      "edps": 24.61,
-     "pct": 85
+     "pct": 85,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Mordisco",
+       "plus": false
+      },
+      "pct": 77,
+      "cargado": {
+       "nombre": "Roca Afilada",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 9,
@@ -1536,7 +1901,18 @@
       "plus": false
      },
      "edps": 24.05,
-     "pct": 83
+     "pct": 83,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Antiaéreo",
+       "plus": false
+      },
+      "pct": 86,
+      "cargado": {
+       "nombre": "Roca Afilada",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 10,
@@ -1607,7 +1983,18 @@
       "plus": false
      },
      "edps": 28.19,
-     "pct": 97
+     "pct": 97,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Antiaéreo",
+       "plus": false
+      },
+      "pct": 85,
+      "cargado": {
+       "nombre": "Roca Afilada",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Alternativa no legendaria",
@@ -1624,7 +2011,18 @@
       "plus": false
      },
      "edps": 24.05,
-     "pct": 83
+     "pct": 83,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Antiaéreo",
+       "plus": false
+      },
+      "pct": 86,
+      "cargado": {
+       "nombre": "Roca Afilada",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Sin MT élite",
@@ -1666,7 +2064,18 @@
       "plus": true
      },
      "edps": 27.46,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Acoso",
+       "plus": false
+      },
+      "pct": 96,
+      "cargado": {
+       "nombre": "Aguijón Letal",
+       "plus": true
+      }
+     }
     },
     {
      "puesto": 2,
@@ -1847,7 +2256,18 @@
       "plus": true
      },
      "edps": 27.46,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Acoso",
+       "plus": false
+      },
+      "pct": 96,
+      "cargado": {
+       "nombre": "Aguijón Letal",
+       "plus": true
+      }
+     }
     },
     {
      "etiqueta": "Mega / Primigenio",
@@ -1864,7 +2284,18 @@
       "plus": true
      },
      "edps": 27.46,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Acoso",
+       "plus": false
+      },
+      "pct": 96,
+      "cargado": {
+       "nombre": "Aguijón Letal",
+       "plus": true
+      }
+     }
     },
     {
      "etiqueta": "Oscuro",
@@ -1976,7 +2407,8 @@
       "plus": false
      },
      "edps": 27.78,
-     "pct": 78
+     "pct": 78,
+     "sin_legado": null
     },
     {
      "puesto": 4,
@@ -1994,7 +2426,18 @@
       "plus": false
      },
      "edps": 27.36,
-     "pct": 77
+     "pct": 77,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Garra Umbría",
+       "plus": false
+      },
+      "pct": 96,
+      "cargado": {
+       "nombre": "Bola Sombra",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 5,
@@ -2012,7 +2455,8 @@
       "plus": false
      },
      "edps": 26.44,
-     "pct": 74
+     "pct": 74,
+     "sin_legado": null
     },
     {
      "puesto": 6,
@@ -2084,7 +2528,8 @@
       "plus": false
      },
      "edps": 22.61,
-     "pct": 63
+     "pct": 63,
+     "sin_legado": null
     },
     {
      "puesto": 10,
@@ -2268,7 +2713,18 @@
       "plus": false
      },
      "edps": 27.68,
-     "pct": 83
+     "pct": 83,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Puño Bala",
+       "plus": false
+      },
+      "pct": 76,
+      "cargado": {
+       "nombre": "Foco Resplandor",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 5,
@@ -2286,7 +2742,18 @@
       "plus": false
      },
      "edps": 27.35,
-     "pct": 82
+     "pct": 82,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Puño Bala",
+       "plus": false
+      },
+      "pct": 97,
+      "cargado": {
+       "nombre": "Puño Meteoro",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 6,
@@ -2304,7 +2771,18 @@
       "plus": false
      },
      "edps": 27.35,
-     "pct": 82
+     "pct": 82,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Puño Bala",
+       "plus": false
+      },
+      "pct": 75,
+      "cargado": {
+       "nombre": "Foco Resplandor",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 7,
@@ -2340,7 +2818,18 @@
       "plus": false
      },
      "edps": 23.22,
-     "pct": 70
+     "pct": 70,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Puño Bala",
+       "plus": false
+      },
+      "pct": 76,
+      "cargado": {
+       "nombre": "Foco Resplandor",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 9,
@@ -2412,7 +2901,18 @@
       "plus": false
      },
      "edps": 27.68,
-     "pct": 83
+     "pct": 83,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Puño Bala",
+       "plus": false
+      },
+      "pct": 76,
+      "cargado": {
+       "nombre": "Foco Resplandor",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Oscuro",
@@ -2429,7 +2929,18 @@
       "plus": false
      },
      "edps": 27.35,
-     "pct": 82
+     "pct": 82,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Puño Bala",
+       "plus": false
+      },
+      "pct": 75,
+      "cargado": {
+       "nombre": "Foco Resplandor",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Alternativa no legendaria",
@@ -2446,7 +2957,18 @@
       "plus": false
      },
      "edps": 23.22,
-     "pct": 70
+     "pct": 70,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Puño Bala",
+       "plus": false
+      },
+      "pct": 76,
+      "cargado": {
+       "nombre": "Foco Resplandor",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Sin MT élite",
@@ -2506,7 +3028,18 @@
       "plus": false
      },
      "edps": 29.27,
-     "pct": 87
+     "pct": 87,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Giro Fuego",
+       "plus": false
+      },
+      "pct": 91,
+      "cargado": {
+       "nombre": "Sofoco",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 3,
@@ -2524,7 +3057,18 @@
       "plus": false
      },
      "edps": 29.27,
-     "pct": 87
+     "pct": 87,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Giro Fuego",
+       "plus": false
+      },
+      "pct": 90,
+      "cargado": {
+       "nombre": "Sofoco",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 4,
@@ -2542,7 +3086,18 @@
       "plus": false
      },
      "edps": 28.55,
-     "pct": 85
+     "pct": 85,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Colmillo Ígneo",
+       "plus": false
+      },
+      "pct": 93,
+      "cargado": {
+       "nombre": "Sofoco",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 5,
@@ -2578,7 +3133,18 @@
       "plus": false
      },
      "edps": 28.19,
-     "pct": 84
+     "pct": 84,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Calcinación",
+       "plus": false
+      },
+      "pct": 81,
+      "cargado": {
+       "nombre": "Llama Embrujada",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 7,
@@ -2596,7 +3162,18 @@
       "plus": false
      },
      "edps": 26.11,
-     "pct": 77
+     "pct": 77,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Giro Fuego",
+       "plus": false
+      },
+      "pct": 90,
+      "cargado": {
+       "nombre": "Lanzallamas",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 8,
@@ -2614,7 +3191,18 @@
       "plus": false
      },
      "edps": 25.03,
-     "pct": 74
+     "pct": 74,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Giro Fuego",
+       "plus": false
+      },
+      "pct": 90,
+      "cargado": {
+       "nombre": "Sofoco",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 9,
@@ -2650,7 +3238,18 @@
       "plus": false
      },
      "edps": 24.47,
-     "pct": 73
+     "pct": 73,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Colmillo Ígneo",
+       "plus": false
+      },
+      "pct": 93,
+      "cargado": {
+       "nombre": "Sofoco",
+       "plus": false
+      }
+     }
     }
    ],
    "destacados": [
@@ -2703,7 +3302,18 @@
       "plus": false
      },
      "edps": 28.55,
-     "pct": 85
+     "pct": 85,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Colmillo Ígneo",
+       "plus": false
+      },
+      "pct": 93,
+      "cargado": {
+       "nombre": "Sofoco",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Alternativa no legendaria",
@@ -2762,7 +3372,18 @@
       "plus": false
      },
      "edps": 30.28,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cascada",
+       "plus": false
+      },
+      "pct": 95,
+      "cargado": {
+       "nombre": "Surf",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 2,
@@ -2816,7 +3437,18 @@
       "plus": false
      },
      "edps": 26.8,
-     "pct": 89
+     "pct": 89,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Pistola Agua",
+       "plus": false
+      },
+      "pct": 84,
+      "cargado": {
+       "nombre": "Surf",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 5,
@@ -2834,7 +3466,18 @@
       "plus": false
      },
      "edps": 25.74,
-     "pct": 85
+     "pct": 85,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cascada",
+       "plus": false
+      },
+      "pct": 96,
+      "cargado": {
+       "nombre": "Surf",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 6,
@@ -2852,7 +3495,18 @@
       "plus": false
      },
      "edps": 24.41,
-     "pct": 81
+     "pct": 81,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Pistola Agua",
+       "plus": false
+      },
+      "pct": 82,
+      "cargado": {
+       "nombre": "Hidrobomba",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 7,
@@ -2888,7 +3542,18 @@
       "plus": false
      },
      "edps": 22.3,
-     "pct": 74
+     "pct": 74,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Pistola Agua",
+       "plus": false
+      },
+      "pct": 84,
+      "cargado": {
+       "nombre": "Surf",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 9,
@@ -2906,7 +3571,18 @@
       "plus": false
      },
      "edps": 22.29,
-     "pct": 74
+     "pct": 74,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cascada",
+       "plus": false
+      },
+      "pct": 95,
+      "cargado": {
+       "nombre": "Surf",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 10,
@@ -2924,7 +3600,18 @@
       "plus": false
      },
      "edps": 21.66,
-     "pct": 72
+     "pct": 72,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Shuriken de Agua",
+       "plus": false
+      },
+      "pct": 83,
+      "cargado": {
+       "nombre": "Surf",
+       "plus": false
+      }
+     }
     }
    ],
    "destacados": [
@@ -2943,7 +3630,18 @@
       "plus": false
      },
      "edps": 30.28,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cascada",
+       "plus": false
+      },
+      "pct": 95,
+      "cargado": {
+       "nombre": "Surf",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Mega / Primigenio",
@@ -2960,7 +3658,18 @@
       "plus": false
      },
      "edps": 30.28,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cascada",
+       "plus": false
+      },
+      "pct": 95,
+      "cargado": {
+       "nombre": "Surf",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Oscuro",
@@ -2977,7 +3686,18 @@
       "plus": false
      },
      "edps": 25.74,
-     "pct": 85
+     "pct": 85,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cascada",
+       "plus": false
+      },
+      "pct": 96,
+      "cargado": {
+       "nombre": "Surf",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Alternativa no legendaria",
@@ -3054,7 +3774,18 @@
       "plus": false
      },
      "edps": 26.41,
-     "pct": 97
+     "pct": 97,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Corte Furia",
+       "plus": false
+      },
+      "pct": 87,
+      "cargado": {
+       "nombre": "Hoja Aguda",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 3,
@@ -3072,7 +3803,18 @@
       "plus": false
      },
      "edps": 22.55,
-     "pct": 82
+     "pct": 82,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Látigo Cepa",
+       "plus": false
+      },
+      "pct": 90,
+      "cargado": {
+       "nombre": "Rayo Solar",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 4,
@@ -3108,7 +3850,18 @@
       "plus": false
      },
      "edps": 21.89,
-     "pct": 80
+     "pct": 80,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Látigo Cepa",
+       "plus": false
+      },
+      "pct": 89,
+      "cargado": {
+       "nombre": "Rayo Solar",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 6,
@@ -3180,7 +3933,18 @@
       "plus": false
      },
      "edps": 20.93,
-     "pct": 77
+     "pct": 77,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Látigo Cepa",
+       "plus": false
+      },
+      "pct": 88,
+      "cargado": {
+       "nombre": "Rayo Solar",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 10,
@@ -3198,7 +3962,18 @@
       "plus": false
      },
      "edps": 20.86,
-     "pct": 76
+     "pct": 76,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Hoja Afilada",
+       "plus": false
+      },
+      "pct": 98,
+      "cargado": {
+       "nombre": "Hoja Aguda",
+       "plus": false
+      }
+     }
     }
    ],
    "destacados": [
@@ -3251,7 +4026,18 @@
       "plus": false
      },
      "edps": 21.89,
-     "pct": 80
+     "pct": 80,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Látigo Cepa",
+       "plus": false
+      },
+      "pct": 89,
+      "cargado": {
+       "nombre": "Rayo Solar",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Alternativa no legendaria",
@@ -3268,7 +4054,18 @@
       "plus": false
      },
      "edps": 20.41,
-     "pct": 75
+     "pct": 75,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Hoja Afilada",
+       "plus": false
+      },
+      "pct": 96,
+      "cargado": {
+       "nombre": "Batería Asalto",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Sin MT élite",
@@ -3364,7 +4161,18 @@
       "plus": false
      },
      "edps": 26.57,
-     "pct": 90
+     "pct": 90,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Rayo Carga",
+       "plus": false
+      },
+      "pct": 99,
+      "cargado": {
+       "nombre": "Voltio Cruel",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 5,
@@ -3382,7 +4190,18 @@
       "plus": false
      },
      "edps": 25.5,
-     "pct": 86
+     "pct": 86,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Voltiocambio",
+       "plus": false
+      },
+      "pct": 94,
+      "cargado": {
+       "nombre": "Rayo",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 6,
@@ -3472,7 +4291,18 @@
       "plus": false
      },
      "edps": 23.49,
-     "pct": 79
+     "pct": 79,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Impactrueno",
+       "plus": false
+      },
+      "pct": 71,
+      "cargado": {
+       "nombre": "Electrocañón",
+       "plus": false
+      }
+     }
     }
    ],
    "destacados": [
@@ -3525,7 +4355,18 @@
       "plus": false
      },
      "edps": 26.57,
-     "pct": 90
+     "pct": 90,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Rayo Carga",
+       "plus": false
+      },
+      "pct": 99,
+      "cargado": {
+       "nombre": "Voltio Cruel",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Alternativa no legendaria",
@@ -3602,7 +4443,18 @@
       "plus": false
      },
      "edps": 39.79,
-     "pct": 84
+     "pct": 84,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Confusión",
+       "plus": false
+      },
+      "pct": 93,
+      "cargado": {
+       "nombre": "Psíquico",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 3,
@@ -3620,7 +4472,18 @@
       "plus": false
      },
      "edps": 33.49,
-     "pct": 70
+     "pct": 70,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Confusión",
+       "plus": false
+      },
+      "pct": 93,
+      "cargado": {
+       "nombre": "Psíquico",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 4,
@@ -3638,7 +4501,18 @@
       "plus": false
      },
      "edps": 30.87,
-     "pct": 65
+     "pct": 65,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Confusión",
+       "plus": false
+      },
+      "pct": 91,
+      "cargado": {
+       "nombre": "Premonición",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 5,
@@ -3710,7 +4584,18 @@
       "plus": false
      },
      "edps": 28.8,
-     "pct": 61
+     "pct": 61,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Confusión",
+       "plus": false
+      },
+      "pct": 93,
+      "cargado": {
+       "nombre": "Psíquico",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 9,
@@ -3799,7 +4684,18 @@
       "plus": false
      },
      "edps": 33.49,
-     "pct": 70
+     "pct": 70,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Confusión",
+       "plus": false
+      },
+      "pct": 93,
+      "cargado": {
+       "nombre": "Psíquico",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Alternativa no legendaria",
@@ -4132,7 +5028,18 @@
       "plus": false
      },
      "edps": 34.5,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cola Dragón",
+       "plus": false
+      },
+      "pct": 94,
+      "cargado": {
+       "nombre": "Enfado",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 2,
@@ -4150,7 +5057,18 @@
       "plus": false
      },
      "edps": 33.81,
-     "pct": 98
+     "pct": 98,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cola Dragón",
+       "plus": false
+      },
+      "pct": 66,
+      "cargado": {
+       "nombre": "Pulso Dragón",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 3,
@@ -4276,7 +5194,18 @@
       "plus": false
      },
      "edps": 26.59,
-     "pct": 77
+     "pct": 77,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cola Dragón",
+       "plus": false
+      },
+      "pct": 90,
+      "cargado": {
+       "nombre": "Garra Dragón",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 10,
@@ -4313,7 +5242,18 @@
       "plus": false
      },
      "edps": 34.5,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cola Dragón",
+       "plus": false
+      },
+      "pct": 94,
+      "cargado": {
+       "nombre": "Enfado",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Mega / Primigenio",
@@ -4330,7 +5270,18 @@
       "plus": false
      },
      "edps": 34.5,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Cola Dragón",
+       "plus": false
+      },
+      "pct": 94,
+      "cargado": {
+       "nombre": "Enfado",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Oscuro",
@@ -4364,7 +5315,18 @@
       "plus": false
      },
      "edps": 25.67,
-     "pct": 74
+     "pct": 74,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Dragoaliento",
+       "plus": false
+      },
+      "pct": 83,
+      "cargado": {
+       "nombre": "Alud",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Sin MT élite",
@@ -4460,7 +5422,18 @@
       "plus": false
      },
      "edps": 26.11,
-     "pct": 84
+     "pct": 84,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Mordisco",
+       "plus": false
+      },
+      "pct": 87,
+      "cargado": {
+       "nombre": "Pulso Umbrío",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 5,
@@ -4514,7 +5487,18 @@
       "plus": false
      },
      "edps": 25.91,
-     "pct": 83
+     "pct": 83,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Alarido",
+       "plus": false
+      },
+      "pct": 85,
+      "cargado": {
+       "nombre": "Pulso Umbrío",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 8,
@@ -4638,7 +5622,18 @@
       "plus": false
      },
      "edps": 22.24,
-     "pct": 72
+     "pct": 72,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Mordisco",
+       "plus": false
+      },
+      "pct": 87,
+      "cargado": {
+       "nombre": "Pulso Umbrío",
+       "plus": false
+      }
+     }
     },
     {
      "etiqueta": "Sin MT élite",
@@ -4770,7 +5765,8 @@
       "plus": false
      },
      "edps": 22.05,
-     "pct": 80
+     "pct": 80,
+     "sin_legado": null
     },
     {
      "puesto": 7,
@@ -4806,7 +5802,18 @@
       "plus": false
      },
      "edps": 21.19,
-     "pct": 77
+     "pct": 77,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Confusión",
+       "plus": false
+      },
+      "pct": 73,
+      "cargado": {
+       "nombre": "Fuerza Lunar",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 9,
@@ -4824,7 +5831,18 @@
       "plus": false
      },
      "edps": 20.92,
-     "pct": 76
+     "pct": 76,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Ataque Rápido",
+       "plus": false
+      },
+      "pct": 86,
+      "cargado": {
+       "nombre": "Brillo Mágico",
+       "plus": false
+      }
+     }
     },
     {
      "puesto": 10,
@@ -4842,7 +5860,18 @@
       "plus": false
      },
      "edps": 20.82,
-     "pct": 76
+     "pct": 76,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Placaje",
+       "plus": false
+      },
+      "pct": 73,
+      "cargado": {
+       "nombre": "Fuerza Lunar",
+       "plus": false
+      }
+     }
     }
    ],
    "destacados": [
@@ -5046,7 +6075,18 @@
      "plus": false
     },
     "edps": 22.09,
-    "pct": 86
+    "pct": 86,
+    "sin_legado": {
+     "rapido": {
+      "nombre": "Cola Dragón",
+      "plus": false
+     },
+     "pct": 66,
+     "cargado": {
+      "nombre": "Pulso Dragón",
+      "plus": false
+     }
+    }
    },
    {
     "puesto": 7,

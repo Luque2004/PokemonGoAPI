@@ -277,7 +277,8 @@
      },
      "max": "Maxipuño",
      "dano": 220,
-     "pct": 74
+     "pct": 74,
+     "sin_legado": null
     },
     {
      "puesto": 8,
@@ -676,7 +677,8 @@
      },
      "max": "Maxitemblor",
      "dano": 196,
-     "pct": 79
+     "pct": 79,
+     "sin_legado": null
     },
     {
      "puesto": 6,
@@ -823,7 +825,8 @@
      },
      "max": "Maxilito",
      "dano": 205,
-     "pct": 86
+     "pct": 86,
+     "sin_legado": null
     },
     {
      "puesto": 4,
@@ -984,7 +987,14 @@
      },
      "max": "Gigaestupor",
      "dano": 216,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Confusión",
+       "plus": false
+      },
+      "pct": 100
+     }
     },
     {
      "puesto": 3,
@@ -1012,7 +1022,8 @@
      },
      "max": "Maxinsecto",
      "dano": 181,
-     "pct": 83
+     "pct": 83,
+     "sin_legado": null
     },
     {
      "puesto": 5,
@@ -1026,7 +1037,14 @@
      },
      "max": "Maxinsecto",
      "dano": 168,
-     "pct": 77
+     "pct": 77,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Estoicismo",
+       "plus": false
+      },
+      "pct": 100
+     }
     },
     {
      "puesto": 6,
@@ -1145,7 +1163,14 @@
      },
      "max": "Gigaaparición",
      "dano": 328,
-     "pct": 100
+     "pct": 100,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Garra Umbría",
+       "plus": false
+      },
+      "pct": 100
+     }
     },
     {
      "puesto": 2,
@@ -1159,7 +1184,14 @@
      },
      "max": "Maxiespectro",
      "dano": 255,
-     "pct": 78
+     "pct": 78,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Garra Umbría",
+       "plus": false
+      },
+      "pct": 100
+     }
     },
     {
      "puesto": 3,
@@ -1173,7 +1205,14 @@
      },
      "max": "Maxiespectro",
      "dano": 220,
-     "pct": 67
+     "pct": 67,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Garra Umbría",
+       "plus": false
+      },
+      "pct": 100
+     }
     },
     {
      "puesto": 4,
@@ -1187,7 +1226,8 @@
      },
      "max": "Maxiespectro",
      "dano": 209,
-     "pct": 64
+     "pct": 64,
+     "sin_legado": null
     },
     {
      "puesto": 5,
@@ -1230,7 +1270,14 @@
      },
      "max": "Maxiespectro",
      "dano": 255,
-     "pct": 78
+     "pct": 78,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Garra Umbría",
+       "plus": false
+      },
+      "pct": 100
+     }
     },
     {
      "etiqueta": "Sin MT élite",
@@ -1453,7 +1500,14 @@
      },
      "max": "Gigallamarada",
      "dano": 283,
-     "pct": 94
+     "pct": 94,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Tajo Aéreo",
+       "plus": false
+      },
+      "pct": 100
+     }
     },
     {
      "puesto": 3,
@@ -1565,7 +1619,14 @@
      },
      "max": "Maxignición",
      "dano": 220,
-     "pct": 73
+     "pct": 73,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Giro Fuego",
+       "plus": false
+      },
+      "pct": 100
+     }
     }
    ],
    "destacados": [
@@ -1845,7 +1906,14 @@
      },
      "max": "Maxiflora",
      "dano": 213,
-     "pct": 71
+     "pct": 71,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Hoja Afilada",
+       "plus": false
+      },
+      "pct": 100
+     }
     },
     {
      "puesto": 6,
@@ -1978,7 +2046,14 @@
      },
      "max": "Maxitormenta",
      "dano": 248,
-     "pct": 87
+     "pct": 87,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Rayo Carga",
+       "plus": false
+      },
+      "pct": 100
+     }
     },
     {
      "puesto": 3,
@@ -2105,7 +2180,14 @@
      },
      "max": "Maxitormenta",
      "dano": 248,
-     "pct": 87
+     "pct": 87,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Rayo Carga",
+       "plus": false
+      },
+      "pct": 100
+     }
     },
     {
      "etiqueta": "Sin MT élite",
@@ -2762,7 +2844,14 @@
      },
      "max": "Maxisombra",
      "dano": 186,
-     "pct": 65
+     "pct": 65,
+     "sin_legado": {
+      "rapido": {
+       "nombre": "Alarido",
+       "plus": false
+      },
+      "pct": 100
+     }
     },
     {
      "puesto": 9,

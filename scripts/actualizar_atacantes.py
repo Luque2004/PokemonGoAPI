@@ -4,7 +4,11 @@
 Uso:
     python3 scripts/actualizar_atacantes.py            # descarga las 56 páginas con curl
     python3 scripts/actualizar_atacantes.py --html DIR # usa páginas ya descargadas (DIR/raid, DIR/max y DIR/tank/*.html;
-                                                       # la lista general, en DIR/raid/general.html y DIR/tank/general.html)
+                                                       # la lista general, en DIR/raid/general.html y DIR/tank/general.html;
+                                                       # las clasificaciones sin legado, en DIR/<modo>/api_<tipo>_<con|sin>.json)
+
+A cada atacante que necesita una MT élite le añade "sin_legado": su mejor combinación sin ataques de legado (API de
+Pokémon GO Hub con «Permitir ataques de legado» desactivado) y el % que conserva; null si así ya no está en la lista.
 
 Escribe datos/atacantes-incursiones.json, datos/atacantes-max.json y datos/tanques-max.json SOLO si la página se ha leído bien,
 y dice si los datos han cambiado respecto a los que ya había (IGUAL / CAMBIA). Sale con código 1 si algo falla.
@@ -193,6 +197,69 @@ def tanques(h):
     return F, []
 
 
+API = "https://db.pokemongohub.net/api/counters?view=ranking"
+# Rival neutro con el que Pokémon GO Hub hace sus listas por tipo (el mismo que usa su web)
+NEUTRO = {"maxCP": 5000, "atk": 200, "def": 180, "sta": 200, "id": 0, "name": "BOB", "pokemonId": "BOB", "type1": "normal",
+          "form": None, "formId": "", "template_id": "BOB_THE_DEFENDER"}
+
+
+def cuerpo_api(modo, tipo, legado):
+    """La misma clasificación por tipo de Pokémon GO Hub, con o sin ataques de legado («Permitir ataques de legado»)."""
+    dmax = modo == "max"
+    return {"target": NEUTRO, "locale": "es", "targetRaidLevel": "DYNAMAX_TIER_5" if dmax else "5", "weather": "extreme",
+            "responseSize": 400, "attackerCPMinimum": 0, "includePrimalPokemon": not dmax, "includeShadowPokemon": not dmax,
+            "includeMegaPokemon": not dmax, "includeUnavailablePokemon": False, "megaLevel": 1, "rankForType": tipo,
+            "allowLegacyMoves": legado, "allowMixedMovesets": True, "allowOfftypeAttackers": True,
+            "allowOnlyDynamaxEligiblePokémon": dmax}
+
+
+def leer_api(carpeta, tipo, legado):
+    try:
+        with open(os.path.join(carpeta, "api_%s_%s.json" % (tipo, "con" if legado else "sin")), encoding="utf-8") as f:
+            at = json.load(f)["attackers"]
+        lista = [(x["attacker"]["name"].strip(), x["qm"]["name"].strip(), x["cm"]["name"].strip(), float(x["score"]),
+                  bool(x["qm"]["isLegacy"] or x["cm"]["isLegacy"])) for x in at]
+    except (OSError, ValueError, KeyError, TypeError):
+        return None
+    if len(lista) < 5 or (not legado and any(x[4] for x in lista)):
+        return None  # respuesta rara, o la API no ha hecho caso a la opción
+    return lista
+
+
+def poner_sin_legado(out, carpeta, modo):
+    """Añade "sin_legado" a cada Pokémon que necesita un ataque de legado (MT élite): su mejor combinación sin ataques de
+    legado y qué % conserva de lo que hace con el de legado, las dos cosas de la misma simulación de Pokémon GO Hub.
+    null si sin ataques de legado ya no está en la clasificación de ese tipo."""
+    base = lambda m: (m or "").rstrip("+").strip()
+    api = {t: (leer_api(carpeta, t, True), leer_api(carpeta, t, False)) for t, _ in TIPOS}
+
+    def buscar(lista, fila, exacto):
+        for x in lista or []:
+            if x[0] == fila["nombre"] and (not exacto or (base(x[1]) == fila["rapido"]["nombre"] and
+                                                         (modo == "max" or base(x[2]) == fila["cargado"]["nombre"]))):
+                return x
+        return None
+
+    def poner(fila, tipos):
+        if not (fila["rapido"]["legado"] or (modo == "raid" and fila["cargado"]["legado"])):
+            return
+        for t in tipos:
+            con, sin = api[t]
+            c = con and sin and (buscar(con, fila, True) or (len(tipos) == 1 and buscar(con, fila, False)))
+            if c:
+                alt = buscar(sin, fila, False)
+                fila["sin_legado"] = None if not alt else dict(
+                    {"rapido": {"nombre": base(alt[1]), "plus": alt[1].endswith("+")}, "pct": round(alt[3] / c[3] * 100)},
+                    **({} if modo == "max" else {"cargado": {"nombre": base(alt[2]), "plus": alt[2].endswith("+")}}))
+                return
+
+    for t in out["tipos"]:
+        for fila in t["top"] + t["destacados"]:
+            poner(fila, [t["id"]])
+    for fila in (out.get("general") or {}).get("top", []):
+        poner(fila, [t for t, _ in TIPOS])
+
+
 def procesar(modo, carpeta):
     out = {"fuente": "Pokémon GO Hub (db.pokemongohub.net)", "tipos": []}
     for slug, es in TIPOS:
@@ -210,6 +277,8 @@ def procesar(modo, carpeta):
         campo = "edps" if modo == "raid" else "puntuacion"
         if not (len(top) == 10 and all(r["nombre"] and r[campo] and r["rapido"]["nombre"] for r in top)):
             return None
+    if modo in ("raid", "max"):
+        poner_sin_legado(out, carpeta, modo)
     if modo == "tank":  # 10 por tipo, con puntuación y PS por golpe
         ok = len(out["tipos"]) == 18 and all(len(t["top"]) == 10 and all(r["nombre"] and r["puntuacion"] and r["ps"] and r["rapido"]["nombre"]
                                                                           for r in t["top"]) for t in out["tipos"])
@@ -228,6 +297,12 @@ def descargar(destino):
             subprocess.run(["curl", "-sL", "-A", "Mozilla/5.0", "--retry", "2", "-o", os.path.join(destino, modo, slug + ".html"), base + slug], check=False)
         if modo in GENERAL:
             subprocess.run(["curl", "-sL", "-A", "Mozilla/5.0", "--retry", "2", "-o", os.path.join(destino, modo, "general.html"), GENERAL[modo]], check=False)
+        if modo in ("raid", "max"):  # clasificaciones con y sin ataques de legado (para «sin MT élite»)
+            for slug, _ in TIPOS:
+                for leg in (True, False):
+                    subprocess.run(["curl", "-s", "-A", "Mozilla/5.0", "--retry", "2", "--max-time", "60", "-H", "content-type: application/json",
+                                    "-X", "POST", API, "-d", json.dumps(cuerpo_api(modo, slug, leg)),
+                                    "-o", os.path.join(destino, modo, "api_%s_%s.json" % (slug, "con" if leg else "sin"))], check=False)
 
 
 def main():
