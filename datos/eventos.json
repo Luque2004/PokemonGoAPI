@@ -1,7 +1,7 @@
 {
  "fuente": "Agenda visual (eventos «Pokémon GO:» de su base de datos)",
  "zonaHoraria": "Europe/Madrid",
- "copiaDeLaAgenda": "2026-11-15T23:06:37.000Z",
+ "copiaDeLaAgenda": "2026-11-16T14:01:41.000Z",
  "eventos": [
   {
    "titulo": "Minior Showers (Leónidas)",
@@ -17,22 +17,6 @@
    "dePago": [],
    "texto": "Lluvia de meteoros Leónidas: Minior (forma meteoro) en estado salvaje, con más apariciones cada día de 17:00 a 21:00.",
    "noticia": "https://leekduck.com/events/minior-showers-leonids-2026/"
-  },
-  {
-   "titulo": "Lunes Max – Pokémon por anunciar",
-   "tipo": "Combates Max",
-   "inicio": "2026-11-16T06:00:00+01:00",
-   "fin": "2026-11-16T21:00:00+01:00",
-   "bonificaciones": [
-    "Power Spots se renuevan más rápido",
-    "Más Power Spots activos que el resto de la semana"
-   ],
-   "pasesGratis": "",
-   "goPassGratis": [],
-   "incursiones": [],
-   "dePago": [],
-   "texto": "🎯 ¿Vale la pena?: Por valorar: el Pokémon Dinamax destacado aún no se ha anunciado. Lunes Max de 6:00 a 21:00 (hora local). El Pokémon destacado del 16 al 23 de noviembre se anunciará más adelante. Coincide con el primer día de Dynamax Trails.",
-   "noticia": "https://leekduck.com/events/max-mondays-2026-11-16/"
   },
   {
    "titulo": "Dynamax Trails",
