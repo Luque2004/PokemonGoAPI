@@ -1736,6 +1736,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
           hub: hubUrl(j && j.hub),
         })).filter((j) => j.nombre && j.tipos.length),
       })).filter((n) => n.jefes.length);
+      // De más a menos estrellas: 5★, Mega (va donde las 4★), 4★, 3★… El resto, al final y en su orden
+      const rango = (t) => { const d = t.match(/\d+/); return /mega/i.test(t) ? (d ? +d + 0.5 : 4.5) : d ? +d : -1; };
+      niveles.sort((x, y) => rango(y.nivel) - rango(x.nivel));
       return niveles.length ? { oscura: r.tipo === "oscura", titulo: str(r.titulo || r.titulo_en, 200), ini, fin, niveles } : null;
     }).filter(Boolean);
     let url = safeUrl(d.url);
