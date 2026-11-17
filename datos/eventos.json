@@ -1,7 +1,7 @@
 {
  "fuente": "Agenda visual (eventos «Pokémon GO:» de su base de datos)",
  "zonaHoraria": "Europe/Madrid",
- "copiaDeLaAgenda": "2026-11-16T14:01:41.000Z",
+ "copiaDeLaAgenda": "2026-11-17T11:57:35.000Z",
  "eventos": [
   {
    "titulo": "Minior Showers (Leónidas)",
@@ -68,6 +68,19 @@
    ],
    "texto": "Semana centrada en Combates Max. Incluye la Hora Destacada del jue 19 (Grookey, Scorbunny y Sobble, ×2 Caramelos) y el regreso de Eternatus el sáb 21 de 11:00 a 14:00; solo se puede capturar una vez durante el evento.",
    "noticia": "https://pokemongo.com/news/dynamax-trails-eternamax-eternatus-2026"
+  },
+  {
+   "titulo": "Pokémon GO × Duolingo (Investigación temporal)",
+   "tipo": "Evento",
+   "inicio": "2026-11-17T02:00:00+01:00",
+   "fin": "2026-12-31T23:59:00+01:00",
+   "bonificaciones": [],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [],
+   "dePago": [],
+   "texto": "Haz al menos una lección de Duolingo al día durante siete días distintos en «La fiesta Pokémon de Duo» y conseguirás un código para una Investigación temporal gratis, que se canjea en la Tienda web de Pokémon GO. Da PX, Polvo Estelar y encuentros con Pikachu, Meowth, Chatot y Lucario con fondo especial (pueden salir variocolor), y estrena la etiqueta de idioma. Únete a la misión de Duolingo hasta el lun 21 de dic. a las 23:59, completa las 7 lecciones hasta el mar 29 a las 23:59 y termina la investigación antes del jue 31 a las 23:59.",
+   "noticia": "https://pokemongo.com/es/news/duolingo-2026"
   },
   {
    "titulo": "Hora de Incursiones – Cresselia y Darkrai",

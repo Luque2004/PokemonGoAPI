@@ -25,6 +25,18 @@
    "summary": "Pokémon GO: Dynamax Trails · ×8 Partículas Max en Power Spots"
   },
   {
+   "summary": "Pokémon GO: Pokémon GO × Duolingo (Investigación temporal)",
+   "start": {
+    "dateTime": "2026-11-17T02:00:00+01:00",
+    "date": null
+   },
+   "end": {
+    "dateTime": "2026-12-31T23:59:00+01:00",
+    "date": null
+   },
+   "description": "Haz al menos una lección de Duolingo al día durante siete días distintos en «La fiesta Pokémon de Duo» y conseguirás un código para una Investigación temporal gratis, que se canjea en la Tienda web de Pokémon GO. Da PX, Polvo Estelar y encuentros con Pikachu, Meowth, Chatot y Lucario con fondo especial (pueden salir variocolor), y estrena la etiqueta de idioma. Únete a la misión de Duolingo hasta el lun 21 de dic. a las 23:59, completa las 7 lecciones hasta el mar 29 a las 23:59 y termina la investigación antes del jue 31 a las 23:59.<br><br>🔗 <a href=\"https://pokemongo.com/es/news/duolingo-2026\">Ver noticia</a>"
+  },
+  {
    "description": "Hora de Incursiones: Cresselia y Darkrai en incursiones de 5 estrellas, con más incursiones de 5★ de lo normal durante la hora.<br><br>🔗 <a href=\"https://leekduck.com/events/raidhour20261118/\">Ver noticia</a>",
    "end": {
     "date": null,
@@ -157,5 +169,5 @@
    "summary": "Pokémon GO: Minior Showers (Gemínidas) · +1.000 Polvos"
   }
  ],
- "updatedAt": "2026-11-16T14:01:41.000Z"
+ "updatedAt": "2026-11-17T11:57:35.000Z"
 }
