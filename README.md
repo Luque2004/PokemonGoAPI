@@ -9,6 +9,7 @@ Datos de Pokémon GO en JSON (eventos, mejores atacantes y tanques, raids actual
 | `datos/agenda.json` | La lista de eventos tal como la guarda la agenda (documento `agenda/snapshot`): título, inicio, fin y descripción de cada evento «Pokémon GO:». |
 | `datos/eventos.json` | Los mismos eventos ya separados: tipo, inicio y fin, bonificaciones gratis, pases gratis, GO Pass gratis, incursiones y Combates Max, opciones de pago con lo que dan y su valoración, texto y enlace a la noticia. |
 | `datos/raids.json` | Las raids de ahora y las de los próximos días (rotaciones con sus fechas): cada jefe con su icono, tipos, PC normal y con clima, climas que lo potencian, si puede salir variocolor, a qué tipos es débil (×1,6 / ×2,56) y sus 12 mejores counters con ataques, eDPS y categoría y, si un counter necesita una MT élite, su mejor combinación sin ataques de legado (`sin_legado`; `null` si así ya no está entre los 50 mejores). |
+| `datos/investigaciones.json` | Las investigaciones de campo de ahora (Leek Duck), por categorías: cada tarea con su texto del juego en español y sus recompensas (Pokémon con su PC mínimo y máximo y si puede salir variocolor, objetos, caramelos y Megaenergía), los Pokémon del avance de investigación y las traducciones usadas. |
 | `datos/atacantes-incursiones.json` | Los 10 mejores atacantes de incursiones de cada tipo, con su icono, sus ataques (MT élite y Plus marcados), eDPS y % del n.º 1, más las opciones destacadas: alternativa no legendaria, mejor sin MT élite, mejor oscuro y mejor Mega. En `general`, los 10 mejores de todos los tipos juntos. Si un atacante necesita una MT élite, `sin_legado` da su mejor combinación sin ataques de legado y el % de eDPS que conserva (`null` si así ya no está en la lista de ese tipo). |
 | `datos/atacantes-max.json` | Los mejores atacantes de Combates Max de cada tipo, con su icono e indicando si son **Gigamax**, **Dinamax** o **Especial**, con su ataque rápido, su ataque Max y el daño. Incluye el mejor sin Gigamax y el mejor sin MT élite. Igual con `sin_legado` (solo cambia el ataque rápido). |
 | `datos/tanques-max.json` | Los 10 mejores tanques de Combates Max contra cada tipo de ataque del jefe, con su icono, forma (Gigamax, Dinamax o Especial), ataque rápido, puntuación (100 = Blissey Dinamax, el mejor tanque general) y % de PS que pierde de media por golpe. En `general`, los 10 mejores cuando no se conocen los ataques del jefe. |
@@ -16,11 +17,12 @@ Datos de Pokémon GO en JSON (eventos, mejores atacantes y tanques, raids actual
 | `scripts/agenda.py` | Añade, sustituye o quita eventos de `datos/agenda.json` sin duplicar, comprueba el formato (precios en euros, horas, etiquetas) y quita los que ya han terminado. |
 | `scripts/eventos_json.py` | Convierte `datos/agenda.json` en `datos/eventos.json`. |
 | `scripts/raids.py` | Descarga las rotaciones de raids de Leek Duck y los counters de cada jefe de Pokémon GO Hub y genera `datos/raids.json`. Los textos de Leek Duck (en inglés) se traducen una vez con `raids.py traducir` y se reutilizan. |
+| `scripts/investigaciones.py` | Descarga las investigaciones de campo de Leek Duck y las pasa al español con los textos del juego (PokeMiners/pogo_assets); genera `datos/investigaciones.json`. |
 | `scripts/actualizar_atacantes.py` | Descarga las tres clasificaciones de Pokémon GO Hub y vuelve a generar los JSON de atacantes y de tanques. |
 | `scripts/rocket.py` | Descarga los equipos del Team GO Rocket de Leek Duck y genera `datos/rocket.json` con las frases oficiales en español. |
 | `scripts/subir.py` | Lo usan las tareas programadas: copia a `datos/` los JSON que han cambiado, vuelve a generar `eventos.json` y lo sube a GitHub. |
 | `scripts/sprites.py` | Monta la imagen con los iconos de los Pokémon (`pokemon-go-agenda/sprites2.webp`) a partir de los iconos del juego. |
-| `pruebas/pagina.js` | Prueba la agenda en un navegador con los datos de `datos/`: modo claro y oscuro, anchos de móvil y las cinco pestañas (`node pruebas/pagina.js`). |
+| `pruebas/pagina.js` | Prueba la agenda en un navegador con los datos de `datos/`: modo claro y oscuro, anchos de móvil y las seis pestañas (`node pruebas/pagina.js`). |
 | `CLAUDE.md` | Guía para Claude: cómo está montado todo y cómo cambiarlo sin romper nada. |
 | `pokemon-go-agenda/` | Copia de seguridad de la agenda visual: su código, la imagen de iconos y cómo restaurarla. |
 
@@ -30,6 +32,7 @@ Todos los scripts solo reescriben su JSON si la fuente se ha leído bien y dicen
 
 ```bash
 python3 scripts/raids.py                   # raids de ahora y próximas con sus counters (menos de 1 min)
+python3 scripts/investigaciones.py         # investigaciones de campo con los textos del juego en español
 python3 scripts/rocket.py                  # equipos del Team GO Rocket
 python3 scripts/actualizar_atacantes.py    # mejores atacantes de incursiones y de Combates Max, y tanques Max (unos 30 s)
 python3 scripts/agenda.py ver              # eventos guardados; «poner», «quitar» y «guardar» para cambiarlos

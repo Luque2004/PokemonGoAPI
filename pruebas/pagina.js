@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Prueba la agenda en Chromium sin conexión, con una base de datos simulada hecha con los JSON de datos/.
 // Uso, desde la raíz del repo:  node pruebas/pagina.js
-// Recorre las 5 pestañas en modo claro y oscuro a 390, 360 y 320 px y comprueba: errores de JavaScript,
+// Recorre las 6 pestañas en modo claro y oscuro a 390, 360 y 320 px y comprueba: errores de JavaScript,
 // scroll lateral, pestañas en una sola línea, que cada pestaña pinta algo, fotos que faltan y que la página
 // no escribe en la base de datos. Deja capturas en pruebas/capturas/ y termina con «OK» o con los fallos.
 const { chromium } = require('playwright');
@@ -17,6 +17,7 @@ const DOCS = {
   'meta/tanques-max': leer('tanques-max.json'),
   'meta/rocket': leer('rocket.json'),
   'meta/raids': leer('raids.json'),
+  'meta/investigaciones': leer('investigaciones.json'),
 };
 const esc = (o) => JSON.stringify(o).replace(/</g, '\\u003c');
 // Imita window.claude.use("db"); si la página intenta escribir, queda apuntado en window.__escrituras
@@ -37,6 +38,7 @@ const PESTAÑAS = {
   pases: '#pay .payrow',
   atacantes: '#view-atacantes .ovc',
   raids: '#rd-body .rdc',
+  tareas: '#fr-body .fr-task',
   rocket: '#rk-body .rkc',
 };
 

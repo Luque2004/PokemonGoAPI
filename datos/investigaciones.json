@@ -1,0 +1,4452 @@
+{
+ "fuente": "Leek Duck",
+ "url": "https://leekduck.com/research/",
+ "actualizado": "2026-09-07 19:15:39 -0400",
+ "categorias": [
+  {
+   "nombre": "Evento: Dynamax Trails",
+   "nombre_en": "Dynamax Trails Tasks",
+   "evento": true,
+   "fin": "2026-11-23T20:00:00-0800",
+   "tareas": [
+    {
+     "tarea": "Captura 8 Pokémon",
+     "tarea_en": "Catch 8 Pokémon",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Bulbasaur",
+       "nombre_en": "Bulbasaur",
+       "icono": "pm1",
+       "pc": [
+        442,
+        477
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Charmander",
+       "nombre_en": "Charmander",
+       "icono": "pm4",
+       "pc": [
+        387,
+        420
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Squirtle",
+       "nombre_en": "Squirtle",
+       "icono": "pm7",
+       "pc": [
+        372,
+        405
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Grookey",
+       "nombre_en": "Grookey",
+       "icono": "pm810",
+       "pc": [
+        430,
+        465
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Scorbunny",
+       "nombre_en": "Scorbunny",
+       "icono": "pm813",
+       "pc": [
+        434,
+        470
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Sobble",
+       "nombre_en": "Sobble",
+       "icono": "pm816",
+       "pc": [
+        434,
+        470
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Da más poder a un Pokémon 8 veces",
+     "tarea_en": "Power up Pokémon 8 times",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Magikarp",
+       "nombre_en": "Magikarp",
+       "icono": "pm129",
+       "pc": [
+        99,
+        117
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Feebas",
+       "nombre_en": "Feebas",
+       "icono": "pm349",
+       "pc": [
+        99,
+        117
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "item",
+       "cantidad": 3,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Explora 1 km",
+     "tarea_en": "Explore 1 km",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Eevee",
+       "nombre_en": "Eevee",
+       "icono": "pm133",
+       "pc": [
+        424,
+        459
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2000,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Gana un Combate Max",
+     "tarea_en": "Win a Max Battle",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Drampa",
+       "nombre_en": "Drampa",
+       "icono": "pm780",
+       "pc": [
+        1191,
+        1249
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Duraludon",
+       "nombre_en": "Duraludon",
+       "icono": "pm884",
+       "pc": [
+        1255,
+        1314
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Caramelos Eternatus",
+       "nombre_en": "Eternatus Candy",
+       "icono": "pm890"
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2000,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Desbloquea un movimiento Max",
+     "tarea_en": "Unlock a Max Move",
+     "recompensas": [
+      {
+       "tipo": "resource",
+       "cantidad": 25,
+       "nombre": "Caramelos Eternatus",
+       "nombre_en": "Eternatus Candy",
+       "icono": "pm890"
+      },
+      {
+       "tipo": "item",
+       "cantidad": 5000,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Haz un lanzamiento excelente",
+     "tarea_en": "Make an Excellent Throw",
+     "recompensas": [
+      {
+       "tipo": "resource",
+       "cantidad": 25,
+       "nombre": "Caramelos Eternatus",
+       "nombre_en": "Eternatus Candy",
+       "icono": "pm890"
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Baya Frambu dorada",
+       "nombre_en": "Golden Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Baya Pinia plateada",
+       "nombre_en": "Silver Pinap Berry",
+       "icono": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nombre": "Capturas",
+   "nombre_en": "Catching Tasks",
+   "evento": false,
+   "fin": null,
+   "tareas": [
+    {
+     "tarea": "Captura 7 Pokémon",
+     "tarea_en": "Catch 7 Pokémon",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Magikarp",
+       "nombre_en": "Magikarp",
+       "icono": "pm129",
+       "pc": [
+        99,
+        117
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Stufful",
+       "nombre_en": "Stufful",
+       "icono": "pm759",
+       "pc": [
+        540,
+        579
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Wimpod",
+       "nombre_en": "Wimpod",
+       "icono": "pm767",
+       "pc": [
+        191,
+        215
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Captura 1 Pokémon de tipo Dragón",
+     "tarea_en": "Catch a Dragon-type Pokémon",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Dratini",
+       "nombre_en": "Dratini",
+       "icono": "pm147",
+       "pc": [
+        397,
+        430
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Bagon",
+       "nombre_en": "Bagon",
+       "icono": "pm371",
+       "pc": [
+        459,
+        495
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Axew",
+       "nombre_en": "Axew",
+       "icono": "pm610",
+       "pc": [
+        547,
+        586
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Baya Frambu dorada",
+       "nombre_en": "Golden Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 3,
+       "nombre": "Caramelo Raro",
+       "nombre_en": "Rare Candy",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1500,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 10,
+       "nombre": "Ultra Ball",
+       "nombre_en": "Ultra Ball",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Captura 1 Ditto",
+     "tarea_en": "Catch a Ditto",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Baya Frambu dorada",
+       "nombre_en": "Golden Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 3,
+       "nombre": "Caramelo Raro",
+       "nombre_en": "Rare Candy",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1500,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 10,
+       "nombre": "Ultra Ball",
+       "nombre_en": "Ultra Ball",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Captura 7 especies diferentes de Pokémon",
+     "tarea_en": "Catch 7 different species of Pokémon",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Psyduck",
+       "nombre_en": "Psyduck",
+       "icono": "pm54",
+       "pc": [
+        439,
+        474
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Seaking",
+       "nombre_en": "Seaking",
+       "icono": "pm119",
+       "pc": [
+        877,
+        926
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Marill",
+       "nombre_en": "Marill",
+       "icono": "pm183",
+       "pc": [
+        172,
+        197
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Teddiursa",
+       "nombre_en": "Teddiursa",
+       "icono": "pm216",
+       "pc": [
+        530,
+        569
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Lombre",
+       "nombre_en": "Lombre",
+       "icono": "pm271",
+       "pc": [
+        476,
+        513
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Stunky",
+       "nombre_en": "Stunky",
+       "icono": "pm434",
+       "pc": [
+        457,
+        493
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Liepard",
+       "nombre_en": "Liepard",
+       "icono": "pm510",
+       "pc": [
+        744,
+        791
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Darumaka",
+       "nombre_en": "Darumaka",
+       "icono": "pm554",
+       "pc": [
+        576,
+        618
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Clauncher",
+       "nombre_en": "Clauncher",
+       "icono": "pm692",
+       "pc": [
+        431,
+        466
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Dedenne",
+       "nombre_en": "Dedenne",
+       "icono": "pm702",
+       "pc": [
+        743,
+        789
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Cutiefly",
+       "nombre_en": "Cutiefly",
+       "icono": "pm742",
+       "pc": [
+        349,
+        380
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Smoliv",
+       "nombre_en": "Smoliv",
+       "icono": "pm928",
+       "pc": [
+        335,
+        366
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Captura 10 Pokémon",
+     "tarea_en": "Catch 10 Pokémon",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Poké Ball",
+       "nombre_en": "Poké Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 3,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 200,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Captura 10 Pokémon de tipo Planta",
+     "tarea_en": "Catch 10 Grass-type Pokémon",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Sunkern",
+       "nombre_en": "Sunkern",
+       "icono": "pm191",
+       "pc": [
+        148,
+        169
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Seedot",
+       "nombre_en": "Seedot",
+       "icono": "pm273",
+       "pc": [
+        230,
+        256
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Shroomish",
+       "nombre_en": "Shroomish",
+       "icono": "pm285",
+       "pc": [
+        316,
+        347
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Petilil",
+       "nombre_en": "Petilil",
+       "icono": "pm548",
+       "pc": [
+        407,
+        441
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Skiddo",
+       "nombre_en": "Skiddo",
+       "icono": "pm672",
+       "pc": [
+        498,
+        536
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Smoliv",
+       "nombre_en": "Smoliv",
+       "icono": "pm928",
+       "pc": [
+        335,
+        366
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Megaenergía Sceptile",
+       "nombre_en": "Sceptile Mega Energy",
+       "icono": "pm254"
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Megaenergía Venusaur",
+       "nombre_en": "Venusaur Mega Energy",
+       "icono": "pm3"
+      },
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Super Ball",
+       "nombre_en": "Great Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 6,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 500,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Captura 10 Pokémon de tipo Fantasma",
+     "tarea_en": "Catch 10 Ghost-type Pokémon",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Gastly",
+       "nombre_en": "Gastly",
+       "icono": "pm92",
+       "pc": [
+        487,
+        527
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Shuppet",
+       "nombre_en": "Shuppet",
+       "icono": "pm353",
+       "pc": [
+        401,
+        436
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Duskull",
+       "nombre_en": "Duskull",
+       "icono": "pm355",
+       "pc": [
+        273,
+        302
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Drifloon",
+       "nombre_en": "Drifloon",
+       "icono": "pm425",
+       "pc": [
+        475,
+        513
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Yamask",
+       "nombre_en": "Yamask",
+       "icono": "pm562",
+       "pc": [
+        387,
+        420
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Golett",
+       "nombre_en": "Golett",
+       "icono": "pm622",
+       "pc": [
+        472,
+        509
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Captura 10 Pokémon de tipo Siniestro",
+     "tarea_en": "Catch 10 Dark-type Pokémon",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Murkrow",
+       "nombre_en": "Murkrow",
+       "icono": "pm198",
+       "pc": [
+        626,
+        669
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Sneasel",
+       "nombre_en": "Sneasel",
+       "icono": "pm215",
+       "pc": [
+        831,
+        879
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Poochyena",
+       "nombre_en": "Poochyena",
+       "icono": "pm261",
+       "pc": [
+        263,
+        290
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Purrloin",
+       "nombre_en": "Purrloin",
+       "icono": "pm509",
+       "pc": [
+        301,
+        330
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Inkay",
+       "nombre_en": "Inkay",
+       "icono": "pm686",
+       "pc": [
+        365,
+        397
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Nickit",
+       "nombre_en": "Nickit",
+       "icono": "pm827",
+       "pc": [
+        278,
+        306
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Captura 10 Pokémon de tipo Fuego",
+     "tarea_en": "Catch 10 Fire-type Pokémon",
+     "recompensas": [
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Megaenergía Blaziken",
+       "nombre_en": "Blaziken Mega Energy",
+       "icono": "pm257"
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Megaenergía Charizard",
+       "nombre_en": "Charizard Mega Energy",
+       "icono": "pm6"
+      },
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Super Ball",
+       "nombre_en": "Great Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 6,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 500,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Captura 10 Pokémon de tipo Agua",
+     "tarea_en": "Catch 10 Water-type Pokémon",
+     "recompensas": [
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Megaenergía Blastoise",
+       "nombre_en": "Blastoise Mega Energy",
+       "icono": "pm9"
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Megaenergía Swampert",
+       "nombre_en": "Swampert Mega Energy",
+       "icono": "pm260"
+      },
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Super Ball",
+       "nombre_en": "Great Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 6,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 500,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Captura 10 Pokémon de tipo Normal",
+     "tarea_en": "Catch 10 Normal-type Pokémon",
+     "recompensas": [
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Megaenergía Pidgeot",
+       "nombre_en": "Pidgeot Mega Energy",
+       "icono": "pm18"
+      },
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Super Ball",
+       "nombre_en": "Great Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 6,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 500,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Captura 5 Pokémon potenciados por el tiempo atmosférico",
+     "tarea_en": "Catch 5 Pokémon with Weather Boost",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Vulpix",
+       "nombre_en": "Vulpix",
+       "icono": "pm37",
+       "pc": [
+        347,
+        378
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Poliwag",
+       "nombre_en": "Poliwag",
+       "icono": "pm60",
+       "pc": [
+        324,
+        355
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Wingull",
+       "nombre_en": "Wingull",
+       "icono": "pm278",
+       "pc": [
+        298,
+        328
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Hippopotas",
+       "nombre_en": "Hippopotas",
+       "icono": "pm449",
+       "pc": [
+        542,
+        582
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Snover",
+       "nombre_en": "Snover",
+       "icono": "pm459",
+       "pc": [
+        460,
+        497
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Roggenrola",
+       "nombre_en": "Roggenrola",
+       "icono": "pm524",
+       "pc": [
+        479,
+        516
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Vanillite",
+       "nombre_en": "Vanillite",
+       "icono": "pm582",
+       "pc": [
+        409,
+        443
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Poké Ball",
+       "nombre_en": "Poké Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 3,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 200,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Captura 10 Pokémon potenciados por el tiempo atmosférico",
+     "tarea_en": "Catch 10 Pokémon with Weather Boost",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Super Ball",
+       "nombre_en": "Great Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 6,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 500,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Captura 25 Pokémon",
+     "tarea_en": "Catch 25 Pokémon",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Caramelo Raro",
+       "nombre_en": "Rare Candy",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Captura 50 Pokémon",
+     "tarea_en": "Catch 50 Pokémon",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Pokocho",
+       "nombre_en": "Poffin",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Usa 5 bayas para ayudarte a capturar Pokémon",
+     "tarea_en": "Use 5 Berries to help catch Pokémon",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Super Ball",
+       "nombre_en": "Great Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 6,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 500,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nombre": "Lanzamientos",
+   "nombre_en": "Throwing Tasks",
+   "evento": false,
+   "fin": null,
+   "tareas": [
+    {
+     "tarea": "Haz 10 lanzamientos de bola curva",
+     "tarea_en": "Make 10 Curveball Throws",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Geodude de Alola",
+       "nombre_en": "Alolan Geodude",
+       "icono": "pm74.fALOLA",
+       "pc": [
+        516,
+        554
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Electabuzz",
+       "nombre_en": "Electabuzz",
+       "icono": "pm125",
+       "pc": [
+        949,
+        1000
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Makuhita",
+       "nombre_en": "Makuhita",
+       "icono": "pm296",
+       "pc": [
+        318,
+        350
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Swablu",
+       "nombre_en": "Swablu",
+       "icono": "pm333",
+       "pc": [
+        322,
+        353
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Baltoy",
+       "nombre_en": "Baltoy",
+       "icono": "pm343",
+       "pc": [
+        307,
+        337
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Dusclops",
+       "nombre_en": "Dusclops",
+       "icono": "pm356",
+       "pc": [
+        638,
+        682
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Staravia",
+       "nombre_en": "Staravia",
+       "icono": "pm397",
+       "pc": [
+        518,
+        556
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Emolga",
+       "nombre_en": "Emolga",
+       "icono": "pm587",
+       "pc": [
+        657,
+        700
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Ferroseed",
+       "nombre_en": "Ferroseed",
+       "icono": "pm597",
+       "pc": [
+        370,
+        403
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Lechonk",
+       "nombre_en": "Lechonk",
+       "icono": "pm915",
+       "pc": [
+        285,
+        314
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Haz 10 buenos lanzamientos",
+     "tarea_en": "Make 10 Nice Throws",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Magmar",
+       "nombre_en": "Magmar",
+       "icono": "pm126",
+       "pc": [
+        973,
+        1026
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Magikarp",
+       "nombre_en": "Magikarp",
+       "icono": "pm129",
+       "pc": [
+        99,
+        117
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Sunkern",
+       "nombre_en": "Sunkern",
+       "icono": "pm191",
+       "pc": [
+        148,
+        169
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Nuzleaf",
+       "nombre_en": "Nuzleaf",
+       "icono": "pm274",
+       "pc": [
+        487,
+        526
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Roggenrola",
+       "nombre_en": "Roggenrola",
+       "icono": "pm524",
+       "pc": [
+        479,
+        516
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Stunfisk de Galar",
+       "nombre_en": "Galarian Stunfisk",
+       "icono": "pm618.fGALARIAN",
+       "pc": [
+        876,
+        926
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Stunfisk",
+       "nombre_en": "Stunfisk",
+       "icono": "pm618",
+       "pc": [
+        876,
+        926
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Trumbeak",
+       "nombre_en": "Trumbeak",
+       "icono": "pm732",
+       "pc": [
+        592,
+        633
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Mareanie",
+       "nombre_en": "Mareanie",
+       "icono": "pm747",
+       "pc": [
+        383,
+        416
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Nymble",
+       "nombre_en": "Nymble",
+       "icono": "pm919",
+       "pc": [
+        228,
+        253
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Haz 2 lanzamientos excelentes",
+     "tarea_en": "Make 2 Excellent Throws",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Dratini",
+       "nombre_en": "Dratini",
+       "icono": "pm147",
+       "pc": [
+        397,
+        430
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Haz 2 buenos lanzamientos de bola curva seguidos",
+     "tarea_en": "Make 2 Nice Curveball Throws in a row",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Poké Ball",
+       "nombre_en": "Poké Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 3,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 200,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Haz 3 lanzamientos excelentes seguidos",
+     "tarea_en": "Make 3 Excellent Throws in a row",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Larvitar",
+       "nombre_en": "Larvitar",
+       "icono": "pm246",
+       "pc": [
+        411,
+        445
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Beldum",
+       "nombre_en": "Beldum",
+       "icono": "pm374",
+       "pc": [
+        385,
+        418
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Gible",
+       "nombre_en": "Gible",
+       "icono": "pm443",
+       "pc": [
+        441,
+        477
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Acierta 3 grandes lanzamientos de bola curva",
+     "tarea_en": "Make 3 Great Curveball Throws",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 3,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 10,
+       "nombre": "Poké Ball",
+       "nombre_en": "Poké Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Caramelo Raro",
+       "nombre_en": "Rare Candy",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 9,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1000,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Ultra Ball",
+       "nombre_en": "Ultra Ball",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Haz 3 grandes lanzamientos de bola curva seguidos",
+     "tarea_en": "Make 3 Great Curveball Throws in a row",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Baya Frambu dorada",
+       "nombre_en": "Golden Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 3,
+       "nombre": "Caramelo Raro",
+       "nombre_en": "Rare Candy",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1500,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 10,
+       "nombre": "Ultra Ball",
+       "nombre_en": "Ultra Ball",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Haz 3 grandes lanzamientos",
+     "tarea_en": "Make 3 Great Throws",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Omanyte",
+       "nombre_en": "Omanyte",
+       "icono": "pm138",
+       "pc": [
+        620,
+        662
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Kabuto",
+       "nombre_en": "Kabuto",
+       "icono": "pm140",
+       "pc": [
+        548,
+        587
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Clamperl",
+       "nombre_en": "Clamperl",
+       "icono": "pm366",
+       "pc": [
+        507,
+        544
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Elgyem",
+       "nombre_en": "Elgyem",
+       "icono": "pm605",
+       "pc": [
+        554,
+        593
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Binacle",
+       "nombre_en": "Binacle",
+       "icono": "pm688",
+       "pc": [
+        373,
+        405
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Poké Ball",
+       "nombre_en": "Poké Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 3,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 200,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Haz 3 grandes lanzamientos seguidos",
+     "tarea_en": "Make 3 Great Throws in a row",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Lileep",
+       "nombre_en": "Lileep",
+       "icono": "pm345",
+       "pc": [
+        515,
+        553
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Anorith",
+       "nombre_en": "Anorith",
+       "icono": "pm347",
+       "pc": [
+        613,
+        655
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "item",
+       "cantidad": 3,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 10,
+       "nombre": "Poké Ball",
+       "nombre_en": "Poké Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Caramelo Raro",
+       "nombre_en": "Rare Candy",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 9,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1000,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Ultra Ball",
+       "nombre_en": "Ultra Ball",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Haz 3 buenos lanzamientos seguidos",
+     "tarea_en": "Make 3 Nice Throws in a row",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Super Ball",
+       "nombre_en": "Great Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 500,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Ultra Ball",
+       "nombre_en": "Ultra Ball",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Haz 5 lanzamientos de bola curva seguidos",
+     "tarea_en": "Make 5 Curveball Throws in a row",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Super Ball",
+       "nombre_en": "Great Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 6,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 500,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Haz 5 grandes lanzamientos de bola curva seguidos",
+     "tarea_en": "Make 5 Great Curveball Throws in a row",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Spinda",
+       "nombre_en": "Spinda 4",
+       "icono": "pm327.f03",
+       "pc": [
+        486,
+        523
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Spinda",
+       "nombre_en": "Spinda 5",
+       "icono": "pm327.f04",
+       "pc": [
+        486,
+        523
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Haz 5 buenos lanzamientos",
+     "tarea_en": "Make 5 Nice Throws",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Diglett de Alola",
+       "nombre_en": "Alolan Diglett",
+       "icono": "pm50.fALOLA",
+       "pc": [
+        264,
+        292
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Diglett",
+       "nombre_en": "Diglett",
+       "icono": "pm50",
+       "pc": [
+        262,
+        289
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Sudowoodo",
+       "nombre_en": "Sudowoodo",
+       "icono": "pm185",
+       "pc": [
+        871,
+        920
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Poké Ball",
+       "nombre_en": "Poké Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 3,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 200,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Haz un lanzamiento excelente",
+     "tarea_en": "Make an Excellent Throw",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Super Ball",
+       "nombre_en": "Great Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 500,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Ultra Ball",
+       "nombre_en": "Ultra Ball",
+       "icono": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nombre": "Combates",
+   "nombre_en": "Battling Tasks",
+   "evento": false,
+   "fin": null,
+   "tareas": [
+    {
+     "tarea": "Participa en 1 incursión",
+     "tarea_en": "Battle in a raid",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Caramelo Raro",
+       "nombre_en": "Rare Candy",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Gana en 1 incursión",
+     "tarea_en": "Win a raid",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Lapras",
+       "nombre_en": "Lapras",
+       "icono": "pm131",
+       "pc": [
+        1076,
+        1131
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Vaporeon",
+       "nombre_en": "Vaporeon",
+       "icono": "pm134",
+       "pc": [
+        1275,
+        1335
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Jolteon",
+       "nombre_en": "Jolteon",
+       "icono": "pm135",
+       "pc": [
+        1180,
+        1238
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Flareon",
+       "nombre_en": "Flareon",
+       "icono": "pm136",
+       "pc": [
+        1239,
+        1298
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Snorlax",
+       "nombre_en": "Snorlax",
+       "icono": "pm143",
+       "pc": [
+        1320,
+        1382
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Piloswine",
+       "nombre_en": "Piloswine",
+       "icono": "pm221",
+       "pc": [
+        953,
+        1005
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Sealeo",
+       "nombre_en": "Sealeo",
+       "icono": "pm364",
+       "pc": [
+        690,
+        735
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Metang",
+       "nombre_en": "Metang",
+       "icono": "pm375",
+       "pc": [
+        694,
+        738
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Luxio",
+       "nombre_en": "Luxio",
+       "icono": "pm404",
+       "pc": [
+        595,
+        636
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Gabite",
+       "nombre_en": "Gabite",
+       "icono": "pm444",
+       "pc": [
+        757,
+        803
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Lampent",
+       "nombre_en": "Lampent",
+       "icono": "pm608",
+       "pc": [
+        688,
+        732
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Fletchinder",
+       "nombre_en": "Fletchinder",
+       "icono": "pm662",
+       "pc": [
+        589,
+        629
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Participa en 3 incursiones",
+     "tarea_en": "Battle in 3 raids",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Pokocho",
+       "nombre_en": "Poffin",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Gana en 1 incursión de nivel 3 o superior",
+     "tarea_en": "Win a three-star raid or higher",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Tirtouga",
+       "nombre_en": "Tirtouga",
+       "icono": "pm564",
+       "pc": [
+        597,
+        638
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Archen",
+       "nombre_en": "Archen",
+       "icono": "pm566",
+       "pc": [
+        741,
+        789
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Gana en 5 incursiones",
+     "tarea_en": "Win 5 raids",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Exeggutor de Alola",
+       "nombre_en": "Alolan Exeggutor",
+       "icono": "pm103.fALOLA",
+       "pc": [
+        1233,
+        1292
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Marowak de Alola",
+       "nombre_en": "Alolan Marowak",
+       "icono": "pm105.fALOLA",
+       "pc": [
+        741,
+        786
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Aerodactyl",
+       "nombre_en": "Aerodactyl",
+       "icono": "pm142",
+       "pc": [
+        1136,
+        1193
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Gana un Combate Max",
+     "tarea_en": "Win a Max Battle",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 1000,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nombre": "Exploración",
+   "nombre_en": "Exploring Tasks",
+   "evento": false,
+   "fin": null,
+   "tareas": [
+    {
+     "tarea": "Consigue 10.000 Polvos Estelares",
+     "tarea_en": "Earn 10000 Stardust",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Baya Pinia plateada",
+       "nombre_en": "Silver Pinap Berry",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Gana 10.000 PX",
+     "tarea_en": "Earn 10000 XP",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Baya Frambu dorada",
+       "nombre_en": "Golden Razz Berry",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Explora 2 km",
+     "tarea_en": "Explore 2 km",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Growlithe",
+       "nombre_en": "Growlithe",
+       "icono": "pm58",
+       "pc": [
+        495,
+        533
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Ponyta de Galar",
+       "nombre_en": "Galarian Ponyta",
+       "icono": "pm77.fGALARIAN",
+       "pc": [
+        683,
+        727
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Ponyta",
+       "nombre_en": "Ponyta",
+       "icono": "pm77",
+       "pc": [
+        683,
+        727
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Slowpoke de Galar",
+       "nombre_en": "Galarian Slowpoke",
+       "icono": "pm79.fGALARIAN",
+       "pc": [
+        487,
+        525
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Slowpoke",
+       "nombre_en": "Slowpoke",
+       "icono": "pm79",
+       "pc": [
+        487,
+        525
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Lapras",
+       "nombre_en": "Lapras",
+       "icono": "pm131",
+       "pc": [
+        1076,
+        1131
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Houndour",
+       "nombre_en": "Houndour",
+       "icono": "pm228",
+       "pc": [
+        491,
+        529
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Electrike",
+       "nombre_en": "Electrike",
+       "icono": "pm309",
+       "pc": [
+        380,
+        413
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Wailmer",
+       "nombre_en": "Wailmer",
+       "icono": "pm320",
+       "pc": [
+        584,
+        629
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Herdier",
+       "nombre_en": "Herdier",
+       "icono": "pm507",
+       "pc": [
+        636,
+        678
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Haz eclosionar 1 Huevo",
+     "tarea_en": "Hatch an Egg",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Marowak de Alola",
+       "nombre_en": "Alolan Marowak",
+       "icono": "pm105.fALOLA",
+       "pc": [
+        741,
+        786
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Scyther",
+       "nombre_en": "Scyther",
+       "icono": "pm123",
+       "pc": [
+        1104,
+        1160
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Noctowl",
+       "nombre_en": "Noctowl",
+       "icono": "pm164",
+       "pc": [
+        819,
+        867
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Sudowoodo",
+       "nombre_en": "Sudowoodo",
+       "icono": "pm185",
+       "pc": [
+        871,
+        920
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Nincada",
+       "nombre_en": "Nincada",
+       "icono": "pm290",
+       "pc": [
+        299,
+        329
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Lileep",
+       "nombre_en": "Lileep",
+       "icono": "pm345",
+       "pc": [
+        515,
+        553
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Anorith",
+       "nombre_en": "Anorith",
+       "icono": "pm347",
+       "pc": [
+        613,
+        655
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Combee",
+       "nombre_en": "Combee",
+       "icono": "pm415",
+       "pc": [
+        188,
+        212
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Audino",
+       "nombre_en": "Audino",
+       "icono": "pm531",
+       "pc": [
+        676,
+        721
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Trubbish",
+       "nombre_en": "Trubbish",
+       "icono": "pm568",
+       "pc": [
+        395,
+        428
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Cubchoo",
+       "nombre_en": "Cubchoo",
+       "icono": "pm613",
+       "pc": [
+        422,
+        458
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Stufful",
+       "nombre_en": "Stufful",
+       "icono": "pm759",
+       "pc": [
+        540,
+        579
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Wimpod",
+       "nombre_en": "Wimpod",
+       "icono": "pm767",
+       "pc": [
+        191,
+        215
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Fidough",
+       "nombre_en": "Fidough",
+       "icono": "pm926",
+       "pc": [
+        389,
+        422
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Haz eclosionar 2 Huevos",
+     "tarea_en": "Hatch 2 Eggs",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Sneasel",
+       "nombre_en": "Sneasel",
+       "icono": "pm215",
+       "pc": [
+        831,
+        879
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Mawile",
+       "nombre_en": "Mawile",
+       "icono": "pm303",
+       "pc": [
+        658,
+        700
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Feebas",
+       "nombre_en": "Feebas",
+       "icono": "pm349",
+       "pc": [
+        99,
+        117
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Caramelo Raro",
+       "nombre_en": "Rare Candy",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Haz eclosionar 5 Huevos",
+     "tarea_en": "Hatch 5 Eggs",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Pokocho",
+       "nombre_en": "Poffin",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Da vueltas a 3 fotodiscos en Poképaradas o Gimnasios",
+     "tarea_en": "Spin 3 PokéStops or Gyms",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Doduo",
+       "nombre_en": "Doduo",
+       "icono": "pm84",
+       "pc": [
+        477,
+        514
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Remoraid",
+       "nombre_en": "Remoraid",
+       "icono": "pm223",
+       "pc": [
+        358,
+        391
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Ralts",
+       "nombre_en": "Ralts",
+       "icono": "pm280",
+       "pc": [
+        206,
+        231
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Aron",
+       "nombre_en": "Aron",
+       "icono": "pm304",
+       "pc": [
+        522,
+        560
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Super Ball",
+       "nombre_en": "Great Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 6,
+       "nombre": "Baya Frambu",
+       "nombre_en": "Razz Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 500,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Da vueltas a 5 fotodiscos en Poképaradas",
+     "tarea_en": "Spin 5 PokéStops",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Sandshrew de Alola",
+       "nombre_en": "Alolan Sandshrew",
+       "icono": "pm27.fALOLA",
+       "pc": [
+        516,
+        554
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Sandshrew",
+       "nombre_en": "Sandshrew",
+       "icono": "pm27",
+       "pc": [
+        503,
+        540
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Dunsparce",
+       "nombre_en": "Dunsparce",
+       "icono": "pm206",
+       "pc": [
+        679,
+        724
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Sneasel",
+       "nombre_en": "Sneasel",
+       "icono": "pm215",
+       "pc": [
+        831,
+        879
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Zigzagoon de Galar",
+       "nombre_en": "Galarian Zigzagoon",
+       "icono": "pm263.fGALARIAN",
+       "pc": [
+        193,
+        218
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Zigzagoon",
+       "nombre_en": "Zigzagoon",
+       "icono": "pm263",
+       "pc": [
+        193,
+        218
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Snorunt",
+       "nombre_en": "Snorunt",
+       "icono": "pm361",
+       "pc": [
+        349,
+        380
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Bidoof",
+       "nombre_en": "Bidoof",
+       "icono": "pm399",
+       "pc": [
+        280,
+        309
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Hippopotas",
+       "nombre_en": "Hippopotas",
+       "icono": "pm449",
+       "pc": [
+        542,
+        582
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Trubbish",
+       "nombre_en": "Trubbish",
+       "icono": "pm568",
+       "pc": [
+        395,
+        428
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Ducklett",
+       "nombre_en": "Ducklett",
+       "icono": "pm580",
+       "pc": [
+        335,
+        367
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Dewpider",
+       "nombre_en": "Dewpider",
+       "icono": "pm751",
+       "pc": [
+        277,
+        306
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Skwovet",
+       "nombre_en": "Skwovet",
+       "icono": "pm819",
+       "pc": [
+        371,
+        404
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Blipbug",
+       "nombre_en": "Blipbug",
+       "icono": "",
+       "pc": [
+        133,
+        153
+       ],
+       "variocolor": false
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Arrokuda",
+       "nombre_en": "Arrokuda",
+       "icono": "pm846",
+       "pc": [
+        355,
+        387
+       ],
+       "variocolor": false
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Tarountula",
+       "nombre_en": "Tarountula",
+       "icono": "pm917",
+       "pc": [
+        219,
+        244
+       ],
+       "variocolor": false
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Nacli",
+       "nombre_en": "Nacli",
+       "icono": "pm932",
+       "pc": [
+        381,
+        414
+       ],
+       "variocolor": false
+      }
+     ]
+    },
+    {
+     "tarea": "Da vueltas a 5 fotodiscos en Poképaradas o Gimnasios",
+     "tarea_en": "Spin 5 PokéStops or Gyms",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Growlithe",
+       "nombre_en": "Growlithe",
+       "icono": "pm58",
+       "pc": [
+        495,
+        533
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Growlithe de Hisui",
+       "nombre_en": "Hisuian Growlithe",
+       "icono": "pm58.fHISUIAN",
+       "pc": [
+        527,
+        566
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Slowpoke de Galar",
+       "nombre_en": "Galarian Slowpoke",
+       "icono": "pm79.fGALARIAN",
+       "pc": [
+        487,
+        525
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Slowpoke",
+       "nombre_en": "Slowpoke",
+       "icono": "pm79",
+       "pc": [
+        487,
+        525
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Consigue una instantánea de un Pokémon en estado salvaje",
+     "tarea_en": "Take a snapshot of a wild Pokémon",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Trapinch",
+       "nombre_en": "Trapinch",
+       "icono": "pm328",
+       "pc": [
+        507,
+        546
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Croagunk",
+       "nombre_en": "Croagunk",
+       "icono": "pm453",
+       "pc": [
+        375,
+        408
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Cottonee",
+       "nombre_en": "Cottonee",
+       "icono": "pm546",
+       "pc": [
+        271,
+        300
+       ],
+       "variocolor": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nombre": "Entrenamiento",
+   "nombre_en": "Training Tasks",
+   "evento": false,
+   "fin": null,
+   "tareas": [
+    {
+     "tarea": "Haz evolucionar 1 Pokémon",
+     "tarea_en": "Evolve a Pokémon",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Seadra",
+       "nombre_en": "Seadra",
+       "icono": "pm117",
+       "pc": [
+        848,
+        897
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Eevee",
+       "nombre_en": "Eevee",
+       "icono": "pm133",
+       "pc": [
+        424,
+        459
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Ursaring",
+       "nombre_en": "Ursaring",
+       "icono": "pm217",
+       "pc": [
+        1203,
+        1262
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Magcargo",
+       "nombre_en": "Magcargo",
+       "icono": "pm219",
+       "pc": [
+        685,
+        729
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Grumpig",
+       "nombre_en": "Grumpig",
+       "icono": "pm326",
+       "pc": [
+        964,
+        1015
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Whirlipede",
+       "nombre_en": "Whirlipede",
+       "icono": "pm544",
+       "pc": [
+        454,
+        490
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Eelektrik",
+       "nombre_en": "Eelektrik",
+       "icono": "pm603",
+       "pc": [
+        691,
+        735
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Diggersby",
+       "nombre_en": "Diggersby",
+       "icono": "pm660",
+       "pc": [
+        605,
+        646
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Da más poder a un Pokémon 15 veces",
+     "tarea_en": "Power up Pokémon 15 times",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 3,
+       "nombre": "Caramelo Raro",
+       "nombre_en": "Rare Candy",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Da más poder a un Pokémon 3 veces",
+     "tarea_en": "Power up Pokémon 3 times",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Bulbasaur",
+       "nombre_en": "Bulbasaur",
+       "icono": "pm1",
+       "pc": [
+        442,
+        477
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Charmander",
+       "nombre_en": "Charmander",
+       "icono": "pm4",
+       "pc": [
+        387,
+        420
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Squirtle",
+       "nombre_en": "Squirtle",
+       "icono": "pm7",
+       "pc": [
+        372,
+        405
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Da más poder a un Pokémon 5 veces",
+     "tarea_en": "Power up Pokémon 5 times",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Snivy",
+       "nombre_en": "Snivy",
+       "icono": "pm495",
+       "pc": [
+        333,
+        364
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Tepig",
+       "nombre_en": "Tepig",
+       "icono": "pm498",
+       "pc": [
+        428,
+        464
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Oshawott",
+       "nombre_en": "Oshawott",
+       "icono": "pm501",
+       "pc": [
+        413,
+        448
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Megaenergía Aggron",
+       "nombre_en": "Aggron Mega Energy",
+       "icono": "pm306"
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Megaenergía Beedrill",
+       "nombre_en": "Beedrill Mega Energy",
+       "icono": "pm15"
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Megaenergía Blastoise",
+       "nombre_en": "Blastoise Mega Energy",
+       "icono": "pm9"
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Megaenergía Charizard",
+       "nombre_en": "Charizard Mega Energy",
+       "icono": "pm6"
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Megaenergía Manectric",
+       "nombre_en": "Manectric Mega Energy",
+       "icono": "pm310"
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Megaenergía Pidgeot",
+       "nombre_en": "Pidgeot Mega Energy",
+       "icono": "pm18"
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 10,
+       "nombre": "Megaenergía Venusaur",
+       "nombre_en": "Venusaur Mega Energy",
+       "icono": "pm3"
+      }
+     ]
+    },
+    {
+     "tarea": "Da más poder a un Pokémon 7 veces",
+     "tarea_en": "Power up Pokémon 7 times",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Rowlet",
+       "nombre_en": "Rowlet",
+       "icono": "pm722",
+       "pc": [
+        418,
+        453
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Litten",
+       "nombre_en": "Litten",
+       "icono": "pm725",
+       "pc": [
+        409,
+        443
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Popplio",
+       "nombre_en": "Popplio",
+       "icono": "pm728",
+       "pc": [
+        448,
+        483
+       ],
+       "variocolor": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nombre": "Compañero y amistad",
+   "nombre_en": "Buddy & Friendship Tasks",
+   "evento": false,
+   "fin": null,
+   "tareas": [
+    {
+     "tarea": "Consigue 2 Caramelos caminando con tu compañero",
+     "tarea_en": "Earn 2 Candies walking with your buddy",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Jigglypuff",
+       "nombre_en": "Jigglypuff",
+       "icono": "pm39",
+       "pc": [
+        277,
+        310
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Buneary",
+       "nombre_en": "Buneary",
+       "icono": "pm427",
+       "pc": [
+        501,
+        539
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Glameow",
+       "nombre_en": "Glameow",
+       "icono": "pm431",
+       "pc": [
+        367,
+        400
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Bunnelby",
+       "nombre_en": "Bunnelby",
+       "icono": "pm659",
+       "pc": [
+        212,
+        237
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Litleo",
+       "nombre_en": "Litleo",
+       "icono": "pm667",
+       "pc": [
+        571,
+        611
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Dedenne",
+       "nombre_en": "Dedenne",
+       "icono": "pm702",
+       "pc": [
+        743,
+        789
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Consigue 3 Caramelos caminando con tu compañero",
+     "tarea_en": "Earn 3 Candies walking with your buddy",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Stunfisk de Galar",
+       "nombre_en": "Galarian Stunfisk",
+       "icono": "pm618.fGALARIAN",
+       "pc": [
+        876,
+        926
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Stunfisk",
+       "nombre_en": "Stunfisk",
+       "icono": "pm618",
+       "pc": [
+        876,
+        926
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Envía 3 regalos y añade una pegatina a cada uno",
+     "tarea_en": "Send 3 Gifts and add a sticker to each",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Clefairy",
+       "nombre_en": "Clefairy",
+       "icono": "pm35",
+       "pc": [
+        458,
+        495
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Jigglypuff",
+       "nombre_en": "Jigglypuff",
+       "icono": "pm39",
+       "pc": [
+        277,
+        310
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Eevee",
+       "nombre_en": "Eevee",
+       "icono": "pm133",
+       "pc": [
+        424,
+        459
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Togetic",
+       "nombre_en": "Togetic",
+       "icono": "pm176",
+       "pc": [
+        688,
+        732
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Intercambia 1 Pokémon",
+     "tarea_en": "Trade a Pokémon",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Poliwhirl",
+       "nombre_en": "Poliwhirl",
+       "icono": "pm61",
+       "pc": [
+        568,
+        608
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Kadabra",
+       "nombre_en": "Kadabra",
+       "icono": "pm64",
+       "pc": [
+        832,
+        882
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Machoke",
+       "nombre_en": "Machoke",
+       "icono": "pm67",
+       "pc": [
+        822,
+        870
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Haunter",
+       "nombre_en": "Haunter",
+       "icono": "pm93",
+       "pc": [
+        792,
+        841
+       ],
+       "variocolor": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nombre": "Team GO Rocket",
+   "nombre_en": "Team GO Rocket Tasks",
+   "evento": false,
+   "fin": null,
+   "tareas": [
+    {
+     "tarea": "Derrota a 1 Recluta del Team GO Rocket",
+     "tarea_en": "Defeat a Team GO Rocket Grunt",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Arbok",
+       "nombre_en": "Arbok",
+       "icono": "pm24",
+       "pc": [
+        777,
+        823
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Meowth",
+       "nombre_en": "Meowth",
+       "icono": "pm52",
+       "pc": [
+        292,
+        320
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Weezing",
+       "nombre_en": "Weezing",
+       "icono": "pm110",
+       "pc": [
+        932,
+        982
+       ],
+       "variocolor": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nombre": "Patrocinadas",
+   "nombre_en": "Sponsored Tasks",
+   "evento": false,
+   "fin": null,
+   "tareas": [
+    {
+     "tarea": "Captura 8 Pokémon",
+     "tarea_en": "Catch 8 Pokémon",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Caramelo Raro",
+       "nombre_en": "Rare Candy",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1000,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Envía 3 regalos a amigos",
+     "tarea_en": "Send 3 Gifts to friends",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Caramelo Raro",
+       "nombre_en": "Rare Candy",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 1000,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "avance": {
+  "fechas_en": "Sep 8 – Dec 1 , 2026",
+  "fechas": "del 8 de sept al 1 de dic de 2026",
+  "pokemon": [
+   {
+    "nombre": "Venusaur",
+    "nombre_en": "Venusaur",
+    "icono": "pm3",
+    "pc": 1166,
+    "variocolor": true
+   },
+   {
+    "nombre": "Charizard",
+    "nombre_en": "Charizard",
+    "icono": "pm6",
+    "pc": 1238,
+    "variocolor": true
+   },
+   {
+    "nombre": "Blastoise",
+    "nombre_en": "Blastoise",
+    "icono": "pm9",
+    "pc": 1057,
+    "variocolor": true
+   },
+   {
+    "nombre": "Venomoth",
+    "nombre_en": "Venomoth",
+    "icono": "pm49",
+    "pc": 892,
+    "variocolor": true
+   },
+   {
+    "nombre": "Persian",
+    "nombre_en": "Persian",
+    "icono": "pm53",
+    "pc": 724,
+    "variocolor": true
+   },
+   {
+    "nombre": "Golduck",
+    "nombre_en": "Golduck",
+    "icono": "pm55",
+    "pc": 1050,
+    "variocolor": true
+   },
+   {
+    "nombre": "Arcanine",
+    "nombre_en": "Arcanine",
+    "icono": "pm59",
+    "pc": 1298,
+    "variocolor": true
+   },
+   {
+    "nombre": "Dewgong",
+    "nombre_en": "Dewgong",
+    "icono": "pm87",
+    "pc": 851,
+    "variocolor": true
+   },
+   {
+    "nombre": "Hypno",
+    "nombre_en": "Hypno",
+    "icono": "pm97",
+    "pc": 895,
+    "variocolor": true
+   },
+   {
+    "nombre": "Electrode",
+    "nombre_en": "Electrode",
+    "icono": "pm101",
+    "pc": 899,
+    "variocolor": true
+   },
+   {
+    "nombre": "Marowak",
+    "nombre_en": "Marowak",
+    "icono": "pm105",
+    "pc": 786,
+    "variocolor": true
+   },
+   {
+    "nombre": "Weezing",
+    "nombre_en": "Weezing",
+    "icono": "pm110",
+    "pc": 982,
+    "variocolor": true
+   },
+   {
+    "nombre": "Seaking",
+    "nombre_en": "Seaking",
+    "icono": "pm119",
+    "pc": 926,
+    "variocolor": true
+   },
+   {
+    "nombre": "Starmie",
+    "nombre_en": "Starmie",
+    "icono": "pm121",
+    "pc": 1107,
+    "variocolor": true
+   },
+   {
+    "nombre": "Omastar",
+    "nombre_en": "Omastar",
+    "icono": "pm139",
+    "pc": 1194,
+    "variocolor": true
+   },
+   {
+    "nombre": "Kabutops",
+    "nombre_en": "Kabutops",
+    "icono": "pm141",
+    "pc": 1162,
+    "variocolor": true
+   },
+   {
+    "nombre": "Dratini",
+    "nombre_en": "Dratini",
+    "icono": "pm147",
+    "pc": 430,
+    "variocolor": true
+   },
+   {
+    "nombre": "Dragonite",
+    "nombre_en": "Dragonite",
+    "icono": "pm149",
+    "pc": 1625,
+    "variocolor": true
+   },
+   {
+    "nombre": "Meganium",
+    "nombre_en": "Meganium",
+    "icono": "pm154",
+    "pc": 1033,
+    "variocolor": true
+   },
+   {
+    "nombre": "Typhlosion",
+    "nombre_en": "Typhlosion",
+    "icono": "pm157",
+    "pc": 1238,
+    "variocolor": true
+   },
+   {
+    "nombre": "Feraligatr",
+    "nombre_en": "Feraligatr",
+    "icono": "pm160",
+    "pc": 1224,
+    "variocolor": true
+   },
+   {
+    "nombre": "Xatu",
+    "nombre_en": "Xatu",
+    "icono": "pm178",
+    "pc": 938,
+    "variocolor": true
+   },
+   {
+    "nombre": "Azumarill",
+    "nombre_en": "Azumarill",
+    "icono": "pm184",
+    "pc": 680,
+    "variocolor": true
+   },
+   {
+    "nombre": "Ursaring",
+    "nombre_en": "Ursaring",
+    "icono": "pm217",
+    "pc": 1262,
+    "variocolor": true
+   },
+   {
+    "nombre": "Donphan",
+    "nombre_en": "Donphan",
+    "icono": "pm232",
+    "pc": 1291,
+    "variocolor": true
+   },
+   {
+    "nombre": "Blissey",
+    "nombre_en": "Blissey",
+    "icono": "pm242",
+    "pc": 1182,
+    "variocolor": true
+   },
+   {
+    "nombre": "Larvitar",
+    "nombre_en": "Larvitar",
+    "icono": "pm246",
+    "pc": 445,
+    "variocolor": true
+   },
+   {
+    "nombre": "Sceptile",
+    "nombre_en": "Sceptile",
+    "icono": "pm254",
+    "pc": 1181,
+    "variocolor": true
+   },
+   {
+    "nombre": "Blaziken",
+    "nombre_en": "Blaziken",
+    "icono": "pm257",
+    "pc": 1220,
+    "variocolor": true
+   },
+   {
+    "nombre": "Swampert",
+    "nombre_en": "Swampert",
+    "icono": "pm260",
+    "pc": 1274,
+    "variocolor": true
+   },
+   {
+    "nombre": "Medicham",
+    "nombre_en": "Medicham",
+    "icono": "pm308",
+    "pc": 613,
+    "variocolor": true
+   },
+   {
+    "nombre": "Whiscash",
+    "nombre_en": "Whiscash",
+    "icono": "pm340",
+    "pc": 889,
+    "variocolor": true
+   },
+   {
+    "nombre": "Crawdaunt",
+    "nombre_en": "Crawdaunt",
+    "icono": "pm342",
+    "pc": 1060,
+    "variocolor": true
+   },
+   {
+    "nombre": "Claydol",
+    "nombre_en": "Claydol",
+    "icono": "pm344",
+    "pc": 845,
+    "variocolor": true
+   },
+   {
+    "nombre": "Bagon",
+    "nombre_en": "Bagon",
+    "icono": "pm371",
+    "pc": 495,
+    "variocolor": true
+   },
+   {
+    "nombre": "Beldum",
+    "nombre_en": "Beldum",
+    "icono": "pm374",
+    "pc": 418,
+    "variocolor": true
+   },
+   {
+    "nombre": "Torterra",
+    "nombre_en": "Torterra",
+    "icono": "pm389",
+    "pc": 1257,
+    "variocolor": true
+   },
+   {
+    "nombre": "Infernape",
+    "nombre_en": "Infernape",
+    "icono": "pm392",
+    "pc": 1150,
+    "variocolor": true
+   },
+   {
+    "nombre": "Empoleon",
+    "nombre_en": "Empoleon",
+    "icono": "pm395",
+    "pc": 1243,
+    "variocolor": true
+   },
+   {
+    "nombre": "Toxicroak",
+    "nombre_en": "Toxicroak",
+    "icono": "pm454",
+    "pc": 1066,
+    "variocolor": true
+   },
+   {
+    "nombre": "Serperior",
+    "nombre_en": "Serperior",
+    "icono": "pm497",
+    "pc": 976,
+    "variocolor": true
+   },
+   {
+    "nombre": "Emboar",
+    "nombre_en": "Emboar",
+    "icono": "pm500",
+    "pc": 1278,
+    "variocolor": true
+   },
+   {
+    "nombre": "Samurott",
+    "nombre_en": "Samurott",
+    "icono": "pm503",
+    "pc": 1211,
+    "variocolor": true
+   },
+   {
+    "nombre": "Excadrill",
+    "nombre_en": "Excadrill",
+    "icono": "pm530",
+    "pc": 1390,
+    "variocolor": true
+   },
+   {
+    "nombre": "Leavanny",
+    "nombre_en": "Leavanny",
+    "icono": "pm542",
+    "pc": 1106,
+    "variocolor": true
+   },
+   {
+    "nombre": "Axew",
+    "nombre_en": "Axew",
+    "icono": "pm610",
+    "pc": 586,
+    "variocolor": true
+   },
+   {
+    "nombre": "Beartic",
+    "nombre_en": "Beartic",
+    "icono": "pm614",
+    "pc": 1303,
+    "variocolor": true
+   },
+   {
+    "nombre": "Deino",
+    "nombre_en": "Deino",
+    "icono": "pm633",
+    "pc": 455,
+    "variocolor": true
+   },
+   {
+    "nombre": "Chesnaught",
+    "nombre_en": "Chesnaught",
+    "icono": "pm652",
+    "pc": 1266,
+    "variocolor": true
+   },
+   {
+    "nombre": "Delphox",
+    "nombre_en": "Delphox",
+    "icono": "pm655",
+    "pc": 1311,
+    "variocolor": true
+   },
+   {
+    "nombre": "Greninja",
+    "nombre_en": "Greninja",
+    "icono": "pm658",
+    "pc": 1137,
+    "variocolor": true
+   },
+   {
+    "nombre": "Honedge",
+    "nombre_en": "Honedge",
+    "icono": "pm679",
+    "pc": 595,
+    "variocolor": true
+   },
+   {
+    "nombre": "Goomy",
+    "nombre_en": "Goomy",
+    "icono": "pm704",
+    "pc": 418,
+    "variocolor": true
+   },
+   {
+    "nombre": "Decidueye",
+    "nombre_en": "Decidueye",
+    "icono": "pm724",
+    "pc": 1189,
+    "variocolor": true
+   },
+   {
+    "nombre": "Incineroar",
+    "nombre_en": "Incineroar",
+    "icono": "pm727",
+    "pc": 1284,
+    "variocolor": true
+   },
+   {
+    "nombre": "Primarina",
+    "nombre_en": "Primarina",
+    "icono": "pm730",
+    "pc": 1371,
+    "variocolor": true
+   },
+   {
+    "nombre": "Jangmo-o",
+    "nombre_en": "Jangmo-o",
+    "icono": "pm782",
+    "pc": 415,
+    "variocolor": true
+   },
+   {
+    "nombre": "Rillaboom",
+    "nombre_en": "Rillaboom",
+    "icono": "pm812",
+    "pc": 1424,
+    "variocolor": true
+   },
+   {
+    "nombre": "Cinderace",
+    "nombre_en": "Cinderace",
+    "icono": "pm815",
+    "pc": 1293,
+    "variocolor": true
+   },
+   {
+    "nombre": "Inteleon",
+    "nombre_en": "Inteleon",
+    "icono": "pm818",
+    "pc": 1270,
+    "variocolor": true
+   },
+   {
+    "nombre": "Dreepy",
+    "nombre_en": "Dreepy",
+    "icono": "pm885",
+    "pc": 328,
+    "variocolor": false
+   },
+   {
+    "nombre": "Meowscarada",
+    "nombre_en": "Meowscarada",
+    "icono": "pm908",
+    "pc": 1210,
+    "variocolor": true
+   },
+   {
+    "nombre": "Skeledirge",
+    "nombre_en": "Skeledirge",
+    "icono": "pm911",
+    "pc": 1297,
+    "variocolor": true
+   },
+   {
+    "nombre": "Quaquaval",
+    "nombre_en": "Quaquaval",
+    "icono": "pm914",
+    "pc": 1293,
+    "variocolor": true
+   },
+   {
+    "nombre": "Klawf",
+    "nombre_en": "Klawf",
+    "icono": "pm950",
+    "pc": 1030,
+    "variocolor": false
+   },
+   {
+    "nombre": "Frigibax",
+    "nombre_en": "Frigibax",
+    "icono": "pm996",
+    "pc": 534,
+    "variocolor": true
+   }
+  ]
+ },
+ "traducciones": {
+  "Aerodactyl": "Aerodactyl",
+  "Alolan Diglett": "Diglett de Alola",
+  "Alolan Exeggutor": "Exeggutor de Alola",
+  "Alolan Geodude": "Geodude de Alola",
+  "Alolan Marowak": "Marowak de Alola",
+  "Alolan Sandshrew": "Sandshrew de Alola",
+  "Anorith": "Anorith",
+  "Arbok": "Arbok",
+  "Arcanine": "Arcanine",
+  "Archen": "Archen",
+  "Aron": "Aron",
+  "Arrokuda": "Arrokuda",
+  "Audino": "Audino",
+  "Axew": "Axew",
+  "Azumarill": "Azumarill",
+  "Bagon": "Bagon",
+  "Baltoy": "Baltoy",
+  "Battle in 3 raids": "Participa en 3 incursiones",
+  "Battle in a raid": "Participa en 1 incursión",
+  "Beartic": "Beartic",
+  "Beldum": "Beldum",
+  "Bidoof": "Bidoof",
+  "Binacle": "Binacle",
+  "Blastoise": "Blastoise",
+  "Blaziken": "Blaziken",
+  "Blissey": "Blissey",
+  "Bulbasaur": "Bulbasaur",
+  "Buneary": "Buneary",
+  "Bunnelby": "Bunnelby",
+  "Catch 10 Dark-type Pokémon": "Captura 10 Pokémon de tipo Siniestro",
+  "Catch 10 Fire-type Pokémon": "Captura 10 Pokémon de tipo Fuego",
+  "Catch 10 Ghost-type Pokémon": "Captura 10 Pokémon de tipo Fantasma",
+  "Catch 10 Grass-type Pokémon": "Captura 10 Pokémon de tipo Planta",
+  "Catch 10 Normal-type Pokémon": "Captura 10 Pokémon de tipo Normal",
+  "Catch 10 Pokémon": "Captura 10 Pokémon",
+  "Catch 10 Pokémon with Weather Boost": "Captura 10 Pokémon potenciados por el tiempo atmosférico",
+  "Catch 10 Water-type Pokémon": "Captura 10 Pokémon de tipo Agua",
+  "Catch 25 Pokémon": "Captura 25 Pokémon",
+  "Catch 5 Pokémon with Weather Boost": "Captura 5 Pokémon potenciados por el tiempo atmosférico",
+  "Catch 50 Pokémon": "Captura 50 Pokémon",
+  "Catch 7 Pokémon": "Captura 7 Pokémon",
+  "Catch 7 different species of Pokémon": "Captura 7 especies diferentes de Pokémon",
+  "Catch 8 Pokémon": "Captura 8 Pokémon",
+  "Catch a Ditto": "Captura 1 Ditto",
+  "Catch a Dragon-type Pokémon": "Captura 1 Pokémon de tipo Dragón",
+  "Charizard": "Charizard",
+  "Charmander": "Charmander",
+  "Chesnaught": "Chesnaught",
+  "Cinderace": "Cinderace",
+  "Clamperl": "Clamperl",
+  "Clauncher": "Clauncher",
+  "Claydol": "Claydol",
+  "Clefairy": "Clefairy",
+  "Combee": "Combee",
+  "Cottonee": "Cottonee",
+  "Crawdaunt": "Crawdaunt",
+  "Croagunk": "Croagunk",
+  "Cubchoo": "Cubchoo",
+  "Cutiefly": "Cutiefly",
+  "Darumaka": "Darumaka",
+  "Decidueye": "Decidueye",
+  "Dedenne": "Dedenne",
+  "Defeat a Team GO Rocket Grunt": "Derrota a 1 Recluta del Team GO Rocket",
+  "Deino": "Deino",
+  "Delphox": "Delphox",
+  "Dewgong": "Dewgong",
+  "Dewpider": "Dewpider",
+  "Diggersby": "Diggersby",
+  "Diglett": "Diglett",
+  "Doduo": "Doduo",
+  "Donphan": "Donphan",
+  "Dragonite": "Dragonite",
+  "Drampa": "Drampa",
+  "Dratini": "Dratini",
+  "Dreepy": "Dreepy",
+  "Drifloon": "Drifloon",
+  "Ducklett": "Ducklett",
+  "Dunsparce": "Dunsparce",
+  "Duraludon": "Duraludon",
+  "Dusclops": "Dusclops",
+  "Duskull": "Duskull",
+  "Earn 10000 Stardust": "Consigue 10.000 Polvos Estelares",
+  "Earn 10000 XP": "Gana 10.000 PX",
+  "Earn 2 Candies walking with your buddy": "Consigue 2 Caramelos caminando con tu compañero",
+  "Earn 3 Candies walking with your buddy": "Consigue 3 Caramelos caminando con tu compañero",
+  "Eelektrik": "Eelektrik",
+  "Eevee": "Eevee",
+  "Electabuzz": "Electabuzz",
+  "Electrike": "Electrike",
+  "Electrode": "Electrode",
+  "Elgyem": "Elgyem",
+  "Emboar": "Emboar",
+  "Emolga": "Emolga",
+  "Empoleon": "Empoleon",
+  "Evolve a Pokémon": "Haz evolucionar 1 Pokémon",
+  "Excadrill": "Excadrill",
+  "Explore 1 km": "Explora 1 km",
+  "Explore 2 km": "Explora 2 km",
+  "Feebas": "Feebas",
+  "Feraligatr": "Feraligatr",
+  "Ferroseed": "Ferroseed",
+  "Fidough": "Fidough",
+  "Flareon": "Flareon",
+  "Fletchinder": "Fletchinder",
+  "Frigibax": "Frigibax",
+  "Gabite": "Gabite",
+  "Galarian Ponyta": "Ponyta de Galar",
+  "Galarian Slowpoke": "Slowpoke de Galar",
+  "Galarian Stunfisk": "Stunfisk de Galar",
+  "Galarian Zigzagoon": "Zigzagoon de Galar",
+  "Gastly": "Gastly",
+  "Gible": "Gible",
+  "Glameow": "Glameow",
+  "Golden Razz Berry": "Baya Frambu dorada",
+  "Golduck": "Golduck",
+  "Golett": "Golett",
+  "Goomy": "Goomy",
+  "Great Ball": "Super Ball",
+  "Greninja": "Greninja",
+  "Grookey": "Grookey",
+  "Growlithe": "Growlithe",
+  "Grumpig": "Grumpig",
+  "Hatch 2 Eggs": "Haz eclosionar 2 Huevos",
+  "Hatch 5 Eggs": "Haz eclosionar 5 Huevos",
+  "Hatch an Egg": "Haz eclosionar 1 Huevo",
+  "Haunter": "Haunter",
+  "Herdier": "Herdier",
+  "Hippopotas": "Hippopotas",
+  "Hisuian Growlithe": "Growlithe de Hisui",
+  "Honedge": "Honedge",
+  "Houndour": "Houndour",
+  "Hypno": "Hypno",
+  "Incineroar": "Incineroar",
+  "Infernape": "Infernape",
+  "Inkay": "Inkay",
+  "Inteleon": "Inteleon",
+  "Jangmo-o": "Jangmo-o",
+  "Jigglypuff": "Jigglypuff",
+  "Jolteon": "Jolteon",
+  "Kabuto": "Kabuto",
+  "Kabutops": "Kabutops",
+  "Kadabra": "Kadabra",
+  "Klawf": "Klawf",
+  "Lampent": "Lampent",
+  "Lapras": "Lapras",
+  "Larvitar": "Larvitar",
+  "Leavanny": "Leavanny",
+  "Lechonk": "Lechonk",
+  "Liepard": "Liepard",
+  "Lileep": "Lileep",
+  "Litleo": "Litleo",
+  "Litten": "Litten",
+  "Lombre": "Lombre",
+  "Luxio": "Luxio",
+  "Machoke": "Machoke",
+  "Magcargo": "Magcargo",
+  "Magikarp": "Magikarp",
+  "Magmar": "Magmar",
+  "Make 10 Curveball Throws": "Haz 10 lanzamientos de bola curva",
+  "Make 10 Nice Throws": "Haz 10 buenos lanzamientos",
+  "Make 2 Excellent Throws": "Haz 2 lanzamientos excelentes",
+  "Make 2 Nice Curveball Throws in a row": "Haz 2 buenos lanzamientos de bola curva seguidos",
+  "Make 3 Excellent Throws in a row": "Haz 3 lanzamientos excelentes seguidos",
+  "Make 3 Great Curveball Throws": "Acierta 3 grandes lanzamientos de bola curva",
+  "Make 3 Great Curveball Throws in a row": "Haz 3 grandes lanzamientos de bola curva seguidos",
+  "Make 3 Great Throws": "Haz 3 grandes lanzamientos",
+  "Make 3 Great Throws in a row": "Haz 3 grandes lanzamientos seguidos",
+  "Make 3 Nice Throws in a row": "Haz 3 buenos lanzamientos seguidos",
+  "Make 5 Curveball Throws in a row": "Haz 5 lanzamientos de bola curva seguidos",
+  "Make 5 Great Curveball Throws in a row": "Haz 5 grandes lanzamientos de bola curva seguidos",
+  "Make 5 Nice Throws": "Haz 5 buenos lanzamientos",
+  "Make an Excellent Throw": "Haz un lanzamiento excelente",
+  "Makuhita": "Makuhita",
+  "Mareanie": "Mareanie",
+  "Marill": "Marill",
+  "Marowak": "Marowak",
+  "Mawile": "Mawile",
+  "Medicham": "Medicham",
+  "Meganium": "Meganium",
+  "Meowscarada": "Meowscarada",
+  "Meowth": "Meowth",
+  "Metang": "Metang",
+  "Murkrow": "Murkrow",
+  "Nacli": "Nacli",
+  "Nickit": "Nickit",
+  "Nincada": "Nincada",
+  "Noctowl": "Noctowl",
+  "Nuzleaf": "Nuzleaf",
+  "Nymble": "Nymble",
+  "Omanyte": "Omanyte",
+  "Omastar": "Omastar",
+  "Oshawott": "Oshawott",
+  "Persian": "Persian",
+  "Petilil": "Petilil",
+  "Piloswine": "Piloswine",
+  "Pinap Berry": "Baya Pinia",
+  "Poffin": "Pokocho",
+  "Poké Ball": "Poké Ball",
+  "Poliwag": "Poliwag",
+  "Poliwhirl": "Poliwhirl",
+  "Ponyta": "Ponyta",
+  "Poochyena": "Poochyena",
+  "Popplio": "Popplio",
+  "Power up Pokémon 15 times": "Da más poder a un Pokémon 15 veces",
+  "Power up Pokémon 3 times": "Da más poder a un Pokémon 3 veces",
+  "Power up Pokémon 5 times": "Da más poder a un Pokémon 5 veces",
+  "Power up Pokémon 7 times": "Da más poder a un Pokémon 7 veces",
+  "Power up Pokémon 8 times": "Da más poder a un Pokémon 8 veces",
+  "Primarina": "Primarina",
+  "Psyduck": "Psyduck",
+  "Purrloin": "Purrloin",
+  "Quaquaval": "Quaquaval",
+  "Ralts": "Ralts",
+  "Rare Candy": "Caramelo Raro",
+  "Razz Berry": "Baya Frambu",
+  "Remoraid": "Remoraid",
+  "Rillaboom": "Rillaboom",
+  "Roggenrola": "Roggenrola",
+  "Rowlet": "Rowlet",
+  "Samurott": "Samurott",
+  "Sandshrew": "Sandshrew",
+  "Sceptile": "Sceptile",
+  "Scorbunny": "Scorbunny",
+  "Scyther": "Scyther",
+  "Seadra": "Seadra",
+  "Seaking": "Seaking",
+  "Sealeo": "Sealeo",
+  "Seedot": "Seedot",
+  "Send 3 Gifts and add a sticker to each": "Envía 3 regalos y añade una pegatina a cada uno",
+  "Send 3 Gifts to friends": "Envía 3 regalos a amigos",
+  "Serperior": "Serperior",
+  "Shroomish": "Shroomish",
+  "Shuppet": "Shuppet",
+  "Silver Pinap Berry": "Baya Pinia plateada",
+  "Skeledirge": "Skeledirge",
+  "Skiddo": "Skiddo",
+  "Skwovet": "Skwovet",
+  "Slowpoke": "Slowpoke",
+  "Smoliv": "Smoliv",
+  "Sneasel": "Sneasel",
+  "Snivy": "Snivy",
+  "Snorlax": "Snorlax",
+  "Snorunt": "Snorunt",
+  "Snover": "Snover",
+  "Sobble": "Sobble",
+  "Spin 3 PokéStops or Gyms": "Da vueltas a 3 fotodiscos en Poképaradas o Gimnasios",
+  "Spin 5 PokéStops": "Da vueltas a 5 fotodiscos en Poképaradas",
+  "Spin 5 PokéStops or Gyms": "Da vueltas a 5 fotodiscos en Poképaradas o Gimnasios",
+  "Spinda 4": "Spinda",
+  "Spinda 5": "Spinda",
+  "Squirtle": "Squirtle",
+  "Staravia": "Staravia",
+  "Starmie": "Starmie",
+  "Stufful": "Stufful",
+  "Stunfisk": "Stunfisk",
+  "Stunky": "Stunky",
+  "Sudowoodo": "Sudowoodo",
+  "Sunkern": "Sunkern",
+  "Swablu": "Swablu",
+  "Swampert": "Swampert",
+  "Take a snapshot of a wild Pokémon": "Consigue una instantánea de un Pokémon en estado salvaje",
+  "Tarountula": "Tarountula",
+  "Teddiursa": "Teddiursa",
+  "Tepig": "Tepig",
+  "Tirtouga": "Tirtouga",
+  "Togetic": "Togetic",
+  "Torterra": "Torterra",
+  "Toxicroak": "Toxicroak",
+  "Trade a Pokémon": "Intercambia 1 Pokémon",
+  "Trapinch": "Trapinch",
+  "Trubbish": "Trubbish",
+  "Trumbeak": "Trumbeak",
+  "Typhlosion": "Typhlosion",
+  "Ultra Ball": "Ultra Ball",
+  "Unlock a Max Move": "Desbloquea un movimiento Max",
+  "Ursaring": "Ursaring",
+  "Use 5 Berries to help catch Pokémon": "Usa 5 bayas para ayudarte a capturar Pokémon",
+  "Vanillite": "Vanillite",
+  "Vaporeon": "Vaporeon",
+  "Venomoth": "Venomoth",
+  "Venusaur": "Venusaur",
+  "Vulpix": "Vulpix",
+  "Wailmer": "Wailmer",
+  "Weezing": "Weezing",
+  "Whirlipede": "Whirlipede",
+  "Whiscash": "Whiscash",
+  "Wimpod": "Wimpod",
+  "Win 5 raids": "Gana en 5 incursiones",
+  "Win a Max Battle": "Gana un Combate Max",
+  "Win a raid": "Gana en 1 incursión",
+  "Win a three-star raid or higher": "Gana en 1 incursión de nivel 3 o superior",
+  "Wingull": "Wingull",
+  "Xatu": "Xatu",
+  "Yamask": "Yamask",
+  "Zigzagoon": "Zigzagoon"
+ },
+ "sin_traducir": []
+}

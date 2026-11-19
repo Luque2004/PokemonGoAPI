@@ -391,15 +391,34 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .rd-cn b { font-size: 14px; }
 .rd-alt { margin-top: 3px; font-size: 13px; line-height: 1.45; padding: 2px 8px; border-left: 2px solid var(--accent); background: var(--surface-2); border-radius: 0 6px 6px 0; }
 .rd-alt .rd-lab { color: var(--accent); }
+/* Investigaciones de campo */
+.fr-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.fr-task { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; display: grid; gap: 8px; }
+.fr-list.ev .fr-task { border-color: color-mix(in srgb, var(--t-event) 45%, var(--line)); }
+.fr-tt { font-weight: 600; font-size: 15px; line-height: 1.35; }
+.fr-rs { display: flex; flex-wrap: wrap; gap: 6px; }
+.fr-r { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px 3px 4px; border-radius: 12px; background: var(--surface-2); border: 1px solid var(--line); min-width: 0; max-width: 100%; }
+.fr-r:not(.enc) { padding-left: 10px; }
+.fr-r:not(.enc):has(.spr) { padding-left: 4px; }
+.fr-r .spr { --s: 36px; }
+.fr-r .spr.none { --s: 24px; margin: 6px; }
+.fr-rt { display: flex; flex-direction: column; line-height: 1.25; min-width: 0; }
+.fr-rt b { font-size: 13.5px; font-weight: 600; }
+.fr-rt small { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.fr-shiny { font-size: 11px; }
+.fr-fin { margin-top: -8px; }
+.fr-av > summary .small { display: block; margin-top: 2px; }
+.fr-avb { padding: 10px 14px 14px; border-top: 1px solid var(--line); }
 .arow .atk-alt { grid-column: 3 / 5; }
-@media (max-width: 539px) {
-  .tab { padding: 8px 7px; font-size: 13px; gap: 4px; }
+@media (max-width: 639px) { /* 6 pestañas: en móvil, solo el texto */
+  .tabs { gap: 2px; }
+  .tab { padding: 8px 6px; font-size: 13px; gap: 4px; }
   .tl-l { display: none; }
   .tl-s { display: inline; }
-  .te { display: none; } /* 5 pestañas: en móvil, solo el texto */
+  .te { display: none; }
 }
 @media (max-width: 360px) {
-  .tab { padding: 8px 5px; font-size: 12.5px; gap: 3px; }
+  .tab { padding: 8px 4px; font-size: 12.5px; gap: 3px; }
 }
 @media (max-width: 360px) {
   .rk-mon { width: 66px; font-size: 12px; }
@@ -407,8 +426,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 @media (max-width: 340px) {
   .rk-slot { grid-template-columns: 14px minmax(0, 1fr); gap: 6px; padding: 6px; }
   .rk-mon { width: 62px; font-size: 11.5px; }
-  .tabs { gap: 2px; }
-  .tab { padding: 8px 3px; }
+  .tabs { gap: 1px; padding: 3px; }
+  .tab { padding: 8px 2px; font-size: 12px; }
 }
 @media (max-width: 420px) {
   .item { grid-template-columns: 56px minmax(0, 1fr); }
@@ -433,6 +452,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     <button class="tab" id="tab-pases" role="tab" type="button" data-view="pases" aria-selected="false"><span class="te" aria-hidden="true">💳</span>Pases</button>
     <button class="tab" id="tab-atacantes" role="tab" type="button" data-view="atacantes" aria-selected="false" aria-label="Atacantes"><span class="te" aria-hidden="true">🏆</span><span class="tl-l">Atacantes</span><span class="tl-s">Top</span></button>
     <button class="tab" id="tab-raids" role="tab" type="button" data-view="raids" aria-selected="false"><span class="te" aria-hidden="true">⚔️</span>Raids</button>
+    <button class="tab" id="tab-tareas" role="tab" type="button" data-view="tareas" aria-selected="false"><span class="te" aria-hidden="true">📋</span>Tareas</button>
     <button class="tab" id="tab-rocket" role="tab" type="button" data-view="rocket" aria-selected="false"><span class="te" aria-hidden="true">🚀</span>Rocket</button>
   </nav>
 
@@ -499,6 +519,15 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     <p class="sec-note" id="rd-src"></p>
   </section>
   </div>
+  <div class="view" id="view-tareas" hidden>
+  <section class="sec" id="fr-sec">
+    <div class="sec-h"><h2>Investigaciones de campo</h2><span id="fr-upd"></span></div>
+    <p class="sec-note">Las tareas que dan las Poképaradas ahora y su recompensa. Busca un Pokémon para saber qué tarea tienes que guardar.</p>
+    <input class="search" id="fr-q" type="search" placeholder="Busca un Pokémon o una tarea" autocomplete="off" spellcheck="false" aria-label="Buscar un Pokémon o una tarea">
+    <div class="stack" id="fr-body"></div>
+    <p class="sec-note" id="fr-src"></p>
+  </section>
+  </div>
   <div class="view" id="view-rocket" hidden>
   <section class="sec" id="rk-sec">
     <div class="sec-h"><h2>Team GO Rocket</h2><span id="rk-upd"></span></div>
@@ -510,7 +539,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   </div>
 
   <footer class="foot">
-    <span>Eventos de Pokémon GO del Google Calendar del dueño de esta agenda (solo los que empiezan por «Pokémon GO:»). Se actualizan cada lunes.</span>
+    <span>Eventos, pases, atacantes y Team GO Rocket se actualizan cada lunes; raids e investigaciones, cada día.</span>
   </footer>
 </div>
 
@@ -915,7 +944,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     document.querySelectorAll("#next .cd b").forEach((b) => { const k = b.dataset.k; b.textContent = k === "d" ? String(v[k]) : String(v[k]).padStart(2, "0"); });
   }
 
-  const VIEWS = ["agenda", "pases", "atacantes", "raids", "rocket"];
+  const VIEWS = ["agenda", "pases", "atacantes", "raids", "tareas", "rocket"];
   function showView(v) {
     v = VIEWS.includes(v) ? v : "agenda";
     VIEWS.forEach((x) => {
@@ -1726,6 +1755,102 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     } catch (_) { rkStatus = "error"; renderRocket(); }
   }
 
+  // ---------- Investigaciones de campo (meta/investigaciones): tareas de las Poképaradas y su recompensa ----------
+  const FR_PATH = "meta/investigaciones";
+  let fr = null, frStatus = "loading", frQuery = "";
+  const fNum0 = new Intl.NumberFormat("es-ES");
+  const fFin = new Intl.DateTimeFormat("es-ES", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "UTC" });
+  function cleanFr(d) {
+    if (!d || !Array.isArray(d.categorias)) return null;
+    const rec = (r) => ({
+      tipo: r && r.tipo === "encounter" ? "encounter" : "item", nombre: str(r && r.nombre, 60), icono: icoOk(r && r.icono),
+      cantidad: Number.isInteger(r && r.cantidad) && r.cantidad > 0 ? r.cantidad : null,
+      pc: Array.isArray(r && r.pc) && r.pc.length === 2 && r.pc.every((x) => Number.isInteger(x)) ? r.pc : null, vario: !!(r && r.variocolor === true),
+    });
+    const cats = d.categorias.slice(0, 30).map((c) => ({
+      nombre: str(c && c.nombre, 80), evento: !!(c && c.evento === true),
+      // fin: hora local del evento ("2026-11-23T20:00:00-0800" = 23 nov, 20:00 en tu zona)
+      fin: c && typeof c.fin === "string" && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}/.test(c.fin) ? new Date(c.fin.slice(0, 16) + ":00Z") : null,
+      tareas: (c && Array.isArray(c.tareas) ? c.tareas : []).slice(0, 60).map((t) => ({
+        tarea: str(t && t.tarea, 160), recompensas: (t && Array.isArray(t.recompensas) ? t.recompensas : []).slice(0, 30).map(rec).filter((r) => r.nombre),
+      })).filter((t) => t.tarea && t.recompensas.length),
+    })).filter((c) => c.nombre && c.tareas.length);
+    cats.forEach((c) => c.tareas.forEach((t) => { t.hay = " " + qn(t.tarea + " " + t.recompensas.map((r) => r.nombre).join(" ")); }));
+    const av = d.avance && Array.isArray(d.avance.pokemon) ? { fechas: str(d.avance.fechas, 60), pokemon: d.avance.pokemon.slice(0, 80).map((p) => ({
+      nombre: str(p && p.nombre, 60), icono: icoOk(p && p.icono), pc: Number.isInteger(p && p.pc) ? p.pc : null, vario: !!(p && p.variocolor === true) })).filter((p) => p.nombre) } : null;
+    return cats.length ? { cats, av, url: safeUrl(d.url), actualizado: str(d.actualizado, 40).slice(0, 10) } : null;
+  }
+  function frReward(r) {
+    const t = el("span", "fr-r" + (r.tipo === "encounter" ? " enc" : ""));
+    if (r.tipo === "encounter" || r.icono) t.append(sprEl(r.icono));
+    const txt = el("span", "fr-rt");
+    const b = el("b", null, r.nombre + (r.cantidad && r.tipo !== "encounter" ? " ×" + fNum0.format(r.cantidad) : ""));
+    if (r.vario) { const v = el("span", "fr-shiny", " ✨"); v.title = "Puede salir variocolor"; b.append(v); }
+    txt.append(b);
+    if (r.pc) txt.append(el("small", null, "PC " + r.pc[0] + "–" + r.pc[1]));
+    t.append(txt);
+    return t;
+  }
+  function frTask(t) {
+    const li = el("li", "fr-task");
+    li.append(el("div", "fr-tt", t.tarea));
+    const mons = t.recompensas.filter((r) => r.tipo === "encounter"), items = t.recompensas.filter((r) => r.tipo !== "encounter");
+    const row = el("div", "fr-rs");
+    mons.concat(items).forEach((r) => row.append(frReward(r)));
+    li.append(row);
+    return li;
+  }
+  function renderFr() {
+    const box = $("fr-body"), src = $("fr-src");
+    box.textContent = ""; src.textContent = "";
+    if (!fr) {
+      const msg = { loading: "Cargando las investigaciones…", empty: "Todavía no hay datos de investigaciones de campo.", error: "No se pueden cargar las investigaciones ahora mismo. Prueba en un rato.", nodb: "Abre la agenda en claude.ai con tu sesión iniciada para ver las investigaciones." };
+      box.append(el("p", "sec-note", msg[frStatus] || msg.loading));
+      $("fr-upd").textContent = "";
+      return;
+    }
+    const fecha = fechaCorta(fr.actualizado);
+    $("fr-upd").textContent = fecha ? "Actualizado el " + fecha : "";
+    const words = qn(frQuery).split(" ").filter(Boolean);
+    const now = new Date(localISO(new Date()) + "Z"); // hora de España como si fuera UTC, para comparar con el fin local
+    let shown = 0;
+    fr.cats.forEach((c) => {
+      if (c.fin && c.fin < now) return;
+      const ts = words.join("").length >= 2 ? c.tareas.filter((t) => words.every((w) => t.hay.includes(" " + w))) : c.tareas;
+      if (!ts.length) return;
+      shown += ts.length;
+      box.append(el("h3", "sub-h", c.nombre));
+      if (c.fin) box.append(el("p", "sec-note fr-fin", "Hasta el " + fFin.format(c.fin) + " (hora local)"));
+      const ul = el("ul", "fr-list" + (c.evento ? " ev" : ""));
+      ts.forEach((t) => ul.append(frTask(t)));
+      box.append(ul);
+    });
+    if (!shown) box.append(el("p", "sec-note", "Ninguna tarea da eso ahora. Prueba con otro Pokémon o con menos letras."));
+    if (fr.av && fr.av.pokemon.length && !words.length) {
+      const d = el("details", "rkc fr-av");
+      const sm = el("summary");
+      sm.append(el("b", null, "🏅 Avance de investigación"), el("span", "small", " Cada 7 sellos" + (fr.av.fechas ? ", " + fr.av.fechas : "") + ". Puede salir uno de estos:"), el("span", "rk-toggle"));
+      d.append(sm);
+      const row = el("div", "fr-rs fr-avb");
+      fr.av.pokemon.forEach((p) => row.append(frReward({ tipo: "encounter", nombre: p.nombre, icono: p.icono, vario: p.vario, pc: null, cantidad: null })));
+      d.append(row);
+      box.append(d);
+    }
+    src.append(document.createTextNode("Tareas y recompensas: Leek Duck. Textos: los del juego en español. PC: el mínimo y el máximo del encuentro (el máximo es el 100 %). ✨ = puede salir variocolor. "));
+    if (fr.url) { const a = el("a", null, "Ver en Leek Duck ↗"); a.href = fr.url; a.target = "_blank"; a.rel = "noopener noreferrer"; src.append(a); }
+  }
+  $("fr-q").addEventListener("input", () => { frQuery = $("fr-q").value; renderFr(); });
+  function watchFr() {
+    if (!db) { frStatus = "nodb"; renderFr(); return; }
+    try {
+      db.doc(FR_PATH).onSnapshot((snap) => {
+        const data = snap.exists ? cleanFr(snap.data()) : null;
+        if (data) { fr = data; frStatus = "ok"; renderFr(); }
+        else if (!fr && !(snap.metadata && snap.metadata.fromCache)) { frStatus = "empty"; renderFr(); }
+      }, () => { if (!fr) { frStatus = "error"; renderFr(); } });
+    } catch (_) { frStatus = "error"; renderFr(); }
+  }
+
   // ---------- Raids (meta/raids): jefes de ahora y próximos, con debilidades y counters ----------
   const RD_PATH = "meta/raids";
   let rd = null, rdStatus = "loading", rdKey = "", rdVer = 0;
@@ -1938,8 +2063,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   }
   function noDb() {
     MODES.forEach((m) => (atkStatus[m] = "nodb"));
-    rkStatus = "nodb"; rdStatus = "nodb";
-    renderAtk(); renderRocket(); renderRaids();
+    rkStatus = "nodb"; rdStatus = "nodb"; frStatus = "nodb";
+    renderAtk(); renderRocket(); renderRaids(); renderFr();
     events = []; render();
     $("updated").textContent = "";
     showState("error", "Abre la agenda en claude.ai", "Los eventos están guardados en Claude: abre la agenda desde la app de Claude o en claude.ai con tu sesión iniciada.");
@@ -1949,6 +2074,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   renderAtk();
   renderRocket();
   renderRaids();
+  renderFr();
   const c = window.claude;
   if (!c || typeof c.use !== "function") { noDb(); return; }
   (async () => {
@@ -1959,6 +2085,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     watchAtk();
     watchRocket();
     watchRaids();
+    watchFr();
   })().catch(noDb);
 })();
 </script>
