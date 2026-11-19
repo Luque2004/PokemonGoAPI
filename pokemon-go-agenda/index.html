@@ -391,6 +391,16 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .rd-cn b { font-size: 14px; }
 .rd-alt { margin-top: 3px; font-size: 13px; line-height: 1.45; padding: 2px 8px; border-left: 2px solid var(--accent); background: var(--surface-2); border-radius: 0 6px 6px 0; }
 .rd-alt .rd-lab { color: var(--accent); }
+/* Buscador: todos los Pokémon */
+.all-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; display: grid; gap: 8px; }
+.all-h { display: flex; align-items: center; gap: 10px; }
+.all-h .spr { --s: 40px; }
+.all-h b { font-size: 15.5px; }
+.all-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.all-list li { display: grid; gap: 2px; padding-top: 8px; border-top: 1px solid var(--line); }
+.all-top { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+.all-rank { font-family: var(--font-display); font-stretch: 100%; font-weight: 700; font-size: 14px; }
+.all-rank.top { color: var(--accent); }
 /* Códigos promocionales */
 .cd-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; display: grid; gap: 6px; }
 .cd-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
@@ -1148,7 +1158,16 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     });
     tipos.sort((a, b) => typeIdx(a.id) - typeIdx(b.id));
     if (!tipos.length) return null;
-    return { tipos, actualizado: str(d.actualizado, 40), url: hubUrl(d.url), general: cleanGeneral(d.general, tipos, mode) };
+    // Todos los Pokémon de las clasificaciones completas (para el buscador): sus mejores tipos con puesto y ataques
+    // Formato compacto: { ataques: [...], pokemon: [[nombre, icono, [[tipo, puesto, i rápido, i cargado, legado (1 rápido + 2 cargado), %], …]], …] }
+    const T = d.todos && Array.isArray(d.todos.ataques) && Array.isArray(d.todos.pokemon) ? d.todos : null;
+    const mv = (i, leg) => { const n = str(T.ataques[i], 40); return { nombre: n.replace(/\+$/, ""), legado: leg, plus: /\+$/.test(n) }; };
+    const todos = mode === "tank" || !T ? [] : T.pokemon.slice(0, 2000).filter((p) => Array.isArray(p) && Array.isArray(p[2])).map((p) => ({
+      nombre: str(p[0], 60), icono: icoOk(p[1]),
+      puestos: p[2].slice(0, 6).filter((r) => Array.isArray(r) && TYPE_COLOR[r[0]] && Number.isInteger(r[1]) && T.ataques[r[2]] && T.ataques[r[3]])
+        .map((r) => ({ tipo: r[0], puesto: r[1], rapido: mv(r[2], (r[4] & 1) === 1), cargado: mv(r[3], (r[4] & 2) === 2), pct: numOr(r[5]) })),
+    })).filter((p) => p.nombre && p.puestos.length);
+    return { tipos, todos, actualizado: str(d.actualizado, 40), url: hubUrl(d.url), general: cleanGeneral(d.general, tipos, mode) };
   }
   // Clasificación general (todos los tipos): la de Pokémon GO Hub en incursiones y tanques. En Combates Max Hub no
   // tiene: son los 10 que más daño hacen en las listas por tipo (el daño es contra un rival neutro, así que se comparan).
@@ -1560,8 +1579,19 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     res.sort((a, b) => (a.rank ? 0 : 1) - (b.rank ? 0 : 1) || (a.rank || 0) - (b.rank || 0) || typeIdx(a.t.id) - typeIdx(b.t.id));
     const fam = [...finals].filter((f) => !nq.includes(f)).map(titleCase);
     const where = atkMode === "max" ? "para Combates Max" : atkMode === "tank" ? "como tanque de Combates Max" : "para incursiones";
+    // Todos los Pokémon: sus mejores tipos aunque no estén en el top 10
+    const todos = (d.todos || []).filter((p) => hit(p)).slice(0, 12);
+    const allBox = el("div", "stack");
+    if (todos.length) {
+      const tot = atkMode === "max" ? "entre todos los Pokémon Dinamax y Gigamax" : "entre los 400 mejores de cada tipo";
+      allBox.append(el("h3", "sub-h", todos.length === 1 ? "Sus mejores tipos" : "Sus mejores tipos (" + todos.length + " Pokémon)"));
+      allBox.append(el("p", "sec-note", "Puesto " + tot + ", con los mejores ataques para ese tipo y el % de daño frente al n.º 1."));
+      todos.forEach((p) => allBox.append(allCard(p)));
+    }
+    if (!res.length && todos.length) { box.append(allBox); return; }
     if (!res.length) {
-      box.append(el("p", "sec-note", "«" + q.trim() + "» no está entre los mejores " + (atkMode === "tank" ? "tanques" : "atacantes") + " " + where.replace(/^como tanque /, "") + (fam.length ? " (tampoco su evolución, " + fam.join(" / ") + ")" : "") + "."));
+      const lim = (d.todos || []).length ? (atkMode === "max" ? " (en ningún tipo)" : " (ni entre los 400 mejores de ningún tipo)") : "";
+      box.append(el("p", "sec-note", "«" + q.trim() + "» no está entre los mejores " + (atkMode === "tank" ? "tanques" : "atacantes") + " " + where.replace(/^como tanque /, "") + lim + (fam.length ? " (tampoco su evolución, " + fam.join(" / ") + ")" : "") + "."));
       return;
     }
     box.append(el("h3", "sub-h", res.length + (res.length === 1 ? " resultado " : " resultados ") + where));
@@ -1569,6 +1599,31 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     const ul = el("ul", "atk");
     res.forEach((x) => ul.append(atkRow(x.t, x.r, { rank: x.rank, label: x.label, showType: true })));
     box.append(ul);
+    if (todos.length) box.append(allBox);
+  }
+  function allCard(p) {
+    const c = el("div", "all-card");
+    const h = el("div", "all-h");
+    h.append(atkSpr(p, p.puestos[0].tipo), el("b", null, p.nombre));
+    c.append(h);
+    const ul = el("ul", "all-list");
+    p.puestos.forEach((r) => {
+      const li = el("li");
+      const top = el("div", "all-top");
+      top.append(typeTag(r.tipo), el("span", "all-rank" + (r.puesto <= 10 ? " top" : ""), "n.º " + r.puesto));
+      if (r.pct != null) top.append(el("span", "small", r.pct + " % del n.º 1"));
+      const m = el("div", "moves");
+      [r.rapido, r.cargado].forEach((mv, i) => {
+        if (i) m.append(document.createTextNode(atkMode === "max" ? " → " : " · "));
+        m.append(document.createTextNode(mv.nombre));
+        if (mv.legado) m.append(el("span", "tag", "MT élite"));
+        if (mv.plus) m.append(el("span", "tag", "Plus"));
+      });
+      li.append(top, m);
+      ul.append(li);
+    });
+    c.append(ul);
+    return c;
   }
   $("atk-q").addEventListener("input", () => { atkQuery = $("atk-q").value; renderAtkTypes(); renderAtkBody(); });
   function watchAtk() {

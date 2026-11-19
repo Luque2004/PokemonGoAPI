@@ -226,6 +226,78 @@ def leer_api(carpeta, tipo, legado):
     return lista
 
 
+FORMA_ICONO = {"Mega": "MEGA", "Mega X": "MEGA_X", "Mega Y": "MEGA_Y", "Primal": "PRIMAL", "Gigantamax": "GIGANTAMAX",
+               "Alola": "ALOLA", "Galarian": "GALARIAN", "Hisuian": "HISUIAN", "Paldea": "PALDEA"}
+N_TODOS = 3  # puestos que se guardan de cada Pokémon: sus mejores tipos
+
+
+def clasificacion(h):
+    """La clasificación completa de un tipo que trae la página de Pokémon GO Hub (los mismos datos de su lista)."""
+    h = h.replace('\\"', '"')
+    i = h.find('"initialData":{"attackers":')
+    if i < 0:
+        return []
+    try:
+        lista = json.JSONDecoder().raw_decode(h[h.find("[", i):].replace("\\\\", "\\"))[0]
+    except ValueError:
+        return []
+
+    def ref(v, n=0):
+        """La página repite objetos con referencias ("$73:props:initialData:attackers:5:cm"): se resuelven aquí."""
+        m = re.match(r"\$[0-9a-f]+:props:initialData:(.+)$", v) if isinstance(v, str) else None
+        if not m or n > 5:
+            return v
+        o = {"attackers": lista}
+        for k in m.group(1).split(":"):
+            o = o[int(k)] if isinstance(o, list) else o[k]
+        return ref(o, n + 1)
+    try:
+        for x in lista:
+            for k in ("attacker", "qm", "cm"):
+                x[k] = ref(x[k])
+    except (KeyError, IndexError, ValueError, TypeError):
+        return []
+
+    def bien(x):
+        try:
+            return bool(x["attacker"]["name"] and x["qm"]["name"] and x["cm"]["name"] and float(x["score"]) > 0)
+        except (KeyError, TypeError, ValueError):
+            return False
+    return [x for x in lista if isinstance(x, dict) and bien(x)]
+
+
+def poner_todos(out, carpeta, modo):
+    """Para el buscador: todos los Pokémon de las clasificaciones por tipo (400 por tipo en incursiones; todos los
+    disponibles en Combates Max), cada uno con sus mejores tipos: puesto, ataques y % del n.º 1 de ese tipo."""
+    por = {}
+    for slug, _ in TIPOS:
+        h = open(os.path.join(carpeta, slug + ".html"), encoding="utf-8", errors="replace").read()
+        lista = clasificacion(h)
+        if not lista:
+            return False
+        mejor = float(lista[0]["score"])
+        for x in lista:
+            a = x["attacker"]
+            forma = (a.get("form") or "").replace(" Shadow", "").replace("Shadow", "").strip()
+            f = FORMA_ICONO.get(forma, "")
+            p = por.setdefault(a["name"].strip(), {"nombre": a["name"].strip(), "icono": "pm%d" % a["id"] + (".f" + f if f else ""),
+                                                   "puestos": []})
+            pct = round(float(x["score"]) / mejor * 100) if mejor else None
+            p["puestos"].append([slug, int(x["order"]), x["qm"]["name"].strip(), bool(x["qm"]["isLegacy"]),
+                                 x["cm"]["name"].strip(), bool(x["cm"]["isLegacy"]), pct])
+    for p in por.values():
+        p["puestos"] = sorted(p["puestos"], key=lambda r: (-(r[6] or 0), r[1]))[:N_TODOS]
+    lista = sorted(por.values(), key=lambda p: (-(p["puestos"][0][6] or 0), p["nombre"]))
+    # Compacto (un documento de la base de datos no puede pasar de 256 KB): los ataques van en una lista aparte y cada
+    # puesto es [tipo, puesto, rápido, cargado, legado, %] con el índice del ataque y legado = 1 rápido + 2 cargado
+    ataques = sorted({r[2] for p in lista for r in p["puestos"]} | {r[4] for p in lista for r in p["puestos"]})
+    i = {a: n for n, a in enumerate(ataques)}
+    out["todos"] = {"ataques": ataques, "pokemon": [
+        [p["nombre"], p["icono"], [[r[0], r[1], i[r[2]], i[r[4]], (1 if r[3] else 0) + (2 if r[5] else 0), r[6]] for r in p["puestos"]]]
+        for p in lista]}
+    return len(lista) >= 100
+
+
 def poner_sin_legado(out, carpeta, modo):
     """Añade "sin_legado" a cada Pokémon que necesita un ataque de legado (MT élite): su mejor combinación sin ataques de
     legado y qué % conserva de lo que hace con el de legado, las dos cosas de la misma simulación de Pokémon GO Hub.
@@ -279,6 +351,8 @@ def procesar(modo, carpeta):
             return None
     if modo in ("raid", "max"):
         poner_sin_legado(out, carpeta, modo)
+        if not poner_todos(out, carpeta, modo):
+            out.pop("todos", None)  # sin la clasificación completa, el buscador usa solo las listas
     if modo == "tank":  # 10 por tipo, con puntuación y PS por golpe
         ok = len(out["tipos"]) == 18 and all(len(t["top"]) == 10 and all(r["nombre"] and r["puntuacion"] and r["ps"] and r["rapido"]["nombre"]
                                                                           for r in t["top"]) for t in out["tipos"])
