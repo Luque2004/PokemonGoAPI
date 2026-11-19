@@ -391,6 +391,13 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .rd-cn b { font-size: 14px; }
 .rd-alt { margin-top: 3px; font-size: 13px; line-height: 1.45; padding: 2px 8px; border-left: 2px solid var(--accent); background: var(--surface-2); border-radius: 0 6px 6px 0; }
 .rd-alt .rd-lab { color: var(--accent); }
+/* Códigos promocionales */
+.cd-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; display: grid; gap: 6px; }
+.cd-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
+.cd-code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 14px; font-weight: 700; background: var(--surface-2); border: 1px dashed var(--line); border-radius: 8px; padding: 4px 8px; overflow-wrap: anywhere; min-width: 0; }
+.cd-btns { display: flex; gap: 6px; }
+.cd-btns a.btn { text-decoration: none; }
+.cd-rw { font-size: 14px; }
 /* Investigaciones de campo */
 .fr-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
 .fr-task { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; display: grid; gap: 8px; }
@@ -483,6 +490,12 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   </div>
 
   <div class="view" id="view-pases" hidden>
+  <section class="sec" id="cd-sec" hidden>
+    <div class="sec-h"><h2>Códigos para canjear</h2><span id="cd-upd"></span></div>
+    <p class="sec-note">Códigos gratis que funcionan ahora. Cópialo y canjéalo en la tienda web de Pokémon GO (no dentro del juego).</p>
+    <div class="stack" id="cd-body"></div>
+    <p class="sec-note" id="cd-src"></p>
+  </section>
   <section class="sec" id="pay-sec" hidden>
     <div class="sec-h"><h2>Pases de pago</h2><span id="pay-count"></span></div>
     <p class="sec-note">Qué te da cada opción de pago frente a lo que tiene todo el mundo gratis.</p>
@@ -1851,6 +1864,57 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     } catch (_) { frStatus = "error"; renderFr(); }
   }
 
+  // ---------- Códigos promocionales (meta/codigos) ----------
+  const CD_PATH = "meta/codigos";
+  let cd = null;
+  const fCad = new Intl.DateTimeFormat("es-ES", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+  function cleanCd(d) {
+    if (!d || !Array.isArray(d.codigos)) return null;
+    const store = (u) => { const x = safeUrl(u); try { return x && new URL(x).hostname === "store.pokemongo.com" ? x : null; } catch (_) { return null; } };
+    const list = d.codigos.slice(0, 30).map((c) => ({
+      codigo: c && typeof c.codigo === "string" && /^[A-Za-z0-9]{3,40}$/.test(c.codigo) ? c.codigo : "",
+      recompensas: (c && Array.isArray(c.recompensas) ? c.recompensas : []).slice(0, 12).map((r) => ({
+        nombre: str(r && r.nombre, 80), avatar: !!(r && r.tipo === "avatar"), cantidad: Number.isInteger(r && r.cantidad) ? r.cantidad : null })).filter((r) => r.nombre),
+      caduca: c && typeof c.caduca === "string" && /^\d{4}-\d{2}-\d{2}/.test(c.caduca) ? new Date(c.caduca.slice(0, 10) + "T00:00:00Z") : null,
+      canjear: store(c && c.canjear),
+    })).filter((c) => c.codigo);
+    return { list, url: safeUrl(d.url), actualizado: str(d.actualizado, 40).slice(0, 10) };
+  }
+  function renderCd() {
+    const sec = $("cd-sec"), box = $("cd-body"), src = $("cd-src");
+    box.textContent = ""; src.textContent = "";
+    sec.hidden = !(cd && cd.list.length);
+    if (sec.hidden) return;
+    const fecha = fechaCorta(cd.actualizado);
+    $("cd-upd").textContent = cd.list.length === 1 ? "1 código" : cd.list.length + " códigos";
+    cd.list.forEach((c) => {
+      const card = el("div", "cd-card");
+      const top = el("div", "cd-top");
+      top.append(el("code", "cd-code", c.codigo));
+      const btns = el("div", "cd-btns");
+      const cp = el("button", "btn", "Copiar"); cp.type = "button";
+      cp.addEventListener("click", () => {
+        const ok = () => { cp.textContent = "¡Copiado!"; setTimeout(() => (cp.textContent = "Copiar"), 1500); };
+        try { navigator.clipboard.writeText(c.codigo).then(ok, () => {}); } catch (_) {}
+      });
+      btns.append(cp);
+      if (c.canjear) { const a = el("a", "btn primary", "Canjear ↗"); a.href = c.canjear; a.target = "_blank"; a.rel = "noopener noreferrer"; btns.append(a); }
+      top.append(btns);
+      card.append(top);
+      card.append(el("div", "cd-rw", "🎁 " + c.recompensas.map((r) => r.nombre + (r.cantidad ? " ×" + r.cantidad : "") + (r.avatar ? " (prenda para tu avatar)" : "")).join(" · ")));
+      if (c.caduca) card.append(el("div", "small", "Hasta el " + fCad.format(c.caduca) + " (hora local)"));
+      box.append(card);
+    });
+    src.append(document.createTextNode("Códigos: Leek Duck" + (fecha ? " (" + fecha + ")" : "") + ". "));
+    if (cd.url) { const a = el("a", null, "Ver en Leek Duck ↗"); a.href = cd.url; a.target = "_blank"; a.rel = "noopener noreferrer"; src.append(a); }
+  }
+  function watchCd() {
+    if (!db) return;
+    try {
+      db.doc(CD_PATH).onSnapshot((snap) => { const d = snap.exists ? cleanCd(snap.data()) : null; if (d) { cd = d; renderCd(); } }, () => {});
+    } catch (_) {}
+  }
+
   // ---------- Raids (meta/raids): jefes de ahora y próximos, con debilidades y counters ----------
   const RD_PATH = "meta/raids";
   let rd = null, rdStatus = "loading", rdKey = "", rdVer = 0;
@@ -2086,6 +2150,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     watchRocket();
     watchRaids();
     watchFr();
+    watchCd();
   })().catch(noDb);
 })();
 </script>

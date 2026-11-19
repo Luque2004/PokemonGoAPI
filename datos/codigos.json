@@ -1,0 +1,64 @@
+{
+ "fuente": "Leek Duck",
+ "url": "https://leekduck.com/promo-codes/",
+ "actualizado": "2026-11-16 15:00:00 -0500",
+ "codigos": [
+  {
+   "codigo": "ADIDASxPOKEMON",
+   "titulo_en": "adidas Shoes Avatar Item",
+   "recompensas": [
+    {
+     "nombre": "adidas shoes",
+     "nombre_en": "adidas shoes",
+     "tipo": "avatar",
+     "cantidad": null
+    }
+   ],
+   "caduca": "2027-01-15 23:59",
+   "canjear": "https://store.pokemongo.com/offer-redemption?passcode=ADIDASxPOKEMON"
+  },
+  {
+   "codigo": "POKEMONGOxCROCSxELECTRIFYING",
+   "titulo_en": "Pokémon Pikachu Classic Clog Avatar Item",
+   "recompensas": [
+    {
+     "nombre": "Pokémon Pikachu Classic Clog",
+     "nombre_en": "Pokémon Pikachu Classic Clog",
+     "tipo": "avatar",
+     "cantidad": null
+    }
+   ],
+   "caduca": "2027-12-31 23:59",
+   "canjear": "https://store.pokemongo.com/offer-redemption?passcode=POKEMONGOxCROCSxELECTRIFYING"
+  },
+  {
+   "codigo": "POKEMONGOxCROCSxENCHANTING",
+   "titulo_en": "Pokémon Gengar Classic Clog Avatar Item",
+   "recompensas": [
+    {
+     "nombre": "Pokémon Gengar Classic Clog",
+     "nombre_en": "Pokémon Gengar Classic Clog",
+     "tipo": "avatar",
+     "cantidad": null
+    }
+   ],
+   "caduca": "2027-12-31 23:59",
+   "canjear": "https://store.pokemongo.com/offer-redemption?passcode=POKEMONGOxCROCSxENCHANTING"
+  },
+  {
+   "codigo": "POKEMONGOxCROCSxMELODY",
+   "titulo_en": "Pokémon Jigglypuff Classic Platform Clog Avatar Item",
+   "recompensas": [
+    {
+     "nombre": "Pokémon Jigglypuff Classic Platform Clog",
+     "nombre_en": "Pokémon Jigglypuff Classic Platform Clog",
+     "tipo": "avatar",
+     "cantidad": null
+    }
+   ],
+   "caduca": "2027-12-31 23:59",
+   "canjear": "https://store.pokemongo.com/offer-redemption?passcode=POKEMONGOxCROCSxMELODY"
+  }
+ ],
+ "traducciones": {}
+}

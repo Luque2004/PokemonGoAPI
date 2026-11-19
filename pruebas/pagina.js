@@ -18,6 +18,7 @@ const DOCS = {
   'meta/rocket': leer('rocket.json'),
   'meta/raids': leer('raids.json'),
   'meta/investigaciones': leer('investigaciones.json'),
+  'meta/codigos': leer('codigos.json'),
 };
 const esc = (o) => JSON.stringify(o).replace(/</g, '\\u003c');
 // Imita window.claude.use("db"); si la página intenta escribir, queda apuntado en window.__escrituras
@@ -35,7 +36,7 @@ const CAPTURAS = path.join(__dirname, 'capturas');
 // Qué se cuenta en cada pestaña
 const PESTAÑAS = {
   agenda: '#view-agenda .item',
-  pases: '#pay .payrow',
+  pases: '#pay .payrow, #cd-body .cd-card',
   atacantes: '#view-atacantes .ovc',
   raids: '#rd-body .rdc',
   tareas: '#fr-body .fr-task',
