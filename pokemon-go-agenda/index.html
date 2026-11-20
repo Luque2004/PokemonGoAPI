@@ -371,6 +371,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .rd-meta { margin-top: 2px; font-size: 13px; color: var(--muted); line-height: 1.45; }
 .rd-100 { margin-top: 6px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 12.5px; }
 .rd-100 .rd-lab { margin: 0; }
+.rd-jug { margin-top: 6px; display: flex; align-items: center; gap: 8px; font-size: 14px; }
+.rd-jug b { font-family: var(--font-display); font-stretch: 100%; font-size: 15px; }
 .rd-hc { padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
 .rd-hc b { color: var(--ink); font-variant-numeric: tabular-nums; }
 .rd-hc.boost { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
@@ -2001,6 +2003,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
               ? { rapido: str(c.sin_legado.rapido, 40), cargado: str(c.sin_legado.cargado, 40), edps: numOr(c.sin_legado.edps) } : undefined,
           })).filter((c) => c.nombre),
           hub: hubUrl(j && j.hub),
+          jug: Array.isArray(j && j.jugadores) && j.jugadores.length === 2 && j.jugadores.every((x) => Number.isInteger(x) && x > 0 && x < 30) ? j.jugadores : null,
         })).filter((j) => j.nombre && j.tipos.length),
       })).filter((n) => n.jefes.length);
       // De más a menos estrellas: 5★, Mega (va donde las 4★), 4★, 3★… El resto, al final y en su orden
@@ -2037,6 +2040,14 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     if (j.pcClima) bits.push("con " + (j.clima.length ? j.clima.join(" o ") : "su clima") + ": " + j.pcClima[0] + "–" + j.pcClima[1]);
     if (j.vario) bits.push("✨ puede salir variocolor");
     if (bits.length) info.append(el("div", "rd-meta", bits.join(" · ")));
+    // Jugadores que hacen falta (estimación de Pokémon GO Hub con counters parecidos a los mejores)
+    if (j.jug) {
+      const g = el("div", "rd-jug");
+      const n = j.jug[0] === j.jug[1] ? String(j.jug[0]) : j.jug[0] + "–" + j.jug[1];
+      g.append(el("span", "rd-lab", "👥 Jugadores"), el("b", null, j.jug[0] === 1 && j.jug[1] <= 2 ? (j.jug[1] === 1 ? "1 (en solitario)" : "1 (en solitario) o 2") : n));
+      g.title = "Con Pokémon parecidos a los mejores counters. Con equipos más flojos hacen falta más.";
+      info.append(g);
+    }
     // PC al 100 % (el máximo de cada rango): normal y potenciado por el clima
     if (j.pc || j.pcClima) {
       const h = el("div", "rd-100");
@@ -2097,6 +2108,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     const notes = [];
     if (j.counters.some((c) => c.legado)) notes.push("* Ataque de legado: hace falta una MT élite o un evento." + (j.counters.some((c) => c.legado && c.sl !== undefined) ? " Debajo, su mejor combinación sin MT élite." : ""));
     notes.push("Simulados contra este jefe por Pokémon GO Hub: nivel 50, IV 15/15/15, sin clima ni amistad. Las Mega y los primigenios suelen ir primero; si no tienes, mira los siguientes.");
+    if (j.jug) notes.push("👥 Jugadores: los que estima Pokémon GO Hub con equipos parecidos a estos counters; con Pokémon más flojos, esquivando mal o con lag hacen falta más" + (j.oscuro ? ". Es la estimación para la incursión normal de este Pokémon: la oscura puede necesitar más." : "."));
     const p = el("p", "sec-note", notes.join(" ") + " ");
     if (j.hub) { const a = el("a", null, "Ver los 20 en Pokémon GO Hub ↗"); a.href = j.hub; a.target = "_blank"; a.rel = "noopener noreferrer"; p.append(a); }
     body.append(p);

@@ -12,6 +12,8 @@ Uso (desde /tmp/hub):
   Si un counter necesita un ataque de legado (MT élite), se añade "sin_legado": su mejor combinación sin ataques de
   legado según la API de esa misma página (/api/counters, «Permitir ataques de legado» desactivado), o null si así
   ya no está entre los 50 mejores contra ese jefe.
+- Jugadores: el tamaño de grupo que estima esa misma página («entre X e Y Entrenadores con equipos parecidos a los
+  mejores counters»).
 - Debilidades: tabla de tipos del juego (×1,6 supereficaz, ×2,56 doble).
 - Los títulos y notas de Leek Duck vienen en inglés: se traducen una vez (ver «traducir») y se reutilizan.
 Escribe datos/raids.json SOLO si todo se ha leído bien.
@@ -165,7 +167,7 @@ def counters(icono, carpeta):
     """(nombre en español, url, lista de counters) según Pokémon GO Hub, o (None, None, []) si no está."""
     if icono in CACHE:
         return CACHE[icono]
-    res = (None, None, [], False)
+    res = (None, None, [], False, None)
     for ico, con_disfraz in ((icono, False), (icono.split(".")[0], True)):
         if con_disfraz and not disfraz(icono):
             break  # una forma de verdad (regional, Mega…) no se cambia por la especie: los counters serían otros
@@ -195,7 +197,11 @@ def counters(icono, carpeta):
                 if c["legado"] and sl is not None:
                     alt = sl.get(c["nombre"])  # None: sin MT élite ya no está entre los 50 mejores
                     c["sin_legado"] = {"rapido": alt[0], "cargado": alt[1], "edps": alt[2]} if alt else None
-        res = (html.unescape(t.group(1)).strip(), url, F, con_disfraz)
+        # Tamaño del grupo que estima Pokémon GO Hub: «Lleva entre {low} y {high} Entrenadores con equipos parecidos a los
+        # mejores counters» (trainerRange; 0 = sin estimación)
+        g = re.search(r'\\?"trainerRange\\?":\[(\d+),(\d+),(\d+)\]', h)
+        grupo = [int(g.group(1)), int(g.group(2))] if g and int(g.group(1)) > 0 else None
+        res = (html.unescape(t.group(1)).strip(), url, F, con_disfraz, grupo)
         break
     CACHE[icono] = res
     return res
@@ -234,7 +240,7 @@ def niveles(h, sombra, carpeta, avisos):
                 continue
             icono = ico.group(1)
             oscuro = sombra or en.lower().startswith("shadow ")
-            nombre, url, F, base = counters(icono, carpeta)
+            nombre, url, F, base, grupo = counters(icono, carpeta)
             if not nombre:
                 avisos.append("sin counters en Pokémon GO Hub: %s (%s)" % (en, slug_hub(icono)))
                 nombre = re.sub(r"^Shadow ", "", en)
@@ -245,7 +251,7 @@ def niveles(h, sombra, carpeta, avisos):
             jefes.append({"nombre": nombre, "nombre_en": en, "icono": icono, "oscuro": oscuro, "tipos": tipos,
                           "pc": pcs[0] if pcs else None, "pc_clima": pcs[1] if len(pcs) > 1 else None,
                           "clima": clima, "variocolor": "shiny-icon" in c, "debil": debilidades(tipos),
-                          "counters": F, "hub": url})
+                          "counters": F, "hub": url, "jugadores": grupo})
         if jefes:
             out.append({"nivel": etiqueta(lab), "nivel_en": lab, "nota_en": nota, "jefes": jefes})
     return out

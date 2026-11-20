@@ -218,7 +218,11 @@
          "tier": "C"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/52-Alola/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/52-Alola/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       },
       {
        "nombre": "Misdreavus",
@@ -431,7 +435,11 @@
          }
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/200/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/200/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       },
       {
        "nombre": "Yamask de Galar",
@@ -658,7 +666,11 @@
          }
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/562-Galarian/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/562-Galarian/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       },
       {
        "nombre": "Sandygast",
@@ -885,7 +897,11 @@
          }
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/769/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/769/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       }
      ],
      "nota": ""
@@ -1121,7 +1137,11 @@
          "tier": "B"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/105-Alola/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/105-Alola/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       },
       {
        "nombre": "Liepard",
@@ -1328,7 +1348,11 @@
          "tier": "C"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/510/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/510/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       },
       {
        "nombre": "Golurk",
@@ -1555,7 +1579,11 @@
          }
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/623/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/623/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       }
      ],
      "nota": ""
@@ -1757,7 +1785,11 @@
          "sin_legado": null
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/488/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/488/counters",
+       "jugadores": [
+        3,
+        4
+       ]
       },
       {
        "nombre": "Darkrai",
@@ -1959,7 +1991,11 @@
          }
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/491/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/491/counters",
+       "jugadores": [
+        2,
+        3
+       ]
       }
      ],
      "nota": ""
@@ -2170,7 +2206,11 @@
          }
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/354-Mega/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/354-Mega/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       }
      ],
      "nota": ""
@@ -2423,7 +2463,11 @@
          }
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/246/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/246/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       },
       {
        "nombre": "Mudkip oscuro",
@@ -2622,7 +2666,11 @@
          "tier": "B"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/258/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/258/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       },
       {
        "nombre": "Makuhita oscuro",
@@ -2835,7 +2883,11 @@
          }
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/296/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/296/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       },
       {
        "nombre": "Cranidos oscuro",
@@ -3055,7 +3107,11 @@
          }
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/408/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/408/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       }
      ],
      "nota": ""
@@ -3262,7 +3318,11 @@
          "tier": "B"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/61/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/61/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       },
       {
        "nombre": "Piloswine oscuro",
@@ -3494,7 +3554,11 @@
          }
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/221/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/221/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       },
       {
        "nombre": "Prinplup oscuro",
@@ -3693,7 +3757,11 @@
          "tier": "C"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/394/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/394/counters",
+       "jugadores": [
+        1,
+        2
+       ]
       }
      ],
      "nota": ""
@@ -3894,7 +3962,11 @@
          "tier": "C"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/641-Incarnate/counters"
+       "hub": "https://db.pokemongohub.net/es/pokemon/641-Incarnate/counters",
+       "jugadores": [
+        2,
+        3
+       ]
       }
      ],
      "nota": ""
