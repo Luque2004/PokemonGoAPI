@@ -1,26 +1,210 @@
 {
  "fuente": "Leek Duck (jefes) · Pokémon GO Hub (counters)",
- "url": "https://leekduck.com/raid-bosses/",
  "rotaciones": [
   {
-   "tipo": "normal",
-   "titulo_en": "Cresselia, Darkrai, and Mega Banette in Raids",
-   "inicio": "2026-11-16T06:00:00+01:00",
    "fin": "2026-11-24T10:00:00+01:00",
+   "inicio": "2026-11-16T06:00:00+01:00",
    "niveles": [
     {
-     "nivel": "1 estrella",
-     "nivel_en": "1-Star Raids",
-     "nota_en": "",
      "jefes": [
       {
+       "clima": [
+        "Niebla"
+       ],
+       "counters": [
+        {
+         "cargado": "Esfera Aural",
+         "cargado_legado": false,
+         "edps": 100.82,
+         "icono": "pm448.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Lucario",
+         "rapido": "Palmeo",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Esfera Aural",
+          "edps": 90.67,
+          "rapido": "Contraataque"
+         },
+         "tier": "SS",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Puño Dinámico+",
+         "cargado_legado": false,
+         "edps": 99.7,
+         "icono": "pm150.fMEGA_X",
+         "legado": true,
+         "nombre": "Mega-Mewtwo X",
+         "rapido": "Contraataque",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Puño Dinámico+",
+          "edps": 74.18,
+          "rapido": "Psicocorte"
+         },
+         "tier": "SS",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Esfera Aural",
+         "cargado_legado": false,
+         "edps": 96.26,
+         "icono": "pm257.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Blaziken",
+         "rapido": "Contraataque",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Esfera Aural",
+         "cargado_legado": false,
+         "edps": 86.37,
+         "icono": "pm257",
+         "legado": false,
+         "nombre": "Blaziken oscuro",
+         "rapido": "Contraataque",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Sable Místico",
+         "cargado_legado": false,
+         "edps": 83.49,
+         "icono": "pm647.fRESOLUTE",
+         "legado": false,
+         "nombre": "Keldeo (Forma Brío)",
+         "rapido": "Patada Baja",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Onda Certera",
+         "cargado_legado": false,
+         "edps": 83.15,
+         "icono": "pm150.fMEGA_Y",
+         "legado": true,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Contraataque",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Onda Certera",
+          "edps": 62.77,
+          "rapido": "Psicocorte"
+         },
+         "tier": "B",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Espada Santa",
+         "cargado_legado": false,
+         "edps": 82.22,
+         "icono": "pm475.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Gallade",
+         "rapido": "Patada Baja",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Aguijón Letal+",
+         "cargado_legado": false,
+         "edps": 80.56,
+         "icono": "pm15.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Beedrill",
+         "rapido": "Picadura",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Aguijón Letal+",
+          "edps": 78.75,
+          "rapido": "Acoso"
+         },
+         "tier": "B",
+         "tipo": "bug"
+        },
+        {
+         "cargado": "Megacuerno",
+         "cargado_legado": false,
+         "edps": 78.65,
+         "icono": "pm214.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Heracross",
+         "rapido": "Contraataque",
+         "rapido_legado": false,
+         "tier": "C",
+         "tipo": "bug"
+        },
+        {
+         "cargado": "Puño Dinámico",
+         "cargado_legado": false,
+         "edps": 78.04,
+         "icono": "pm534",
+         "legado": false,
+         "nombre": "Conkeldurr oscuro",
+         "rapido": "Palmeo",
+         "rapido_legado": false,
+         "tier": "C",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Esfera Aural",
+         "cargado_legado": false,
+         "edps": 77.98,
+         "icono": "pm448",
+         "legado": true,
+         "nombre": "Lucario",
+         "rapido": "Palmeo",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Esfera Aural",
+          "edps": 69.99,
+          "rapido": "Contraataque"
+         },
+         "tier": "C",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Demolición+",
+         "cargado_legado": false,
+         "edps": 77.85,
+         "icono": "pm870.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Falinks",
+         "rapido": "Contraataque",
+         "rapido_legado": false,
+         "tier": "C",
+         "tipo": "fighting"
+        }
+       ],
+       "debil": [
+        {
+         "tipo": "fighting",
+         "x": 1.6
+        },
+        {
+         "tipo": "bug",
+         "x": 1.6
+        },
+        {
+         "tipo": "fairy",
+         "x": 1.6
+        }
+       ],
+       "hub": "https://db.pokemongohub.net/es/pokemon/52-Alola/counters",
+       "icono": "pm52.fALOLA",
+       "jugadores": [
+        1,
+        2
+       ],
        "nombre": "Meowth de Alola",
        "nombre_en": "Alolan Meowth",
-       "icono": "pm52.fALOLA",
        "oscuro": false,
-       "tipos": [
-        "dark"
-       ],
        "pc": [
         416,
         455
@@ -29,205 +213,215 @@
         520,
         569
        ],
+       "tipos": [
+        "dark"
+       ],
+       "variocolor": true
+      },
+      {
        "clima": [
         "Niebla"
        ],
-       "variocolor": true,
-       "debil": [
-        {
-         "tipo": "fighting",
-         "x": 1.6
-        },
-        {
-         "tipo": "bug",
-         "x": 1.6
-        },
-        {
-         "tipo": "fairy",
-         "x": 1.6
-        }
-       ],
        "counters": [
         {
-         "nombre": "Mega-Lucario",
-         "icono": "pm448.fMEGA",
-         "rapido": "Palmeo",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
-         "legado": true,
-         "rapido_legado": true,
+         "cargado": "Viento Aciago+",
          "cargado_legado": false,
-         "edps": 100.82,
+         "edps": 50.12,
+         "icono": "pm609.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Chandelure",
+         "rapido": "Infortunio",
+         "rapido_legado": false,
          "tier": "SS",
-         "sin_legado": {
-          "rapido": "Contraataque",
-          "cargado": "Esfera Aural",
-          "edps": 90.67
-         }
+         "tipo": "ghost"
         },
         {
-         "nombre": "Mega-Mewtwo X",
-         "icono": "pm150.fMEGA_X",
-         "rapido": "Contraataque",
-         "cargado": "Puño Dinámico+",
-         "tipo": "fighting",
+         "cargado": "Rayo Umbrío",
+         "cargado_legado": false,
+         "edps": 48.42,
+         "icono": "pm800.fDAWN_WINGS",
+         "legado": false,
+         "nombre": "Necrozma Alas del Alba",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Bola Sombra",
+         "cargado_legado": false,
+         "edps": 47.32,
+         "icono": "pm94.fMEGA",
          "legado": true,
+         "nombre": "Mega-Gengar",
+         "rapido": "Lengüetazo",
          "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 99.7,
-         "tier": "SS",
          "sin_legado": {
-          "rapido": "Psicocorte",
-          "cargado": "Puño Dinámico+",
-          "edps": 74.18
-         }
+          "cargado": "Bola Sombra",
+          "edps": 46.36,
+          "rapido": "Garra Umbría"
+         },
+         "tier": "S",
+         "tipo": "ghost"
         },
         {
-         "nombre": "Mega-Blaziken",
-         "icono": "pm257.fMEGA",
-         "rapido": "Contraataque",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
+         "cargado": "Juego Sucio",
          "cargado_legado": false,
-         "edps": 96.26,
-         "tier": "S"
-        },
-        {
-         "nombre": "Blaziken oscuro",
-         "icono": "pm257",
-         "rapido": "Contraataque",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
+         "edps": 45.63,
+         "icono": "pm491",
          "legado": false,
+         "nombre": "Darkrai oscuro",
+         "rapido": "Alarido",
          "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 86.37,
-         "tier": "A"
+         "tier": "A",
+         "tipo": "dark"
         },
         {
-         "nombre": "Keldeo (Forma Brío)",
-         "icono": "pm647.fRESOLUTE",
-         "rapido": "Patada Baja",
-         "cargado": "Sable Místico",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 83.49,
-         "tier": "B"
-        },
-        {
-         "nombre": "Mega-Mewtwo Y",
+         "cargado": "Bola Sombra",
+         "cargado_legado": true,
+         "edps": 45.03,
          "icono": "pm150.fMEGA_Y",
-         "rapido": "Contraataque",
-         "cargado": "Onda Certera",
-         "tipo": "fighting",
          "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 83.15,
-         "tier": "B",
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
          "sin_legado": {
-          "rapido": "Psicocorte",
-          "cargado": "Onda Certera",
-          "edps": 62.77
-         }
+          "cargado": "Premonición+",
+          "edps": 36.34,
+          "rapido": "Confusión"
+         },
+         "tier": "A",
+         "tipo": "ghost"
         },
         {
-         "nombre": "Mega-Gallade",
-         "icono": "pm475.fMEGA",
-         "rapido": "Patada Baja",
-         "cargado": "Espada Santa",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 82.22,
-         "tier": "B"
-        },
-        {
-         "nombre": "Mega-Beedrill",
-         "icono": "pm15.fMEGA",
-         "rapido": "Picadura",
-         "cargado": "Aguijón Letal+",
-         "tipo": "bug",
+         "cargado": "Giro Vil",
+         "cargado_legado": true,
+         "edps": 44.98,
+         "icono": "pm359.fMEGA",
          "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 80.56,
-         "tier": "B",
+         "nombre": "Mega-Absol",
+         "rapido": "Alarido",
+         "rapido_legado": false,
          "sin_legado": {
-          "rapido": "Acoso",
-          "cargado": "Aguijón Letal+",
-          "edps": 78.75
-         }
+          "cargado": "Vendetta",
+          "edps": 38.89,
+          "rapido": "Alarido"
+         },
+         "tier": "A",
+         "tipo": "dark"
         },
         {
-         "nombre": "Mega-Heracross",
-         "icono": "pm214.fMEGA",
-         "rapido": "Contraataque",
-         "cargado": "Megacuerno",
-         "tipo": "bug",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 78.65,
-         "tier": "C"
-        },
-        {
-         "nombre": "Conkeldurr oscuro",
-         "icono": "pm534",
-         "rapido": "Palmeo",
-         "cargado": "Puño Dinámico",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 78.04,
-         "tier": "C"
-        },
-        {
-         "nombre": "Lucario",
-         "icono": "pm448",
-         "rapido": "Palmeo",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
+         "cargado": "Bola Sombra",
+         "cargado_legado": true,
+         "edps": 43.86,
+         "icono": "pm150.fMEGA_X",
          "legado": true,
-         "rapido_legado": true,
+         "nombre": "Mega-Mewtwo X",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Psíquico",
+          "edps": 34.19,
+          "rapido": "Confusión"
+         },
+         "tier": "A",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Pulso Umbrío+",
          "cargado_legado": false,
-         "edps": 77.98,
+         "edps": 42.69,
+         "icono": "pm229.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Houndoom",
+         "rapido": "Alarido",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Giro Vil",
+         "cargado_legado": true,
+         "edps": 42.68,
+         "icono": "pm359",
+         "legado": true,
+         "nombre": "Absol oscuro",
+         "rapido": "Alarido",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Vendetta",
+          "edps": 36.93,
+          "rapido": "Alarido"
+         },
+         "tier": "B",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Bola Sombra",
+         "cargado_legado": false,
+         "edps": 42.19,
+         "icono": "pm609",
+         "legado": false,
+         "nombre": "Chandelure oscuro",
+         "rapido": "Infortunio",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Bola Sombra",
+         "cargado_legado": false,
+         "edps": 41.98,
+         "icono": "pm94",
+         "legado": true,
+         "nombre": "Gengar oscuro",
+         "rapido": "Lengüetazo",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Bola Sombra",
+          "edps": 40.91,
+          "rapido": "Golpe Bajo"
+         },
+         "tier": "B",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Giro Vil",
+         "cargado_legado": true,
+         "edps": 41.18,
+         "icono": "pm635",
+         "legado": true,
+         "nombre": "Hydreigon oscuro",
+         "rapido": "Mordisco",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Pulso Umbrío",
+          "edps": 36.57,
+          "rapido": "Mordisco"
+         },
          "tier": "C",
-         "sin_legado": {
-          "rapido": "Contraataque",
-          "cargado": "Esfera Aural",
-          "edps": 69.99
-         }
-        },
-        {
-         "nombre": "Mega-Falinks",
-         "icono": "pm870.fMEGA",
-         "rapido": "Contraataque",
-         "cargado": "Demolición+",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 77.85,
-         "tier": "C"
+         "tipo": "dark"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/52-Alola/counters"
-      },
-      {
+       "debil": [
+        {
+         "tipo": "ghost",
+         "x": 1.6
+        },
+        {
+         "tipo": "dark",
+         "x": 1.6
+        }
+       ],
+       "hub": "https://db.pokemongohub.net/es/pokemon/200/counters",
+       "icono": "pm200",
+       "jugadores": [
+        1,
+        2
+       ],
        "nombre": "Misdreavus",
        "nombre_en": "Misdreavus",
-       "icono": "pm200",
        "oscuro": false,
-       "tipos": [
-        "ghost"
-       ],
        "pc": [
         1039,
         1100
@@ -236,212 +430,228 @@
         1298,
         1376
        ],
+       "tipos": [
+        "ghost"
+       ],
+       "variocolor": true
+      },
+      {
        "clima": [
+        "Soleado",
         "Niebla"
        ],
-       "variocolor": true,
+       "counters": [
+        {
+         "cargado": "Rayo Umbrío",
+         "cargado_legado": false,
+         "edps": 55.16,
+         "icono": "pm800.fDAWN_WINGS",
+         "legado": false,
+         "nombre": "Necrozma Alas del Alba",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "tier": "SS",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Viento Aciago+",
+         "cargado_legado": false,
+         "edps": 54.98,
+         "icono": "pm609.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Chandelure",
+         "rapido": "Infortunio",
+         "rapido_legado": false,
+         "tier": "SS",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Bola Sombra",
+         "cargado_legado": false,
+         "edps": 51.71,
+         "icono": "pm94.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Gengar",
+         "rapido": "Lengüetazo",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Bola Sombra",
+          "edps": 50.25,
+          "rapido": "Garra Umbría"
+         },
+         "tier": "S",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Pulso Primigenio",
+         "cargado_legado": true,
+         "edps": 50.78,
+         "icono": "pm382.fPRIMAL",
+         "legado": true,
+         "nombre": "Kyogre Primigenio",
+         "rapido": "Cascada",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Hidrobomba",
+          "edps": 47.29,
+          "rapido": "Cascada"
+         },
+         "tier": "S",
+         "tipo": "water"
+        },
+        {
+         "cargado": "Llama Gélida",
+         "cargado_legado": false,
+         "edps": 49.89,
+         "icono": "pm646.fWHITE",
+         "legado": false,
+         "nombre": "Kyurem Blanco",
+         "rapido": "Colmillo Hielo",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "ice"
+        },
+        {
+         "cargado": "Juego Sucio",
+         "cargado_legado": false,
+         "edps": 49.8,
+         "icono": "pm491",
+         "legado": false,
+         "nombre": "Darkrai oscuro",
+         "rapido": "Alarido",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Hidrocañón",
+         "cargado_legado": true,
+         "edps": 49.62,
+         "icono": "pm658.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Greninja",
+         "rapido": "Shuriken de Agua",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Surf+",
+          "edps": 48.67,
+          "rapido": "Shuriken de Agua"
+         },
+         "tier": "A",
+         "tipo": "water"
+        },
+        {
+         "cargado": "Giro Vil",
+         "cargado_legado": true,
+         "edps": 48.8,
+         "icono": "pm359.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Absol",
+         "rapido": "Alarido",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Vendetta",
+          "edps": 42.25,
+          "rapido": "Alarido"
+         },
+         "tier": "A",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Bola Sombra",
+         "cargado_legado": true,
+         "edps": 48.64,
+         "icono": "pm150.fMEGA_Y",
+         "legado": true,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Rayo Hielo",
+          "edps": 43.24,
+          "rapido": "Psicocorte"
+         },
+         "tier": "A",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Rayo Gélido",
+         "cargado_legado": false,
+         "edps": 48.62,
+         "icono": "pm646.fBLACK",
+         "legado": false,
+         "nombre": "Kyurem Negro",
+         "rapido": "Garra Umbría",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "ice"
+        },
+        {
+         "cargado": "Planta Feroz",
+         "cargado_legado": true,
+         "edps": 48.59,
+         "icono": "pm254.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Sceptile",
+         "rapido": "Semilladora",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Hoja Aguda",
+          "edps": 42.25,
+          "rapido": "Semilladora"
+         },
+         "tier": "A",
+         "tipo": "grass"
+        },
+        {
+         "cargado": "Pulso Primigenio",
+         "cargado_legado": true,
+         "edps": 47.68,
+         "icono": "pm382",
+         "legado": true,
+         "nombre": "Kyogre oscuro",
+         "rapido": "Cascada",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Surf",
+          "edps": 44.12,
+          "rapido": "Cascada"
+         },
+         "tier": "B",
+         "tipo": "water"
+        }
+       ],
        "debil": [
         {
          "tipo": "ghost",
          "x": 1.6
         },
         {
+         "tipo": "water",
+         "x": 1.6
+        },
+        {
+         "tipo": "grass",
+         "x": 1.6
+        },
+        {
+         "tipo": "ice",
+         "x": 1.6
+        },
+        {
          "tipo": "dark",
          "x": 1.6
         }
        ],
-       "counters": [
-        {
-         "nombre": "Mega-Chandelure",
-         "icono": "pm609.fMEGA",
-         "rapido": "Infortunio",
-         "cargado": "Viento Aciago+",
-         "tipo": "ghost",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 50.12,
-         "tier": "SS"
-        },
-        {
-         "nombre": "Necrozma Alas del Alba",
-         "icono": "pm800.fDAWN_WINGS",
-         "rapido": "Psicocorte",
-         "cargado": "Rayo Umbrío",
-         "tipo": "ghost",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 48.42,
-         "tier": "S"
-        },
-        {
-         "nombre": "Mega-Gengar",
-         "icono": "pm94.fMEGA",
-         "rapido": "Lengüetazo",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 47.32,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Garra Umbría",
-          "cargado": "Bola Sombra",
-          "edps": 46.36
-         }
-        },
-        {
-         "nombre": "Darkrai oscuro",
-         "icono": "pm491",
-         "rapido": "Alarido",
-         "cargado": "Juego Sucio",
-         "tipo": "dark",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 45.63,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Mewtwo Y",
-         "icono": "pm150.fMEGA_Y",
-         "rapido": "Psicocorte",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 45.03,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Confusión",
-          "cargado": "Premonición+",
-          "edps": 36.34
-         }
-        },
-        {
-         "nombre": "Mega-Absol",
-         "icono": "pm359.fMEGA",
-         "rapido": "Alarido",
-         "cargado": "Giro Vil",
-         "tipo": "dark",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 44.98,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Alarido",
-          "cargado": "Vendetta",
-          "edps": 38.89
-         }
-        },
-        {
-         "nombre": "Mega-Mewtwo X",
-         "icono": "pm150.fMEGA_X",
-         "rapido": "Psicocorte",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 43.86,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Confusión",
-          "cargado": "Psíquico",
-          "edps": 34.19
-         }
-        },
-        {
-         "nombre": "Mega-Houndoom",
-         "icono": "pm229.fMEGA",
-         "rapido": "Alarido",
-         "cargado": "Pulso Umbrío+",
-         "tipo": "dark",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 42.69,
-         "tier": "B"
-        },
-        {
-         "nombre": "Absol oscuro",
-         "icono": "pm359",
-         "rapido": "Alarido",
-         "cargado": "Giro Vil",
-         "tipo": "dark",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 42.68,
-         "tier": "B",
-         "sin_legado": {
-          "rapido": "Alarido",
-          "cargado": "Vendetta",
-          "edps": 36.93
-         }
-        },
-        {
-         "nombre": "Chandelure oscuro",
-         "icono": "pm609",
-         "rapido": "Infortunio",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 42.19,
-         "tier": "B"
-        },
-        {
-         "nombre": "Gengar oscuro",
-         "icono": "pm94",
-         "rapido": "Lengüetazo",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 41.98,
-         "tier": "B",
-         "sin_legado": {
-          "rapido": "Golpe Bajo",
-          "cargado": "Bola Sombra",
-          "edps": 40.91
-         }
-        },
-        {
-         "nombre": "Hydreigon oscuro",
-         "icono": "pm635",
-         "rapido": "Mordisco",
-         "cargado": "Giro Vil",
-         "tipo": "dark",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 41.18,
-         "tier": "C",
-         "sin_legado": {
-          "rapido": "Mordisco",
-          "cargado": "Pulso Umbrío",
-          "edps": 36.57
-         }
-        }
+       "hub": "https://db.pokemongohub.net/es/pokemon/562-Galarian/counters",
+       "icono": "pm562.fGALARIAN",
+       "jugadores": [
+        1,
+        2
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/200/counters"
-      },
-      {
        "nombre": "Yamask de Galar",
        "nombre_en": "Galarian Yamask",
-       "icono": "pm562.fGALARIAN",
        "oscuro": false,
-       "tipos": [
-        "ground",
-        "ghost"
-       ],
        "pc": [
         516,
         561
@@ -450,11 +660,198 @@
         646,
         701
        ],
-       "clima": [
-        "Soleado",
-        "Niebla"
+       "tipos": [
+        "ground",
+        "ghost"
        ],
-       "variocolor": true,
+       "variocolor": true
+      },
+      {
+       "clima": [
+        "Niebla",
+        "Soleado"
+       ],
+       "counters": [
+        {
+         "cargado": "Rayo Umbrío",
+         "cargado_legado": false,
+         "edps": 63.47,
+         "icono": "pm800.fDAWN_WINGS",
+         "legado": false,
+         "nombre": "Necrozma Alas del Alba",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "tier": "SS",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Viento Aciago+",
+         "cargado_legado": false,
+         "edps": 63,
+         "icono": "pm609.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Chandelure",
+         "rapido": "Infortunio",
+         "rapido_legado": false,
+         "tier": "SS",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Bola Sombra",
+         "cargado_legado": false,
+         "edps": 60.69,
+         "icono": "pm94.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Gengar",
+         "rapido": "Lengüetazo",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Bola Sombra",
+          "edps": 58.6,
+          "rapido": "Garra Umbría"
+         },
+         "tier": "S",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Pulso Primigenio",
+         "cargado_legado": true,
+         "edps": 60.03,
+         "icono": "pm382.fPRIMAL",
+         "legado": true,
+         "nombre": "Kyogre Primigenio",
+         "rapido": "Cascada",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Surf",
+          "edps": 55.79,
+          "rapido": "Cascada"
+         },
+         "tier": "S",
+         "tipo": "water"
+        },
+        {
+         "cargado": "Hidrocañón",
+         "cargado_legado": true,
+         "edps": 58.52,
+         "icono": "pm658.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Greninja",
+         "rapido": "Shuriken de Agua",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Surf+",
+          "edps": 56.72,
+          "rapido": "Shuriken de Agua"
+         },
+         "tier": "A",
+         "tipo": "water"
+        },
+        {
+         "cargado": "Llama Gélida",
+         "cargado_legado": false,
+         "edps": 58.47,
+         "icono": "pm646.fWHITE",
+         "legado": false,
+         "nombre": "Kyurem Blanco",
+         "rapido": "Colmillo Hielo",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "ice"
+        },
+        {
+         "cargado": "Juego Sucio",
+         "cargado_legado": false,
+         "edps": 57.88,
+         "icono": "pm491",
+         "legado": false,
+         "nombre": "Darkrai oscuro",
+         "rapido": "Alarido",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Rayo Gélido",
+         "cargado_legado": false,
+         "edps": 57.08,
+         "icono": "pm646.fBLACK",
+         "legado": false,
+         "nombre": "Kyurem Negro",
+         "rapido": "Garra Umbría",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "ice"
+        },
+        {
+         "cargado": "Planta Feroz",
+         "cargado_legado": true,
+         "edps": 57.05,
+         "icono": "pm254.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Sceptile",
+         "rapido": "Semilladora",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Hoja Aguda",
+          "edps": 49.91,
+          "rapido": "Semilladora"
+         },
+         "tier": "A",
+         "tipo": "grass"
+        },
+        {
+         "cargado": "Bola Sombra",
+         "cargado_legado": true,
+         "edps": 56.83,
+         "icono": "pm150.fMEGA_Y",
+         "legado": true,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Rayo Hielo",
+          "edps": 50.62,
+          "rapido": "Confusión"
+         },
+         "tier": "A",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Giro Vil",
+         "cargado_legado": true,
+         "edps": 56.55,
+         "icono": "pm359.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Absol",
+         "rapido": "Alarido",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Pulso Umbrío",
+          "edps": 48.85,
+          "rapido": "Alarido"
+         },
+         "tier": "A",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Bola Sombra",
+         "cargado_legado": true,
+         "edps": 55.3,
+         "icono": "pm150.fMEGA_X",
+         "legado": true,
+         "nombre": "Mega-Mewtwo X",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Rayo Hielo",
+          "edps": 49.09,
+          "rapido": "Psicocorte"
+         },
+         "tier": "B",
+         "tipo": "ghost"
+        }
+       ],
        "debil": [
         {
          "tipo": "ghost",
@@ -477,198 +874,15 @@
          "x": 1.6
         }
        ],
-       "counters": [
-        {
-         "nombre": "Necrozma Alas del Alba",
-         "icono": "pm800.fDAWN_WINGS",
-         "rapido": "Psicocorte",
-         "cargado": "Rayo Umbrío",
-         "tipo": "ghost",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 55.16,
-         "tier": "SS"
-        },
-        {
-         "nombre": "Mega-Chandelure",
-         "icono": "pm609.fMEGA",
-         "rapido": "Infortunio",
-         "cargado": "Viento Aciago+",
-         "tipo": "ghost",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 54.98,
-         "tier": "SS"
-        },
-        {
-         "nombre": "Mega-Gengar",
-         "icono": "pm94.fMEGA",
-         "rapido": "Lengüetazo",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 51.71,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Garra Umbría",
-          "cargado": "Bola Sombra",
-          "edps": 50.25
-         }
-        },
-        {
-         "nombre": "Kyogre Primigenio",
-         "icono": "pm382.fPRIMAL",
-         "rapido": "Cascada",
-         "cargado": "Pulso Primigenio",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 50.78,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Cascada",
-          "cargado": "Hidrobomba",
-          "edps": 47.29
-         }
-        },
-        {
-         "nombre": "Kyurem Blanco",
-         "icono": "pm646.fWHITE",
-         "rapido": "Colmillo Hielo",
-         "cargado": "Llama Gélida",
-         "tipo": "ice",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 49.89,
-         "tier": "A"
-        },
-        {
-         "nombre": "Darkrai oscuro",
-         "icono": "pm491",
-         "rapido": "Alarido",
-         "cargado": "Juego Sucio",
-         "tipo": "dark",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 49.8,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Greninja",
-         "icono": "pm658.fMEGA",
-         "rapido": "Shuriken de Agua",
-         "cargado": "Hidrocañón",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 49.62,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Shuriken de Agua",
-          "cargado": "Surf+",
-          "edps": 48.67
-         }
-        },
-        {
-         "nombre": "Mega-Absol",
-         "icono": "pm359.fMEGA",
-         "rapido": "Alarido",
-         "cargado": "Giro Vil",
-         "tipo": "dark",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 48.8,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Alarido",
-          "cargado": "Vendetta",
-          "edps": 42.25
-         }
-        },
-        {
-         "nombre": "Mega-Mewtwo Y",
-         "icono": "pm150.fMEGA_Y",
-         "rapido": "Psicocorte",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 48.64,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Psicocorte",
-          "cargado": "Rayo Hielo",
-          "edps": 43.24
-         }
-        },
-        {
-         "nombre": "Kyurem Negro",
-         "icono": "pm646.fBLACK",
-         "rapido": "Garra Umbría",
-         "cargado": "Rayo Gélido",
-         "tipo": "ice",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 48.62,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Sceptile",
-         "icono": "pm254.fMEGA",
-         "rapido": "Semilladora",
-         "cargado": "Planta Feroz",
-         "tipo": "grass",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 48.59,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Semilladora",
-          "cargado": "Hoja Aguda",
-          "edps": 42.25
-         }
-        },
-        {
-         "nombre": "Kyogre oscuro",
-         "icono": "pm382",
-         "rapido": "Cascada",
-         "cargado": "Pulso Primigenio",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 47.68,
-         "tier": "B",
-         "sin_legado": {
-          "rapido": "Cascada",
-          "cargado": "Surf",
-          "edps": 44.12
-         }
-        }
+       "hub": "https://db.pokemongohub.net/es/pokemon/769/counters",
+       "icono": "pm769",
+       "jugadores": [
+        1,
+        2
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/562-Galarian/counters"
-      },
-      {
        "nombre": "Sandygast",
        "nombre_en": "Sandygast",
-       "icono": "pm769",
        "oscuro": false,
-       "tipos": [
-        "ghost",
-        "ground"
-       ],
        "pc": [
         655,
         705
@@ -677,233 +891,238 @@
         819,
         881
        ],
-       "clima": [
-        "Niebla",
-        "Soleado"
+       "tipos": [
+        "ghost",
+        "ground"
        ],
-       "variocolor": true,
-       "debil": [
-        {
-         "tipo": "ghost",
-         "x": 1.6
-        },
-        {
-         "tipo": "water",
-         "x": 1.6
-        },
-        {
-         "tipo": "grass",
-         "x": 1.6
-        },
-        {
-         "tipo": "ice",
-         "x": 1.6
-        },
-        {
-         "tipo": "dark",
-         "x": 1.6
-        }
+       "variocolor": true
+      }
+     ],
+     "nivel": "1 estrella",
+     "nivel_en": "1-Star Raids",
+     "nota": "",
+     "nota_en": ""
+    },
+    {
+     "jefes": [
+      {
+       "clima": [
+        "Soleado",
+        "Niebla"
        ],
        "counters": [
         {
-         "nombre": "Necrozma Alas del Alba",
-         "icono": "pm800.fDAWN_WINGS",
-         "rapido": "Psicocorte",
-         "cargado": "Rayo Umbrío",
-         "tipo": "ghost",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 63.47,
-         "tier": "SS"
-        },
-        {
-         "nombre": "Mega-Chandelure",
-         "icono": "pm609.fMEGA",
-         "rapido": "Infortunio",
          "cargado": "Viento Aciago+",
-         "tipo": "ghost",
+         "cargado_legado": false,
+         "edps": 42.44,
+         "icono": "pm609.fMEGA",
          "legado": false,
+         "nombre": "Mega-Chandelure",
+         "rapido": "Infortunio",
          "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 63.0,
-         "tier": "SS"
+         "tier": "SS",
+         "tipo": "ghost"
         },
         {
-         "nombre": "Mega-Gengar",
-         "icono": "pm94.fMEGA",
-         "rapido": "Lengüetazo",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": true,
+         "cargado": "Rayo Umbrío",
          "cargado_legado": false,
-         "edps": 60.69,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Garra Umbría",
-          "cargado": "Bola Sombra",
-          "edps": 58.6
-         }
+         "edps": 41.84,
+         "icono": "pm800.fDAWN_WINGS",
+         "legado": false,
+         "nombre": "Necrozma Alas del Alba",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "tier": "SS",
+         "tipo": "ghost"
         },
         {
-         "nombre": "Kyogre Primigenio",
-         "icono": "pm382.fPRIMAL",
-         "rapido": "Cascada",
          "cargado": "Pulso Primigenio",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
          "cargado_legado": true,
-         "edps": 60.03,
-         "tier": "S",
+         "edps": 39.95,
+         "icono": "pm382.fPRIMAL",
+         "legado": true,
+         "nombre": "Kyogre Primigenio",
+         "rapido": "Cascada",
+         "rapido_legado": false,
          "sin_legado": {
-          "rapido": "Cascada",
           "cargado": "Surf",
-          "edps": 55.79
-         }
+          "edps": 37.22,
+          "rapido": "Cascada"
+         },
+         "tier": "S",
+         "tipo": "water"
         },
         {
-         "nombre": "Mega-Greninja",
-         "icono": "pm658.fMEGA",
-         "rapido": "Shuriken de Agua",
+         "cargado": "Filo del Abismo",
+         "cargado_legado": true,
+         "edps": 39.9,
+         "icono": "pm383.fPRIMAL",
+         "legado": true,
+         "nombre": "Groudon Primigenio",
+         "rapido": "Disparo Lodo",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Terremoto",
+          "edps": 36.62,
+          "rapido": "Disparo Lodo"
+         },
+         "tier": "S",
+         "tipo": "ground"
+        },
+        {
+         "cargado": "Bola Sombra",
+         "cargado_legado": false,
+         "edps": 39.46,
+         "icono": "pm94.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Gengar",
+         "rapido": "Lengüetazo",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Bola Sombra",
+          "edps": 38.38,
+          "rapido": "Golpe Bajo"
+         },
+         "tier": "S",
+         "tipo": "ghost"
+        },
+        {
          "cargado": "Hidrocañón",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
          "cargado_legado": true,
-         "edps": 58.52,
-         "tier": "A",
+         "edps": 38.86,
+         "icono": "pm658.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Greninja",
+         "rapido": "Shuriken de Agua",
+         "rapido_legado": false,
          "sin_legado": {
-          "rapido": "Shuriken de Agua",
           "cargado": "Surf+",
-          "edps": 56.72
-         }
+          "edps": 37.62,
+          "rapido": "Shuriken de Agua"
+         },
+         "tier": "S",
+         "tipo": "water"
         },
         {
-         "nombre": "Kyurem Blanco",
-         "icono": "pm646.fWHITE",
-         "rapido": "Colmillo Hielo",
-         "cargado": "Llama Gélida",
-         "tipo": "ice",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 58.47,
-         "tier": "A"
-        },
-        {
-         "nombre": "Darkrai oscuro",
-         "icono": "pm491",
-         "rapido": "Alarido",
          "cargado": "Juego Sucio",
-         "tipo": "dark",
-         "legado": false,
-         "rapido_legado": false,
          "cargado_legado": false,
-         "edps": 57.88,
-         "tier": "A"
-        },
-        {
-         "nombre": "Kyurem Negro",
-         "icono": "pm646.fBLACK",
-         "rapido": "Garra Umbría",
-         "cargado": "Rayo Gélido",
-         "tipo": "ice",
+         "edps": 38.39,
+         "icono": "pm491",
          "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 57.08,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Sceptile",
-         "icono": "pm254.fMEGA",
-         "rapido": "Semilladora",
-         "cargado": "Planta Feroz",
-         "tipo": "grass",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 57.05,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Semilladora",
-          "cargado": "Hoja Aguda",
-          "edps": 49.91
-         }
-        },
-        {
-         "nombre": "Mega-Mewtwo Y",
-         "icono": "pm150.fMEGA_Y",
-         "rapido": "Psicocorte",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 56.83,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Confusión",
-          "cargado": "Rayo Hielo",
-          "edps": 50.62
-         }
-        },
-        {
-         "nombre": "Mega-Absol",
-         "icono": "pm359.fMEGA",
+         "nombre": "Darkrai oscuro",
          "rapido": "Alarido",
-         "cargado": "Giro Vil",
-         "tipo": "dark",
-         "legado": true,
          "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 56.55,
          "tier": "A",
-         "sin_legado": {
-          "rapido": "Alarido",
-          "cargado": "Pulso Umbrío",
-          "edps": 48.85
-         }
+         "tipo": "dark"
         },
         {
-         "nombre": "Mega-Mewtwo X",
-         "icono": "pm150.fMEGA_X",
-         "rapido": "Psicocorte",
          "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": false,
          "cargado_legado": true,
-         "edps": 55.3,
-         "tier": "B",
+         "edps": 37.67,
+         "icono": "pm150.fMEGA_Y",
+         "legado": true,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
          "sin_legado": {
-          "rapido": "Psicocorte",
-          "cargado": "Rayo Hielo",
-          "edps": 49.09
-         }
+          "cargado": "Premonición+",
+          "edps": 30.18,
+          "rapido": "Confusión"
+         },
+         "tier": "A",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Giro Vil",
+         "cargado_legado": true,
+         "edps": 37.41,
+         "icono": "pm359.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Absol",
+         "rapido": "Alarido",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Pulso Umbrío",
+          "edps": 31.82,
+          "rapido": "Alarido"
+         },
+         "tier": "A",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Bola Sombra",
+         "cargado_legado": true,
+         "edps": 36.75,
+         "icono": "pm150.fMEGA_X",
+         "legado": true,
+         "nombre": "Mega-Mewtwo X",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "sin_legado": null,
+         "tier": "B",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Pulso Primigenio",
+         "cargado_legado": true,
+         "edps": 36.72,
+         "icono": "pm382",
+         "legado": true,
+         "nombre": "Kyogre oscuro",
+         "rapido": "Cascada",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Surf",
+          "edps": 34.39,
+          "rapido": "Cascada"
+         },
+         "tier": "B",
+         "tipo": "water"
+        },
+        {
+         "cargado": "Avalancha",
+         "cargado_legado": false,
+         "edps": 36.66,
+         "icono": "pm409",
+         "legado": false,
+         "nombre": "Rampardos oscuro",
+         "rapido": "Antiaéreo",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "rock"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/769/counters"
-      }
-     ],
-     "nota": ""
-    },
-    {
-     "nivel": "3 estrellas",
-     "nivel_en": "3-Star Raids",
-     "nota_en": "",
-     "jefes": [
-      {
+       "debil": [
+        {
+         "tipo": "ground",
+         "x": 1.6
+        },
+        {
+         "tipo": "rock",
+         "x": 1.6
+        },
+        {
+         "tipo": "ghost",
+         "x": 1.6
+        },
+        {
+         "tipo": "water",
+         "x": 1.6
+        },
+        {
+         "tipo": "dark",
+         "x": 1.6
+        }
+       ],
+       "hub": "https://db.pokemongohub.net/es/pokemon/105-Alola/counters",
+       "icono": "pm105.fALOLA",
+       "jugadores": [
+        1,
+        2
+       ],
        "nombre": "Marowak de Alola",
        "nombre_en": "Alolan Marowak",
-       "icono": "pm105.fALOLA",
        "oscuro": false,
-       "tipos": [
-        "fire",
-        "ghost"
-       ],
        "pc": [
         988,
         1048
@@ -912,225 +1131,210 @@
         1235,
         1311
        ],
-       "clima": [
-        "Soleado",
-        "Niebla"
+       "tipos": [
+        "fire",
+        "ghost"
        ],
-       "variocolor": true,
-       "debil": [
-        {
-         "tipo": "ground",
-         "x": 1.6
-        },
-        {
-         "tipo": "rock",
-         "x": 1.6
-        },
-        {
-         "tipo": "ghost",
-         "x": 1.6
-        },
-        {
-         "tipo": "water",
-         "x": 1.6
-        },
-        {
-         "tipo": "dark",
-         "x": 1.6
-        }
+       "variocolor": true
+      },
+      {
+       "clima": [
+        "Niebla"
        ],
        "counters": [
         {
-         "nombre": "Mega-Chandelure",
-         "icono": "pm609.fMEGA",
-         "rapido": "Infortunio",
-         "cargado": "Viento Aciago+",
-         "tipo": "ghost",
-         "legado": false,
-         "rapido_legado": false,
+         "cargado": "Esfera Aural",
          "cargado_legado": false,
-         "edps": 42.44,
-         "tier": "SS"
-        },
-        {
-         "nombre": "Necrozma Alas del Alba",
-         "icono": "pm800.fDAWN_WINGS",
-         "rapido": "Psicocorte",
-         "cargado": "Rayo Umbrío",
-         "tipo": "ghost",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 41.84,
-         "tier": "SS"
-        },
-        {
-         "nombre": "Kyogre Primigenio",
-         "icono": "pm382.fPRIMAL",
-         "rapido": "Cascada",
-         "cargado": "Pulso Primigenio",
-         "tipo": "water",
+         "edps": 77.17,
+         "icono": "pm448.fMEGA",
          "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 39.95,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Cascada",
-          "cargado": "Surf",
-          "edps": 37.22
-         }
-        },
-        {
-         "nombre": "Groudon Primigenio",
-         "icono": "pm383.fPRIMAL",
-         "rapido": "Disparo Lodo",
-         "cargado": "Filo del Abismo",
-         "tipo": "ground",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 39.9,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Disparo Lodo",
-          "cargado": "Terremoto",
-          "edps": 36.62
-         }
-        },
-        {
-         "nombre": "Mega-Gengar",
-         "icono": "pm94.fMEGA",
-         "rapido": "Lengüetazo",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
+         "nombre": "Mega-Lucario",
+         "rapido": "Palmeo",
          "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Esfera Aural",
+          "edps": 69.6,
+          "rapido": "Contraataque"
+         },
+         "tier": "SS",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Puño Dinámico+",
          "cargado_legado": false,
-         "edps": 39.46,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Golpe Bajo",
-          "cargado": "Bola Sombra",
-          "edps": 38.38
-         }
-        },
-        {
-         "nombre": "Mega-Greninja",
-         "icono": "pm658.fMEGA",
-         "rapido": "Shuriken de Agua",
-         "cargado": "Hidrocañón",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 38.86,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Shuriken de Agua",
-          "cargado": "Surf+",
-          "edps": 37.62
-         }
-        },
-        {
-         "nombre": "Darkrai oscuro",
-         "icono": "pm491",
-         "rapido": "Alarido",
-         "cargado": "Juego Sucio",
-         "tipo": "dark",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 38.39,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Mewtwo Y",
-         "icono": "pm150.fMEGA_Y",
-         "rapido": "Psicocorte",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 37.67,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Confusión",
-          "cargado": "Premonición+",
-          "edps": 30.18
-         }
-        },
-        {
-         "nombre": "Mega-Absol",
-         "icono": "pm359.fMEGA",
-         "rapido": "Alarido",
-         "cargado": "Giro Vil",
-         "tipo": "dark",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 37.41,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Alarido",
-          "cargado": "Pulso Umbrío",
-          "edps": 31.82
-         }
-        },
-        {
-         "nombre": "Mega-Mewtwo X",
+         "edps": 76.42,
          "icono": "pm150.fMEGA_X",
-         "rapido": "Psicocorte",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
          "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 36.75,
-         "tier": "B",
-         "sin_legado": null
-        },
-        {
-         "nombre": "Kyogre oscuro",
-         "icono": "pm382",
-         "rapido": "Cascada",
-         "cargado": "Pulso Primigenio",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 36.72,
-         "tier": "B",
+         "nombre": "Mega-Mewtwo X",
+         "rapido": "Contraataque",
+         "rapido_legado": true,
          "sin_legado": {
-          "rapido": "Cascada",
-          "cargado": "Surf",
-          "edps": 34.39
-         }
+          "cargado": "Puño Dinámico+",
+          "edps": 56.86,
+          "rapido": "Psicocorte"
+         },
+         "tier": "SS",
+         "tipo": "fighting"
         },
         {
-         "nombre": "Rampardos oscuro",
-         "icono": "pm409",
-         "rapido": "Antiaéreo",
-         "cargado": "Avalancha",
-         "tipo": "rock",
-         "legado": false,
-         "rapido_legado": false,
+         "cargado": "Esfera Aural",
          "cargado_legado": false,
-         "edps": 36.66,
-         "tier": "B"
+         "edps": 73.69,
+         "icono": "pm257.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Blaziken",
+         "rapido": "Contraataque",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Esfera Aural",
+         "cargado_legado": false,
+         "edps": 65.25,
+         "icono": "pm257",
+         "legado": false,
+         "nombre": "Blaziken oscuro",
+         "rapido": "Contraataque",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Sable Místico",
+         "cargado_legado": false,
+         "edps": 64.94,
+         "icono": "pm647.fRESOLUTE",
+         "legado": false,
+         "nombre": "Keldeo (Forma Brío)",
+         "rapido": "Patada Baja",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Onda Certera",
+         "cargado_legado": false,
+         "edps": 63.09,
+         "icono": "pm150.fMEGA_Y",
+         "legado": true,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Contraataque",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Onda Certera",
+          "edps": 47.94,
+          "rapido": "Psicocorte"
+         },
+         "tier": "A",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Espada Santa",
+         "cargado_legado": false,
+         "edps": 62.98,
+         "icono": "pm475.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Gallade",
+         "rapido": "Patada Baja",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Aguijón Letal+",
+         "cargado_legado": false,
+         "edps": 60.42,
+         "icono": "pm15.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Beedrill",
+         "rapido": "Picadura",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Aguijón Letal+",
+          "edps": 58.99,
+          "rapido": "Acoso"
+         },
+         "tier": "B",
+         "tipo": "bug"
+        },
+        {
+         "cargado": "Megacuerno",
+         "cargado_legado": false,
+         "edps": 59.67,
+         "icono": "pm214.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Heracross",
+         "rapido": "Contraataque",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "bug"
+        },
+        {
+         "cargado": "Puño Dinámico",
+         "cargado_legado": false,
+         "edps": 59.61,
+         "icono": "pm534",
+         "legado": false,
+         "nombre": "Conkeldurr oscuro",
+         "rapido": "Palmeo",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Esfera Aural",
+         "cargado_legado": false,
+         "edps": 59.18,
+         "icono": "pm448",
+         "legado": true,
+         "nombre": "Lucario",
+         "rapido": "Palmeo",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Esfera Aural",
+          "edps": 53.43,
+          "rapido": "Contraataque"
+         },
+         "tier": "B",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Demolición+",
+         "cargado_legado": false,
+         "edps": 58.02,
+         "icono": "pm870.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Falinks",
+         "rapido": "Contraataque",
+         "rapido_legado": false,
+         "tier": "C",
+         "tipo": "fighting"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/105-Alola/counters"
-      },
-      {
+       "debil": [
+        {
+         "tipo": "fighting",
+         "x": 1.6
+        },
+        {
+         "tipo": "bug",
+         "x": 1.6
+        },
+        {
+         "tipo": "fairy",
+         "x": 1.6
+        }
+       ],
+       "hub": "https://db.pokemongohub.net/es/pokemon/510/counters",
+       "icono": "pm510",
+       "jugadores": [
+        1,
+        2
+       ],
        "nombre": "Liepard",
        "nombre_en": "Liepard",
-       "icono": "pm510",
        "oscuro": false,
-       "tipos": [
-        "dark"
-       ],
        "pc": [
         993,
         1055
@@ -1139,206 +1343,228 @@
         1241,
         1318
        ],
-       "clima": [
-        "Niebla"
+       "tipos": [
+        "dark"
        ],
-       "variocolor": true,
-       "debil": [
-        {
-         "tipo": "fighting",
-         "x": 1.6
-        },
-        {
-         "tipo": "bug",
-         "x": 1.6
-        },
-        {
-         "tipo": "fairy",
-         "x": 1.6
-        }
+       "variocolor": true
+      },
+      {
+       "clima": [
+        "Soleado",
+        "Niebla"
        ],
        "counters": [
         {
-         "nombre": "Mega-Lucario",
-         "icono": "pm448.fMEGA",
-         "rapido": "Palmeo",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
+         "cargado": "Pulso Primigenio",
+         "cargado_legado": true,
+         "edps": 47.14,
+         "icono": "pm382.fPRIMAL",
          "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 77.17,
-         "tier": "SS",
+         "nombre": "Kyogre Primigenio",
+         "rapido": "Cascada",
+         "rapido_legado": false,
          "sin_legado": {
-          "rapido": "Contraataque",
-          "cargado": "Esfera Aural",
-          "edps": 69.6
-         }
+          "cargado": "Surf",
+          "edps": 44.37,
+          "rapido": "Cascada"
+         },
+         "tier": "SS",
+         "tipo": "water"
         },
         {
-         "nombre": "Mega-Mewtwo X",
-         "icono": "pm150.fMEGA_X",
-         "rapido": "Contraataque",
-         "cargado": "Puño Dinámico+",
-         "tipo": "fighting",
+         "cargado": "Llama Gélida",
+         "cargado_legado": false,
+         "edps": 46.13,
+         "icono": "pm646.fWHITE",
+         "legado": false,
+         "nombre": "Kyurem Blanco",
+         "rapido": "Colmillo Hielo",
+         "rapido_legado": false,
+         "tier": "SS",
+         "tipo": "ice"
+        },
+        {
+         "cargado": "Viento Aciago+",
+         "cargado_legado": false,
+         "edps": 45.32,
+         "icono": "pm609.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Chandelure",
+         "rapido": "Infortunio",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Hidrocañón",
+         "cargado_legado": true,
+         "edps": 45.24,
+         "icono": "pm658.fMEGA",
          "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 76.42,
-         "tier": "SS",
+         "nombre": "Mega-Greninja",
+         "rapido": "Shuriken de Agua",
+         "rapido_legado": false,
          "sin_legado": {
-          "rapido": "Psicocorte",
-          "cargado": "Puño Dinámico+",
-          "edps": 56.86
-         }
+          "cargado": "Surf+",
+          "edps": 43.12,
+          "rapido": "Shuriken de Agua"
+         },
+         "tier": "S",
+         "tipo": "water"
         },
         {
-         "nombre": "Mega-Blaziken",
-         "icono": "pm257.fMEGA",
-         "rapido": "Contraataque",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
+         "cargado": "Juego Sucio",
          "cargado_legado": false,
-         "edps": 73.69,
-         "tier": "S"
-        },
-        {
-         "nombre": "Blaziken oscuro",
-         "icono": "pm257",
-         "rapido": "Contraataque",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
+         "edps": 44.58,
+         "icono": "pm491",
          "legado": false,
+         "nombre": "Darkrai oscuro",
+         "rapido": "Alarido",
          "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 65.25,
-         "tier": "A"
+         "tier": "S",
+         "tipo": "dark"
         },
         {
-         "nombre": "Keldeo (Forma Brío)",
-         "icono": "pm647.fRESOLUTE",
-         "rapido": "Patada Baja",
-         "cargado": "Sable Místico",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 64.94,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Mewtwo Y",
+         "cargado": "Bola Sombra",
+         "cargado_legado": true,
+         "edps": 44.57,
          "icono": "pm150.fMEGA_Y",
-         "rapido": "Contraataque",
-         "cargado": "Onda Certera",
-         "tipo": "fighting",
          "legado": true,
-         "rapido_legado": true,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Rayo Hielo",
+          "edps": 39.7,
+          "rapido": "Confusión"
+         },
+         "tier": "S",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Planta Feroz",
+         "cargado_legado": true,
+         "edps": 44.52,
+         "icono": "pm254.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Sceptile",
+         "rapido": "Semilladora",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Hoja Aguda",
+          "edps": 38.92,
+          "rapido": "Semilladora"
+         },
+         "tier": "S",
+         "tipo": "grass"
+        },
+        {
+         "cargado": "Rayo Gélido",
          "cargado_legado": false,
-         "edps": 63.09,
+         "edps": 44.5,
+         "icono": "pm646.fBLACK",
+         "legado": false,
+         "nombre": "Kyurem Negro",
+         "rapido": "Garra Umbría",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "ice"
+        },
+        {
+         "cargado": "Rayo Umbrío",
+         "cargado_legado": false,
+         "edps": 43.65,
+         "icono": "pm800.fDAWN_WINGS",
+         "legado": false,
+         "nombre": "Necrozma Alas del Alba",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
          "tier": "A",
-         "sin_legado": {
-          "rapido": "Psicocorte",
-          "cargado": "Onda Certera",
-          "edps": 47.94
-         }
+         "tipo": "ghost"
         },
         {
-         "nombre": "Mega-Gallade",
-         "icono": "pm475.fMEGA",
-         "rapido": "Patada Baja",
-         "cargado": "Espada Santa",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
+         "cargado": "Bola Sombra",
          "cargado_legado": false,
-         "edps": 62.98,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Beedrill",
-         "icono": "pm15.fMEGA",
-         "rapido": "Picadura",
-         "cargado": "Aguijón Letal+",
-         "tipo": "bug",
+         "edps": 43.3,
+         "icono": "pm94.fMEGA",
          "legado": true,
+         "nombre": "Mega-Gengar",
+         "rapido": "Lengüetazo",
          "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 60.42,
-         "tier": "B",
          "sin_legado": {
-          "rapido": "Acoso",
-          "cargado": "Aguijón Letal+",
-          "edps": 58.99
-         }
+          "cargado": "Bola Sombra",
+          "edps": 42.42,
+          "rapido": "Garra Umbría"
+         },
+         "tier": "A",
+         "tipo": "ghost"
         },
         {
-         "nombre": "Mega-Heracross",
-         "icono": "pm214.fMEGA",
-         "rapido": "Contraataque",
-         "cargado": "Megacuerno",
-         "tipo": "bug",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 59.67,
-         "tier": "B"
-        },
-        {
-         "nombre": "Conkeldurr oscuro",
-         "icono": "pm534",
-         "rapido": "Palmeo",
-         "cargado": "Puño Dinámico",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 59.61,
-         "tier": "B"
-        },
-        {
-         "nombre": "Lucario",
-         "icono": "pm448",
-         "rapido": "Palmeo",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
+         "cargado": "Bola Sombra",
+         "cargado_legado": true,
+         "edps": 43.28,
+         "icono": "pm150.fMEGA_X",
          "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 59.18,
-         "tier": "B",
+         "nombre": "Mega-Mewtwo X",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
          "sin_legado": {
-          "rapido": "Contraataque",
-          "cargado": "Esfera Aural",
-          "edps": 53.43
-         }
+          "cargado": "Rayo Hielo",
+          "edps": 38.41,
+          "rapido": "Psicocorte"
+         },
+         "tier": "A",
+         "tipo": "ghost"
         },
         {
-         "nombre": "Mega-Falinks",
-         "icono": "pm870.fMEGA",
-         "rapido": "Contraataque",
-         "cargado": "Demolición+",
-         "tipo": "fighting",
-         "legado": false,
+         "cargado": "Pulso Primigenio",
+         "cargado_legado": true,
+         "edps": 42.97,
+         "icono": "pm382",
+         "legado": true,
+         "nombre": "Kyogre oscuro",
+         "rapido": "Cascada",
          "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 58.02,
-         "tier": "C"
+         "sin_legado": {
+          "cargado": "Surf",
+          "edps": 40.83,
+          "rapido": "Cascada"
+         },
+         "tier": "A",
+         "tipo": "water"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/510/counters"
-      },
-      {
+       "debil": [
+        {
+         "tipo": "ghost",
+         "x": 1.6
+        },
+        {
+         "tipo": "water",
+         "x": 1.6
+        },
+        {
+         "tipo": "grass",
+         "x": 1.6
+        },
+        {
+         "tipo": "ice",
+         "x": 1.6
+        },
+        {
+         "tipo": "dark",
+         "x": 1.6
+        }
+       ],
+       "hub": "https://db.pokemongohub.net/es/pokemon/623/counters",
+       "icono": "pm623",
+       "jugadores": [
+        1,
+        2
+       ],
        "nombre": "Golurk",
        "nombre_en": "Golurk",
-       "icono": "pm623",
        "oscuro": false,
-       "tipos": [
-        "ground",
-        "ghost"
-       ],
        "pc": [
         1554,
         1630
@@ -1347,232 +1573,205 @@
         1943,
         2038
        ],
-       "clima": [
-        "Soleado",
-        "Niebla"
+       "tipos": [
+        "ground",
+        "ghost"
        ],
-       "variocolor": true,
-       "debil": [
-        {
-         "tipo": "ghost",
-         "x": 1.6
-        },
-        {
-         "tipo": "water",
-         "x": 1.6
-        },
-        {
-         "tipo": "grass",
-         "x": 1.6
-        },
-        {
-         "tipo": "ice",
-         "x": 1.6
-        },
-        {
-         "tipo": "dark",
-         "x": 1.6
-        }
+       "variocolor": true
+      }
+     ],
+     "nivel": "3 estrellas",
+     "nivel_en": "3-Star Raids",
+     "nota": "",
+     "nota_en": ""
+    },
+    {
+     "jefes": [
+      {
+       "clima": [
+        "Viento"
        ],
        "counters": [
         {
-         "nombre": "Kyogre Primigenio",
-         "icono": "pm382.fPRIMAL",
-         "rapido": "Cascada",
-         "cargado": "Pulso Primigenio",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 47.14,
-         "tier": "SS",
-         "sin_legado": {
-          "rapido": "Cascada",
-          "cargado": "Surf",
-          "edps": 44.37
-         }
-        },
-        {
-         "nombre": "Kyurem Blanco",
-         "icono": "pm646.fWHITE",
-         "rapido": "Colmillo Hielo",
-         "cargado": "Llama Gélida",
-         "tipo": "ice",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 46.13,
-         "tier": "SS"
-        },
-        {
-         "nombre": "Mega-Chandelure",
-         "icono": "pm609.fMEGA",
-         "rapido": "Infortunio",
          "cargado": "Viento Aciago+",
-         "tipo": "ghost",
-         "legado": false,
-         "rapido_legado": false,
          "cargado_legado": false,
-         "edps": 45.32,
-         "tier": "S"
-        },
-        {
-         "nombre": "Mega-Greninja",
-         "icono": "pm658.fMEGA",
-         "rapido": "Shuriken de Agua",
-         "cargado": "Hidrocañón",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 45.24,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Shuriken de Agua",
-          "cargado": "Surf+",
-          "edps": 43.12
-         }
-        },
-        {
-         "nombre": "Darkrai oscuro",
-         "icono": "pm491",
-         "rapido": "Alarido",
-         "cargado": "Juego Sucio",
-         "tipo": "dark",
+         "edps": 28.25,
+         "icono": "pm609.fMEGA",
          "legado": false,
+         "nombre": "Mega-Chandelure",
+         "rapido": "Infortunio",
          "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 44.58,
-         "tier": "S"
+         "tier": "SS",
+         "tipo": "ghost"
         },
         {
-         "nombre": "Mega-Mewtwo Y",
-         "icono": "pm150.fMEGA_Y",
-         "rapido": "Psicocorte",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 44.57,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Confusión",
-          "cargado": "Rayo Hielo",
-          "edps": 39.7
-         }
-        },
-        {
-         "nombre": "Mega-Sceptile",
-         "icono": "pm254.fMEGA",
-         "rapido": "Semilladora",
-         "cargado": "Planta Feroz",
-         "tipo": "grass",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 44.52,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Semilladora",
-          "cargado": "Hoja Aguda",
-          "edps": 38.92
-         }
-        },
-        {
-         "nombre": "Kyurem Negro",
-         "icono": "pm646.fBLACK",
-         "rapido": "Garra Umbría",
-         "cargado": "Rayo Gélido",
-         "tipo": "ice",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 44.5,
-         "tier": "S"
-        },
-        {
-         "nombre": "Necrozma Alas del Alba",
-         "icono": "pm800.fDAWN_WINGS",
-         "rapido": "Psicocorte",
          "cargado": "Rayo Umbrío",
-         "tipo": "ghost",
+         "cargado_legado": false,
+         "edps": 26.98,
+         "icono": "pm800.fDAWN_WINGS",
          "legado": false,
+         "nombre": "Necrozma Alas del Alba",
+         "rapido": "Garra Umbría",
          "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 43.65,
-         "tier": "A"
+         "tier": "S",
+         "tipo": "ghost"
         },
         {
-         "nombre": "Mega-Gengar",
+         "cargado": "Bola Sombra",
+         "cargado_legado": false,
+         "edps": 25.64,
          "icono": "pm94.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Gengar",
          "rapido": "Lengüetazo",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
          "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 43.3,
-         "tier": "A",
          "sin_legado": {
-          "rapido": "Garra Umbría",
           "cargado": "Bola Sombra",
-          "edps": 42.42
-         }
+          "edps": 25.45,
+          "rapido": "Garra Umbría"
+         },
+         "tier": "A",
+         "tipo": "ghost"
         },
         {
-         "nombre": "Mega-Mewtwo X",
-         "icono": "pm150.fMEGA_X",
-         "rapido": "Psicocorte",
+         "cargado": "Juego Sucio",
+         "cargado_legado": false,
+         "edps": 24.86,
+         "icono": "pm491",
+         "legado": false,
+         "nombre": "Darkrai oscuro",
+         "rapido": "Alarido",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "dark"
+        },
+        {
          "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": false,
          "cargado_legado": true,
-         "edps": 43.28,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Psicocorte",
-          "cargado": "Rayo Hielo",
-          "edps": 38.41
-         }
+         "edps": 24.1,
+         "icono": "pm150.fMEGA_Y",
+         "legado": true,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "sin_legado": null,
+         "tier": "B",
+         "tipo": "ghost"
         },
         {
-         "nombre": "Kyogre oscuro",
-         "icono": "pm382",
-         "rapido": "Cascada",
-         "cargado": "Pulso Primigenio",
-         "tipo": "water",
-         "legado": true,
+         "cargado": "Pulso Umbrío+",
+         "cargado_legado": false,
+         "edps": 24.03,
+         "icono": "pm229.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Houndoom",
+         "rapido": "Alarido",
          "rapido_legado": false,
+         "tier": "B",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Giro Vil",
+         "cargado_legado": false,
+         "edps": 23.88,
+         "icono": "pm248.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Tyranitar",
+         "rapido": "Mordisco",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Giro Vil",
          "cargado_legado": true,
-         "edps": 42.97,
-         "tier": "A",
+         "edps": 23.76,
+         "icono": "pm359.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Absol",
+         "rapido": "Alarido",
+         "rapido_legado": false,
          "sin_legado": {
-          "rapido": "Cascada",
-          "cargado": "Surf",
-          "edps": 40.83
-         }
+          "cargado": "Pulso Umbrío",
+          "edps": 20.54,
+          "rapido": "Alarido"
+         },
+         "tier": "B",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Bola Sombra",
+         "cargado_legado": false,
+         "edps": 23.73,
+         "icono": "pm609",
+         "legado": false,
+         "nombre": "Chandelure oscuro",
+         "rapido": "Infortunio",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Megacuerno",
+         "cargado_legado": false,
+         "edps": 23.67,
+         "icono": "pm214.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Heracross",
+         "rapido": "Corte Furia",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "bug"
+        },
+        {
+         "cargado": "Giro Vil",
+         "cargado_legado": false,
+         "edps": 23.43,
+         "icono": "pm248",
+         "legado": false,
+         "nombre": "Tyranitar oscuro",
+         "rapido": "Mordisco",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Bola Sombra",
+         "cargado_legado": true,
+         "edps": 23.18,
+         "icono": "pm150.fMEGA_X",
+         "legado": true,
+         "nombre": "Mega-Mewtwo X",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "sin_legado": null,
+         "tier": "C",
+         "tipo": "ghost"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/623/counters"
-      }
-     ],
-     "nota": ""
-    },
-    {
-     "nivel": "5 estrellas",
-     "nivel_en": "5-Star Raids",
-     "nota_en": "",
-     "jefes": [
-      {
+       "debil": [
+        {
+         "tipo": "bug",
+         "x": 1.6
+        },
+        {
+         "tipo": "ghost",
+         "x": 1.6
+        },
+        {
+         "tipo": "dark",
+         "x": 1.6
+        }
+       ],
+       "hub": "https://db.pokemongohub.net/es/pokemon/488/counters",
+       "icono": "pm488",
+       "jugadores": [
+        3,
+        4
+       ],
        "nombre": "Cresselia",
        "nombre_en": "Cresselia",
-       "icono": "pm488",
        "oscuro": false,
-       "tipos": [
-        "psychic"
-       ],
        "pc": [
         1555,
         1633
@@ -1581,192 +1780,204 @@
         1944,
         2041
        ],
-       "clima": [
-        "Viento"
+       "tipos": [
+        "psychic"
        ],
-       "variocolor": true,
-       "debil": [
-        {
-         "tipo": "bug",
-         "x": 1.6
-        },
-        {
-         "tipo": "ghost",
-         "x": 1.6
-        },
-        {
-         "tipo": "dark",
-         "x": 1.6
-        }
+       "variocolor": true
+      },
+      {
+       "clima": [
+        "Niebla"
        ],
        "counters": [
         {
-         "nombre": "Mega-Chandelure",
-         "icono": "pm609.fMEGA",
-         "rapido": "Infortunio",
-         "cargado": "Viento Aciago+",
-         "tipo": "ghost",
+         "cargado": "Puño Dinámico+",
+         "cargado_legado": false,
+         "edps": 37.12,
+         "icono": "pm150.fMEGA_X",
+         "legado": true,
+         "nombre": "Mega-Mewtwo X",
+         "rapido": "Contraataque",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Puño Dinámico+",
+          "edps": 27.62,
+          "rapido": "Psicocorte"
+         },
+         "tier": "SS",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Esfera Aural",
+         "cargado_legado": false,
+         "edps": 35.78,
+         "icono": "pm448.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Lucario",
+         "rapido": "Palmeo",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Esfera Aural",
+          "edps": 32.46,
+          "rapido": "Contraataque"
+         },
+         "tier": "S",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Esfera Aural",
+         "cargado_legado": false,
+         "edps": 35.69,
+         "icono": "pm257.fMEGA",
          "legado": false,
+         "nombre": "Mega-Blaziken",
+         "rapido": "Contraataque",
          "rapido_legado": false,
+         "tier": "S",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Sable Místico",
+         "cargado_legado": false,
+         "edps": 32.32,
+         "icono": "pm647.fRESOLUTE",
+         "legado": false,
+         "nombre": "Keldeo (Forma Brío)",
+         "rapido": "Patada Baja",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Espada Santa",
+         "cargado_legado": false,
+         "edps": 31.21,
+         "icono": "pm475.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Gallade",
+         "rapido": "Patada Baja",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Onda Certera",
+         "cargado_legado": false,
+         "edps": 30.59,
+         "icono": "pm150.fMEGA_Y",
+         "legado": true,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Contraataque",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Onda Certera",
+          "edps": 24.03,
+          "rapido": "Psicocorte"
+         },
+         "tier": "B",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Esfera Aural",
+         "cargado_legado": false,
+         "edps": 29.98,
+         "icono": "pm257",
+         "legado": false,
+         "nombre": "Blaziken oscuro",
+         "rapido": "Contraataque",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Megacuerno",
+         "cargado_legado": false,
+         "edps": 29.73,
+         "icono": "pm214.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Heracross",
+         "rapido": "Contraataque",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "bug"
+        },
+        {
+         "cargado": "Puño Dinámico",
+         "cargado_legado": false,
+         "edps": 28.82,
+         "icono": "pm534",
+         "legado": false,
+         "nombre": "Conkeldurr oscuro",
+         "rapido": "Palmeo",
+         "rapido_legado": false,
+         "tier": "C",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Demolición+",
          "cargado_legado": false,
          "edps": 28.25,
-         "tier": "SS"
-        },
-        {
-         "nombre": "Necrozma Alas del Alba",
-         "icono": "pm800.fDAWN_WINGS",
-         "rapido": "Garra Umbría",
-         "cargado": "Rayo Umbrío",
-         "tipo": "ghost",
+         "icono": "pm870.fMEGA",
          "legado": false,
+         "nombre": "Mega-Falinks",
+         "rapido": "Contraataque",
          "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 26.98,
-         "tier": "S"
-        },
-        {
-         "nombre": "Mega-Gengar",
-         "icono": "pm94.fMEGA",
-         "rapido": "Lengüetazo",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 25.64,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Garra Umbría",
-          "cargado": "Bola Sombra",
-          "edps": 25.45
-         }
-        },
-        {
-         "nombre": "Darkrai oscuro",
-         "icono": "pm491",
-         "rapido": "Alarido",
-         "cargado": "Juego Sucio",
-         "tipo": "dark",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 24.86,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Mewtwo Y",
-         "icono": "pm150.fMEGA_Y",
-         "rapido": "Psicocorte",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 24.1,
-         "tier": "B",
-         "sin_legado": null
-        },
-        {
-         "nombre": "Mega-Houndoom",
-         "icono": "pm229.fMEGA",
-         "rapido": "Alarido",
-         "cargado": "Pulso Umbrío+",
-         "tipo": "dark",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 24.03,
-         "tier": "B"
-        },
-        {
-         "nombre": "Mega-Tyranitar",
-         "icono": "pm248.fMEGA",
-         "rapido": "Mordisco",
-         "cargado": "Giro Vil",
-         "tipo": "dark",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 23.88,
-         "tier": "B"
-        },
-        {
-         "nombre": "Mega-Absol",
-         "icono": "pm359.fMEGA",
-         "rapido": "Alarido",
-         "cargado": "Giro Vil",
-         "tipo": "dark",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 23.76,
-         "tier": "B",
-         "sin_legado": {
-          "rapido": "Alarido",
-          "cargado": "Pulso Umbrío",
-          "edps": 20.54
-         }
-        },
-        {
-         "nombre": "Chandelure oscuro",
-         "icono": "pm609",
-         "rapido": "Infortunio",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 23.73,
-         "tier": "B"
-        },
-        {
-         "nombre": "Mega-Heracross",
-         "icono": "pm214.fMEGA",
-         "rapido": "Corte Furia",
-         "cargado": "Megacuerno",
-         "tipo": "bug",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 23.67,
-         "tier": "B"
-        },
-        {
-         "nombre": "Tyranitar oscuro",
-         "icono": "pm248",
-         "rapido": "Mordisco",
-         "cargado": "Giro Vil",
-         "tipo": "dark",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 23.43,
-         "tier": "B"
-        },
-        {
-         "nombre": "Mega-Mewtwo X",
-         "icono": "pm150.fMEGA_X",
-         "rapido": "Psicocorte",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 23.18,
          "tier": "C",
-         "sin_legado": null
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Brillo Mágico",
+         "cargado_legado": false,
+         "edps": 27.9,
+         "icono": "pm282.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Gardevoir",
+         "rapido": "Encanto",
+         "rapido_legado": false,
+         "tier": "C",
+         "tipo": "fairy"
+        },
+        {
+         "cargado": "Aguijón Letal+",
+         "cargado_legado": false,
+         "edps": 27.9,
+         "icono": "pm15.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Beedrill",
+         "rapido": "Picadura",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Aguijón Letal+",
+          "edps": 26.67,
+          "rapido": "Acoso"
+         },
+         "tier": "C",
+         "tipo": "bug"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/488/counters"
-      },
-      {
+       "debil": [
+        {
+         "tipo": "fighting",
+         "x": 1.6
+        },
+        {
+         "tipo": "bug",
+         "x": 1.6
+        },
+        {
+         "tipo": "fairy",
+         "x": 1.6
+        }
+       ],
+       "hub": "https://db.pokemongohub.net/es/pokemon/491/counters",
+       "icono": "pm491",
+       "jugadores": [
+        2,
+        3
+       ],
        "nombre": "Darkrai",
        "nombre_en": "Darkrai",
-       "icono": "pm491",
        "oscuro": false,
-       "tipos": [
-        "dark"
-       ],
        "pc": [
         2048,
         2136
@@ -1775,208 +1986,213 @@
         2560,
         2671
        ],
+       "tipos": [
+        "dark"
+       ],
+       "variocolor": true
+      }
+     ],
+     "nivel": "5 estrellas",
+     "nivel_en": "5-Star Raids",
+     "nota": "",
+     "nota_en": ""
+    },
+    {
+     "jefes": [
+      {
        "clima": [
         "Niebla"
        ],
-       "variocolor": true,
-       "debil": [
-        {
-         "tipo": "fighting",
-         "x": 1.6
-        },
-        {
-         "tipo": "bug",
-         "x": 1.6
-        },
-        {
-         "tipo": "fairy",
-         "x": 1.6
-        }
-       ],
        "counters": [
         {
-         "nombre": "Mega-Mewtwo X",
-         "icono": "pm150.fMEGA_X",
-         "rapido": "Contraataque",
-         "cargado": "Puño Dinámico+",
-         "tipo": "fighting",
-         "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 37.12,
-         "tier": "SS",
-         "sin_legado": {
-          "rapido": "Psicocorte",
-          "cargado": "Puño Dinámico+",
-          "edps": 27.62
-         }
-        },
-        {
-         "nombre": "Mega-Lucario",
-         "icono": "pm448.fMEGA",
-         "rapido": "Palmeo",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
-         "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 35.78,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Contraataque",
-          "cargado": "Esfera Aural",
-          "edps": 32.46
-         }
-        },
-        {
-         "nombre": "Mega-Blaziken",
-         "icono": "pm257.fMEGA",
-         "rapido": "Contraataque",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 35.69,
-         "tier": "S"
-        },
-        {
-         "nombre": "Keldeo (Forma Brío)",
-         "icono": "pm647.fRESOLUTE",
-         "rapido": "Patada Baja",
-         "cargado": "Sable Místico",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 32.32,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Gallade",
-         "icono": "pm475.fMEGA",
-         "rapido": "Patada Baja",
-         "cargado": "Espada Santa",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 31.21,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Mewtwo Y",
+         "cargado": "Bola Sombra",
+         "cargado_legado": true,
+         "edps": 38.04,
          "icono": "pm150.fMEGA_Y",
-         "rapido": "Contraataque",
-         "cargado": "Onda Certera",
-         "tipo": "fighting",
          "legado": true,
-         "rapido_legado": true,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Premonición+",
+          "edps": 29.55,
+          "rapido": "Psicocorte"
+         },
+         "tier": "SS",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Giro Vil",
          "cargado_legado": false,
-         "edps": 30.59,
+         "edps": 36.74,
+         "icono": "pm248.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Tyranitar",
+         "rapido": "Mordisco",
+         "rapido_legado": false,
+         "tier": "SS",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Viento Aciago+",
+         "cargado_legado": false,
+         "edps": 36.15,
+         "icono": "pm609.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Chandelure",
+         "rapido": "Infortunio",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Bola Sombra",
+         "cargado_legado": true,
+         "edps": 35.84,
+         "icono": "pm150.fMEGA_X",
+         "legado": true,
+         "nombre": "Mega-Mewtwo X",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Psíquico",
+          "edps": 27.1,
+          "rapido": "Psicocorte"
+         },
+         "tier": "S",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Bola Sombra",
+         "cargado_legado": false,
+         "edps": 35.66,
+         "icono": "pm94.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Gengar",
+         "rapido": "Lengüetazo",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Bola Sombra",
+          "edps": 34.22,
+          "rapido": "Garra Umbría"
+         },
+         "tier": "S",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Juego Sucio",
+         "cargado_legado": false,
+         "edps": 35.17,
+         "icono": "pm491",
+         "legado": false,
+         "nombre": "Darkrai oscuro",
+         "rapido": "Alarido",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Giro Vil",
+         "cargado_legado": false,
+         "edps": 34.91,
+         "icono": "pm248",
+         "legado": false,
+         "nombre": "Tyranitar oscuro",
+         "rapido": "Mordisco",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Pulso Umbrío+",
+         "cargado_legado": false,
+         "edps": 34.28,
+         "icono": "pm229.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Houndoom",
+         "rapido": "Alarido",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "dark"
+        },
+        {
+         "cargado": "Rayo Umbrío",
+         "cargado_legado": false,
+         "edps": 33.13,
+         "icono": "pm800.fDAWN_WINGS",
+         "legado": false,
+         "nombre": "Necrozma Alas del Alba",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "ghost"
+        },
+        {
+         "cargado": "Ascenso Draco",
+         "cargado_legado": false,
+         "edps": 33.03,
+         "icono": "pm384.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Rayquaza",
+         "rapido": "Cola Dragón",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "flying"
+        },
+        {
+         "cargado": "Giro Vil",
+         "cargado_legado": true,
+         "edps": 31.69,
+         "icono": "pm359.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Absol",
+         "rapido": "Alarido",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Pulso Umbrío",
+          "edps": 27.57,
+          "rapido": "Alarido"
+         },
          "tier": "B",
-         "sin_legado": {
-          "rapido": "Psicocorte",
-          "cargado": "Onda Certera",
-          "edps": 24.03
-         }
+         "tipo": "dark"
         },
         {
-         "nombre": "Blaziken oscuro",
-         "icono": "pm257",
-         "rapido": "Contraataque",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 29.98,
-         "tier": "B"
-        },
-        {
-         "nombre": "Mega-Heracross",
-         "icono": "pm214.fMEGA",
-         "rapido": "Contraataque",
-         "cargado": "Megacuerno",
-         "tipo": "bug",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 29.73,
-         "tier": "B"
-        },
-        {
-         "nombre": "Conkeldurr oscuro",
-         "icono": "pm534",
-         "rapido": "Palmeo",
-         "cargado": "Puño Dinámico",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 28.82,
-         "tier": "C"
-        },
-        {
-         "nombre": "Mega-Falinks",
-         "icono": "pm870.fMEGA",
-         "rapido": "Contraataque",
-         "cargado": "Demolición+",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 28.25,
-         "tier": "C"
-        },
-        {
-         "nombre": "Mega-Gardevoir",
-         "icono": "pm282.fMEGA",
-         "rapido": "Encanto",
-         "cargado": "Brillo Mágico",
-         "tipo": "fairy",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 27.9,
-         "tier": "C"
-        },
-        {
-         "nombre": "Mega-Beedrill",
-         "icono": "pm15.fMEGA",
-         "rapido": "Picadura",
-         "cargado": "Aguijón Letal+",
-         "tipo": "bug",
+         "cargado": "Giro Vil",
+         "cargado_legado": true,
+         "edps": 31.46,
+         "icono": "pm635",
          "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 27.9,
-         "tier": "C",
+         "nombre": "Hydreigon oscuro",
+         "rapido": "Mordisco",
+         "rapido_legado": false,
          "sin_legado": {
-          "rapido": "Acoso",
-          "cargado": "Aguijón Letal+",
-          "edps": 26.67
-         }
+          "cargado": "Pulso Umbrío",
+          "edps": 27.57,
+          "rapido": "Mordisco"
+         },
+         "tier": "B",
+         "tipo": "dark"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/491/counters"
-      }
-     ],
-     "nota": ""
-    },
-    {
-     "nivel": "Mega",
-     "nivel_en": "Mega Raids",
-     "nota_en": "",
-     "jefes": [
-      {
+       "debil": [
+        {
+         "tipo": "ghost",
+         "x": 1.6
+        },
+        {
+         "tipo": "dark",
+         "x": 1.6
+        }
+       ],
+       "hub": "https://db.pokemongohub.net/es/pokemon/354-Mega/counters",
+       "icono": "pm354.fMEGA",
+       "jugadores": [
+        1,
+        2
+       ],
        "nombre": "Mega-Banette",
        "nombre_en": "Mega Banette",
-       "icono": "pm354.fMEGA",
        "oscuro": false,
-       "tipos": [
-        "ghost"
-       ],
        "pc": [
         1244,
         1313
@@ -1985,232 +2201,219 @@
         1555,
         1642
        ],
-       "clima": [
-        "Niebla"
+       "tipos": [
+        "ghost"
        ],
-       "variocolor": true,
-       "debil": [
-        {
-         "tipo": "ghost",
-         "x": 1.6
-        },
-        {
-         "tipo": "dark",
-         "x": 1.6
-        }
-       ],
-       "counters": [
-        {
-         "nombre": "Mega-Mewtwo Y",
-         "icono": "pm150.fMEGA_Y",
-         "rapido": "Psicocorte",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 38.04,
-         "tier": "SS",
-         "sin_legado": {
-          "rapido": "Psicocorte",
-          "cargado": "Premonición+",
-          "edps": 29.55
-         }
-        },
-        {
-         "nombre": "Mega-Tyranitar",
-         "icono": "pm248.fMEGA",
-         "rapido": "Mordisco",
-         "cargado": "Giro Vil",
-         "tipo": "dark",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 36.74,
-         "tier": "SS"
-        },
-        {
-         "nombre": "Mega-Chandelure",
-         "icono": "pm609.fMEGA",
-         "rapido": "Infortunio",
-         "cargado": "Viento Aciago+",
-         "tipo": "ghost",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 36.15,
-         "tier": "S"
-        },
-        {
-         "nombre": "Mega-Mewtwo X",
-         "icono": "pm150.fMEGA_X",
-         "rapido": "Psicocorte",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 35.84,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Psicocorte",
-          "cargado": "Psíquico",
-          "edps": 27.1
-         }
-        },
-        {
-         "nombre": "Mega-Gengar",
-         "icono": "pm94.fMEGA",
-         "rapido": "Lengüetazo",
-         "cargado": "Bola Sombra",
-         "tipo": "ghost",
-         "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 35.66,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Garra Umbría",
-          "cargado": "Bola Sombra",
-          "edps": 34.22
-         }
-        },
-        {
-         "nombre": "Darkrai oscuro",
-         "icono": "pm491",
-         "rapido": "Alarido",
-         "cargado": "Juego Sucio",
-         "tipo": "dark",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 35.17,
-         "tier": "S"
-        },
-        {
-         "nombre": "Tyranitar oscuro",
-         "icono": "pm248",
-         "rapido": "Mordisco",
-         "cargado": "Giro Vil",
-         "tipo": "dark",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 34.91,
-         "tier": "S"
-        },
-        {
-         "nombre": "Mega-Houndoom",
-         "icono": "pm229.fMEGA",
-         "rapido": "Alarido",
-         "cargado": "Pulso Umbrío+",
-         "tipo": "dark",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 34.28,
-         "tier": "A"
-        },
-        {
-         "nombre": "Necrozma Alas del Alba",
-         "icono": "pm800.fDAWN_WINGS",
-         "rapido": "Psicocorte",
-         "cargado": "Rayo Umbrío",
-         "tipo": "ghost",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 33.13,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Rayquaza",
-         "icono": "pm384.fMEGA",
-         "rapido": "Cola Dragón",
-         "cargado": "Ascenso Draco",
-         "tipo": "flying",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 33.03,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Absol",
-         "icono": "pm359.fMEGA",
-         "rapido": "Alarido",
-         "cargado": "Giro Vil",
-         "tipo": "dark",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 31.69,
-         "tier": "B",
-         "sin_legado": {
-          "rapido": "Alarido",
-          "cargado": "Pulso Umbrío",
-          "edps": 27.57
-         }
-        },
-        {
-         "nombre": "Hydreigon oscuro",
-         "icono": "pm635",
-         "rapido": "Mordisco",
-         "cargado": "Giro Vil",
-         "tipo": "dark",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 31.46,
-         "tier": "B",
-         "sin_legado": {
-          "rapido": "Mordisco",
-          "cargado": "Pulso Umbrío",
-          "edps": 27.57
-         }
-        }
-       ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/354-Mega/counters"
+       "variocolor": true
       }
      ],
-     "nota": ""
+     "nivel": "Mega",
+     "nivel_en": "Mega Raids",
+     "nota": "",
+     "nota_en": ""
     }
    ],
-   "titulo": "Cresselia, Darkrai y Mega-Banette en incursiones"
+   "tipo": "normal",
+   "titulo": "Cresselia, Darkrai y Mega-Banette en incursiones",
+   "titulo_en": "Cresselia, Darkrai, and Mega Banette in Raids"
   },
   {
-   "tipo": "oscura",
-   "titulo_en": "Shadow Tornadus (Incarnate Forme) November–December 2026",
-   "inicio": "2026-11-16T06:00:00+01:00",
    "fin": "2026-12-01T20:00:00+01:00",
+   "inicio": "2026-11-16T06:00:00+01:00",
    "niveles": [
     {
-     "nivel": "1 estrella",
-     "nivel_en": "1-Star Raids",
-     "nota_en": "",
      "jefes": [
       {
-       "nombre": "Larvitar oscuro",
-       "nombre_en": "Shadow Larvitar",
-       "icono": "pm246",
-       "oscuro": true,
-       "tipos": [
-        "rock",
-        "ground"
-       ],
-       "pc": [
-        513,
-        594
-       ],
-       "pc_clima": [
-        642,
-        743
-       ],
        "clima": [
         "Parcialmente nublado",
         "Soleado"
        ],
-       "variocolor": true,
+       "counters": [
+        {
+         "cargado": "Pulso Primigenio",
+         "cargado_legado": true,
+         "edps": 118.01,
+         "icono": "pm382.fPRIMAL",
+         "legado": true,
+         "nombre": "Kyogre Primigenio",
+         "rapido": "Cascada",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Hidrobomba",
+          "edps": 109.83,
+          "rapido": "Cascada"
+         },
+         "tier": "SS",
+         "tipo": "water"
+        },
+        {
+         "cargado": "Hidrocañón",
+         "cargado_legado": true,
+         "edps": 116.28,
+         "icono": "pm658.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Greninja",
+         "rapido": "Shuriken de Agua",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Surf+",
+          "edps": 113.39,
+          "rapido": "Shuriken de Agua"
+         },
+         "tier": "SS",
+         "tipo": "water"
+        },
+        {
+         "cargado": "Planta Feroz",
+         "cargado_legado": true,
+         "edps": 113.54,
+         "icono": "pm254.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Sceptile",
+         "rapido": "Semilladora",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Hoja Aguda",
+          "edps": 99.35,
+          "rapido": "Semilladora"
+         },
+         "tier": "S",
+         "tipo": "grass"
+        },
+        {
+         "cargado": "Pulso Primigenio",
+         "cargado_legado": true,
+         "edps": 109.58,
+         "icono": "pm382",
+         "legado": true,
+         "nombre": "Kyogre oscuro",
+         "rapido": "Cascada",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Surf",
+          "edps": 102.18,
+          "rapido": "Cascada"
+         },
+         "tier": "S",
+         "tipo": "water"
+        },
+        {
+         "cargado": "Martillazo",
+         "cargado_legado": false,
+         "edps": 105.41,
+         "icono": "pm99",
+         "legado": false,
+         "nombre": "Kingler oscuro",
+         "rapido": "Burbuja",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "water"
+        },
+        {
+         "cargado": "Hidrocañón",
+         "cargado_legado": true,
+         "edps": 105.03,
+         "icono": "pm658",
+         "legado": true,
+         "nombre": "Greninja oscuro",
+         "rapido": "Shuriken de Agua",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Surf",
+          "edps": 86.41,
+          "rapido": "Shuriken de Agua"
+         },
+         "tier": "A",
+         "tipo": "water"
+        },
+        {
+         "cargado": "Hoja Aguda",
+         "cargado_legado": false,
+         "edps": 103.75,
+         "icono": "pm798",
+         "legado": false,
+         "nombre": "Kartana",
+         "rapido": "Hoja Afilada",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "grass"
+        },
+        {
+         "cargado": "Hidroariete+",
+         "cargado_legado": false,
+         "edps": 102.58,
+         "icono": "pm121.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Starmie",
+         "rapido": "Pistola Agua",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "water"
+        },
+        {
+         "cargado": "Hidrocañón",
+         "cargado_legado": true,
+         "edps": 101.77,
+         "icono": "pm260.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Swampert",
+         "rapido": "Pistola Agua",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Surf",
+          "edps": 85.85,
+          "rapido": "Pistola Agua"
+         },
+         "tier": "A",
+         "tipo": "water"
+        },
+        {
+         "cargado": "Planta Feroz",
+         "cargado_legado": true,
+         "edps": 97.25,
+         "icono": "pm254",
+         "legado": true,
+         "nombre": "Sceptile oscuro",
+         "rapido": "Semilladora",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Hoja Aguda",
+          "edps": 84.52,
+          "rapido": "Semilladora"
+         },
+         "tier": "B",
+         "tipo": "grass"
+        },
+        {
+         "cargado": "Bomba Germen+",
+         "cargado_legado": false,
+         "edps": 96.1,
+         "icono": "pm652.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Chesnaught",
+         "rapido": "Látigo Cepa",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "grass"
+        },
+        {
+         "cargado": "Hidrocañón",
+         "cargado_legado": true,
+         "edps": 95.03,
+         "icono": "pm818",
+         "legado": true,
+         "nombre": "Inteleon",
+         "rapido": "Pistola Agua",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Disparo Certero",
+          "edps": 93.45,
+          "rapido": "Pistola Agua"
+         },
+         "tier": "B",
+         "tipo": "water"
+        }
+       ],
        "debil": [
         {
          "tipo": "water",
@@ -2237,214 +2440,200 @@
          "x": 1.6
         }
        ],
-       "counters": [
-        {
-         "nombre": "Kyogre Primigenio",
-         "icono": "pm382.fPRIMAL",
-         "rapido": "Cascada",
-         "cargado": "Pulso Primigenio",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 118.01,
-         "tier": "SS",
-         "sin_legado": {
-          "rapido": "Cascada",
-          "cargado": "Hidrobomba",
-          "edps": 109.83
-         }
-        },
-        {
-         "nombre": "Mega-Greninja",
-         "icono": "pm658.fMEGA",
-         "rapido": "Shuriken de Agua",
-         "cargado": "Hidrocañón",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 116.28,
-         "tier": "SS",
-         "sin_legado": {
-          "rapido": "Shuriken de Agua",
-          "cargado": "Surf+",
-          "edps": 113.39
-         }
-        },
-        {
-         "nombre": "Mega-Sceptile",
-         "icono": "pm254.fMEGA",
-         "rapido": "Semilladora",
-         "cargado": "Planta Feroz",
-         "tipo": "grass",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 113.54,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Semilladora",
-          "cargado": "Hoja Aguda",
-          "edps": 99.35
-         }
-        },
-        {
-         "nombre": "Kyogre oscuro",
-         "icono": "pm382",
-         "rapido": "Cascada",
-         "cargado": "Pulso Primigenio",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 109.58,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Cascada",
-          "cargado": "Surf",
-          "edps": 102.18
-         }
-        },
-        {
-         "nombre": "Kingler oscuro",
-         "icono": "pm99",
-         "rapido": "Burbuja",
-         "cargado": "Martillazo",
-         "tipo": "water",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 105.41,
-         "tier": "A"
-        },
-        {
-         "nombre": "Greninja oscuro",
-         "icono": "pm658",
-         "rapido": "Shuriken de Agua",
-         "cargado": "Hidrocañón",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 105.03,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Shuriken de Agua",
-          "cargado": "Surf",
-          "edps": 86.41
-         }
-        },
-        {
-         "nombre": "Kartana",
-         "icono": "pm798",
-         "rapido": "Hoja Afilada",
-         "cargado": "Hoja Aguda",
-         "tipo": "grass",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 103.75,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Starmie",
-         "icono": "pm121.fMEGA",
-         "rapido": "Pistola Agua",
-         "cargado": "Hidroariete+",
-         "tipo": "water",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 102.58,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Swampert",
-         "icono": "pm260.fMEGA",
-         "rapido": "Pistola Agua",
-         "cargado": "Hidrocañón",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 101.77,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Pistola Agua",
-          "cargado": "Surf",
-          "edps": 85.85
-         }
-        },
-        {
-         "nombre": "Sceptile oscuro",
-         "icono": "pm254",
-         "rapido": "Semilladora",
-         "cargado": "Planta Feroz",
-         "tipo": "grass",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 97.25,
-         "tier": "B",
-         "sin_legado": {
-          "rapido": "Semilladora",
-          "cargado": "Hoja Aguda",
-          "edps": 84.52
-         }
-        },
-        {
-         "nombre": "Mega-Chesnaught",
-         "icono": "pm652.fMEGA",
-         "rapido": "Látigo Cepa",
-         "cargado": "Bomba Germen+",
-         "tipo": "grass",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 96.1,
-         "tier": "B"
-        },
-        {
-         "nombre": "Inteleon",
-         "icono": "pm818",
-         "rapido": "Pistola Agua",
-         "cargado": "Hidrocañón",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 95.03,
-         "tier": "B",
-         "sin_legado": {
-          "rapido": "Pistola Agua",
-          "cargado": "Disparo Certero",
-          "edps": 93.45
-         }
-        }
+       "hub": "https://db.pokemongohub.net/es/pokemon/246/counters",
+       "icono": "pm246",
+       "jugadores": [
+        1,
+        2
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/246/counters"
-      },
-      {
-       "nombre": "Mudkip oscuro",
-       "nombre_en": "Shadow Mudkip",
-       "icono": "pm258",
+       "nombre": "Larvitar oscuro",
+       "nombre_en": "Shadow Larvitar",
        "oscuro": true,
-       "tipos": [
-        "water"
-       ],
        "pc": [
-        560,
-        644
+        513,
+        594
        ],
        "pc_clima": [
-        700,
-        805
+        642,
+        743
        ],
+       "tipos": [
+        "rock",
+        "ground"
+       ],
+       "variocolor": true
+      },
+      {
        "clima": [
         "Lluvia"
        ],
-       "variocolor": true,
+       "counters": [
+        {
+         "cargado": "Electormenta",
+         "cargado_legado": true,
+         "edps": 79.53,
+         "icono": "pm642.fTHERIAN",
+         "legado": true,
+         "nombre": "Thundurus oscuro (Forma Tótem)",
+         "rapido": "Voltiocambio",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Rayo",
+          "edps": 69.99,
+          "rapido": "Voltiocambio"
+         },
+         "tier": "SS",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Rayo Fusión",
+         "cargado_legado": true,
+         "edps": 72.12,
+         "icono": "pm644",
+         "legado": true,
+         "nombre": "Zekrom oscuro",
+         "rapido": "Rayo Carga",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Voltio Cruel",
+          "edps": 69.46,
+          "rapido": "Rayo Carga"
+         },
+         "tier": "S",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Electrocañón+",
+         "cargado_legado": false,
+         "edps": 71.73,
+         "icono": "pm26.fMEGA_Y",
+         "legado": false,
+         "nombre": "Mega-Raichu Y",
+         "rapido": "Impactrueno",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Planta Feroz",
+         "cargado_legado": true,
+         "edps": 71.48,
+         "icono": "pm254.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Sceptile",
+         "rapido": "Corte Furia",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Hoja Aguda",
+          "edps": 61.73,
+          "rapido": "Corte Furia"
+         },
+         "tier": "S",
+         "tipo": "grass"
+        },
+        {
+         "cargado": "Electrojaula",
+         "cargado_legado": true,
+         "edps": 70.83,
+         "icono": "pm894",
+         "legado": true,
+         "nombre": "Regieleki",
+         "rapido": "Fijar Blanco",
+         "rapido_legado": false,
+         "sin_legado": null,
+         "tier": "S",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Chispazo+",
+         "cargado_legado": false,
+         "edps": 66.8,
+         "icono": "pm310.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Manectric",
+         "rapido": "Colmillo Rayo",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Electormenta",
+         "cargado_legado": true,
+         "edps": 66.4,
+         "icono": "pm642.fTHERIAN",
+         "legado": true,
+         "nombre": "Thundurus (Forma Tótem)",
+         "rapido": "Voltiocambio",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Rayo",
+          "edps": 58.44,
+          "rapido": "Voltiocambio"
+         },
+         "tier": "A",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Puños Plasma",
+         "cargado_legado": false,
+         "edps": 65.08,
+         "icono": "pm807",
+         "legado": false,
+         "nombre": "Zeraora",
+         "rapido": "Voltiocambio",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Voltio Cruel",
+         "cargado_legado": false,
+         "edps": 64.23,
+         "icono": "pm466",
+         "legado": false,
+         "nombre": "Electivire oscuro",
+         "rapido": "Impactrueno",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Hoja Aguda",
+         "cargado_legado": false,
+         "edps": 64.06,
+         "icono": "pm798",
+         "legado": false,
+         "nombre": "Kartana",
+         "rapido": "Hoja Afilada",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "grass"
+        },
+        {
+         "cargado": "Voltio Cruel",
+         "cargado_legado": false,
+         "edps": 64.02,
+         "icono": "pm243",
+         "legado": false,
+         "nombre": "Raikou oscuro",
+         "rapido": "Impactrueno",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Rayo",
+         "cargado_legado": false,
+         "edps": 63.14,
+         "icono": "pm150.fMEGA_Y",
+         "legado": false,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "electric"
+        }
+       ],
        "debil": [
         {
          "tipo": "grass",
@@ -2455,195 +2644,209 @@
          "x": 1.6
         }
        ],
-       "counters": [
-        {
-         "nombre": "Thundurus oscuro (Forma Tótem)",
-         "icono": "pm642.fTHERIAN",
-         "rapido": "Voltiocambio",
-         "cargado": "Electormenta",
-         "tipo": "electric",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 79.53,
-         "tier": "SS",
-         "sin_legado": {
-          "rapido": "Voltiocambio",
-          "cargado": "Rayo",
-          "edps": 69.99
-         }
-        },
-        {
-         "nombre": "Zekrom oscuro",
-         "icono": "pm644",
-         "rapido": "Rayo Carga",
-         "cargado": "Rayo Fusión",
-         "tipo": "electric",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 72.12,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Rayo Carga",
-          "cargado": "Voltio Cruel",
-          "edps": 69.46
-         }
-        },
-        {
-         "nombre": "Mega-Raichu Y",
-         "icono": "pm26.fMEGA_Y",
-         "rapido": "Impactrueno",
-         "cargado": "Electrocañón+",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 71.73,
-         "tier": "S"
-        },
-        {
-         "nombre": "Mega-Sceptile",
-         "icono": "pm254.fMEGA",
-         "rapido": "Corte Furia",
-         "cargado": "Planta Feroz",
-         "tipo": "grass",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 71.48,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Corte Furia",
-          "cargado": "Hoja Aguda",
-          "edps": 61.73
-         }
-        },
-        {
-         "nombre": "Regieleki",
-         "icono": "pm894",
-         "rapido": "Fijar Blanco",
-         "cargado": "Electrojaula",
-         "tipo": "electric",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 70.83,
-         "tier": "S",
-         "sin_legado": null
-        },
-        {
-         "nombre": "Mega-Manectric",
-         "icono": "pm310.fMEGA",
-         "rapido": "Colmillo Rayo",
-         "cargado": "Chispazo+",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 66.8,
-         "tier": "A"
-        },
-        {
-         "nombre": "Thundurus (Forma Tótem)",
-         "icono": "pm642.fTHERIAN",
-         "rapido": "Voltiocambio",
-         "cargado": "Electormenta",
-         "tipo": "electric",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 66.4,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Voltiocambio",
-          "cargado": "Rayo",
-          "edps": 58.44
-         }
-        },
-        {
-         "nombre": "Zeraora",
-         "icono": "pm807",
-         "rapido": "Voltiocambio",
-         "cargado": "Puños Plasma",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 65.08,
-         "tier": "A"
-        },
-        {
-         "nombre": "Electivire oscuro",
-         "icono": "pm466",
-         "rapido": "Impactrueno",
-         "cargado": "Voltio Cruel",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 64.23,
-         "tier": "B"
-        },
-        {
-         "nombre": "Kartana",
-         "icono": "pm798",
-         "rapido": "Hoja Afilada",
-         "cargado": "Hoja Aguda",
-         "tipo": "grass",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 64.06,
-         "tier": "B"
-        },
-        {
-         "nombre": "Raikou oscuro",
-         "icono": "pm243",
-         "rapido": "Impactrueno",
-         "cargado": "Voltio Cruel",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 64.02,
-         "tier": "B"
-        },
-        {
-         "nombre": "Mega-Mewtwo Y",
-         "icono": "pm150.fMEGA_Y",
-         "rapido": "Psicocorte",
-         "cargado": "Rayo",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 63.14,
-         "tier": "B"
-        }
+       "hub": "https://db.pokemongohub.net/es/pokemon/258/counters",
+       "icono": "pm258",
+       "jugadores": [
+        1,
+        2
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/258/counters"
-      },
-      {
-       "nombre": "Makuhita oscuro",
-       "nombre_en": "Shadow Makuhita",
-       "icono": "pm296",
+       "nombre": "Mudkip oscuro",
+       "nombre_en": "Shadow Mudkip",
        "oscuro": true,
-       "tipos": [
-        "fighting"
-       ],
        "pc": [
-        391,
-        467
+        560,
+        644
        ],
        "pc_clima": [
-        489,
-        583
+        700,
+        805
        ],
+       "tipos": [
+        "water"
+       ],
+       "variocolor": true
+      },
+      {
        "clima": [
         "Nublado"
        ],
-       "variocolor": true,
+       "counters": [
+        {
+         "cargado": "Psicoataque",
+         "cargado_legado": false,
+         "edps": 160.26,
+         "icono": "pm386.fATTACK",
+         "legado": false,
+         "nombre": "Deoxys (Forma Ataque)",
+         "rapido": "Cabezazo Zen",
+         "rapido_legado": false,
+         "tier": "SS",
+         "tipo": "psychic"
+        },
+        {
+         "cargado": "Onda Mental",
+         "cargado_legado": true,
+         "edps": 144.69,
+         "icono": "pm150.fMEGA_Y",
+         "legado": true,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Confusión",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Premonición+",
+          "edps": 141.46,
+          "rapido": "Confusión"
+         },
+         "tier": "S",
+         "tipo": "psychic"
+        },
+        {
+         "cargado": "Ascenso Draco",
+         "cargado_legado": false,
+         "edps": 142.86,
+         "icono": "pm384.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Rayquaza",
+         "rapido": "Tajo Aéreo",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "flying"
+        },
+        {
+         "cargado": "Onda Mental",
+         "cargado_legado": true,
+         "edps": 140.2,
+         "icono": "pm150.fMEGA_X",
+         "legado": true,
+         "nombre": "Mega-Mewtwo X",
+         "rapido": "Confusión",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Psíquico",
+          "edps": 131.54,
+          "rapido": "Confusión"
+         },
+         "tier": "S",
+         "tipo": "psychic"
+        },
+        {
+         "cargado": "Psicoataque",
+         "cargado_legado": false,
+         "edps": 133.42,
+         "icono": "pm386.fNORMAL",
+         "legado": false,
+         "nombre": "Deoxys (Forma Normal)",
+         "rapido": "Cabezazo Zen",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "psychic"
+        },
+        {
+         "cargado": "Onda Mental",
+         "cargado_legado": true,
+         "edps": 128.74,
+         "icono": "pm150",
+         "legado": true,
+         "nombre": "Mewtwo oscuro",
+         "rapido": "Confusión",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Psíquico",
+          "edps": 120.72,
+          "rapido": "Confusión"
+         },
+         "tier": "A",
+         "tipo": "psychic"
+        },
+        {
+         "cargado": "Psíquico",
+         "cargado_legado": true,
+         "edps": 120.61,
+         "icono": "pm65.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Alakazam",
+         "rapido": "Confusión",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Premonición",
+          "edps": 114.01,
+          "rapido": "Confusión"
+         },
+         "tier": "B",
+         "tipo": "psychic"
+        },
+        {
+         "cargado": "Pico Cañón",
+         "cargado_legado": true,
+         "edps": 112.4,
+         "icono": "pm733",
+         "legado": true,
+         "nombre": "Toucannon oscuro",
+         "rapido": "Picotazo",
+         "rapido_legado": false,
+         "sin_legado": null,
+         "tier": "C",
+         "tipo": "flying"
+        },
+        {
+         "cargado": "Ascenso Draco",
+         "cargado_legado": false,
+         "edps": 109.49,
+         "icono": "pm384",
+         "legado": false,
+         "nombre": "Rayquaza",
+         "rapido": "Tajo Aéreo",
+         "rapido_legado": false,
+         "tier": "C",
+         "tipo": "flying"
+        },
+        {
+         "cargado": "Vuelo",
+         "cargado_legado": false,
+         "edps": 109.4,
+         "icono": "pm146",
+         "legado": false,
+         "nombre": "Moltres oscuro",
+         "rapido": "Ataque Ala",
+         "rapido_legado": false,
+         "tier": "C",
+         "tipo": "flying"
+        },
+        {
+         "cargado": "Psíquico",
+         "cargado_legado": true,
+         "edps": 109.18,
+         "icono": "pm65",
+         "legado": true,
+         "nombre": "Alakazam oscuro",
+         "rapido": "Confusión",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Premonición",
+          "edps": 102.83,
+          "rapido": "Confusión"
+         },
+         "tier": "C",
+         "tipo": "psychic"
+        },
+        {
+         "cargado": "Vuelo",
+         "cargado_legado": false,
+         "edps": 108.36,
+         "icono": "pm398",
+         "legado": true,
+         "nombre": "Staraptor oscuro",
+         "rapido": "Tornado",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Vuelo",
+          "edps": 103.75,
+          "rapido": "Ataque Ala"
+         },
+         "tier": "C",
+         "tipo": "flying"
+        }
+       ],
        "debil": [
         {
          "tipo": "flying",
@@ -2658,193 +2861,239 @@
          "x": 1.6
         }
        ],
-       "counters": [
-        {
-         "nombre": "Deoxys (Forma Ataque)",
-         "icono": "pm386.fATTACK",
-         "rapido": "Cabezazo Zen",
-         "cargado": "Psicoataque",
-         "tipo": "psychic",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 160.26,
-         "tier": "SS"
-        },
-        {
-         "nombre": "Mega-Mewtwo Y",
-         "icono": "pm150.fMEGA_Y",
-         "rapido": "Confusión",
-         "cargado": "Onda Mental",
-         "tipo": "psychic",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 144.69,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Confusión",
-          "cargado": "Premonición+",
-          "edps": 141.46
-         }
-        },
-        {
-         "nombre": "Mega-Rayquaza",
-         "icono": "pm384.fMEGA",
-         "rapido": "Tajo Aéreo",
-         "cargado": "Ascenso Draco",
-         "tipo": "flying",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 142.86,
-         "tier": "S"
-        },
-        {
-         "nombre": "Mega-Mewtwo X",
-         "icono": "pm150.fMEGA_X",
-         "rapido": "Confusión",
-         "cargado": "Onda Mental",
-         "tipo": "psychic",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 140.2,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Confusión",
-          "cargado": "Psíquico",
-          "edps": 131.54
-         }
-        },
-        {
-         "nombre": "Deoxys (Forma Normal)",
-         "icono": "pm386.fNORMAL",
-         "rapido": "Cabezazo Zen",
-         "cargado": "Psicoataque",
-         "tipo": "psychic",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 133.42,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mewtwo oscuro",
-         "icono": "pm150",
-         "rapido": "Confusión",
-         "cargado": "Onda Mental",
-         "tipo": "psychic",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 128.74,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Confusión",
-          "cargado": "Psíquico",
-          "edps": 120.72
-         }
-        },
-        {
-         "nombre": "Mega-Alakazam",
-         "icono": "pm65.fMEGA",
-         "rapido": "Confusión",
-         "cargado": "Psíquico",
-         "tipo": "psychic",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 120.61,
-         "tier": "B",
-         "sin_legado": {
-          "rapido": "Confusión",
-          "cargado": "Premonición",
-          "edps": 114.01
-         }
-        },
-        {
-         "nombre": "Toucannon oscuro",
-         "icono": "pm733",
-         "rapido": "Picotazo",
-         "cargado": "Pico Cañón",
-         "tipo": "flying",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 112.4,
-         "tier": "C",
-         "sin_legado": null
-        },
-        {
-         "nombre": "Rayquaza",
-         "icono": "pm384",
-         "rapido": "Tajo Aéreo",
-         "cargado": "Ascenso Draco",
-         "tipo": "flying",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 109.49,
-         "tier": "C"
-        },
-        {
-         "nombre": "Moltres oscuro",
-         "icono": "pm146",
-         "rapido": "Ataque Ala",
-         "cargado": "Vuelo",
-         "tipo": "flying",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 109.4,
-         "tier": "C"
-        },
-        {
-         "nombre": "Alakazam oscuro",
-         "icono": "pm65",
-         "rapido": "Confusión",
-         "cargado": "Psíquico",
-         "tipo": "psychic",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 109.18,
-         "tier": "C",
-         "sin_legado": {
-          "rapido": "Confusión",
-          "cargado": "Premonición",
-          "edps": 102.83
-         }
-        },
-        {
-         "nombre": "Staraptor oscuro",
-         "icono": "pm398",
-         "rapido": "Tornado",
-         "cargado": "Vuelo",
-         "tipo": "flying",
-         "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 108.36,
-         "tier": "C",
-         "sin_legado": {
-          "rapido": "Ataque Ala",
-          "cargado": "Vuelo",
-          "edps": 103.75
-         }
-        }
+       "hub": "https://db.pokemongohub.net/es/pokemon/296/counters",
+       "icono": "pm296",
+       "jugadores": [
+        1,
+        2
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/296/counters"
+       "nombre": "Makuhita oscuro",
+       "nombre_en": "Shadow Makuhita",
+       "oscuro": true,
+       "pc": [
+        391,
+        467
+       ],
+       "pc_clima": [
+        489,
+        583
+       ],
+       "tipos": [
+        "fighting"
+       ],
+       "variocolor": true
       },
       {
+       "clima": [
+        "Parcialmente nublado"
+       ],
+       "counters": [
+        {
+         "cargado": "Esfera Aural",
+         "cargado_legado": false,
+         "edps": 108.3,
+         "icono": "pm448.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Lucario",
+         "rapido": "Palmeo",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Esfera Aural",
+          "edps": 97.84,
+          "rapido": "Contraataque"
+         },
+         "tier": "SS",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Puño Dinámico+",
+         "cargado_legado": false,
+         "edps": 108.03,
+         "icono": "pm150.fMEGA_X",
+         "legado": true,
+         "nombre": "Mega-Mewtwo X",
+         "rapido": "Contraataque",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Puño Dinámico+",
+          "edps": 93.33,
+          "rapido": "Psicocorte"
+         },
+         "tier": "SS",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Tajo Supremo",
+         "cargado_legado": false,
+         "edps": 105.59,
+         "icono": "pm888.fCROWNED_SWORD",
+         "legado": false,
+         "nombre": "Zacian Espada Suprema",
+         "rapido": "Garra Metal",
+         "rapido_legado": false,
+         "tier": "SS",
+         "tipo": "steel"
+        },
+        {
+         "cargado": "Esfera Aural",
+         "cargado_legado": false,
+         "edps": 103.36,
+         "icono": "pm257.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Blaziken",
+         "rapido": "Contraataque",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Meteoimpacto",
+         "cargado_legado": false,
+         "edps": 101.58,
+         "icono": "pm800.fDUSK_MANE",
+         "legado": false,
+         "nombre": "Necrozma Melena Crepuscular",
+         "rapido": "Garra Metal",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "steel"
+        },
+        {
+         "cargado": "Embate Supremo",
+         "cargado_legado": false,
+         "edps": 101.43,
+         "icono": "pm889.fCROWNED_SHIELD",
+         "legado": false,
+         "nombre": "Zamazenta Escudo Supremo",
+         "rapido": "Garra Metal",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "steel"
+        },
+        {
+         "cargado": "Pulso Primigenio",
+         "cargado_legado": true,
+         "edps": 93.34,
+         "icono": "pm382.fPRIMAL",
+         "legado": true,
+         "nombre": "Kyogre Primigenio",
+         "rapido": "Cascada",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Surf",
+          "edps": 87.24,
+          "rapido": "Cascada"
+         },
+         "tier": "A",
+         "tipo": "water"
+        },
+        {
+         "cargado": "Sable Místico",
+         "cargado_legado": false,
+         "edps": 91.72,
+         "icono": "pm647.fRESOLUTE",
+         "legado": false,
+         "nombre": "Keldeo (Forma Brío)",
+         "rapido": "Patada Baja",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Onda Certera",
+         "cargado_legado": false,
+         "edps": 90.42,
+         "icono": "pm150.fMEGA_Y",
+         "legado": true,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Contraataque",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Onda Certera",
+          "edps": 80.05,
+          "rapido": "Psicocorte"
+         },
+         "tier": "B",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Filo del Abismo",
+         "cargado_legado": true,
+         "edps": 90.18,
+         "icono": "pm383.fPRIMAL",
+         "legado": true,
+         "nombre": "Groudon Primigenio",
+         "rapido": "Disparo Lodo",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Terremoto",
+          "edps": 83.09,
+          "rapido": "Disparo Lodo"
+         },
+         "tier": "B",
+         "tipo": "ground"
+        },
+        {
+         "cargado": "Esfera Aural",
+         "cargado_legado": false,
+         "edps": 89.76,
+         "icono": "pm257",
+         "legado": false,
+         "nombre": "Blaziken oscuro",
+         "rapido": "Contraataque",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Hidrocañón",
+         "cargado_legado": true,
+         "edps": 89.57,
+         "icono": "pm658.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Greninja",
+         "rapido": "Shuriken de Agua",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Surf+",
+          "edps": 86.34,
+          "rapido": "Shuriken de Agua"
+         },
+         "tier": "B",
+         "tipo": "water"
+        }
+       ],
+       "debil": [
+        {
+         "tipo": "fighting",
+         "x": 1.6
+        },
+        {
+         "tipo": "ground",
+         "x": 1.6
+        },
+        {
+         "tipo": "steel",
+         "x": 1.6
+        },
+        {
+         "tipo": "water",
+         "x": 1.6
+        },
+        {
+         "tipo": "grass",
+         "x": 1.6
+        }
+       ],
+       "hub": "https://db.pokemongohub.net/es/pokemon/408/counters",
+       "icono": "pm408",
+       "jugadores": [
+        1,
+        2
+       ],
        "nombre": "Cranidos oscuro",
        "nombre_en": "Shadow Cranidos",
-       "icono": "pm408",
        "oscuro": true,
-       "tipos": [
-        "rock"
-       ],
        "pc": [
         922,
         1040
@@ -2853,226 +3102,209 @@
         1153,
         1300
        ],
-       "clima": [
-        "Parcialmente nublado"
+       "tipos": [
+        "rock"
        ],
-       "variocolor": true,
-       "debil": [
-        {
-         "tipo": "fighting",
-         "x": 1.6
-        },
-        {
-         "tipo": "ground",
-         "x": 1.6
-        },
-        {
-         "tipo": "steel",
-         "x": 1.6
-        },
-        {
-         "tipo": "water",
-         "x": 1.6
-        },
-        {
-         "tipo": "grass",
-         "x": 1.6
-        }
+       "variocolor": true
+      }
+     ],
+     "nivel": "1 estrella",
+     "nivel_en": "1-Star Raids",
+     "nota": "",
+     "nota_en": ""
+    },
+    {
+     "jefes": [
+      {
+       "clima": [
+        "Lluvia"
        ],
        "counters": [
         {
-         "nombre": "Mega-Lucario",
-         "icono": "pm448.fMEGA",
-         "rapido": "Palmeo",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
-         "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 108.3,
-         "tier": "SS",
-         "sin_legado": {
-          "rapido": "Contraataque",
-          "cargado": "Esfera Aural",
-          "edps": 97.84
-         }
-        },
-        {
-         "nombre": "Mega-Mewtwo X",
-         "icono": "pm150.fMEGA_X",
-         "rapido": "Contraataque",
-         "cargado": "Puño Dinámico+",
-         "tipo": "fighting",
-         "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 108.03,
-         "tier": "SS",
-         "sin_legado": {
-          "rapido": "Psicocorte",
-          "cargado": "Puño Dinámico+",
-          "edps": 93.33
-         }
-        },
-        {
-         "nombre": "Zacian Espada Suprema",
-         "icono": "pm888.fCROWNED_SWORD",
-         "rapido": "Garra Metal",
-         "cargado": "Tajo Supremo",
-         "tipo": "steel",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 105.59,
-         "tier": "SS"
-        },
-        {
-         "nombre": "Mega-Blaziken",
-         "icono": "pm257.fMEGA",
-         "rapido": "Contraataque",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 103.36,
-         "tier": "S"
-        },
-        {
-         "nombre": "Necrozma Melena Crepuscular",
-         "icono": "pm800.fDUSK_MANE",
-         "rapido": "Garra Metal",
-         "cargado": "Meteoimpacto",
-         "tipo": "steel",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 101.58,
-         "tier": "S"
-        },
-        {
-         "nombre": "Zamazenta Escudo Supremo",
-         "icono": "pm889.fCROWNED_SHIELD",
-         "rapido": "Garra Metal",
-         "cargado": "Embate Supremo",
-         "tipo": "steel",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 101.43,
-         "tier": "S"
-        },
-        {
-         "nombre": "Kyogre Primigenio",
-         "icono": "pm382.fPRIMAL",
-         "rapido": "Cascada",
-         "cargado": "Pulso Primigenio",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
+         "cargado": "Electormenta",
          "cargado_legado": true,
-         "edps": 93.34,
+         "edps": 61.13,
+         "icono": "pm642.fTHERIAN",
+         "legado": true,
+         "nombre": "Thundurus oscuro (Forma Tótem)",
+         "rapido": "Voltiocambio",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Rayo",
+          "edps": 54.59,
+          "rapido": "Voltiocambio"
+         },
+         "tier": "SS",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Rayo Fusión",
+         "cargado_legado": true,
+         "edps": 57.01,
+         "icono": "pm644",
+         "legado": true,
+         "nombre": "Zekrom oscuro",
+         "rapido": "Rayo Carga",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Voltio Cruel",
+          "edps": 54.64,
+          "rapido": "Rayo Carga"
+         },
+         "tier": "S",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Electrocañón+",
+         "cargado_legado": false,
+         "edps": 56.91,
+         "icono": "pm26.fMEGA_Y",
+         "legado": false,
+         "nombre": "Mega-Raichu Y",
+         "rapido": "Impactrueno",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Electrojaula",
+         "cargado_legado": true,
+         "edps": 56.66,
+         "icono": "pm894",
+         "legado": true,
+         "nombre": "Regieleki",
+         "rapido": "Fijar Blanco",
+         "rapido_legado": false,
+         "sin_legado": null,
+         "tier": "S",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Planta Feroz",
+         "cargado_legado": true,
+         "edps": 55.33,
+         "icono": "pm254.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Sceptile",
+         "rapido": "Corte Furia",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Hoja Aguda",
+          "edps": 47.82,
+          "rapido": "Semilladora"
+         },
+         "tier": "S",
+         "tipo": "grass"
+        },
+        {
+         "cargado": "Chispazo+",
+         "cargado_legado": false,
+         "edps": 52.57,
+         "icono": "pm310.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Manectric",
+         "rapido": "Colmillo Rayo",
+         "rapido_legado": false,
          "tier": "A",
-         "sin_legado": {
-          "rapido": "Cascada",
-          "cargado": "Surf",
-          "edps": 87.24
-         }
+         "tipo": "electric"
         },
         {
-         "nombre": "Keldeo (Forma Brío)",
-         "icono": "pm647.fRESOLUTE",
-         "rapido": "Patada Baja",
-         "cargado": "Sable Místico",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
+         "cargado": "Voltio Cruel",
          "cargado_legado": false,
-         "edps": 91.72,
-         "tier": "A"
+         "edps": 51.48,
+         "icono": "pm466",
+         "legado": false,
+         "nombre": "Electivire oscuro",
+         "rapido": "Impactrueno",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "electric"
         },
         {
-         "nombre": "Mega-Mewtwo Y",
+         "cargado": "Electormenta",
+         "cargado_legado": true,
+         "edps": 51.36,
+         "icono": "pm642.fTHERIAN",
+         "legado": true,
+         "nombre": "Thundurus (Forma Tótem)",
+         "rapido": "Voltiocambio",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Rayo",
+          "edps": 45.74,
+          "rapido": "Voltiocambio"
+         },
+         "tier": "A",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Puños Plasma",
+         "cargado_legado": false,
+         "edps": 50.65,
+         "icono": "pm807",
+         "legado": false,
+         "nombre": "Zeraora",
+         "rapido": "Voltiocambio",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Hoja Aguda",
+         "cargado_legado": false,
+         "edps": 50.47,
+         "icono": "pm798",
+         "legado": false,
+         "nombre": "Kartana",
+         "rapido": "Hoja Afilada",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "grass"
+        },
+        {
+         "cargado": "Chispazo",
+         "cargado_legado": false,
+         "edps": 50.1,
+         "icono": "pm796",
+         "legado": false,
+         "nombre": "Xurkitree",
+         "rapido": "Impactrueno",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Rayo",
+         "cargado_legado": false,
+         "edps": 49.63,
          "icono": "pm150.fMEGA_Y",
-         "rapido": "Contraataque",
-         "cargado": "Onda Certera",
-         "tipo": "fighting",
-         "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 90.42,
-         "tier": "B",
-         "sin_legado": {
-          "rapido": "Psicocorte",
-          "cargado": "Onda Certera",
-          "edps": 80.05
-         }
-        },
-        {
-         "nombre": "Groudon Primigenio",
-         "icono": "pm383.fPRIMAL",
-         "rapido": "Disparo Lodo",
-         "cargado": "Filo del Abismo",
-         "tipo": "ground",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 90.18,
-         "tier": "B",
-         "sin_legado": {
-          "rapido": "Disparo Lodo",
-          "cargado": "Terremoto",
-          "edps": 83.09
-         }
-        },
-        {
-         "nombre": "Blaziken oscuro",
-         "icono": "pm257",
-         "rapido": "Contraataque",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
          "legado": false,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Psicocorte",
          "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 89.76,
-         "tier": "B"
-        },
-        {
-         "nombre": "Mega-Greninja",
-         "icono": "pm658.fMEGA",
-         "rapido": "Shuriken de Agua",
-         "cargado": "Hidrocañón",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 89.57,
          "tier": "B",
-         "sin_legado": {
-          "rapido": "Shuriken de Agua",
-          "cargado": "Surf+",
-          "edps": 86.34
-         }
+         "tipo": "electric"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/408/counters"
-      }
-     ],
-     "nota": ""
-    },
-    {
-     "nivel": "3 estrellas",
-     "nivel_en": "3-Star Raids",
-     "nota_en": "",
-     "jefes": [
-      {
+       "debil": [
+        {
+         "tipo": "grass",
+         "x": 1.6
+        },
+        {
+         "tipo": "electric",
+         "x": 1.6
+        }
+       ],
+       "hub": "https://db.pokemongohub.net/es/pokemon/61/counters",
+       "icono": "pm61",
+       "jugadores": [
+        1,
+        2
+       ],
        "nombre": "Poliwhirl oscuro",
        "nombre_en": "Shadow Poliwhirl",
-       "icono": "pm61",
        "oscuro": true,
-       "tipos": [
-        "water"
-       ],
        "pc": [
         716,
         811
@@ -3081,198 +3313,233 @@
         895,
         1013
        ],
-       "clima": [
-        "Lluvia"
+       "tipos": [
+        "water"
        ],
-       "variocolor": true,
-       "debil": [
-        {
-         "tipo": "grass",
-         "x": 1.6
-        },
-        {
-         "tipo": "electric",
-         "x": 1.6
-        }
+       "variocolor": true
+      },
+      {
+       "clima": [
+        "Nieve",
+        "Soleado"
        ],
        "counters": [
         {
-         "nombre": "Thundurus oscuro (Forma Tótem)",
-         "icono": "pm642.fTHERIAN",
-         "rapido": "Voltiocambio",
-         "cargado": "Electormenta",
-         "tipo": "electric",
-         "legado": true,
+         "cargado": "Tajo Supremo",
+         "cargado_legado": false,
+         "edps": 60.44,
+         "icono": "pm888.fCROWNED_SWORD",
+         "legado": false,
+         "nombre": "Zacian Espada Suprema",
+         "rapido": "Garra Metal",
          "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 61.13,
          "tier": "SS",
-         "sin_legado": {
-          "rapido": "Voltiocambio",
-          "cargado": "Rayo",
-          "edps": 54.59
-         }
+         "tipo": "steel"
         },
         {
-         "nombre": "Zekrom oscuro",
-         "icono": "pm644",
-         "rapido": "Rayo Carga",
-         "cargado": "Rayo Fusión",
-         "tipo": "electric",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 57.01,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Rayo Carga",
-          "cargado": "Voltio Cruel",
-          "edps": 54.64
-         }
-        },
-        {
-         "nombre": "Mega-Raichu Y",
-         "icono": "pm26.fMEGA_Y",
-         "rapido": "Impactrueno",
-         "cargado": "Electrocañón+",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
+         "cargado": "Esfera Aural",
          "cargado_legado": false,
-         "edps": 56.91,
-         "tier": "S"
-        },
-        {
-         "nombre": "Regieleki",
-         "icono": "pm894",
-         "rapido": "Fijar Blanco",
-         "cargado": "Electrojaula",
-         "tipo": "electric",
+         "edps": 60.31,
+         "icono": "pm448.fMEGA",
          "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 56.66,
-         "tier": "S",
-         "sin_legado": null
-        },
-        {
-         "nombre": "Mega-Sceptile",
-         "icono": "pm254.fMEGA",
-         "rapido": "Corte Furia",
-         "cargado": "Planta Feroz",
-         "tipo": "grass",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 55.33,
-         "tier": "S",
+         "nombre": "Mega-Lucario",
+         "rapido": "Palmeo",
+         "rapido_legado": true,
          "sin_legado": {
-          "rapido": "Semilladora",
-          "cargado": "Hoja Aguda",
-          "edps": 47.82
-         }
+          "cargado": "Esfera Aural",
+          "edps": 53.99,
+          "rapido": "Contraataque"
+         },
+         "tier": "SS",
+         "tipo": "fighting"
         },
         {
-         "nombre": "Mega-Manectric",
-         "icono": "pm310.fMEGA",
-         "rapido": "Colmillo Rayo",
-         "cargado": "Chispazo+",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
+         "cargado": "Puño Dinámico+",
          "cargado_legado": false,
-         "edps": 52.57,
-         "tier": "A"
-        },
-        {
-         "nombre": "Electivire oscuro",
-         "icono": "pm466",
-         "rapido": "Impactrueno",
-         "cargado": "Voltio Cruel",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 51.48,
-         "tier": "A"
-        },
-        {
-         "nombre": "Thundurus (Forma Tótem)",
-         "icono": "pm642.fTHERIAN",
-         "rapido": "Voltiocambio",
-         "cargado": "Electormenta",
-         "tipo": "electric",
+         "edps": 60.22,
+         "icono": "pm150.fMEGA_X",
          "legado": true,
+         "nombre": "Mega-Mewtwo X",
+         "rapido": "Contraataque",
+         "rapido_legado": true,
+         "sin_legado": {
+          "cargado": "Puño Dinámico+",
+          "edps": 52.06,
+          "rapido": "Psicocorte"
+         },
+         "tier": "SS",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Esfera Aural",
+         "cargado_legado": false,
+         "edps": 57.93,
+         "icono": "pm257.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Blaziken",
+         "rapido": "Giro Fuego",
          "rapido_legado": false,
+         "tier": "S",
+         "tipo": "fighting"
+        },
+        {
+         "cargado": "Embate Supremo",
+         "cargado_legado": false,
+         "edps": 57,
+         "icono": "pm889.fCROWNED_SHIELD",
+         "legado": false,
+         "nombre": "Zamazenta Escudo Supremo",
+         "rapido": "Garra Metal",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "steel"
+        },
+        {
+         "cargado": "Meteoimpacto",
+         "cargado_legado": false,
+         "edps": 56.8,
+         "icono": "pm800.fDUSK_MANE",
+         "legado": false,
+         "nombre": "Necrozma Melena Crepuscular",
+         "rapido": "Garra Metal",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "steel"
+        },
+        {
+         "cargado": "Anillo Ígneo",
          "cargado_legado": true,
-         "edps": 51.36,
+         "edps": 53.98,
+         "icono": "pm655.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Delphox",
+         "rapido": "Giro Fuego",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Llama Embrujada+",
+          "edps": 52.74,
+          "rapido": "Giro Fuego"
+         },
          "tier": "A",
+         "tipo": "fire"
+        },
+        {
+         "cargado": "Llama Fusión",
+         "cargado_legado": true,
+         "edps": 52.59,
+         "icono": "pm643",
+         "legado": true,
+         "nombre": "Reshiram oscuro",
+         "rapido": "Colmillo Ígneo",
+         "rapido_legado": false,
          "sin_legado": {
-          "rapido": "Voltiocambio",
-          "cargado": "Rayo",
-          "edps": 45.74
-         }
+          "cargado": "Sofoco",
+          "edps": 48.92,
+          "rapido": "Colmillo Ígneo"
+         },
+         "tier": "B",
+         "tipo": "fire"
         },
         {
-         "nombre": "Zeraora",
-         "icono": "pm807",
-         "rapido": "Voltiocambio",
-         "cargado": "Puños Plasma",
-         "tipo": "electric",
-         "legado": false,
+         "cargado": "Pulso Primigenio",
+         "cargado_legado": true,
+         "edps": 52.01,
+         "icono": "pm382.fPRIMAL",
+         "legado": true,
+         "nombre": "Kyogre Primigenio",
+         "rapido": "Cascada",
          "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 50.65,
-         "tier": "B"
+         "sin_legado": {
+          "cargado": "Surf",
+          "edps": 48.57,
+          "rapido": "Cascada"
+         },
+         "tier": "B",
+         "tipo": "water"
         },
         {
-         "nombre": "Kartana",
-         "icono": "pm798",
-         "rapido": "Hoja Afilada",
-         "cargado": "Hoja Aguda",
-         "tipo": "grass",
-         "legado": false,
+         "cargado": "Anillo Ígneo",
+         "cargado_legado": true,
+         "edps": 51.98,
+         "icono": "pm6.fMEGA_Y",
+         "legado": true,
+         "nombre": "Mega-Charizard Y",
+         "rapido": "Giro Fuego",
          "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 50.47,
-         "tier": "B"
+         "sin_legado": {
+          "cargado": "Sofoco",
+          "edps": 47.37,
+          "rapido": "Giro Fuego"
+         },
+         "tier": "B",
+         "tipo": "fire"
         },
         {
-         "nombre": "Xurkitree",
-         "icono": "pm796",
-         "rapido": "Impactrueno",
-         "cargado": "Chispazo",
-         "tipo": "electric",
-         "legado": false,
+         "cargado": "Cabeza Sorpresa",
+         "cargado_legado": true,
+         "edps": 51.73,
+         "icono": "pm806",
+         "legado": true,
+         "nombre": "Blacephalon",
+         "rapido": "Calcinación",
          "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 50.1,
-         "tier": "B"
+         "sin_legado": {
+          "cargado": "Llama Embrujada",
+          "edps": 41.99,
+          "rapido": "Calcinación"
+         },
+         "tier": "B",
+         "tipo": "fire"
         },
         {
-         "nombre": "Mega-Mewtwo Y",
-         "icono": "pm150.fMEGA_Y",
-         "rapido": "Psicocorte",
-         "cargado": "Rayo",
-         "tipo": "electric",
-         "legado": false,
+         "cargado": "Hidrocañón",
+         "cargado_legado": true,
+         "edps": 50.57,
+         "icono": "pm658.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Greninja",
+         "rapido": "Shuriken de Agua",
          "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 49.63,
-         "tier": "B"
+         "sin_legado": {
+          "cargado": "Surf+",
+          "edps": 48.87,
+          "rapido": "Shuriken de Agua"
+         },
+         "tier": "C",
+         "tipo": "water"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/61/counters"
-      },
-      {
+       "debil": [
+        {
+         "tipo": "fighting",
+         "x": 1.6
+        },
+        {
+         "tipo": "steel",
+         "x": 1.6
+        },
+        {
+         "tipo": "fire",
+         "x": 1.6
+        },
+        {
+         "tipo": "water",
+         "x": 1.6
+        },
+        {
+         "tipo": "grass",
+         "x": 1.6
+        }
+       ],
+       "hub": "https://db.pokemongohub.net/es/pokemon/221/counters",
+       "icono": "pm221",
+       "jugadores": [
+        1,
+        2
+       ],
        "nombre": "Piloswine oscuro",
        "nombre_en": "Shadow Piloswine",
-       "icono": "pm221",
        "oscuro": true,
-       "tipos": [
-        "ice",
-        "ground"
-       ],
        "pc": [
         1217,
         1340
@@ -3281,229 +3548,202 @@
         1521,
         1675
        ],
-       "clima": [
-        "Nieve",
-        "Soleado"
+       "tipos": [
+        "ice",
+        "ground"
        ],
-       "variocolor": true,
-       "debil": [
-        {
-         "tipo": "fighting",
-         "x": 1.6
-        },
-        {
-         "tipo": "steel",
-         "x": 1.6
-        },
-        {
-         "tipo": "fire",
-         "x": 1.6
-        },
-        {
-         "tipo": "water",
-         "x": 1.6
-        },
-        {
-         "tipo": "grass",
-         "x": 1.6
-        }
+       "variocolor": true
+      },
+      {
+       "clima": [
+        "Lluvia"
        ],
        "counters": [
         {
-         "nombre": "Zacian Espada Suprema",
-         "icono": "pm888.fCROWNED_SWORD",
-         "rapido": "Garra Metal",
-         "cargado": "Tajo Supremo",
-         "tipo": "steel",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 60.44,
-         "tier": "SS"
-        },
-        {
-         "nombre": "Mega-Lucario",
-         "icono": "pm448.fMEGA",
-         "rapido": "Palmeo",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
-         "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 60.31,
-         "tier": "SS",
-         "sin_legado": {
-          "rapido": "Contraataque",
-          "cargado": "Esfera Aural",
-          "edps": 53.99
-         }
-        },
-        {
-         "nombre": "Mega-Mewtwo X",
-         "icono": "pm150.fMEGA_X",
-         "rapido": "Contraataque",
-         "cargado": "Puño Dinámico+",
-         "tipo": "fighting",
-         "legado": true,
-         "rapido_legado": true,
-         "cargado_legado": false,
-         "edps": 60.22,
-         "tier": "SS",
-         "sin_legado": {
-          "rapido": "Psicocorte",
-          "cargado": "Puño Dinámico+",
-          "edps": 52.06
-         }
-        },
-        {
-         "nombre": "Mega-Blaziken",
-         "icono": "pm257.fMEGA",
-         "rapido": "Giro Fuego",
-         "cargado": "Esfera Aural",
-         "tipo": "fighting",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 57.93,
-         "tier": "S"
-        },
-        {
-         "nombre": "Zamazenta Escudo Supremo",
-         "icono": "pm889.fCROWNED_SHIELD",
-         "rapido": "Garra Metal",
-         "cargado": "Embate Supremo",
-         "tipo": "steel",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 57.0,
-         "tier": "S"
-        },
-        {
-         "nombre": "Necrozma Melena Crepuscular",
-         "icono": "pm800.fDUSK_MANE",
-         "rapido": "Garra Metal",
-         "cargado": "Meteoimpacto",
-         "tipo": "steel",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 56.8,
-         "tier": "S"
-        },
-        {
-         "nombre": "Mega-Delphox",
-         "icono": "pm655.fMEGA",
-         "rapido": "Giro Fuego",
-         "cargado": "Anillo Ígneo",
-         "tipo": "fire",
-         "legado": true,
-         "rapido_legado": false,
+         "cargado": "Electormenta",
          "cargado_legado": true,
-         "edps": 53.98,
+         "edps": 53.14,
+         "icono": "pm642.fTHERIAN",
+         "legado": true,
+         "nombre": "Thundurus oscuro (Forma Tótem)",
+         "rapido": "Voltiocambio",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Rayo",
+          "edps": 48.37,
+          "rapido": "Voltiocambio"
+         },
+         "tier": "SS",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Rayo Fusión",
+         "cargado_legado": true,
+         "edps": 50.82,
+         "icono": "pm644",
+         "legado": true,
+         "nombre": "Zekrom oscuro",
+         "rapido": "Rayo Carga",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Voltio Cruel",
+          "edps": 49.03,
+          "rapido": "Rayo Carga"
+         },
+         "tier": "S",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Voltio Cruel",
+         "cargado_legado": false,
+         "edps": 50.8,
+         "icono": "pm26.fMEGA_Y",
+         "legado": false,
+         "nombre": "Mega-Raichu Y",
+         "rapido": "Impactrueno",
+         "rapido_legado": false,
+         "tier": "S",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Electrojaula",
+         "cargado_legado": true,
+         "edps": 49.03,
+         "icono": "pm894",
+         "legado": true,
+         "nombre": "Regieleki",
+         "rapido": "Fijar Blanco",
+         "rapido_legado": false,
+         "sin_legado": null,
          "tier": "A",
-         "sin_legado": {
-          "rapido": "Giro Fuego",
-          "cargado": "Llama Embrujada+",
-          "edps": 52.74
-         }
+         "tipo": "electric"
         },
         {
-         "nombre": "Reshiram oscuro",
-         "icono": "pm643",
-         "rapido": "Colmillo Ígneo",
-         "cargado": "Llama Fusión",
-         "tipo": "fire",
-         "legado": true,
-         "rapido_legado": false,
+         "cargado": "Planta Feroz",
          "cargado_legado": true,
-         "edps": 52.59,
+         "edps": 48.96,
+         "icono": "pm254.fMEGA",
+         "legado": true,
+         "nombre": "Mega-Sceptile",
+         "rapido": "Corte Furia",
+         "rapido_legado": false,
+         "sin_legado": {
+          "cargado": "Hoja Aguda",
+          "edps": 42.71,
+          "rapido": "Semilladora"
+         },
+         "tier": "A",
+         "tipo": "grass"
+        },
+        {
+         "cargado": "Chispazo+",
+         "cargado_legado": false,
+         "edps": 46.23,
+         "icono": "pm310.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Manectric",
+         "rapido": "Colmillo Rayo",
+         "rapido_legado": false,
          "tier": "B",
-         "sin_legado": {
-          "rapido": "Colmillo Ígneo",
-          "cargado": "Sofoco",
-          "edps": 48.92
-         }
+         "tipo": "electric"
         },
         {
-         "nombre": "Kyogre Primigenio",
-         "icono": "pm382.fPRIMAL",
-         "rapido": "Cascada",
-         "cargado": "Pulso Primigenio",
-         "tipo": "water",
-         "legado": true,
+         "cargado": "Voltio Cruel",
+         "cargado_legado": false,
+         "edps": 45.81,
+         "icono": "pm466",
+         "legado": false,
+         "nombre": "Electivire oscuro",
+         "rapido": "Impactrueno",
          "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 52.01,
          "tier": "B",
-         "sin_legado": {
-          "rapido": "Cascada",
-          "cargado": "Surf",
-          "edps": 48.57
-         }
+         "tipo": "electric"
         },
         {
-         "nombre": "Mega-Charizard Y",
-         "icono": "pm6.fMEGA_Y",
-         "rapido": "Giro Fuego",
-         "cargado": "Anillo Ígneo",
-         "tipo": "fire",
-         "legado": true,
+         "cargado": "Puños Plasma",
+         "cargado_legado": false,
+         "edps": 45.36,
+         "icono": "pm807",
+         "legado": false,
+         "nombre": "Zeraora",
+         "rapido": "Voltiocambio",
          "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 51.98,
          "tier": "B",
-         "sin_legado": {
-          "rapido": "Giro Fuego",
-          "cargado": "Sofoco",
-          "edps": 47.37
-         }
+         "tipo": "electric"
         },
         {
-         "nombre": "Blacephalon",
-         "icono": "pm806",
-         "rapido": "Calcinación",
-         "cargado": "Cabeza Sorpresa",
-         "tipo": "fire",
-         "legado": true,
+         "cargado": "Hoja Aguda",
+         "cargado_legado": false,
+         "edps": 45.02,
+         "icono": "pm798",
+         "legado": false,
+         "nombre": "Kartana",
+         "rapido": "Hoja Afilada",
          "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 51.73,
-         "tier": "B",
-         "sin_legado": {
-          "rapido": "Calcinación",
-          "cargado": "Llama Embrujada",
-          "edps": 41.99
-         }
-        },
-        {
-         "nombre": "Mega-Greninja",
-         "icono": "pm658.fMEGA",
-         "rapido": "Shuriken de Agua",
-         "cargado": "Hidrocañón",
-         "tipo": "water",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 50.57,
          "tier": "C",
+         "tipo": "grass"
+        },
+        {
+         "cargado": "Electormenta",
+         "cargado_legado": true,
+         "edps": 44.72,
+         "icono": "pm642.fTHERIAN",
+         "legado": true,
+         "nombre": "Thundurus (Forma Tótem)",
+         "rapido": "Voltiocambio",
+         "rapido_legado": false,
          "sin_legado": {
-          "rapido": "Shuriken de Agua",
-          "cargado": "Surf+",
-          "edps": 48.87
-         }
+          "cargado": "Rayo",
+          "edps": 40.41,
+          "rapido": "Voltiocambio"
+         },
+         "tier": "C",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Rayo",
+         "cargado_legado": false,
+         "edps": 44.4,
+         "icono": "pm150.fMEGA_Y",
+         "legado": false,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "tier": "C",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Voltio Cruel",
+         "cargado_legado": false,
+         "edps": 44.22,
+         "icono": "pm243",
+         "legado": false,
+         "nombre": "Raikou oscuro",
+         "rapido": "Impactrueno",
+         "rapido_legado": false,
+         "tier": "C",
+         "tipo": "electric"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/221/counters"
-      },
-      {
+       "debil": [
+        {
+         "tipo": "grass",
+         "x": 1.6
+        },
+        {
+         "tipo": "electric",
+         "x": 1.6
+        }
+       ],
+       "hub": "https://db.pokemongohub.net/es/pokemon/394/counters",
+       "icono": "pm394",
+       "jugadores": [
+        1,
+        2
+       ],
        "nombre": "Prinplup oscuro",
        "nombre_en": "Shadow Prinplup",
-       "icono": "pm394",
        "oscuro": true,
-       "tipos": [
-        "water"
-       ],
        "pc": [
         868,
         972
@@ -3512,205 +3752,203 @@
         1086,
         1215
        ],
-       "clima": [
-        "Lluvia"
+       "tipos": [
+        "water"
        ],
-       "variocolor": true,
-       "debil": [
-        {
-         "tipo": "grass",
-         "x": 1.6
-        },
-        {
-         "tipo": "electric",
-         "x": 1.6
-        }
+       "variocolor": true
+      }
+     ],
+     "nivel": "3 estrellas",
+     "nivel_en": "3-Star Raids",
+     "nota": "",
+     "nota_en": ""
+    },
+    {
+     "jefes": [
+      {
+       "clima": [
+        "Viento"
        ],
        "counters": [
         {
-         "nombre": "Thundurus oscuro (Forma Tótem)",
-         "icono": "pm642.fTHERIAN",
-         "rapido": "Voltiocambio",
-         "cargado": "Electormenta",
-         "tipo": "electric",
-         "legado": true,
+         "cargado": "Llama Gélida",
+         "cargado_legado": false,
+         "edps": 38.41,
+         "icono": "pm646.fWHITE",
+         "legado": false,
+         "nombre": "Kyurem Blanco",
+         "rapido": "Colmillo Hielo",
          "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 53.14,
          "tier": "SS",
-         "sin_legado": {
-          "rapido": "Voltiocambio",
-          "cargado": "Rayo",
-          "edps": 48.37
-         }
+         "tipo": "ice"
         },
         {
-         "nombre": "Zekrom oscuro",
-         "icono": "pm644",
-         "rapido": "Rayo Carga",
-         "cargado": "Rayo Fusión",
-         "tipo": "electric",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 50.82,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Rayo Carga",
-          "cargado": "Voltio Cruel",
-          "edps": 49.03
-         }
-        },
-        {
-         "nombre": "Mega-Raichu Y",
-         "icono": "pm26.fMEGA_Y",
-         "rapido": "Impactrueno",
-         "cargado": "Voltio Cruel",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 50.8,
-         "tier": "S"
-        },
-        {
-         "nombre": "Regieleki",
-         "icono": "pm894",
-         "rapido": "Fijar Blanco",
-         "cargado": "Electrojaula",
-         "tipo": "electric",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 49.03,
-         "tier": "A",
-         "sin_legado": null
-        },
-        {
-         "nombre": "Mega-Sceptile",
-         "icono": "pm254.fMEGA",
-         "rapido": "Corte Furia",
-         "cargado": "Planta Feroz",
-         "tipo": "grass",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 48.96,
-         "tier": "A",
-         "sin_legado": {
-          "rapido": "Semilladora",
-          "cargado": "Hoja Aguda",
-          "edps": 42.71
-         }
-        },
-        {
-         "nombre": "Mega-Manectric",
-         "icono": "pm310.fMEGA",
-         "rapido": "Colmillo Rayo",
-         "cargado": "Chispazo+",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 46.23,
-         "tier": "B"
-        },
-        {
-         "nombre": "Electivire oscuro",
-         "icono": "pm466",
-         "rapido": "Impactrueno",
-         "cargado": "Voltio Cruel",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 45.81,
-         "tier": "B"
-        },
-        {
-         "nombre": "Zeraora",
-         "icono": "pm807",
-         "rapido": "Voltiocambio",
-         "cargado": "Puños Plasma",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 45.36,
-         "tier": "B"
-        },
-        {
-         "nombre": "Kartana",
-         "icono": "pm798",
-         "rapido": "Hoja Afilada",
-         "cargado": "Hoja Aguda",
-         "tipo": "grass",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 45.02,
-         "tier": "C"
-        },
-        {
-         "nombre": "Thundurus (Forma Tótem)",
-         "icono": "pm642.fTHERIAN",
-         "rapido": "Voltiocambio",
          "cargado": "Electormenta",
-         "tipo": "electric",
-         "legado": true,
-         "rapido_legado": false,
          "cargado_legado": true,
-         "edps": 44.72,
-         "tier": "C",
+         "edps": 36.68,
+         "icono": "pm642.fTHERIAN",
+         "legado": true,
+         "nombre": "Thundurus oscuro (Forma Tótem)",
+         "rapido": "Voltiocambio",
+         "rapido_legado": false,
          "sin_legado": {
-          "rapido": "Voltiocambio",
           "cargado": "Rayo",
-          "edps": 40.41
-         }
+          "edps": 34.26,
+          "rapido": "Voltiocambio"
+         },
+         "tier": "S",
+         "tipo": "electric"
         },
         {
-         "nombre": "Mega-Mewtwo Y",
-         "icono": "pm150.fMEGA_Y",
-         "rapido": "Psicocorte",
-         "cargado": "Rayo",
-         "tipo": "electric",
-         "legado": false,
+         "cargado": "Rayo Fusión",
+         "cargado_legado": true,
+         "edps": 36.6,
+         "icono": "pm644",
+         "legado": true,
+         "nombre": "Zekrom oscuro",
+         "rapido": "Rayo Carga",
          "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 44.4,
-         "tier": "C"
+         "sin_legado": {
+          "cargado": "Voltio Cruel",
+          "edps": 36.14,
+          "rapido": "Rayo Carga"
+         },
+         "tier": "S",
+         "tipo": "electric"
         },
         {
-         "nombre": "Raikou oscuro",
-         "icono": "pm243",
-         "rapido": "Impactrueno",
          "cargado": "Voltio Cruel",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
          "cargado_legado": false,
-         "edps": 44.22,
-         "tier": "C"
+         "edps": 35.42,
+         "icono": "pm26.fMEGA_Y",
+         "legado": false,
+         "nombre": "Mega-Raichu Y",
+         "rapido": "Impactrueno",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Rayo Gélido",
+         "cargado_legado": false,
+         "edps": 34.35,
+         "icono": "pm646.fBLACK",
+         "legado": false,
+         "nombre": "Kyurem Negro",
+         "rapido": "Cola Dragón",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "ice"
+        },
+        {
+         "cargado": "Rayo",
+         "cargado_legado": false,
+         "edps": 34.33,
+         "icono": "pm150.fMEGA_Y",
+         "legado": false,
+         "nombre": "Mega-Mewtwo Y",
+         "rapido": "Psicocorte",
+         "rapido_legado": false,
+         "tier": "A",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Avalancha",
+         "cargado_legado": false,
+         "edps": 33.84,
+         "icono": "pm719.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Diancie",
+         "rapido": "Lanzarrocas",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "rock"
+        },
+        {
+         "cargado": "Voltio Cruel",
+         "cargado_legado": false,
+         "edps": 33.5,
+         "icono": "pm243",
+         "legado": false,
+         "nombre": "Raikou oscuro",
+         "rapido": "Impactrueno",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Puños Plasma",
+         "cargado_legado": false,
+         "edps": 33.48,
+         "icono": "pm807",
+         "legado": false,
+         "nombre": "Zeraora",
+         "rapido": "Voltiocambio",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Electrojaula",
+         "cargado_legado": true,
+         "edps": 33.09,
+         "icono": "pm894",
+         "legado": true,
+         "nombre": "Regieleki",
+         "rapido": "Fijar Blanco",
+         "rapido_legado": false,
+         "sin_legado": null,
+         "tier": "B",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Chispazo+",
+         "cargado_legado": false,
+         "edps": 32.97,
+         "icono": "pm310.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Manectric",
+         "rapido": "Colmillo Rayo",
+         "rapido_legado": false,
+         "tier": "B",
+         "tipo": "electric"
+        },
+        {
+         "cargado": "Ascenso Draco",
+         "cargado_legado": false,
+         "edps": 32.58,
+         "icono": "pm384.fMEGA",
+         "legado": false,
+         "nombre": "Mega-Rayquaza",
+         "rapido": "Cola Dragón",
+         "rapido_legado": false,
+         "tier": "C",
+         "tipo": "flying"
         }
        ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/394/counters"
-      }
-     ],
-     "nota": ""
-    },
-    {
-     "nivel": "5 estrellas",
-     "nivel_en": "5-Star Raids",
-     "nota_en": "",
-     "jefes": [
-      {
+       "debil": [
+        {
+         "tipo": "rock",
+         "x": 1.6
+        },
+        {
+         "tipo": "electric",
+         "x": 1.6
+        },
+        {
+         "tipo": "ice",
+         "x": 1.6
+        }
+       ],
+       "hub": "https://db.pokemongohub.net/es/pokemon/641-Incarnate/counters",
+       "icono": "pm641.fINCARNATE",
+       "jugadores": [
+        2,
+        3
+       ],
        "nombre": "Tornadus oscuro (Forma Avatar)",
        "nombre_en": "Shadow Tornadus (Incarnate)",
-       "icono": "pm641.fINCARNATE",
        "oscuro": true,
-       "tipos": [
-        "flying"
-       ],
        "pc": [
         1762,
         1911
@@ -3719,192 +3957,26 @@
         2203,
         2389
        ],
-       "clima": [
-        "Viento"
+       "tipos": [
+        "flying"
        ],
-       "variocolor": true,
-       "debil": [
-        {
-         "tipo": "rock",
-         "x": 1.6
-        },
-        {
-         "tipo": "electric",
-         "x": 1.6
-        },
-        {
-         "tipo": "ice",
-         "x": 1.6
-        }
-       ],
-       "counters": [
-        {
-         "nombre": "Kyurem Blanco",
-         "icono": "pm646.fWHITE",
-         "rapido": "Colmillo Hielo",
-         "cargado": "Llama Gélida",
-         "tipo": "ice",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 38.41,
-         "tier": "SS"
-        },
-        {
-         "nombre": "Thundurus oscuro (Forma Tótem)",
-         "icono": "pm642.fTHERIAN",
-         "rapido": "Voltiocambio",
-         "cargado": "Electormenta",
-         "tipo": "electric",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 36.68,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Voltiocambio",
-          "cargado": "Rayo",
-          "edps": 34.26
-         }
-        },
-        {
-         "nombre": "Zekrom oscuro",
-         "icono": "pm644",
-         "rapido": "Rayo Carga",
-         "cargado": "Rayo Fusión",
-         "tipo": "electric",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 36.6,
-         "tier": "S",
-         "sin_legado": {
-          "rapido": "Rayo Carga",
-          "cargado": "Voltio Cruel",
-          "edps": 36.14
-         }
-        },
-        {
-         "nombre": "Mega-Raichu Y",
-         "icono": "pm26.fMEGA_Y",
-         "rapido": "Impactrueno",
-         "cargado": "Voltio Cruel",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 35.42,
-         "tier": "A"
-        },
-        {
-         "nombre": "Kyurem Negro",
-         "icono": "pm646.fBLACK",
-         "rapido": "Cola Dragón",
-         "cargado": "Rayo Gélido",
-         "tipo": "ice",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 34.35,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Mewtwo Y",
-         "icono": "pm150.fMEGA_Y",
-         "rapido": "Psicocorte",
-         "cargado": "Rayo",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 34.33,
-         "tier": "A"
-        },
-        {
-         "nombre": "Mega-Diancie",
-         "icono": "pm719.fMEGA",
-         "rapido": "Lanzarrocas",
-         "cargado": "Avalancha",
-         "tipo": "rock",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 33.84,
-         "tier": "B"
-        },
-        {
-         "nombre": "Raikou oscuro",
-         "icono": "pm243",
-         "rapido": "Impactrueno",
-         "cargado": "Voltio Cruel",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 33.5,
-         "tier": "B"
-        },
-        {
-         "nombre": "Zeraora",
-         "icono": "pm807",
-         "rapido": "Voltiocambio",
-         "cargado": "Puños Plasma",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 33.48,
-         "tier": "B"
-        },
-        {
-         "nombre": "Regieleki",
-         "icono": "pm894",
-         "rapido": "Fijar Blanco",
-         "cargado": "Electrojaula",
-         "tipo": "electric",
-         "legado": true,
-         "rapido_legado": false,
-         "cargado_legado": true,
-         "edps": 33.09,
-         "tier": "B",
-         "sin_legado": null
-        },
-        {
-         "nombre": "Mega-Manectric",
-         "icono": "pm310.fMEGA",
-         "rapido": "Colmillo Rayo",
-         "cargado": "Chispazo+",
-         "tipo": "electric",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 32.97,
-         "tier": "B"
-        },
-        {
-         "nombre": "Mega-Rayquaza",
-         "icono": "pm384.fMEGA",
-         "rapido": "Cola Dragón",
-         "cargado": "Ascenso Draco",
-         "tipo": "flying",
-         "legado": false,
-         "rapido_legado": false,
-         "cargado_legado": false,
-         "edps": 32.58,
-         "tier": "C"
-        }
-       ],
-       "hub": "https://db.pokemongohub.net/es/pokemon/641-Incarnate/counters"
+       "variocolor": true
       }
      ],
-     "nota": ""
+     "nivel": "5 estrellas",
+     "nivel_en": "5-Star Raids",
+     "nota": "",
+     "nota_en": ""
     }
    ],
-   "titulo": "Tornadus oscuro (Forma Avatar): noviembre y diciembre de 2026"
+   "tipo": "oscura",
+   "titulo": "Tornadus oscuro (Forma Avatar): noviembre y diciembre de 2026",
+   "titulo_en": "Shadow Tornadus (Incarnate Forme) November–December 2026"
   }
  ],
  "traducciones": {
   "Cresselia, Darkrai, and Mega Banette in Raids": "Cresselia, Darkrai y Mega-Banette en incursiones",
   "Shadow Tornadus (Incarnate Forme) November–December 2026": "Tornadus oscuro (Forma Avatar): noviembre y diciembre de 2026"
- }
+ },
+ "url": "https://leekduck.com/raid-bosses/"
 }
