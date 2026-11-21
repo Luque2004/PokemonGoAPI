@@ -374,9 +374,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .rd-jug { margin-top: 6px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; font-size: 14px; }
 .rd-jug b { font-family: var(--font-display); font-stretch: 100%; font-size: 15px; }
 .rd-jug .rd-lab { white-space: nowrap; }
-.rd-jugv { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 12px; }
-.rd-jugi { white-space: nowrap; }
-.rd-jugn { font-size: 12px; color: var(--muted); }
 .rd-hc { padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
 .rd-hc b { color: var(--ink); font-variant-numeric: tabular-nums; }
 .rd-hc.boost { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
@@ -2012,8 +2009,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
             const ok = (g) => Array.isArray(g) && g.length === 2 && g.every((x) => Number.isInteger(x) && x > 0 && x < 30) ? g : null;
             const v = j && j.jugadores;
             const o = Array.isArray(v) ? { 50: ok(v) } : v && typeof v === "object" ? { 50: ok(v["50"]), 40: ok(v["40"]) } : {};
-            const r = ["50", "40"].filter((k) => o[k]).map((k) => [k, o[k]]);
-            return r.length ? r : null;
+            // Un solo rango aproximado para un grupo con niveles variados: de lo mínimo a nivel 50 a lo máximo a nivel 40
+            const r = ["50", "40"].map((k) => o[k]).filter(Boolean);
+            return r.length ? [Math.min(...r.map((g) => g[0])), Math.max(...r.map((g) => g[1]))] : null;
           })(),
         })).filter((j) => j.nombre && j.tipos.length),
       })).filter((n) => n.jefes.length);
@@ -2055,14 +2053,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     if (j.jug) {
       const g = el("div", "rd-jug");
       const txt = (r) => r[0] === 1 && r[1] <= 2 ? (r[1] === 1 ? "1 (en solitario)" : "1 (en solitario) o 2") : r[0] === r[1] ? String(r[0]) : r[0] + "–" + r[1];
-      const vals = el("span", "rd-jugv");
-      j.jug.forEach(([nv, r]) => {
-        const it = el("span", "rd-jugi");
-        it.append(el("span", "rd-jugn", "Nv. " + nv + " "), el("b", null, txt(r)));
-        vals.append(it);
-      });
-      g.append(el("span", "rd-lab", "👥 Jugadores"), vals);
-      g.title = "Con Pokémon de ese nivel parecidos a los mejores counters. Con equipos más flojos hacen falta más.";
+      g.append(el("span", "rd-lab", "👥 Jugadores"), el("b", null, "≈ " + txt(j.jug)));
+      g.title = "Aproximado para un grupo con Pokémon de nivel 40 a 50 parecidos a los mejores counters. Con equipos más flojos hacen falta más.";
       info.append(g);
     }
     // PC al 100 % (el máximo de cada rango): normal y potenciado por el clima
@@ -2125,7 +2117,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     const notes = [];
     if (j.counters.some((c) => c.legado)) notes.push("* Ataque de legado: hace falta una MT élite o un evento." + (j.counters.some((c) => c.legado && c.sl !== undefined) ? " Debajo, su mejor combinación sin MT élite." : ""));
     notes.push("Simulados contra este jefe por Pokémon GO Hub: nivel 50, IV 15/15/15, sin clima ni amistad. Las Mega y los primigenios suelen ir primero; si no tienes, mira los siguientes.");
-    if (j.jug) notes.push("👥 Jugadores: los que estima Pokémon GO Hub con equipos parecidos a estos counters a nivel 50 y a nivel 40 (no calcula otros niveles); con Pokémon más flojos, esquivando mal o con lag hacen falta más" + (j.oscuro ? ". Es la estimación para la incursión normal de este Pokémon: la oscura puede necesitar más." : "."));
+    if (j.jug) notes.push("👥 Jugadores: aproximado para un grupo variado, del mínimo con Pokémon de nivel 50 al máximo con Pokémon de nivel 40 que estima Pokémon GO Hub con equipos parecidos a estos counters (no calcula niveles más bajos); con Pokémon más flojos, esquivando mal o con lag hacen falta más" + (j.oscuro ? ". Es la estimación para la incursión normal de este Pokémon: la oscura puede necesitar más." : "."));
     const p = el("p", "sec-note", notes.join(" ") + " ");
     if (j.hub) { const a = el("a", null, "Ver los 20 en Pokémon GO Hub ↗"); a.href = j.hub; a.target = "_blank"; a.rel = "noopener noreferrer"; p.append(a); }
     body.append(p);
