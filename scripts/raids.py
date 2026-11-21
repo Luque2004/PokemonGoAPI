@@ -132,6 +132,39 @@ CACHE = {}
 API = "https://db.pokemongohub.net/api/counters?view=counters"
 
 
+def cuerpo_api(h, **extra):
+    u = h.replace('\\"', '"')
+    m = re.search(r'"pokemon":\{"id":(\d+),"name":"[^"]*","originalName":"[^"]*","form":(null|"[^"]*")', u)
+    n = re.search(r'"initialRaidLevel":"([^"]+)"', u)
+    if not m or not n:
+        return None
+    c = {"target": {"id": int(m.group(1)), "form": json.loads(m.group(2))}, "locale": "es", "targetRaidLevel": n.group(1),
+         "weather": "extreme", "responseSize": 50, "attackerCPMinimum": 1200, "includePrimalPokemon": True,
+         "includeShadowPokemon": True, "includeMegaPokemon": True, "includeUnavailablePokemon": False, "megaLevel": 1,
+         "allowLegacyMoves": True, "allowMixedMovesets": True, "allowOfftypeAttackers": True}
+    c.update(extra)
+    return c
+
+
+def jugadores_nivel(h, slug, carpeta, nivel):
+    """Jugadores que estima Pokémon GO Hub con atacantes de ese nivel (su API solo acepta 40 y 50). [mín, máx] o None."""
+    cuerpo = cuerpo_api(h, attackerLevel=nivel)
+    if not cuerpo:
+        return None
+    if carpeta:  # pruebas: respuesta guardada como nivel<N>_<slug>.json
+        ruta = os.path.join(carpeta, "nivel%d_%s.json" % (nivel, slug))
+        t = open(ruta, encoding="utf-8").read() if os.path.exists(ruta) else ""
+    else:
+        r = subprocess.run(["curl", "-s", "-A", "Mozilla/5.0", "--retry", "2", "--max-time", "45", "-H", "content-type: application/json",
+                            "-X", "POST", API, "-d", json.dumps(cuerpo)], capture_output=True)
+        t = r.stdout.decode("utf-8", "replace")
+    try:
+        g = json.loads(t)["trainerRange"]
+        return [int(g[0]), int(g[1])] if int(g[0]) > 0 else None
+    except (ValueError, KeyError, TypeError, IndexError):
+        return None
+
+
 def sin_legado(h, slug, carpeta):
     """Los counters de ese jefe sin ataques de legado (sin MT élite), con la API de la misma página de Pokémon GO Hub
     (opción «Permitir ataques de legado» desactivada). {nombre: (rápido, cargado, puntuación)} o None si falla."""
@@ -201,6 +234,7 @@ def counters(icono, carpeta):
         # mejores counters» (trainerRange; 0 = sin estimación)
         g = re.search(r'\\?"trainerRange\\?":\[(\d+),(\d+),(\d+)\]', h)
         grupo = [int(g.group(1)), int(g.group(2))] if g and int(g.group(1)) > 0 else None
+        grupo = {"50": grupo, "40": jugadores_nivel(h, slug_hub(ico), carpeta, 40)} if grupo else None
         res = (html.unescape(t.group(1)).strip(), url, F, con_disfraz, grupo)
         break
     CACHE[icono] = res

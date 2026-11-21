@@ -219,10 +219,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/52-Alola/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         1,
+         2
+        ]
+       }
       },
       {
        "nombre": "Misdreavus",
@@ -436,10 +442,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/200/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         1,
+         2
+        ]
+       }
       },
       {
        "nombre": "Yamask de Galar",
@@ -667,10 +679,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/562-Galarian/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         1,
+         2
+        ]
+       }
       },
       {
        "nombre": "Sandygast",
@@ -898,10 +916,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/769/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         1,
+         2
+        ]
+       }
       }
      ],
      "nota": ""
@@ -1138,10 +1162,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/105-Alola/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         1,
+         2
+        ]
+       }
       },
       {
        "nombre": "Liepard",
@@ -1349,10 +1379,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/510/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         1,
+         2
+        ]
+       }
       },
       {
        "nombre": "Golurk",
@@ -1580,10 +1616,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/623/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         1,
+         2
+        ]
+       }
       }
      ],
      "nota": ""
@@ -1786,10 +1828,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/488/counters",
-       "jugadores": [
-        3,
-        4
-       ]
+       "jugadores": {
+        "50": [
+         3,
+         4
+        ],
+        "40": [
+         3,
+         4
+        ]
+       }
       },
       {
        "nombre": "Darkrai",
@@ -1992,10 +2040,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/491/counters",
-       "jugadores": [
-        2,
-        3
-       ]
+       "jugadores": {
+        "50": [
+         2,
+         3
+        ],
+        "40": [
+         2,
+         4
+        ]
+       }
       }
      ],
      "nota": ""
@@ -2207,10 +2261,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/354-Mega/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         2,
+         2
+        ]
+       }
       }
      ],
      "nota": ""
@@ -2464,10 +2524,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/246/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         1,
+         2
+        ]
+       }
       },
       {
        "nombre": "Mudkip oscuro",
@@ -2667,10 +2733,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/258/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         1,
+         2
+        ]
+       }
       },
       {
        "nombre": "Makuhita oscuro",
@@ -2884,10 +2956,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/296/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         1,
+         2
+        ]
+       }
       },
       {
        "nombre": "Cranidos oscuro",
@@ -3108,10 +3186,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/408/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         1,
+         2
+        ]
+       }
       }
      ],
      "nota": ""
@@ -3319,10 +3403,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/61/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         1,
+         2
+        ]
+       }
       },
       {
        "nombre": "Piloswine oscuro",
@@ -3555,10 +3645,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/221/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         1,
+         2
+        ]
+       }
       },
       {
        "nombre": "Prinplup oscuro",
@@ -3758,10 +3854,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/394/counters",
-       "jugadores": [
-        1,
-        2
-       ]
+       "jugadores": {
+        "50": [
+         1,
+         2
+        ],
+        "40": [
+         1,
+         2
+        ]
+       }
       }
      ],
      "nota": ""
@@ -3963,10 +4065,16 @@
         }
        ],
        "hub": "https://db.pokemongohub.net/es/pokemon/641-Incarnate/counters",
-       "jugadores": [
-        2,
-        3
-       ]
+       "jugadores": {
+        "50": [
+         2,
+         3
+        ],
+        "40": [
+         2,
+         3
+        ]
+       }
       }
      ],
      "nota": ""
