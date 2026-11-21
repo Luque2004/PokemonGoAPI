@@ -2053,7 +2053,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
     if (j.jug) {
       const g = el("div", "rd-jug");
       const txt = (r) => r[0] === 1 && r[1] <= 2 ? (r[1] === 1 ? "1 (en solitario)" : "1 (en solitario) o 2") : r[0] === r[1] ? String(r[0]) : r[0] + "–" + r[1];
-      g.append(el("span", "rd-lab", "👥 Jugadores"), el("b", null, "≈ " + txt(j.jug)));
+      g.append(el("span", "rd-lab", "👥 Jugadores"), el("b", null, txt(j.jug)));
       g.title = "Aproximado para un grupo con Pokémon de nivel 40 a 50 parecidos a los mejores counters. Con equipos más flojos hacen falta más.";
       info.append(g);
     }
