@@ -243,6 +243,104 @@
    ]
   },
   {
+   "nombre": "Evento: Pawniard Community Day",
+   "nombre_en": "Pawniard Community Day Tasks",
+   "evento": true,
+   "fin": "2026-11-21T17:00:00-0800",
+   "tareas": [
+    {
+     "tarea": "Catch 3 Pawniard",
+     "tarea_en": "Catch 3 Pawniard",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Pawniard",
+       "nombre_en": "Pawniard",
+       "icono": "pm624",
+       "pc": [
+        574,
+        614
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "item",
+       "cantidad": 5,
+       "nombre": "Super Ball",
+       "nombre_en": "Great Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Ultra Ball",
+       "nombre_en": "Ultra Ball",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 2,
+       "nombre": "Baya Pinia",
+       "nombre_en": "Pinap Berry",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 500,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "nombre": "Evento: Pawniard Community Day - Special backgrounds",
+   "nombre_en": "Pawniard Community Day - Special backgrounds Tasks",
+   "evento": true,
+   "fin": "2026-11-21T17:00:00-0800",
+   "tareas": [
+    {
+     "tarea": "Catch 5 Pokemon while in a Party",
+     "tarea_en": "Catch 5 Pokemon while in a Party",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Pawniard",
+       "nombre_en": "Pawniard",
+       "icono": "pm624",
+       "pc": [
+        574,
+        614
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Catch 50 Pokemon",
+     "tarea_en": "Catch 50 Pokemon",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Pawniard",
+       "nombre_en": "Pawniard",
+       "icono": "pm624",
+       "pc": [
+        574,
+        614
+       ],
+       "variocolor": true
+      }
+     ]
+    }
+   ]
+  },
+  {
    "nombre": "Capturas",
    "nombre_en": "Catching Tasks",
    "evento": false,
@@ -4344,6 +4442,7 @@
   "Omanyte": "Omanyte",
   "Omastar": "Omastar",
   "Oshawott": "Oshawott",
+  "Pawniard": "Pawniard",
   "Persian": "Persian",
   "Petilil": "Petilil",
   "Piloswine": "Piloswine",
@@ -4448,5 +4547,9 @@
   "Yamask": "Yamask",
   "Zigzagoon": "Zigzagoon"
  },
- "sin_traducir": []
+ "sin_traducir": [
+  "Catch 3 Pawniard",
+  "Catch 5 Pokemon while in a Party",
+  "Catch 50 Pokemon"
+ ]
 }
