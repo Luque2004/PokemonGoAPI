@@ -1,23 +1,8 @@
 {
  "fuente": "Agenda visual (eventos «Pokémon GO:» de su base de datos)",
  "zonaHoraria": "Europe/Madrid",
- "copiaDeLaAgenda": "2026-11-17T11:57:35.000Z",
+ "copiaDeLaAgenda": "2026-11-22T23:09:39.000Z",
  "eventos": [
-  {
-   "titulo": "Minior Showers (Leónidas)",
-   "tipo": "Lluvia de meteoros",
-   "inicio": "2026-11-14T17:00:00+01:00",
-   "fin": "2026-11-19T23:59:00+01:00",
-   "bonificaciones": [
-    "+1.000 Polvos estelares por Minior"
-   ],
-   "pasesGratis": "",
-   "goPassGratis": [],
-   "incursiones": [],
-   "dePago": [],
-   "texto": "Lluvia de meteoros Leónidas: Minior (forma meteoro) en estado salvaje, con más apariciones cada día de 17:00 a 21:00.",
-   "noticia": "https://leekduck.com/events/minior-showers-leonids-2026/"
-  },
   {
    "titulo": "Dynamax Trails",
    "tipo": "Evento",
@@ -81,85 +66,6 @@
    "dePago": [],
    "texto": "Haz al menos una lección de Duolingo al día durante siete días distintos en «La fiesta Pokémon de Duo» y conseguirás un código para una Investigación temporal gratis, que se canjea en la Tienda web de Pokémon GO. Da PX, Polvo Estelar y encuentros con Pikachu, Meowth, Chatot y Lucario con fondo especial (pueden salir variocolor), y estrena la etiqueta de idioma. Únete a la misión de Duolingo hasta el lun 21 de dic. a las 23:59, completa las 7 lecciones hasta el mar 29 a las 23:59 y termina la investigación antes del jue 31 a las 23:59.",
    "noticia": "https://pokemongo.com/es/news/duolingo-2026"
-  },
-  {
-   "titulo": "Hora de Incursiones – Cresselia y Darkrai",
-   "tipo": "Incursiones",
-   "inicio": "2026-11-18T18:00:00+01:00",
-   "fin": "2026-11-18T19:00:00+01:00",
-   "bonificaciones": [],
-   "pasesGratis": "",
-   "goPassGratis": [],
-   "incursiones": [],
-   "dePago": [],
-   "texto": "Hora de Incursiones: Cresselia y Darkrai en incursiones de 5 estrellas, con más incursiones de 5★ de lo normal durante la hora.",
-   "noticia": "https://leekduck.com/events/raidhour20261118/"
-  },
-  {
-   "titulo": "Hora Destacada – Grookey, Scorbunny y Sobble",
-   "tipo": "Hora Destacada",
-   "inicio": "2026-11-19T18:00:00+01:00",
-   "fin": "2026-11-19T19:00:00+01:00",
-   "bonificaciones": [
-    "×2 Caramelos al capturar"
-   ],
-   "pasesGratis": "",
-   "goPassGratis": [],
-   "incursiones": [],
-   "dePago": [],
-   "texto": "Hora Destacada: los iniciales de Galar, Grookey, Scorbunny y Sobble.",
-   "noticia": "https://leekduck.com/events/pokemonspotlighthour2026-11-19/"
-  },
-  {
-   "titulo": "Eternatus Eternamax",
-   "tipo": "Combates Max",
-   "inicio": "2026-11-21T11:00:00+01:00",
-   "fin": "2026-11-21T14:00:00+01:00",
-   "bonificaciones": [],
-   "pasesGratis": "",
-   "goPassGratis": [],
-   "incursiones": [],
-   "dePago": [],
-   "texto": "Durante Dynamax Trails, Eternatus Eternamax aparece en los Power Spots.",
-   "noticia": "https://leekduck.com/events/dynamax-trails-2026/"
-  },
-  {
-   "titulo": "Día de la Comunidad – Pawniard",
-   "tipo": "Día de la Comunidad",
-   "inicio": "2026-11-21T14:00:00+01:00",
-   "fin": "2026-11-21T17:00:00+01:00",
-   "bonificaciones": [
-    "Huevos a ¼ distancia",
-    "×2 Caramelos al capturar",
-    "×2 prob. Caramelos++ al capturar (nivel 31+)",
-    "Incienso 3 h",
-    "Módulos Cebo 1 h (14:00–21:00; Pawniard muy probable)",
-    "1 intercambio especial extra, 2 en total (14:00–21:00)",
-    "−50 % Polvos estelares en intercambios (14:00–21:00)",
-    "Sorpresa al hacer fotos",
-    "Ataque exclusivo: Kowtow Cleave (Kingambit al evolucionar Bisharp durante el evento o 4 h después)",
-    "Evolución de Bisharp a Kingambit tras derrotar 1 jefe de incursión Siniestro o Acero con Bisharp de compañero (hasta las 21:00)"
-   ],
-   "pasesGratis": "",
-   "goPassGratis": [],
-   "incursiones": [],
-   "dePago": [
-    {
-     "nombre": "Investigación especial",
-     "precio": "≈ 2,19 €; también como Ultra Ticket Box web con 5 Ultra Balls de regalo",
-     "da": [
-      "3 encuentros con Pawniard con Fondo especial",
-      "más encuentros con Pawniard",
-      "1 Pase de Combate Prémium",
-      "1 Caramelo Raro XL",
-      "más recompensas (sin medalla ni historia)"
-     ],
-     "estrellas": 2,
-     "valoracion": "Barata, pero aporta poco; solo si quieres el Pawniard con Fondo especial o el Pase de Combate Prémium."
-    }
-   ],
-   "texto": "Más apariciones de Pawniard y más probabilidad de variocolor o de Fondo especial. Investigación de campo temática con encuentros de Pawniard.",
-   "noticia": "https://pokemongo.com/news/communityday-november-2026-pawniard"
   },
   {
    "titulo": "Lunes Max – Espurr",
@@ -314,6 +220,84 @@
    "dePago": [],
    "texto": "Lluvia de meteoros Gemínidas: Minior (forma meteoro) en estado salvaje, con más apariciones cada día de 17:00 a 21:00. Debutan dos núcleos de Minior, uno exclusivo del hemisferio norte y otro del sur (colores aún sin confirmar).",
    "noticia": "https://leekduck.com/events/minior-showers-geminids-2026/"
+  },
+  {
+   "titulo": "Día de la Comunidad (día 1 – Vulpix, Grookey, Scorbunny, Lechonk y Tinkatink)",
+   "tipo": "Día de la Comunidad",
+   "inicio": "2026-12-12T14:00:00+01:00",
+   "fin": "2026-12-12T17:00:00+01:00",
+   "bonificaciones": [
+    "×2 PX al capturar",
+    "×2 Polvos estelares al capturar",
+    "×2 Caramelos al capturar",
+    "×2 prob. Caramelos++ al capturar (nivel 31+)",
+    "Huevos a ½ distancia",
+    "Incienso 3 h",
+    "Módulos Cebo 1 h",
+    "2 intercambios especiales al día",
+    "−50 % Polvos estelares en intercambios (estos últimos, del sáb 12 a las 9:00 al dom 13 a las 21:00)",
+    "Evolución de Bisharp a Kingambit tras derrotar 1 jefe de tipo Siniestro o Acero con Bisharp de compañero (sáb 9:00 a dom 21:00)"
+   ],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [],
+   "dePago": [
+    {
+     "nombre": "Investigación especial del Día de la Comunidad de diciembre",
+     "precio": "≈ 5,49 €",
+     "da": [
+      "encuentros con Pokémon de los Días de la Comunidad de 2026 con fondo especial",
+      "1 MT Rápida Élite",
+      "1 MT Cargada Élite",
+      "1 Radar Rocket",
+      "más recompensas",
+      "sin medalla. También en la tienda web como Caja Ultra del Día de la Comunidad (≈ 5,49 €): 1 Pase de Combate Prémium + 1 ticket de investigación especial"
+     ],
+     "estrellas": 3,
+     "valoracion": "Solo si te faltan Pokémon de los Días de la Comunidad de 2026 con fondo especial o quieres las MT Élite; si no, la parte gratuita ya da casi todo."
+    }
+   ],
+   "texto": "Vuelven los Pokémon de los Días de la Comunidad de 2026, con un conjunto distinto cada día (sábado: Vulpix, Vulpix de Alola, Grookey, Scorbunny, Lechonk y Tinkatink, y quizá Piplup). Los ataques exclusivos al evolucionar están disponibles del sáb 12 a las 9:00 al dom 13 a las 21:00.",
+   "noticia": "https://pokemongo.com/en/news/community-day-december-2026"
+  },
+  {
+   "titulo": "Día de la Comunidad (día 2 – Zorua, Pawniard, Sobble, Nickit y Frigibax)",
+   "tipo": "Día de la Comunidad",
+   "inicio": "2026-12-13T14:00:00+01:00",
+   "fin": "2026-12-13T17:00:00+01:00",
+   "bonificaciones": [
+    "×2 PX al capturar",
+    "×2 Polvos estelares al capturar",
+    "×2 Caramelos al capturar",
+    "×2 prob. Caramelos++ al capturar (nivel 31+)",
+    "Huevos a ½ distancia",
+    "Incienso 3 h",
+    "Módulos Cebo 1 h",
+    "2 intercambios especiales al día",
+    "−50 % Polvos estelares en intercambios (estos últimos, del sáb 12 a las 9:00 al dom 13 a las 21:00)",
+    "Evolución de Bisharp a Kingambit tras derrotar 1 jefe de tipo Siniestro o Acero con Bisharp de compañero (sáb 9:00 a dom 21:00)"
+   ],
+   "pasesGratis": "",
+   "goPassGratis": [],
+   "incursiones": [],
+   "dePago": [
+    {
+     "nombre": "Investigación especial del Día de la Comunidad de diciembre",
+     "precio": "≈ 5,49 €",
+     "da": [
+      "encuentros con Pokémon de los Días de la Comunidad de 2026 con fondo especial",
+      "1 MT Rápida Élite",
+      "1 MT Cargada Élite",
+      "1 Radar Rocket",
+      "más recompensas",
+      "sin medalla. También en la tienda web como Caja Ultra del Día de la Comunidad (≈ 5,49 €): 1 Pase de Combate Prémium + 1 ticket de investigación especial"
+     ],
+     "estrellas": 3,
+     "valoracion": "Solo si te faltan Pokémon de los Días de la Comunidad de 2026 con fondo especial o quieres las MT Élite; si no, la parte gratuita ya da casi todo."
+    }
+   ],
+   "texto": "Vuelven los Pokémon de los Días de la Comunidad de 2026, con un conjunto distinto cada día (domingo: Zorua, Pawniard, Sobble, Nickit y Frigibax, y quizá Gible y Deino). Los ataques exclusivos al evolucionar están disponibles del sáb 12 a las 9:00 al dom 13 a las 21:00.",
+   "noticia": "https://pokemongo.com/en/news/community-day-december-2026"
   }
  ]
 }

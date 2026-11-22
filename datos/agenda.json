@@ -1,18 +1,6 @@
 {
  "events": [
   {
-   "description": "<b>🎁 Bonificaciones:</b> +1.000 Polvos estelares por Minior<br><br>Lluvia de meteoros Leónidas: Minior (forma meteoro) en estado salvaje, con más apariciones cada día de 17:00 a 21:00.<br><br>🔗 <a href=\"https://leekduck.com/events/minior-showers-leonids-2026/\">Ver noticia</a>",
-   "end": {
-    "date": null,
-    "dateTime": "2026-11-19T23:59:00+01:00"
-   },
-   "start": {
-    "date": null,
-    "dateTime": "2026-11-14T17:00:00+01:00"
-   },
-   "summary": "Pokémon GO: Minior Showers (Leónidas) · +1.000 Polvos"
-  },
-  {
    "description": "<b>🎁 Bonificaciones:</b> ×8 Partículas Max en Power Spots · Posibilidad de Partículas Max al capturar Pokémon del evento y tras Combates Max · Límite de Partículas Max: 2.400 · Más Power Spots activos y se renuevan más rápido · Posible Fondo especial al capturar tras un Combate Max · Pegatinas del evento<br><b>🎟️ Pases gratis:</b> límite de incursiones remotas sube de 10 a 30 del vie 20 a las 22:00 al dom 22 a las 3:00 (hora de España)<br><b>🎫 GO Pass gratis:</b> encuentros con Pokémon Dinamax con Fondo especial · 1 encuentro con Eternatus (o 100 Caramelos de Eternatus si ya lo tienes) · Caramelos y Caramelos XL de Eternatus · Caramelo Raro · Polvos estelares · pegatinas · ×2 Polvos estelares al capturar (rango 15) · ½ Caramelos y Polvos para el Cañón Dinamax (rango 35) · más Caramelos y Caramelos XL de Combates Max (rango 55) · recompensas hasta el mié 25 a las 20:00 · acceso anticipado el sáb 14 a las 10:00 si reclamas el rango 1 de Into the Wild<br><b>⚔️ Incursiones:</b> Todos los Pokémon Dinamax vistos hasta ahora (salvo Legendarios y Singulares) en Combates Max · Eternamax Eternatus en la mayoría de Power Spots (sáb 21, 11:00–14:00)<br><b>💳 De pago:</b> GO Pass Deluxe: Dynamax Trails (≈ 5,49 €; gratis si reclamaste el rango 1 del GO Pass de Into the Wild): más encuentros con Pokémon Dinamax con Fondo especial · más Caramelos y Caramelos XL de Eternatus · Pinias Plateadas · Caramelo Raro XL · pegatinas · progreso más rápido · en la tienda web de regalo: 10 Ultra Balls, 5 Revivir Máx., 1 Pase de Combate Prémium y 5 Pociones Máx.<br><b>💡 ¿Merece la pena?:</b> ★★★☆☆ — Barato, y gratis si ya reclamaste Into the Wild; vale la pena si quieres Caramelos de Eternatus y Dinamax con Fondo especial.<br><br>Semana centrada en Combates Max. Incluye la Hora Destacada del jue 19 (Grookey, Scorbunny y Sobble, ×2 Caramelos) y el regreso de Eternatus el sáb 21 de 11:00 a 14:00; solo se puede capturar una vez durante el evento.<br><br>🔗 <a href=\"https://pokemongo.com/news/dynamax-trails-eternamax-eternatus-2026\">Ver noticia</a>",
    "end": {
     "date": null,
@@ -25,64 +13,16 @@
    "summary": "Pokémon GO: Dynamax Trails · ×8 Partículas Max en Power Spots"
   },
   {
-   "summary": "Pokémon GO: Pokémon GO × Duolingo (Investigación temporal)",
-   "start": {
-    "dateTime": "2026-11-17T02:00:00+01:00",
-    "date": null
-   },
-   "end": {
-    "dateTime": "2026-12-31T23:59:00+01:00",
-    "date": null
-   },
-   "description": "Haz al menos una lección de Duolingo al día durante siete días distintos en «La fiesta Pokémon de Duo» y conseguirás un código para una Investigación temporal gratis, que se canjea en la Tienda web de Pokémon GO. Da PX, Polvo Estelar y encuentros con Pikachu, Meowth, Chatot y Lucario con fondo especial (pueden salir variocolor), y estrena la etiqueta de idioma. Únete a la misión de Duolingo hasta el lun 21 de dic. a las 23:59, completa las 7 lecciones hasta el mar 29 a las 23:59 y termina la investigación antes del jue 31 a las 23:59.<br><br>🔗 <a href=\"https://pokemongo.com/es/news/duolingo-2026\">Ver noticia</a>"
-  },
-  {
-   "description": "Hora de Incursiones: Cresselia y Darkrai en incursiones de 5 estrellas, con más incursiones de 5★ de lo normal durante la hora.<br><br>🔗 <a href=\"https://leekduck.com/events/raidhour20261118/\">Ver noticia</a>",
+   "description": "Haz al menos una lección de Duolingo al día durante siete días distintos en «La fiesta Pokémon de Duo» y conseguirás un código para una Investigación temporal gratis, que se canjea en la Tienda web de Pokémon GO. Da PX, Polvo Estelar y encuentros con Pikachu, Meowth, Chatot y Lucario con fondo especial (pueden salir variocolor), y estrena la etiqueta de idioma. Únete a la misión de Duolingo hasta el lun 21 de dic. a las 23:59, completa las 7 lecciones hasta el mar 29 a las 23:59 y termina la investigación antes del jue 31 a las 23:59.<br><br>🔗 <a href=\"https://pokemongo.com/es/news/duolingo-2026\">Ver noticia</a>",
    "end": {
     "date": null,
-    "dateTime": "2026-11-18T19:00:00+01:00"
+    "dateTime": "2026-12-31T23:59:00+01:00"
    },
    "start": {
     "date": null,
-    "dateTime": "2026-11-18T18:00:00+01:00"
+    "dateTime": "2026-11-17T02:00:00+01:00"
    },
-   "summary": "Pokémon GO: Hora de Incursiones – Cresselia y Darkrai"
-  },
-  {
-   "description": "<b>🎁 Bonificaciones:</b> ×2 Caramelos al capturar<br><br>Hora Destacada: los iniciales de Galar, Grookey, Scorbunny y Sobble.<br><br>🔗 <a href=\"https://leekduck.com/events/pokemonspotlighthour2026-11-19/\">Ver noticia</a>",
-   "end": {
-    "date": null,
-    "dateTime": "2026-11-19T19:00:00+01:00"
-   },
-   "start": {
-    "date": null,
-    "dateTime": "2026-11-19T18:00:00+01:00"
-   },
-   "summary": "Pokémon GO: Hora Destacada – Grookey, Scorbunny y Sobble · ×2 Caramelos"
-  },
-  {
-   "description": "Durante Dynamax Trails, Eternatus Eternamax aparece en los Power Spots.<br><br>🔗 <a href=\"https://leekduck.com/events/dynamax-trails-2026/\">Ver noticia</a>",
-   "end": {
-    "date": null,
-    "dateTime": "2026-11-21T14:00:00+01:00"
-   },
-   "start": {
-    "date": null,
-    "dateTime": "2026-11-21T11:00:00+01:00"
-   },
-   "summary": "Pokémon GO: Eternatus Eternamax"
-  },
-  {
-   "description": "<b>🎁 Bonificaciones:</b> Huevos a ¼ distancia · ×2 Caramelos al capturar · ×2 prob. Caramelos++ al capturar (nivel 31+) · Incienso 3 h · Módulos Cebo 1 h (14:00–21:00; Pawniard muy probable) · 1 intercambio especial extra, 2 en total (14:00–21:00) · −50 % Polvos estelares en intercambios (14:00–21:00) · Sorpresa al hacer fotos · Ataque exclusivo: Kowtow Cleave (Kingambit al evolucionar Bisharp durante el evento o 4 h después) · Evolución de Bisharp a Kingambit tras derrotar 1 jefe de incursión Siniestro o Acero con Bisharp de compañero (hasta las 21:00)<br><b>💳 De pago:</b> Investigación especial (≈ 2,19 €; también como Ultra Ticket Box web con 5 Ultra Balls de regalo): 3 encuentros con Pawniard con Fondo especial · más encuentros con Pawniard · 1 Pase de Combate Prémium · 1 Caramelo Raro XL · más recompensas (sin medalla ni historia)<br><b>💡 ¿Merece la pena?:</b> ★★☆☆☆ — Barata, pero aporta poco; solo si quieres el Pawniard con Fondo especial o el Pase de Combate Prémium.<br><br>Más apariciones de Pawniard y más probabilidad de variocolor o de Fondo especial. Investigación de campo temática con encuentros de Pawniard.<br><br>🔗 <a href=\"https://pokemongo.com/news/communityday-november-2026-pawniard\">Ver noticia</a>",
-   "end": {
-    "date": null,
-    "dateTime": "2026-11-21T17:00:00+01:00"
-   },
-   "start": {
-    "date": null,
-    "dateTime": "2026-11-21T14:00:00+01:00"
-   },
-   "summary": "Pokémon GO: Día de la Comunidad – Pawniard · Huevos ¼ distancia"
+   "summary": "Pokémon GO: Pokémon GO × Duolingo (Investigación temporal)"
   },
   {
    "description": "<b>🎁 Bonificaciones:</b> Power Spots se renuevan más rápido · Más Power Spots activos que el resto de la semana<br><b>⚔️ Incursiones:</b> Espurr Dinamax (Combate Max, del 23 al 29 de nov.)<br><b>🎯 ¿Vale la pena?:</b> ★★☆☆☆ — Poco. Ni Espurr ni su evolución, Meowstic, están entre los mejores atacantes o tanques de Combates Max, ni entre los de incursiones. Solo compensa para la colección o para aprovechar los Power Spots extra y juntar Partículas Max.<br><br>Lunes Max de 6:00 a 21:00 (hora local). Coincide con la última jornada de Dynamax Trails.<br><br>🔗 <a href=\"https://leekduck.com/events/max-mondays-2026-11-23/\">Ver noticia</a>",
@@ -167,7 +107,31 @@
     "dateTime": "2026-12-11T17:00:00+01:00"
    },
    "summary": "Pokémon GO: Minior Showers (Gemínidas) · +1.000 Polvos"
+  },
+  {
+   "summary": "Pokémon GO: Día de la Comunidad (día 1 – Vulpix, Grookey, Scorbunny, Lechonk y Tinkatink) · ×2 Caramelos",
+   "start": {
+    "dateTime": "2026-12-12T14:00:00+01:00",
+    "date": null
+   },
+   "end": {
+    "dateTime": "2026-12-12T17:00:00+01:00",
+    "date": null
+   },
+   "description": "<b>🎁 Bonificaciones:</b> ×2 PX al capturar · ×2 Polvos estelares al capturar · ×2 Caramelos al capturar · ×2 prob. Caramelos++ al capturar (nivel 31+) · Huevos a ½ distancia · Incienso 3 h · Módulos Cebo 1 h · 2 intercambios especiales al día · −50 % Polvos estelares en intercambios (estos últimos, del sáb 12 a las 9:00 al dom 13 a las 21:00) · Evolución de Bisharp a Kingambit tras derrotar 1 jefe de tipo Siniestro o Acero con Bisharp de compañero (sáb 9:00 a dom 21:00)<br><b>💳 De pago:</b> Investigación especial del Día de la Comunidad de diciembre (≈ 5,49 €): encuentros con Pokémon de los Días de la Comunidad de 2026 con fondo especial · 1 MT Rápida Élite · 1 MT Cargada Élite · 1 Radar Rocket · más recompensas · sin medalla. También en la tienda web como Caja Ultra del Día de la Comunidad (≈ 5,49 €): 1 Pase de Combate Prémium + 1 ticket de investigación especial<br><b>💡 ¿Merece la pena?:</b> ★★★☆☆ — Solo si te faltan Pokémon de los Días de la Comunidad de 2026 con fondo especial o quieres las MT Élite; si no, la parte gratuita ya da casi todo.<br><br>Vuelven los Pokémon de los Días de la Comunidad de 2026, con un conjunto distinto cada día (sábado: Vulpix, Vulpix de Alola, Grookey, Scorbunny, Lechonk y Tinkatink, y quizá Piplup). Los ataques exclusivos al evolucionar están disponibles del sáb 12 a las 9:00 al dom 13 a las 21:00.<br><br>🔗 <a href=\"https://pokemongo.com/en/news/community-day-december-2026\">Ver noticia</a>"
+  },
+  {
+   "summary": "Pokémon GO: Día de la Comunidad (día 2 – Zorua, Pawniard, Sobble, Nickit y Frigibax) · ×2 Caramelos",
+   "start": {
+    "dateTime": "2026-12-13T14:00:00+01:00",
+    "date": null
+   },
+   "end": {
+    "dateTime": "2026-12-13T17:00:00+01:00",
+    "date": null
+   },
+   "description": "<b>🎁 Bonificaciones:</b> ×2 PX al capturar · ×2 Polvos estelares al capturar · ×2 Caramelos al capturar · ×2 prob. Caramelos++ al capturar (nivel 31+) · Huevos a ½ distancia · Incienso 3 h · Módulos Cebo 1 h · 2 intercambios especiales al día · −50 % Polvos estelares en intercambios (estos últimos, del sáb 12 a las 9:00 al dom 13 a las 21:00) · Evolución de Bisharp a Kingambit tras derrotar 1 jefe de tipo Siniestro o Acero con Bisharp de compañero (sáb 9:00 a dom 21:00)<br><b>💳 De pago:</b> Investigación especial del Día de la Comunidad de diciembre (≈ 5,49 €): encuentros con Pokémon de los Días de la Comunidad de 2026 con fondo especial · 1 MT Rápida Élite · 1 MT Cargada Élite · 1 Radar Rocket · más recompensas · sin medalla. También en la tienda web como Caja Ultra del Día de la Comunidad (≈ 5,49 €): 1 Pase de Combate Prémium + 1 ticket de investigación especial<br><b>💡 ¿Merece la pena?:</b> ★★★☆☆ — Solo si te faltan Pokémon de los Días de la Comunidad de 2026 con fondo especial o quieres las MT Élite; si no, la parte gratuita ya da casi todo.<br><br>Vuelven los Pokémon de los Días de la Comunidad de 2026, con un conjunto distinto cada día (domingo: Zorua, Pawniard, Sobble, Nickit y Frigibax, y quizá Gible y Deino). Los ataques exclusivos al evolucionar están disponibles del sáb 12 a las 9:00 al dom 13 a las 21:00.<br><br>🔗 <a href=\"https://pokemongo.com/en/news/community-day-december-2026\">Ver noticia</a>"
   }
  ],
- "updatedAt": "2026-11-17T11:57:35.000Z"
+ "updatedAt": "2026-11-22T23:09:39.000Z"
 }
