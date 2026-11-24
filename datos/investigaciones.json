@@ -4,6 +4,188 @@
  "actualizado": "2026-09-07 19:15:39 -0400",
  "categorias": [
   {
+   "nombre": "Evento: Twilight Wishes",
+   "nombre_en": "Twilight Wishes Tasks",
+   "evento": true,
+   "fin": "2026-11-30T20:00:00-0800",
+   "tareas": [
+    {
+     "tarea": "Captura 10 Pokémon",
+     "tarea_en": "Catch 10 Pokémon",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Electrike",
+       "nombre_en": "Electrike",
+       "icono": "pm309",
+       "pc": [
+        380,
+        413
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Cottonee wearing a flower crown",
+       "nombre_en": "Cottonee wearing a flower crown",
+       "icono": "",
+       "pc": [
+        271,
+        300
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Greavard",
+       "nombre_en": "Greavard",
+       "icono": "pm971",
+       "pc": [
+        402,
+        435
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Flamigo",
+       "nombre_en": "Flamigo",
+       "icono": "pm973",
+       "pc": [
+        1125,
+        1181
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Explora 1 km",
+     "tarea_en": "Explore 1 km",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Staryu",
+       "nombre_en": "Staryu",
+       "icono": "pm120",
+       "pc": [
+        459,
+        495
+       ],
+       "variocolor": true
+      },
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Elgyem",
+       "nombre_en": "Elgyem",
+       "icono": "pm605",
+       "pc": [
+        554,
+        593
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Haz eclosionar 1 Huevo",
+     "tarea_en": "Hatch an Egg",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Maschiff",
+       "nombre_en": "Maschiff",
+       "icono": "pm942",
+       "pc": [
+        560,
+        600
+       ],
+       "variocolor": false
+      }
+     ]
+    },
+    {
+     "tarea": "Da vueltas a 1 fotodisco en una Poképarada donde no hayas estado antes",
+     "tarea_en": "Spin a PokéStop you haven't visited before",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Caramelo Raro ++",
+       "nombre_en": "Rare Candy XL",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 10000,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Usa 1 Módulo Cebo en una Poképarada",
+     "tarea_en": "Use a Lure Module at a PokéStop",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Applin",
+       "nombre_en": "Applin",
+       "icono": "pm840",
+       "pc": [
+        277,
+        306
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Haz megaevolucionar 1 Pokémon",
+     "tarea_en": "Mega Evolve a Pokémon",
+     "recompensas": [
+      {
+       "tipo": "resource",
+       "cantidad": 25,
+       "nombre": "Megaenergía Beedrill",
+       "nombre_en": "Beedrill Mega Energy",
+       "icono": "pm15"
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 25,
+       "nombre": "Megaenergía Houndoom",
+       "nombre_en": "Houndoom Mega Energy",
+       "icono": "pm229"
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 25,
+       "nombre": "Megaenergía Manectric",
+       "nombre_en": "Manectric Mega Energy",
+       "icono": "pm310"
+      },
+      {
+       "tipo": "resource",
+       "cantidad": 25,
+       "nombre": "Megaenergía Sableye",
+       "nombre_en": "Sableye Mega Energy",
+       "icono": "pm302"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "nombre": "Evento: Dynamax Trails",
    "nombre_en": "Dynamax Trails Tasks",
    "evento": true,
@@ -237,104 +419,6 @@
        "nombre": "Baya Pinia plateada",
        "nombre_en": "Silver Pinap Berry",
        "icono": ""
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "nombre": "Evento: Pawniard Community Day",
-   "nombre_en": "Pawniard Community Day Tasks",
-   "evento": true,
-   "fin": "2026-11-21T17:00:00-0800",
-   "tareas": [
-    {
-     "tarea": "Catch 3 Pawniard",
-     "tarea_en": "Catch 3 Pawniard",
-     "recompensas": [
-      {
-       "tipo": "encounter",
-       "cantidad": null,
-       "nombre": "Pawniard",
-       "nombre_en": "Pawniard",
-       "icono": "pm624",
-       "pc": [
-        574,
-        614
-       ],
-       "variocolor": true
-      },
-      {
-       "tipo": "item",
-       "cantidad": 5,
-       "nombre": "Super Ball",
-       "nombre_en": "Great Ball",
-       "icono": ""
-      },
-      {
-       "tipo": "item",
-       "cantidad": 2,
-       "nombre": "Ultra Ball",
-       "nombre_en": "Ultra Ball",
-       "icono": ""
-      },
-      {
-       "tipo": "item",
-       "cantidad": 2,
-       "nombre": "Baya Pinia",
-       "nombre_en": "Pinap Berry",
-       "icono": ""
-      },
-      {
-       "tipo": "item",
-       "cantidad": 500,
-       "nombre": "Polvos Estelares",
-       "nombre_en": "Stardust",
-       "icono": ""
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "nombre": "Evento: Pawniard Community Day - Special backgrounds",
-   "nombre_en": "Pawniard Community Day - Special backgrounds Tasks",
-   "evento": true,
-   "fin": "2026-11-21T17:00:00-0800",
-   "tareas": [
-    {
-     "tarea": "Catch 5 Pokemon while in a Party",
-     "tarea_en": "Catch 5 Pokemon while in a Party",
-     "recompensas": [
-      {
-       "tipo": "encounter",
-       "cantidad": null,
-       "nombre": "Pawniard",
-       "nombre_en": "Pawniard",
-       "icono": "pm624",
-       "pc": [
-        574,
-        614
-       ],
-       "variocolor": true
-      }
-     ]
-    },
-    {
-     "tarea": "Catch 50 Pokemon",
-     "tarea_en": "Catch 50 Pokemon",
-     "recompensas": [
-      {
-       "tipo": "encounter",
-       "cantidad": null,
-       "nombre": "Pawniard",
-       "nombre_en": "Pawniard",
-       "icono": "pm624",
-       "pc": [
-        574,
-        614
-       ],
-       "variocolor": true
       }
      ]
     }
@@ -4257,6 +4341,7 @@
   "Alolan Marowak": "Marowak de Alola",
   "Alolan Sandshrew": "Sandshrew de Alola",
   "Anorith": "Anorith",
+  "Applin": "Applin",
   "Arbok": "Arbok",
   "Arcanine": "Arcanine",
   "Archen": "Archen",
@@ -4352,6 +4437,7 @@
   "Feraligatr": "Feraligatr",
   "Ferroseed": "Ferroseed",
   "Fidough": "Fidough",
+  "Flamigo": "Flamigo",
   "Flareon": "Flareon",
   "Fletchinder": "Fletchinder",
   "Frigibax": "Frigibax",
@@ -4368,6 +4454,7 @@
   "Golett": "Golett",
   "Goomy": "Goomy",
   "Great Ball": "Super Ball",
+  "Greavard": "Greavard",
   "Greninja": "Greninja",
   "Grookey": "Grookey",
   "Growlithe": "Growlithe",
@@ -4426,8 +4513,10 @@
   "Mareanie": "Mareanie",
   "Marill": "Marill",
   "Marowak": "Marowak",
+  "Maschiff": "Maschiff",
   "Mawile": "Mawile",
   "Medicham": "Medicham",
+  "Mega Evolve a Pokémon": "Haz megaevolucionar 1 Pokémon",
   "Meganium": "Meganium",
   "Meowscarada": "Meowscarada",
   "Meowth": "Meowth",
@@ -4442,7 +4531,6 @@
   "Omanyte": "Omanyte",
   "Omastar": "Omastar",
   "Oshawott": "Oshawott",
-  "Pawniard": "Pawniard",
   "Persian": "Persian",
   "Petilil": "Petilil",
   "Piloswine": "Piloswine",
@@ -4465,6 +4553,7 @@
   "Quaquaval": "Quaquaval",
   "Ralts": "Ralts",
   "Rare Candy": "Caramelo Raro",
+  "Rare Candy XL": "Caramelo Raro ++",
   "Razz Berry": "Baya Frambu",
   "Remoraid": "Remoraid",
   "Rillaboom": "Rillaboom",
@@ -4499,11 +4588,13 @@
   "Spin 3 PokéStops or Gyms": "Da vueltas a 3 fotodiscos en Poképaradas o Gimnasios",
   "Spin 5 PokéStops": "Da vueltas a 5 fotodiscos en Poképaradas",
   "Spin 5 PokéStops or Gyms": "Da vueltas a 5 fotodiscos en Poképaradas o Gimnasios",
+  "Spin a PokéStop you haven't visited before": "Da vueltas a 1 fotodisco en una Poképarada donde no hayas estado antes",
   "Spinda 4": "Spinda",
   "Spinda 5": "Spinda",
   "Squirtle": "Squirtle",
   "Staravia": "Staravia",
   "Starmie": "Starmie",
+  "Staryu": "Staryu",
   "Stufful": "Stufful",
   "Stunfisk": "Stunfisk",
   "Stunky": "Stunky",
@@ -4528,6 +4619,7 @@
   "Unlock a Max Move": "Desbloquea un movimiento Max",
   "Ursaring": "Ursaring",
   "Use 5 Berries to help catch Pokémon": "Usa 5 bayas para ayudarte a capturar Pokémon",
+  "Use a Lure Module at a PokéStop": "Usa 1 Módulo Cebo en una Poképarada",
   "Vanillite": "Vanillite",
   "Vaporeon": "Vaporeon",
   "Venomoth": "Venomoth",
@@ -4547,9 +4639,5 @@
   "Yamask": "Yamask",
   "Zigzagoon": "Zigzagoon"
  },
- "sin_traducir": [
-  "Catch 3 Pawniard",
-  "Catch 5 Pokemon while in a Party",
-  "Catch 50 Pokemon"
- ]
+ "sin_traducir": []
 }
