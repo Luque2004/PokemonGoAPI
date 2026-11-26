@@ -186,123 +186,62 @@
    ]
   },
   {
-   "nombre": "Evento: Dynamax Trails",
-   "nombre_en": "Dynamax Trails Tasks",
+   "nombre": "Evento: Twilight Wishes - November 26–30",
+   "nombre_en": "Twilight Wishes - November 26–30 Tasks",
    "evento": true,
-   "fin": "2026-11-23T20:00:00-0800",
+   "fin": "2026-11-30T20:00:00-0800",
    "tareas": [
     {
-     "tarea": "Captura 8 Pokémon",
-     "tarea_en": "Catch 8 Pokémon",
+     "tarea": "Captura 10 Pokémon",
+     "tarea_en": "Catch 10 Pokémon",
      "recompensas": [
       {
        "tipo": "encounter",
        "cantidad": null,
-       "nombre": "Bulbasaur",
-       "nombre_en": "Bulbasaur",
-       "icono": "pm1",
+       "nombre": "Electrike",
+       "nombre_en": "Electrike",
+       "icono": "pm309",
        "pc": [
-        442,
-        477
+        380,
+        413
        ],
        "variocolor": true
       },
       {
        "tipo": "encounter",
        "cantidad": null,
-       "nombre": "Charmander",
-       "nombre_en": "Charmander",
-       "icono": "pm4",
+       "nombre": "Cottonee wearing a flower crown",
+       "nombre_en": "Cottonee wearing a flower crown",
+       "icono": "",
        "pc": [
-        387,
-        420
+        271,
+        300
        ],
        "variocolor": true
       },
       {
        "tipo": "encounter",
        "cantidad": null,
-       "nombre": "Squirtle",
-       "nombre_en": "Squirtle",
-       "icono": "pm7",
+       "nombre": "Greavard",
+       "nombre_en": "Greavard",
+       "icono": "pm971",
        "pc": [
-        372,
-        405
+        402,
+        435
        ],
        "variocolor": true
       },
       {
        "tipo": "encounter",
        "cantidad": null,
-       "nombre": "Grookey",
-       "nombre_en": "Grookey",
-       "icono": "pm810",
+       "nombre": "Flamigo",
+       "nombre_en": "Flamigo",
+       "icono": "pm973",
        "pc": [
-        430,
-        465
+        1125,
+        1181
        ],
        "variocolor": true
-      },
-      {
-       "tipo": "encounter",
-       "cantidad": null,
-       "nombre": "Scorbunny",
-       "nombre_en": "Scorbunny",
-       "icono": "pm813",
-       "pc": [
-        434,
-        470
-       ],
-       "variocolor": true
-      },
-      {
-       "tipo": "encounter",
-       "cantidad": null,
-       "nombre": "Sobble",
-       "nombre_en": "Sobble",
-       "icono": "pm816",
-       "pc": [
-        434,
-        470
-       ],
-       "variocolor": true
-      }
-     ]
-    },
-    {
-     "tarea": "Da más poder a un Pokémon 8 veces",
-     "tarea_en": "Power up Pokémon 8 times",
-     "recompensas": [
-      {
-       "tipo": "encounter",
-       "cantidad": null,
-       "nombre": "Magikarp",
-       "nombre_en": "Magikarp",
-       "icono": "pm129",
-       "pc": [
-        99,
-        117
-       ],
-       "variocolor": true
-      },
-      {
-       "tipo": "encounter",
-       "cantidad": null,
-       "nombre": "Feebas",
-       "nombre_en": "Feebas",
-       "icono": "pm349",
-       "pc": [
-        99,
-        117
-       ],
-       "variocolor": true
-      },
-      {
-       "tipo": "item",
-       "cantidad": 3,
-       "nombre": "Baya Pinia",
-       "nombre_en": "Pinap Berry",
-       "icono": ""
       }
      ]
     },
@@ -313,112 +252,128 @@
       {
        "tipo": "encounter",
        "cantidad": null,
-       "nombre": "Eevee",
-       "nombre_en": "Eevee",
-       "icono": "pm133",
+       "nombre": "Staryu",
+       "nombre_en": "Staryu",
+       "icono": "pm120",
        "pc": [
-        424,
-        459
-       ],
-       "variocolor": true
-      },
-      {
-       "tipo": "item",
-       "cantidad": 2000,
-       "nombre": "Polvos Estelares",
-       "nombre_en": "Stardust",
-       "icono": ""
-      }
-     ]
-    },
-    {
-     "tarea": "Gana un Combate Max",
-     "tarea_en": "Win a Max Battle",
-     "recompensas": [
-      {
-       "tipo": "encounter",
-       "cantidad": null,
-       "nombre": "Drampa",
-       "nombre_en": "Drampa",
-       "icono": "pm780",
-       "pc": [
-        1191,
-        1249
+        459,
+        495
        ],
        "variocolor": true
       },
       {
        "tipo": "encounter",
        "cantidad": null,
-       "nombre": "Duraludon",
-       "nombre_en": "Duraludon",
-       "icono": "pm884",
+       "nombre": "Elgyem",
+       "nombre_en": "Elgyem",
+       "icono": "pm605",
        "pc": [
-        1255,
-        1314
+        554,
+        593
+       ],
+       "variocolor": true
+      }
+     ]
+    },
+    {
+     "tarea": "Da vueltas a 1 fotodisco en una Poképarada donde no hayas estado antes",
+     "tarea_en": "Spin a PokéStop you haven't visited before",
+     "recompensas": [
+      {
+       "tipo": "item",
+       "cantidad": 1,
+       "nombre": "Caramelo Raro ++",
+       "nombre_en": "Rare Candy XL",
+       "icono": ""
+      },
+      {
+       "tipo": "item",
+       "cantidad": 10000,
+       "nombre": "Polvos Estelares",
+       "nombre_en": "Stardust",
+       "icono": ""
+      }
+     ]
+    },
+    {
+     "tarea": "Usa un Incienso",
+     "tarea_en": "Use an Incense",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Bramblin",
+       "nombre_en": "Bramblin",
+       "icono": "pm946",
+       "pc": [
+        343,
+        375
+       ],
+       "variocolor": false
+      }
+     ]
+    },
+    {
+     "tarea": "Gana en 1 incursión",
+     "tarea_en": "Win a raid",
+     "recompensas": [
+      {
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Gengar wearing a Spooky Festival costume",
+       "nombre_en": "Gengar wearing a Spooky Festival costume",
+       "icono": "",
+       "pc": [
+        1175,
+        1233
        ],
        "variocolor": true
       },
       {
-       "tipo": "resource",
-       "cantidad": 10,
-       "nombre": "Caramelos Eternatus",
-       "nombre_en": "Eternatus Candy",
-       "icono": "pm890"
-      },
-      {
-       "tipo": "item",
-       "cantidad": 2000,
-       "nombre": "Polvos Estelares",
-       "nombre_en": "Stardust",
-       "icono": ""
+       "tipo": "encounter",
+       "cantidad": null,
+       "nombre": "Drifblim wearing a Halloween Mischief costume",
+       "nombre_en": "Drifblim wearing a Halloween Mischief costume",
+       "icono": "",
+       "pc": [
+        965,
+        1021
+       ],
+       "variocolor": true
       }
      ]
     },
     {
-     "tarea": "Desbloquea un movimiento Max",
-     "tarea_en": "Unlock a Max Move",
+     "tarea": "Haz megaevolucionar 1 Pokémon",
+     "tarea_en": "Mega Evolve a Pokémon",
      "recompensas": [
       {
        "tipo": "resource",
        "cantidad": 25,
-       "nombre": "Caramelos Eternatus",
-       "nombre_en": "Eternatus Candy",
-       "icono": "pm890"
+       "nombre": "Megaenergía Beedrill",
+       "nombre_en": "Beedrill Mega Energy",
+       "icono": "pm15"
       },
-      {
-       "tipo": "item",
-       "cantidad": 5000,
-       "nombre": "Polvos Estelares",
-       "nombre_en": "Stardust",
-       "icono": ""
-      }
-     ]
-    },
-    {
-     "tarea": "Haz un lanzamiento excelente",
-     "tarea_en": "Make an Excellent Throw",
-     "recompensas": [
       {
        "tipo": "resource",
        "cantidad": 25,
-       "nombre": "Caramelos Eternatus",
-       "nombre_en": "Eternatus Candy",
-       "icono": "pm890"
+       "nombre": "Megaenergía Houndoom",
+       "nombre_en": "Houndoom Mega Energy",
+       "icono": "pm229"
       },
       {
-       "tipo": "item",
-       "cantidad": 1,
-       "nombre": "Baya Frambu dorada",
-       "nombre_en": "Golden Razz Berry",
-       "icono": ""
+       "tipo": "resource",
+       "cantidad": 25,
+       "nombre": "Megaenergía Manectric",
+       "nombre_en": "Manectric Mega Energy",
+       "icono": "pm310"
       },
       {
-       "tipo": "item",
-       "cantidad": 1,
-       "nombre": "Baya Pinia plateada",
-       "nombre_en": "Silver Pinap Berry",
-       "icono": ""
+       "tipo": "resource",
+       "cantidad": 25,
+       "nombre": "Megaenergía Sableye",
+       "nombre_en": "Sableye Mega Energy",
+       "icono": "pm302"
       }
      ]
     }
@@ -4361,6 +4316,7 @@
   "Blastoise": "Blastoise",
   "Blaziken": "Blaziken",
   "Blissey": "Blissey",
+  "Bramblin": "Bramblin",
   "Bulbasaur": "Bulbasaur",
   "Buneary": "Buneary",
   "Bunnelby": "Bunnelby",
@@ -4407,13 +4363,11 @@
   "Doduo": "Doduo",
   "Donphan": "Donphan",
   "Dragonite": "Dragonite",
-  "Drampa": "Drampa",
   "Dratini": "Dratini",
   "Dreepy": "Dreepy",
   "Drifloon": "Drifloon",
   "Ducklett": "Ducklett",
   "Dunsparce": "Dunsparce",
-  "Duraludon": "Duraludon",
   "Dusclops": "Dusclops",
   "Duskull": "Duskull",
   "Earn 10000 Stardust": "Consigue 10.000 Polvos Estelares",
@@ -4456,7 +4410,6 @@
   "Great Ball": "Super Ball",
   "Greavard": "Greavard",
   "Greninja": "Greninja",
-  "Grookey": "Grookey",
   "Growlithe": "Growlithe",
   "Grumpig": "Grumpig",
   "Hatch 2 Eggs": "Haz eclosionar 2 Huevos",
@@ -4546,7 +4499,6 @@
   "Power up Pokémon 3 times": "Da más poder a un Pokémon 3 veces",
   "Power up Pokémon 5 times": "Da más poder a un Pokémon 5 veces",
   "Power up Pokémon 7 times": "Da más poder a un Pokémon 7 veces",
-  "Power up Pokémon 8 times": "Da más poder a un Pokémon 8 veces",
   "Primarina": "Primarina",
   "Psyduck": "Psyduck",
   "Purrloin": "Purrloin",
@@ -4562,7 +4514,6 @@
   "Samurott": "Samurott",
   "Sandshrew": "Sandshrew",
   "Sceptile": "Sceptile",
-  "Scorbunny": "Scorbunny",
   "Scyther": "Scyther",
   "Seadra": "Seadra",
   "Seaking": "Seaking",
@@ -4584,7 +4535,6 @@
   "Snorlax": "Snorlax",
   "Snorunt": "Snorunt",
   "Snover": "Snover",
-  "Sobble": "Sobble",
   "Spin 3 PokéStops or Gyms": "Da vueltas a 3 fotodiscos en Poképaradas o Gimnasios",
   "Spin 5 PokéStops": "Da vueltas a 5 fotodiscos en Poképaradas",
   "Spin 5 PokéStops or Gyms": "Da vueltas a 5 fotodiscos en Poképaradas o Gimnasios",
@@ -4616,10 +4566,10 @@
   "Trumbeak": "Trumbeak",
   "Typhlosion": "Typhlosion",
   "Ultra Ball": "Ultra Ball",
-  "Unlock a Max Move": "Desbloquea un movimiento Max",
   "Ursaring": "Ursaring",
   "Use 5 Berries to help catch Pokémon": "Usa 5 bayas para ayudarte a capturar Pokémon",
   "Use a Lure Module at a PokéStop": "Usa 1 Módulo Cebo en una Poképarada",
+  "Use an Incense": "Usa un Incienso",
   "Vanillite": "Vanillite",
   "Vaporeon": "Vaporeon",
   "Venomoth": "Venomoth",
